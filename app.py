@@ -10,6 +10,7 @@ GET /healthz          → 200 OK
 import logging
 import os
 import secrets
+import threading
 from functools import wraps
 
 from flask import Flask, make_response, redirect, render_template, request, url_for
@@ -33,6 +34,20 @@ app = Flask(__name__)
 app.secret_key = APP_SECRET
 
 signer = URLSafeTimedSerializer(APP_SECRET, salt=SIGNER_SALT)
+
+
+def _warm_cache():
+    """起動時に1度だけ全チャンネルをゆっくり取得してキャッシュを温める。"""
+    try:
+        log.info("Warming cache at startup...")
+        videos = fetch_all()
+        log.info("Cache warmed: %d videos", len(videos))
+    except Exception as e:
+        log.warning("Cache warming failed: %s", e)
+
+
+# gunicorn の起動時に1回だけ背景で実行
+threading.Thread(target=_warm_cache, daemon=True).start()
 
 
 def _is_authenticated() -> bool:
