@@ -80,39 +80,43 @@ def _fetch_channel(channel: dict) -> list[dict]:
     return videos
 
 
-_CHANNEL_CACHE: dict[str, tuple[float, list[dict]]] = {}
-_CHANNEL_TTL = 900  # 15分
+# チャンネル別キャッシュ: 成功時に上書き、失敗しても残す（permanent）
+_CHANNEL_CACHE: dict[str, list[dict]] = {}
 
 
-def fetch_all(per_channel: int | None = 5, inter_request_delay: float = 0.8) -> list[dict]:
-    """全チャンネルを順次取得し、publishedの降順でマージ。
-
-    HFのIPは頻繁にYouTubeからレート制限を受けるため並列は使わず、
-    各チャンネル間に小さな待機を挟むことで成功率を上げる。
-    チャンネル別にキャッシュを保持し、今回失敗したチャンネルは前回値を使い続ける。
+def refresh_all(inter_request_delay: float = 0.8) -> int:
+    """全チャンネルを順次取得してキャッシュを更新。失敗したチャンネルは前回値を残す。
+    成功した件数（動画数）を返す。
     """
-    all_videos: list[dict] = []
-    now = time.time()
+    success_count = 0
     for ch in CHANNELS:
-        cached = _CHANNEL_CACHE.get(ch["id"])
-        if cached and now - cached[0] < _CHANNEL_TTL:
-            entries = cached[1]
+        entries = _fetch_channel(ch)
+        if entries:
+            _CHANNEL_CACHE[ch["id"]] = entries
+            success_count += len(entries)
         else:
-            entries = _fetch_channel(ch)
-            if entries:
-                _CHANNEL_CACHE[ch["id"]] = (now, entries)
-            elif cached:
-                # 今回ダメでも前回の値が残っていればそれを使う
-                log.info("Using stale cache for %s", ch["title"])
-                entries = cached[1]
-            time.sleep(inter_request_delay)
+            log.info("Fetch failed for %s; keeping previous cache", ch["title"])
+        time.sleep(inter_request_delay)
+    return success_count
 
+
+def get_videos(per_channel: int | None = 5) -> list[dict]:
+    """キャッシュから動画リストを組み立てる。publishedの降順でマージ。"""
+    all_videos: list[dict] = []
+    for ch in CHANNELS:
+        entries = _CHANNEL_CACHE.get(ch["id"], [])
         if per_channel is not None:
             entries = entries[:per_channel]
         all_videos.extend(entries)
-
     all_videos.sort(key=lambda v: v["published_dt"], reverse=True)
     return all_videos
+
+
+# 後方互換: 旧API名も残す（最初のリクエストで同期的に温める用途）
+def fetch_all(per_channel: int | None = 5) -> list[dict]:
+    if not _CHANNEL_CACHE:
+        refresh_all()
+    return get_videos(per_channel=per_channel)
 
 
 def clear_cache() -> None:

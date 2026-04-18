@@ -16,7 +16,7 @@ from functools import wraps
 from flask import Flask, make_response, redirect, render_template, request, url_for
 from itsdangerous import BadSignature, SignatureExpired, URLSafeTimedSerializer
 
-from rss_fetcher import clear_cache, enrich_for_display, fetch_all
+from rss_fetcher import clear_cache, enrich_for_display, get_videos, refresh_all
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
 log = logging.getLogger("youtube_viewer")
@@ -41,15 +41,14 @@ _refresh_lock = threading.Lock()
 
 
 def _do_refresh() -> None:
-    """キャッシュを丸ごと更新。同時に複数走らないようロックで直列化。"""
+    """全チャンネル再取得。成功したチャンネルだけキャッシュ上書き、失敗は前回値維持。"""
     if not _refresh_lock.acquire(blocking=False):
         log.info("Refresh already in progress, skipping")
         return
     try:
         log.info("Refreshing cache...")
-        clear_cache()
-        videos = fetch_all()
-        log.info("Cache refreshed: %d videos", len(videos))
+        count = refresh_all()
+        log.info("Refresh done: %d videos fetched this round", count)
     except Exception as e:
         log.warning("Refresh failed: %s", e)
     finally:
@@ -131,7 +130,11 @@ def index():
     if not _is_authenticated():
         return render_template("gate.html"), 401
 
-    videos = fetch_all()
+    videos = get_videos()
+    if not videos:
+        # 初回アクセスでキャッシュが空なら同期的に取りに行く
+        _do_refresh()
+        videos = get_videos()
     videos = enrich_for_display(videos, limit=60)
     return render_template("index.html", videos=videos)
 
