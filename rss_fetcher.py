@@ -17,27 +17,36 @@ from channels import CHANNELS
 log = logging.getLogger(__name__)
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+BROWSER_HEADERS = {
+    "User-Agent": UA,
+    "Accept": "application/atom+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "ja,en-US;q=0.9,en;q=0.8",
+    "Referer": "https://www.youtube.com/",
+    "Sec-Fetch-Dest": "empty",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Site": "same-origin",
+}
 RSS_URL = "https://www.youtube.com/feeds/videos.xml?channel_id={}"
 
 
-def _get_rss_bytes(channel: dict, timeout: int = 15, retries: int = 3) -> bytes | None:
-    """明示的なUA・timeout・リトライでRSSを取得。
+def _get_rss_bytes(channel: dict, timeout: int = 20, retries: int = 5) -> bytes | None:
+    """指数バックオフ + Referer付きでRSSを取得。
 
-    同時接続が多いとYouTube側で一時的に404/500が返るので、
-    失敗時は指数バックオフ付きでリトライする。
+    YouTubeは連続アクセスでIP単位に404/500を返すことが多いので、
+    じっくり時間をかけて再試行する。
     """
     url = RSS_URL.format(channel["id"])
     for attempt in range(retries + 1):
         try:
-            r = requests.get(url, headers={"User-Agent": UA}, timeout=timeout)
+            r = requests.get(url, headers=BROWSER_HEADERS, timeout=timeout)
             if r.status_code == 200 and r.content:
                 return r.content
             log.warning("RSS status=%s for %s (attempt %d)", r.status_code, channel["title"], attempt + 1)
         except requests.RequestException as e:
             log.warning("RSS request error for %s (attempt %d): %s", channel["title"], attempt + 1, e)
-        # 指数バックオフ: 1s, 2s, 4s
+        # 2s, 4s, 8s, 16s, 32s
         if attempt < retries:
-            time.sleep(2 ** attempt)
+            time.sleep(2 ** (attempt + 1))
     return None
 
 
@@ -84,7 +93,7 @@ def _fetch_channel(channel: dict) -> list[dict]:
 _CHANNEL_CACHE: dict[str, list[dict]] = {}
 
 
-def refresh_all(inter_request_delay: float = 0.8) -> int:
+def refresh_all(inter_request_delay: float = 2.0) -> int:
     """全チャンネルを順次取得してキャッシュを更新。失敗したチャンネルは前回値を残す。
     成功した件数（動画数）を返す。
     """
