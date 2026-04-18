@@ -5,7 +5,9 @@ RSS: https://www.youtube.com/feeds/videos.xml?channel_id={id}
 各チャンネル最新15件まで取得可能。
 """
 import datetime as dt
+import json
 import logging
+import re
 import time
 from typing import Iterable
 
@@ -50,14 +52,116 @@ def _get_rss_bytes(channel: dict, timeout: int = 20, retries: int = 5) -> bytes 
     return None
 
 
-def _fetch_channel(channel: dict) -> list[dict]:
-    """1チャンネル分のRSSを取得してエントリを正規化。失敗時は空リスト。"""
-    body = _get_rss_bytes(channel)
-    if body is None:
+def _parse_relative_ja(text: str, now: dt.datetime) -> dt.datetime | None:
+    """「3日前」「12時間前」のような文字列を概算の絶対時刻に変換。"""
+    if not text:
+        return None
+    m = re.search(r"(\d+)\s*(分|時間|日|週間|週|ヶ月|か月|カ月|年)", text)
+    if not m:
+        return None
+    n = int(m.group(1))
+    unit = m.group(2)
+    if unit == "分":
+        return now - dt.timedelta(minutes=n)
+    if unit == "時間":
+        return now - dt.timedelta(hours=n)
+    if unit == "日":
+        return now - dt.timedelta(days=n)
+    if unit in ("週間", "週"):
+        return now - dt.timedelta(weeks=n)
+    if unit in ("ヶ月", "か月", "カ月"):
+        return now - dt.timedelta(days=30 * n)
+    if unit == "年":
+        return now - dt.timedelta(days=365 * n)
+    return None
+
+
+def _scrape_channel_html(channel: dict, timeout: int = 20) -> list[dict]:
+    """HTML経由で動画を取得するフォールバック。RSSが弾かれた時に使う。"""
+    url = f"https://www.youtube.com/channel/{channel['id']}/videos"
+    try:
+        r = requests.get(url, headers=BROWSER_HEADERS, timeout=timeout)
+        if r.status_code != 200:
+            log.warning("HTML status=%s for %s", r.status_code, channel["title"])
+            return []
+    except requests.RequestException as e:
+        log.warning("HTML request error for %s: %s", channel["title"], e)
         return []
 
-    feed = feedparser.parse(body)
+    m = re.search(r"var ytInitialData\s*=\s*(\{.+?\});\s*</script>", r.text)
+    if not m:
+        log.warning("ytInitialData not found for %s", channel["title"])
+        return []
+    try:
+        data = json.loads(m.group(1))
+    except json.JSONDecodeError as e:
+        log.warning("ytInitialData JSON decode error for %s: %s", channel["title"], e)
+        return []
 
+    # 「動画」タブのrichGridRenderer.contentsを掘る
+    tabs = data.get("contents", {}).get("twoColumnBrowseResultsRenderer", {}).get("tabs", [])
+    items = []
+    for tab in tabs:
+        tab_r = tab.get("tabRenderer") or {}
+        tab_content = tab_r.get("content", {}).get("richGridRenderer", {}).get("contents")
+        if tab_content:
+            items = tab_content
+            break
+    if not items:
+        log.warning("No videos tab content for %s", channel["title"])
+        return []
+
+    now = dt.datetime.now(dt.timezone.utc)
+    videos = []
+    # HTML上の並びは新着順。position_rankで降順ソートできるよう絶対時刻を推定
+    for idx, item in enumerate(items):
+        vr = item.get("richItemRenderer", {}).get("content", {}).get("videoRenderer")
+        if not vr:
+            continue
+        video_id = vr.get("videoId")
+        if not video_id:
+            continue
+        title_runs = vr.get("title", {}).get("runs") or []
+        title = title_runs[0].get("text") if title_runs else ""
+        published_text = (vr.get("publishedTimeText") or {}).get("simpleText") or ""
+        published_dt = _parse_relative_ja(published_text, now) or (now - dt.timedelta(hours=idx))
+        thumbs = vr.get("thumbnail", {}).get("thumbnails") or []
+        thumb_url = thumbs[-1]["url"] if thumbs else f"https://i.ytimg.com/vi/{video_id}/hqdefault.jpg"
+        # https:// プロトコル保証
+        if thumb_url.startswith("//"):
+            thumb_url = "https:" + thumb_url
+
+        videos.append({
+            "video_id": video_id,
+            "title": title,
+            "channel_title": channel["title"],
+            "channel_id": channel["id"],
+            "published_iso": published_dt.isoformat(),
+            "published_dt": published_dt,
+            "thumbnail": thumb_url,
+        })
+        if len(videos) >= 15:
+            break
+
+    return videos
+
+
+def _fetch_channel(channel: dict) -> list[dict]:
+    """RSSを優先、失敗したらHTMLスクレイピングにフォールバック。"""
+    body = _get_rss_bytes(channel)
+    if body is not None:
+        feed = feedparser.parse(body)
+        if feed.entries:
+            videos = _parse_feed_entries(channel, feed)
+            if videos:
+                return videos
+
+    # フォールバック
+    log.info("Falling back to HTML scraping for %s", channel["title"])
+    return _scrape_channel_html(channel)
+
+
+def _parse_feed_entries(channel: dict, feed) -> list[dict]:
     if feed.bozo and not feed.entries:
         log.warning("RSS parse error for %s: %s", channel["title"], feed.bozo_exception)
         return []
