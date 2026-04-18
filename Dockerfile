@@ -9,4 +9,4 @@ COPY . .
 
 EXPOSE 7860
 
-CMD ["gunicorn", "-b", "0.0.0.0:7860", "-w", "2", "--threads", "4", "--access-logfile", "-", "app:app"]
+CMD ["gunicorn", "-b", "0.0.0.0:7860", "-w", "2", "--threads", "4", "--timeout", "90", "--access-logfile", "-", "app:app"]

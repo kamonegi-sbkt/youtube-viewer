@@ -7,7 +7,6 @@ RSS: https://www.youtube.com/feeds/videos.xml?channel_id={id}
 import datetime as dt
 import logging
 import time
-from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import Iterable
 
 import feedparser
@@ -81,24 +80,43 @@ def _fetch_channel(channel: dict) -> list[dict]:
     return videos
 
 
-def fetch_all(max_workers: int = 4, per_channel: int | None = 5) -> list[dict]:
-    """全チャンネルを並列取得し、publishedの降順でマージ。
+_CHANNEL_CACHE: dict[str, tuple[float, list[dict]]] = {}
+_CHANNEL_TTL = 900  # 15分
 
-    per_channel: 1チャンネルあたりの最大件数。Noneで制限なし。
-    デフォルト5件にすることで、更新の激しいチャンネルがグリッドを占有するのを防ぐ。
+
+def fetch_all(per_channel: int | None = 5, inter_request_delay: float = 0.8) -> list[dict]:
+    """全チャンネルを順次取得し、publishedの降順でマージ。
+
+    HFのIPは頻繁にYouTubeからレート制限を受けるため並列は使わず、
+    各チャンネル間に小さな待機を挟むことで成功率を上げる。
+    チャンネル別にキャッシュを保持し、今回失敗したチャンネルは前回値を使い続ける。
     """
     all_videos: list[dict] = []
-    with ThreadPoolExecutor(max_workers=max_workers) as ex:
-        futures = {ex.submit(_fetch_channel, ch): ch for ch in CHANNELS}
-        for fut in as_completed(futures):
-            entries = fut.result()
-            # RSSは既にpublishedDesc順で返るので先頭からper_channel件でOK
-            if per_channel is not None:
-                entries = entries[:per_channel]
-            all_videos.extend(entries)
+    now = time.time()
+    for ch in CHANNELS:
+        cached = _CHANNEL_CACHE.get(ch["id"])
+        if cached and now - cached[0] < _CHANNEL_TTL:
+            entries = cached[1]
+        else:
+            entries = _fetch_channel(ch)
+            if entries:
+                _CHANNEL_CACHE[ch["id"]] = (now, entries)
+            elif cached:
+                # 今回ダメでも前回の値が残っていればそれを使う
+                log.info("Using stale cache for %s", ch["title"])
+                entries = cached[1]
+            time.sleep(inter_request_delay)
+
+        if per_channel is not None:
+            entries = entries[:per_channel]
+        all_videos.extend(entries)
 
     all_videos.sort(key=lambda v: v["published_dt"], reverse=True)
     return all_videos
+
+
+def clear_cache() -> None:
+    _CHANNEL_CACHE.clear()
 
 
 def humanize_delta(now: dt.datetime, then: dt.datetime) -> str:

@@ -15,8 +15,7 @@ from functools import wraps
 from flask import Flask, make_response, redirect, render_template, request, url_for
 from itsdangerous import BadSignature, SignatureExpired, URLSafeTimedSerializer
 
-from cache import TTLCache
-from rss_fetcher import enrich_for_display, fetch_all
+from rss_fetcher import clear_cache, enrich_for_display, fetch_all
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
 log = logging.getLogger("youtube_viewer")
@@ -34,7 +33,6 @@ app = Flask(__name__)
 app.secret_key = APP_SECRET
 
 signer = URLSafeTimedSerializer(APP_SECRET, salt=SIGNER_SALT)
-cache = TTLCache(ttl_seconds=900)  # 15分
 
 
 def _is_authenticated() -> bool:
@@ -86,7 +84,7 @@ def index():
     if not _is_authenticated():
         return render_template("gate.html"), 401
 
-    videos = cache.get_or_compute("videos", lambda: fetch_all())
+    videos = fetch_all()
     videos = enrich_for_display(videos, limit=60)
     return render_template("index.html", videos=videos)
 
@@ -94,7 +92,7 @@ def index():
 @app.route("/refresh")
 @login_required
 def refresh():
-    cache.clear()
+    clear_cache()
     return redirect(url_for("index"))
 
 
