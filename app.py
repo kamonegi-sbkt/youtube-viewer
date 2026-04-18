@@ -36,18 +36,50 @@ app.secret_key = APP_SECRET
 signer = URLSafeTimedSerializer(APP_SECRET, salt=SIGNER_SALT)
 
 
-def _warm_cache():
-    """起動時に1度だけ全チャンネルをゆっくり取得してキャッシュを温める。"""
+REFRESH_INTERVAL = 600  # 10分ごとに自動更新
+_refresh_lock = threading.Lock()
+
+
+def _do_refresh() -> None:
+    """キャッシュを丸ごと更新。同時に複数走らないようロックで直列化。"""
+    if not _refresh_lock.acquire(blocking=False):
+        log.info("Refresh already in progress, skipping")
+        return
     try:
-        log.info("Warming cache at startup...")
+        log.info("Refreshing cache...")
+        clear_cache()
         videos = fetch_all()
-        log.info("Cache warmed: %d videos", len(videos))
+        log.info("Cache refreshed: %d videos", len(videos))
     except Exception as e:
-        log.warning("Cache warming failed: %s", e)
+        log.warning("Refresh failed: %s", e)
+    finally:
+        _refresh_lock.release()
 
 
-# gunicorn の起動時に1回だけ背景で実行
-threading.Thread(target=_warm_cache, daemon=True).start()
+def _refresh_loop():
+    import time as _t
+    while True:
+        _do_refresh()
+        _t.sleep(REFRESH_INTERVAL)
+
+
+def _trigger_async_refresh() -> None:
+    threading.Thread(target=_do_refresh, daemon=True).start()
+
+
+def _start_background_thread() -> None:
+    # Flaskのreloaderを使うと親プロセスでもモジュールが読まれてスレッドが二重に走るので、
+    # "reloaderの親" の場合だけスキップ（WERKZEUG_RUN_MAIN が未設定のケース）。
+    # gunicorn など通常起動では WERKZEUG_RUN_MAIN は定義されないので下の条件は真になる。
+    flask_reloader_parent = (
+        os.environ.get("WERKZEUG_RUN_MAIN") is None
+        and "flask" in (os.environ.get("FLASK_RUN_FROM_CLI") or "")
+    )
+    if not flask_reloader_parent:
+        threading.Thread(target=_refresh_loop, daemon=True).start()
+
+
+_start_background_thread()
 
 
 def _is_authenticated() -> bool:
@@ -107,7 +139,8 @@ def index():
 @app.route("/refresh")
 @login_required
 def refresh():
-    clear_cache()
+    # ブロックせずに背景で再取得を走らせ、即リダイレクト
+    _trigger_async_refresh()
     return redirect(url_for("index"))
 
 
@@ -120,4 +153,5 @@ def logout():
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 7860))
-    app.run(host="0.0.0.0", port=port, debug=True)
+    # デバッグ時もreloaderはオフ（バックグラウンドスレッドが2つ走るのを防ぐ）
+    app.run(host="0.0.0.0", port=port, debug=False, use_reloader=False)
