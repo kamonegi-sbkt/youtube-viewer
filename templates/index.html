@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="topbar">
+  <div class="topbar-title">📺 My YouTube</div>
+  <div class="topbar-actions">
+    <a class="topbar-btn" href="{{ url_for('refresh') }}" aria-label="再読み込み">↻</a>
+    <a class="topbar-btn" href="{{ url_for('logout') }}" aria-label="ログアウト">✕</a>
+  </div>
+</header>
+
+<main class="grid">
+  {% for v in videos %}
+  <article class="card" data-video-id="{{ v.video_id }}">
+    <div class="thumb">
+      <img src="{{ v.thumbnail }}" alt="" loading="lazy">
+      <div class="play-overlay">▶</div>
+    </div>
+    <div class="meta">
+      <div class="title">{{ v.title }}</div>
+      <div class="sub">
+        <span class="channel">{{ v.channel_title }}</span>
+        <span class="dot">•</span>
+        <span class="time">{{ v.rel_time }}</span>
+      </div>
+    </div>
+  </article>
+  {% else %}
+  <div class="empty">
+    <p>動画を取得できませんでした。</p>
+    <p><a href="{{ url_for('refresh') }}">再読み込み</a></p>
+  </div>
+  {% endfor %}
+</main>
+
+<!-- インライン再生用オーバーレイ -->
+<div id="player-overlay" class="player-overlay" hidden>
+  <div class="player-frame">
+    <button class="player-close" aria-label="閉じる">✕</button>
+    <div class="player-iframe-wrap">
+      <iframe id="player-iframe"
+              src=""
+              title="YouTube"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
+              allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+{% endblock %}

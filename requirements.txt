@@ -1,0 +1,4 @@
+flask>=3.0
+gunicorn>=21.0
+feedparser>=6.0
+itsdangerous>=2.2

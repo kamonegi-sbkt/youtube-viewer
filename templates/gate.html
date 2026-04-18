@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}My YouTube Viewer{% endblock %}
+{% block content %}
+<div class="gate">
+  <div class="gate-emoji">🚪</div>
+  <h1>My YouTube Viewer</h1>
+  {% if logged_out %}
+  <p>ログアウトしました。</p>
+  {% else %}
+  <p>合い言葉URLからアクセスしてください。</p>
+  {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,28 @@
+name: Deploy to Hugging Face Spaces
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Push to Hugging Face Spaces
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_USER: kamonegi-sbkt
+          HF_SPACE: youtube-viewer
+        run: |
+          git config user.email "deploy@github-actions"
+          git config user.name "GitHub Actions"
+          git remote add hf "https://${HF_USER}:${HF_TOKEN}@huggingface.co/spaces/${HF_USER}/${HF_SPACE}"
+          git checkout --orphan hf-deploy
+          git add -A
+          git commit -m "Deploy from GitHub Actions"
+          git push hf hf-deploy:main --force
