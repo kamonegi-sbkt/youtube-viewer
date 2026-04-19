@@ -63,7 +63,43 @@ svg { display: block; }
   background: linear-gradient(135deg, var(--accent), var(--accent-2));
   box-shadow: 0 0 12px var(--accent);
 }
-.topbar-actions { display: flex; gap: 8px; }
+.topbar-actions { display: flex; gap: 8px; margin-left: auto; }
+
+/* ── タブ ── */
+.tabs {
+  display: flex; gap: 4px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 3px;
+}
+.tab {
+  position: relative;
+  padding: 6px 14px;
+  font-size: 0.82rem; font-weight: 600;
+  color: var(--muted);
+  border-radius: 7px;
+  transition: color 0.15s, background 0.2s;
+  white-space: nowrap;
+}
+.tab:hover { color: var(--text-secondary); }
+.tab.is-active {
+  color: var(--text);
+  background: linear-gradient(135deg, rgba(99,102,241,0.22), rgba(236,72,153,0.18));
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.06);
+}
+.tab-count {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: 18px; height: 18px; margin-left: 6px; padding: 0 5px;
+  font-size: 0.68rem; font-weight: 700; font-variant-numeric: tabular-nums;
+  background: var(--accent); color: white;
+  border-radius: 9px;
+}
+@media (max-width: 420px) {
+  .tab { padding: 6px 10px; font-size: 0.78rem; }
+  .topbar { padding: 10px 12px; gap: 8px; }
+  .topbar-title span:not(.logo-dot) { display: none; }
+}
 .topbar-btn {
   display: inline-flex; align-items: center; justify-content: center;
   width: 38px; height: 38px;
@@ -84,6 +120,7 @@ svg { display: block; }
   padding-bottom: calc(40px + env(safe-area-inset-bottom, 0px));
   grid-template-columns: 1fr;
 }
+[hidden] { display: none !important; }
 @media (min-width: 481px) and (max-width: 768px) {
   .grid { grid-template-columns: repeat(2, 1fr); gap: 18px; }
 }
@@ -192,6 +229,41 @@ svg { display: block; }
   padding: 4rem 1rem; text-align: center; color: var(--muted);
 }
 .empty a { color: var(--accent); text-decoration: underline; font-weight: 500; }
+.empty-hint { font-size: 0.85rem; margin-top: 8px; opacity: 0.8; }
+#later-empty { padding: 5rem 1rem; }
+
+/* ── ブックマークボタン ── */
+.bookmark-btn {
+  position: absolute;
+  top: 8px; right: 8px;
+  z-index: 3;
+  width: 36px; height: 36px;
+  display: inline-flex; align-items: center; justify-content: center;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 50%;
+  transition: background 0.15s, transform 0.1s, color 0.2s;
+}
+.bookmark-btn:hover { background: rgba(0, 0, 0, 0.75); }
+.bookmark-btn:active { transform: scale(0.92); }
+.bookmark-btn svg { width: 16px; height: 16px; transition: fill 0.2s, stroke 0.2s; }
+
+.bookmark-btn[aria-pressed="true"] {
+  background: var(--accent);
+  border-color: transparent;
+  color: white;
+}
+.bookmark-btn[aria-pressed="true"] svg { fill: currentColor; stroke: currentColor; }
+.bookmark-btn[aria-pressed="true"]:hover { background: #5355e4; }
+@keyframes bookmark-pop {
+  0%   { transform: scale(1); }
+  40%  { transform: scale(1.25); }
+  100% { transform: scale(1); }
+}
+.bookmark-btn.just-saved { animation: bookmark-pop 0.35s ease; }
 
 /* ── プレーヤーオーバーレイ ── */
 .player-overlay {
@@ -202,12 +274,14 @@ svg { display: block; }
   display: flex; align-items: center; justify-content: center;
   padding: env(safe-area-inset-top, 0) 16px env(safe-area-inset-bottom, 0);
   animation: overlay-fade 0.22s ease;
+  transition: background 0.25s ease, padding 0.25s ease;
 }
 @keyframes overlay-fade { from { opacity: 0; } to { opacity: 1; } }
 .player-overlay[hidden] { display: none !important; }
 .player-frame {
   position: relative; width: 100%; max-width: 960px;
   animation: player-zoom 0.28s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transition: width 0.25s ease, max-width 0.25s ease, margin 0.25s ease;
 }
 @keyframes player-zoom {
   from { opacity: 0; transform: scale(0.92); }
@@ -220,24 +294,90 @@ svg { display: block; }
   border-radius: 14px;
   overflow: hidden;
   box-shadow: 0 30px 80px rgba(0,0,0,0.6);
+  transition: border-radius 0.25s ease, box-shadow 0.25s ease;
 }
 .player-iframe-wrap iframe {
   position: absolute; inset: 0; width: 100%; height: 100%; border: 0;
 }
-.player-close {
+.player-controls {
   position: absolute;
   top: -52px; right: 0;
+  display: flex; gap: 8px;
+  z-index: 2;
+  transition: top 0.25s ease, right 0.25s ease, gap 0.25s ease;
+}
+.player-controls button {
   width: 40px; height: 40px;
   background: var(--surface-solid);
   color: var(--text);
   border: 1px solid var(--border);
   border-radius: 12px;
   display: inline-flex; align-items: center; justify-content: center;
-  transition: background 0.15s, transform 0.1s;
+  transition: background 0.15s, transform 0.1s, width 0.25s ease, height 0.25s ease, border-radius 0.25s ease;
 }
-.player-close:hover { background: rgba(255,255,255,0.08); }
-.player-close:active { transform: scale(0.94); }
-.player-close svg { width: 16px; height: 16px; }
+.player-controls button:hover { background: rgba(255,255,255,0.08); }
+.player-controls button:active { transform: scale(0.94); }
+.player-controls button svg { width: 16px; height: 16px; }
+
+/* fullscreen モードでは展開ボタンは非表示 */
+.player-expand { display: none !important; }
+
+/* ── PiP（ミニプレイヤー）モード ── */
+.player-overlay.is-pip {
+  background: transparent;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  padding: 0;
+  pointer-events: none;
+  animation: none;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.is-pip .player-frame {
+  pointer-events: auto;
+  width: min(340px, 45vw);
+  max-width: 340px;
+  margin: 0 16px calc(16px + env(safe-area-inset-bottom, 0px)) 0;
+  animation: pip-slide-in 0.28s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+@keyframes pip-slide-in {
+  from { opacity: 0; transform: translateY(12px) scale(0.96); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+.is-pip .player-iframe-wrap {
+  border-radius: 12px;
+  box-shadow: 0 12px 36px rgba(0,0,0,0.55), 0 0 0 1px var(--border-strong);
+}
+/* PiP 時のコントロール: フレーム内右上にオーバーレイ */
+.is-pip .player-controls {
+  top: 6px; right: 6px;
+  gap: 4px;
+}
+.is-pip .player-controls button {
+  width: 30px; height: 30px;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-color: rgba(255,255,255,0.15);
+  border-radius: 50%;
+}
+.is-pip .player-controls button:hover { background: rgba(0, 0, 0, 0.8); }
+.is-pip .player-controls button svg { width: 13px; height: 13px; }
+/* PiP モードではミニマイズボタンを隠し、展開ボタンを表示 */
+.is-pip .player-minimize { display: none !important; }
+.is-pip .player-expand { display: inline-flex !important; }
+
+/* モバイル: PiP をさらに小さく */
+@media (max-width: 480px) {
+  .is-pip .player-frame {
+    width: min(220px, 55vw);
+    margin: 0 12px calc(12px + env(safe-area-inset-bottom, 0px)) 0;
+  }
+  .is-pip .player-controls button {
+    width: 26px; height: 26px;
+  }
+  .is-pip .player-controls button svg { width: 11px; height: 11px; }
+}
 
 /* ── ゲート ── */
 .gate {
