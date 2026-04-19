@@ -2,6 +2,7 @@
   'use strict';
 
   const STORAGE_KEY = 'ytv_watch_later';
+  const HIDDEN_KEY = 'ytv_hidden';
 
   // ── localStorage ラッパ ─────────────────────────────
   function loadLater() {
@@ -18,6 +19,28 @@
     } catch (e) {
       console.warn('saveLater failed:', e);
     }
+  }
+
+  // 見終わった動画のID集合。新着タブからは非表示にする。
+  function loadHidden() {
+    try {
+      const raw = localStorage.getItem(HIDDEN_KEY);
+      return raw ? JSON.parse(raw) : {};
+    } catch {
+      return {};
+    }
+  }
+  function saveHidden(obj) {
+    try {
+      localStorage.setItem(HIDDEN_KEY, JSON.stringify(obj));
+    } catch (e) {
+      console.warn('saveHidden failed:', e);
+    }
+  }
+  function addToHidden(videoId) {
+    const hidden = loadHidden();
+    hidden[videoId] = Date.now();
+    saveHidden(hidden);
   }
 
   // ── 相対時刻 ─────────────────────────────
@@ -97,12 +120,17 @@
     else       { el.hidden = true; }
   }
 
-  function toggleLater(meta, btn) {
+  function toggleLater(meta, btn, fromLater = false) {
     const all = loadLater();
     if (all[meta.videoId]) {
       delete all[meta.videoId];
       btn.setAttribute('aria-pressed', 'false');
       btn.setAttribute('aria-label', 'あとで見るに追加');
+      // 「あとで」タブから外した = 見終わった、として新着からも隠す
+      if (fromLater) {
+        addToHidden(meta.videoId);
+        removeFeedCard(meta.videoId);
+      }
     } else {
       all[meta.videoId] = {
         title: meta.title,
@@ -123,6 +151,19 @@
     renderLater();
   }
 
+  function removeFeedCard(videoId) {
+    const card = document.querySelector(`#grid-feed .card[data-video-id="${CSS.escape(videoId)}"]`);
+    if (card) card.remove();
+  }
+
+  function filterHiddenFromFeed() {
+    const hidden = loadHidden();
+    if (Object.keys(hidden).length === 0) return;
+    document.querySelectorAll('#grid-feed .card').forEach((card) => {
+      if (hidden[card.dataset.videoId]) card.remove();
+    });
+  }
+
   function markBookmarksInFeed() {
     const all = loadLater();
     document.querySelectorAll('#grid-feed .card').forEach((card) => {
@@ -136,7 +177,7 @@
     });
   }
 
-  function wireCard(card) {
+  function wireCard(card, fromLater = false) {
     card.addEventListener('click', (e) => {
       // ブックマーク操作は再生トリガに含めない
       if (e.target.closest('.bookmark-btn')) return;
@@ -148,7 +189,7 @@
       btn.addEventListener('click', (e) => {
         e.stopPropagation();
         e.preventDefault();
-        toggleLater(metaFromCard(card), btn);
+        toggleLater(metaFromCard(card), btn, fromLater);
       });
     }
   }
@@ -202,26 +243,9 @@
           </div>
         </div>`;
 
-      wireCard(card);
-      // Watch Later側でブックマーク押下 → フィード側にも反映
-      card.querySelector('.bookmark-btn').addEventListener('click', () => {
-        // toggleLaterがlocalStorage更新+renderLater()を呼ぶので、
-        // フィード側のアイコンも後追い同期する
-        syncFeedBookmarks();
-      });
+      wireCard(card, /* fromLater */ true);
       laterGrid.appendChild(card);
     }
-  }
-
-  function syncFeedBookmarks() {
-    const all = loadLater();
-    document.querySelectorAll('#grid-feed .card').forEach((card) => {
-      const btn = card.querySelector('.bookmark-btn');
-      if (!btn) return;
-      const saved = !!all[card.dataset.videoId];
-      btn.setAttribute('aria-pressed', saved ? 'true' : 'false');
-      btn.setAttribute('aria-label', saved ? 'あとで見るから削除' : 'あとで見るに追加');
-    });
   }
 
   function escapeHtml(s) {
@@ -264,7 +288,8 @@
   tabs.forEach((t) => t.addEventListener('click', () => switchTab(t.dataset.tab)));
 
   // ── 起動処理 ─────────────────────────────
-  document.querySelectorAll('#grid-feed .card').forEach(wireCard);
+  filterHiddenFromFeed();
+  document.querySelectorAll('#grid-feed .card').forEach((card) => wireCard(card, /* fromLater */ false));
   markBookmarksInFeed();
   updateLaterCount();
   renderLater();
