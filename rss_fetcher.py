@@ -250,7 +250,6 @@ _CHANNEL_CACHE: dict[str, list[dict]] = {}
 # ── 動画メタ（duration）の永続キャッシュ ──────────────────
 # durationは不変なので一度取得したら永続保存する。サーバ再起動後も即座にバッジ表示が可能。
 VIDEO_META_CACHE_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "video_meta.json")
-SHORTS_THRESHOLD_SEC = 60
 
 _VIDEO_META_CACHE: dict[str, dict] = {}
 
@@ -292,20 +291,19 @@ def refresh_all(inter_request_delay: float = 2.0) -> int:
     return success_count
 
 
+def _is_shorts_title(title: str | None) -> bool:
+    """タイトルに #shorts (大文字小文字無視) が含まれていればShortsと判定。"""
+    return "#shorts" in (title or "").lower()
+
+
 def get_videos(per_channel: int | None = 5) -> list[dict]:
     """キャッシュから動画リストを組み立てる。publishedの降順でマージ。
-    durationが分かっていて60秒以下のものはShortsとして除外。
-    未取得の動画は次回refreshで判定されるまで一旦表示する。
+    タイトルに `#shorts` を含む動画はShortsとして除外。
     """
     all_videos: list[dict] = []
     for ch in CHANNELS:
         entries = _CHANNEL_CACHE.get(ch["id"], [])
-        filtered = []
-        for e in entries:
-            meta = _VIDEO_META_CACHE.get(e["video_id"])
-            if meta and meta.get("duration_seconds", 0) <= SHORTS_THRESHOLD_SEC:
-                continue
-            filtered.append(e)
+        filtered = [e for e in entries if not _is_shorts_title(e.get("title", ""))]
         if per_channel is not None:
             filtered = filtered[:per_channel]
         all_videos.extend(filtered)
