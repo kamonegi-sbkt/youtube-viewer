@@ -1,39 +1,22 @@
 """
-YouTube購読チャンネル限定ビューア（Flask）
+YouTube購読チャンネルビューア（Flask, 認証なし）
 
-GET /?k=<APP_SECRET>  → cookieを発行して /
-GET /                 → cookie検証、OKなら動画一覧、NGなら gate.html
-GET /refresh          → キャッシュ破棄して /
-GET /logout           → cookie削除
-GET /healthz          → 200 OK
+GET /        → 動画一覧
+GET /refresh → 背景でキャッシュ更新して /
+GET /healthz → 200 OK
 """
 import logging
 import os
-import secrets
 import threading
-from functools import wraps
 
-from flask import Flask, make_response, redirect, render_template, request, url_for
-from itsdangerous import BadSignature, SignatureExpired, URLSafeTimedSerializer
+from flask import Flask, redirect, render_template, url_for
 
-from rss_fetcher import clear_cache, enrich_for_display, get_videos, refresh_all
+from rss_fetcher import enrich_for_display, get_videos, refresh_all
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
 log = logging.getLogger("youtube_viewer")
 
-APP_SECRET = os.environ.get("APP_SECRET")
-if not APP_SECRET:
-    log.warning("APP_SECRET is not set. Using a random one (cookies will not persist across restarts).")
-    APP_SECRET = secrets.token_urlsafe(32)
-
-COOKIE_NAME = "yv_auth"
-COOKIE_MAX_AGE = 60 * 60 * 24 * 30  # 30日
-SIGNER_SALT = "youtube-viewer-auth"
-
 app = Flask(__name__)
-app.secret_key = APP_SECRET
-
-signer = URLSafeTimedSerializer(APP_SECRET, salt=SIGNER_SALT)
 
 
 REFRESH_INTERVAL = 600  # 10分ごとに自動更新
@@ -81,39 +64,6 @@ def _start_background_thread() -> None:
 _start_background_thread()
 
 
-def _is_authenticated() -> bool:
-    token = request.cookies.get(COOKIE_NAME)
-    if not token:
-        return False
-    try:
-        signer.loads(token, max_age=COOKIE_MAX_AGE)
-        return True
-    except (BadSignature, SignatureExpired):
-        return False
-
-
-def _issue_cookie(resp):
-    token = signer.dumps("ok")
-    resp.set_cookie(
-        COOKIE_NAME,
-        token,
-        max_age=COOKIE_MAX_AGE,
-        httponly=True,
-        secure=request.is_secure,
-        samesite="Lax",
-    )
-    return resp
-
-
-def login_required(view):
-    @wraps(view)
-    def wrapper(*args, **kwargs):
-        if not _is_authenticated():
-            return render_template("gate.html"), 401
-        return view(*args, **kwargs)
-    return wrapper
-
-
 @app.route("/healthz")
 def healthz():
     return "ok", 200
@@ -121,18 +71,8 @@ def healthz():
 
 @app.route("/")
 def index():
-    # URLトークンでの認証
-    key = request.args.get("k")
-    if key and secrets.compare_digest(key, APP_SECRET):
-        resp = make_response(redirect(url_for("index")))
-        return _issue_cookie(resp)
-
-    if not _is_authenticated():
-        return render_template("gate.html"), 401
-
     videos = get_videos()
     if not videos:
-        # 初回アクセスでキャッシュが空なら同期的に取りに行く
         _do_refresh()
         videos = get_videos()
     videos = enrich_for_display(videos, limit=60)
@@ -140,18 +80,9 @@ def index():
 
 
 @app.route("/refresh")
-@login_required
 def refresh():
-    # ブロックせずに背景で再取得を走らせ、即リダイレクト
     _trigger_async_refresh()
     return redirect(url_for("index"))
-
-
-@app.route("/logout")
-def logout():
-    resp = make_response(render_template("gate.html", logged_out=True))
-    resp.delete_cookie(COOKIE_NAME)
-    return resp
 
 
 if __name__ == "__main__":
