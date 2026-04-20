@@ -3,6 +3,7 @@
 
   const STORAGE_KEY = 'ytv_watch_later';
   const HIDDEN_KEY = 'ytv_hidden';
+  const RESUME_KEY = 'ytv_resume';
 
   // ── localStorage ラッパ ─────────────────────────────
   function loadLater() {
@@ -43,6 +44,54 @@
     saveHidden(hidden);
   }
 
+  // 再生位置の保存。videoId → { position, duration, updatedAt }
+  function loadResume() {
+    try {
+      const raw = localStorage.getItem(RESUME_KEY);
+      return raw ? JSON.parse(raw) : {};
+    } catch {
+      return {};
+    }
+  }
+  function saveResume(obj) {
+    try {
+      localStorage.setItem(RESUME_KEY, JSON.stringify(obj));
+    } catch (e) {
+      console.warn('saveResume failed:', e);
+    }
+  }
+  function getResumePosition(videoId) {
+    const all = loadResume();
+    const entry = all[videoId];
+    if (!entry) return 0;
+    const pos = Number(entry.position) || 0;
+    if (pos < 5) return 0;
+    return pos;
+  }
+  function setResumePosition(videoId, position, duration) {
+    if (!videoId) return;
+    position = Number(position) || 0;
+    duration = Number(duration) || 0;
+    // ライブ / duration未取得、もしくは序盤は保存しない
+    if (!duration) return;
+    // 終盤まで観た → 観終わり扱いで削除
+    if (position >= duration - 10 || position / duration >= 0.95) {
+      clearResume(videoId);
+      return;
+    }
+    if (position < 5) return;
+    const all = loadResume();
+    all[videoId] = { position, duration, updatedAt: Date.now() };
+    saveResume(all);
+  }
+  function clearResume(videoId) {
+    const all = loadResume();
+    if (all[videoId]) {
+      delete all[videoId];
+      saveResume(all);
+    }
+  }
+
   // ── 相対時刻 ─────────────────────────────
   function relTime(iso) {
     if (!iso) return '';
@@ -71,6 +120,9 @@
   let ytPlayer = null;
   let ytReady = false;
   let pendingVideoId = null;
+  let pendingStart = 0;
+  let currentVideoId = null;
+  let saveIntervalId = null;
 
   // YouTube IFrame APIスクリプトを読み込み（グローバルコールバック onYouTubeIframeAPIReady）
   (function loadYTApi() {
@@ -85,15 +137,58 @@
         onReady: () => {
           ytReady = true;
           if (pendingVideoId) {
-            ytPlayer.loadVideoById(pendingVideoId);
+            ytPlayer.loadVideoById({ videoId: pendingVideoId, startSeconds: pendingStart || 0 });
             pendingVideoId = null;
+            pendingStart = 0;
           }
         },
+        onStateChange: onPlayerStateChange,
       },
     });
   };
 
+  function savePositionNow() {
+    if (!ytReady || !ytPlayer || !currentVideoId) return;
+    try {
+      setResumePosition(currentVideoId, ytPlayer.getCurrentTime(), ytPlayer.getDuration());
+    } catch {}
+  }
+  function startSaveInterval() {
+    stopSaveInterval();
+    saveIntervalId = setInterval(savePositionNow, 5000);
+  }
+  function stopSaveInterval() {
+    if (saveIntervalId !== null) {
+      clearInterval(saveIntervalId);
+      saveIntervalId = null;
+    }
+  }
+  function onPlayerStateChange(e) {
+    if (!window.YT || !YT.PlayerState) return;
+    switch (e.data) {
+      case YT.PlayerState.PLAYING:
+        startSaveInterval();
+        break;
+      case YT.PlayerState.PAUSED:
+        stopSaveInterval();
+        savePositionNow();
+        break;
+      case YT.PlayerState.ENDED:
+        stopSaveInterval();
+        if (currentVideoId) clearResume(currentVideoId);
+        break;
+    }
+  }
+
   function openPlayer(videoId) {
+    // 別動画の切り替えなら、前動画の位置をまず保存してから切り替える
+    if (currentVideoId && currentVideoId !== videoId) {
+      savePositionNow();
+    }
+    stopSaveInterval();
+    currentVideoId = videoId;
+    const start = getResumePosition(videoId);
+
     if (overlay.hidden) {
       overlay.hidden = false;
       overlay.classList.remove('is-pip');
@@ -101,11 +196,13 @@
     }
     if (ytReady && ytPlayer) {
       // user gestureコンテキスト内でロード+再生 → モバイルでもautoplay制約を超えられる
-      ytPlayer.loadVideoById(videoId);
+      ytPlayer.loadVideoById({ videoId, startSeconds: start });
     } else {
       // API未ロード時はフォールバックでsrcを直接書き換え
       pendingVideoId = videoId;
-      iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1&playsinline=1&enablejsapi=1`;
+      pendingStart = start;
+      const startParam = start > 0 ? `&start=${Math.floor(start)}` : '';
+      iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1&playsinline=1&enablejsapi=1${startParam}`;
     }
   }
   function minimizePlayer() {
@@ -117,6 +214,10 @@
     document.body.style.overflow = 'hidden';
   }
   function closePlayer() {
+    // 停止前に再生位置を保存する（×ボタン / Esc / 背景クリック 共通パス）
+    savePositionNow();
+    stopSaveInterval();
+    currentVideoId = null;
     if (ytReady && ytPlayer && ytPlayer.stopVideo) {
       ytPlayer.stopVideo();
     } else {
@@ -136,6 +237,11 @@
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && !overlay.hidden) closePlayer();
   });
+  // タブ切替・バックグラウンド化・PWA終了時も保存（beforeunloadはモバイルSafariで不発なので使わない）
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'hidden') savePositionNow();
+  });
+  window.addEventListener('pagehide', savePositionNow);
 
   // ── ブックマーク UI ─────────────────────────────
   function metaFromCard(card) {
