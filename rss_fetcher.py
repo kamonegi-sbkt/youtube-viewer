@@ -10,7 +10,6 @@ import logging
 import os
 import re
 import time
-from concurrent.futures import ThreadPoolExecutor
 from typing import Iterable
 
 import feedparser
@@ -78,8 +77,22 @@ def _parse_relative_ja(text: str, now: dt.datetime) -> dt.datetime | None:
     return None
 
 
+_LEN_TEXT_RE = re.compile(r"(?:(\d+):)?(\d{1,2}):(\d{2})")
+
+
+def _parse_length_text(text: str | None) -> int | None:
+    """`5:16` `1:23:45` `0:30` などを秒に変換。失敗時None。"""
+    if not text:
+        return None
+    m = _LEN_TEXT_RE.fullmatch(text.strip())
+    if not m:
+        return None
+    h, mi, se = m.group(1), m.group(2), m.group(3)
+    return int(h or 0) * 3600 + int(mi) * 60 + int(se)
+
+
 def _scrape_channel_html(channel: dict, timeout: int = 20) -> list[dict]:
-    """HTML経由で動画を取得するフォールバック。RSSが弾かれた時に使う。"""
+    """HTML経由で動画を取得。各videoには duration_seconds (取れた場合) も含む。"""
     url = f"https://www.youtube.com/channel/{channel['id']}/videos"
     try:
         r = requests.get(url, headers=BROWSER_HEADERS, timeout=timeout)
@@ -133,6 +146,9 @@ def _scrape_channel_html(channel: dict, timeout: int = 20) -> list[dict]:
         if thumb_url.startswith("//"):
             thumb_url = "https:" + thumb_url
 
+        length_text = (vr.get("lengthText") or {}).get("simpleText")
+        duration_sec = _parse_length_text(length_text)
+
         videos.append({
             "video_id": video_id,
             "title": title,
@@ -141,6 +157,7 @@ def _scrape_channel_html(channel: dict, timeout: int = 20) -> list[dict]:
             "published_iso": published_dt.isoformat(),
             "published_dt": published_dt,
             "thumbnail": thumb_url,
+            "duration_seconds": duration_sec,
         })
         if len(videos) >= 15:
             break
@@ -148,19 +165,51 @@ def _scrape_channel_html(channel: dict, timeout: int = 20) -> list[dict]:
     return videos
 
 
+def _scrape_channel_meta(channel: dict, timeout: int = 20) -> dict[str, int]:
+    """チャンネルHTMLからvideo_id -> duration_seconds の辞書だけ抽出する。
+    RSSパスから取った動画にdurationを補完するために使う。"""
+    videos = _scrape_channel_html(channel, timeout=timeout)
+    return {v["video_id"]: v["duration_seconds"]
+            for v in videos
+            if v.get("duration_seconds") is not None}
+
+
+def _absorb_durations_into_cache(meta_map: dict[str, int]) -> None:
+    """duration辞書を永続キャッシュへ反映。新規分があった場合のみdiskに書く。"""
+    if not meta_map:
+        return
+    changed = False
+    for vid, sec in meta_map.items():
+        if vid not in _VIDEO_META_CACHE:
+            _VIDEO_META_CACHE[vid] = {"duration_seconds": sec}
+            changed = True
+    if changed:
+        _save_video_meta_cache()
+
+
 def _fetch_channel(channel: dict) -> list[dict]:
-    """RSSを優先、失敗したらHTMLスクレイピングにフォールバック。"""
+    """RSSを優先、失敗したらHTMLスクレイピングにフォールバック。
+    両経路ともdurationを永続キャッシュへ書き込む。"""
     body = _get_rss_bytes(channel)
     if body is not None:
         feed = feedparser.parse(body)
         if feed.entries:
             videos = _parse_feed_entries(channel, feed)
             if videos:
+                # RSS経路はduration無しなのでHTMLから補完取得
+                meta_map = _scrape_channel_meta(channel)
+                _absorb_durations_into_cache(meta_map)
                 return videos
 
     # フォールバック
     log.info("Falling back to HTML scraping for %s", channel["title"])
-    return _scrape_channel_html(channel)
+    videos = _scrape_channel_html(channel)
+    _absorb_durations_into_cache({
+        v["video_id"]: v["duration_seconds"]
+        for v in videos
+        if v.get("duration_seconds") is not None
+    })
+    return videos
 
 
 def _parse_feed_entries(channel: dict, feed) -> list[dict]:
@@ -204,7 +253,6 @@ VIDEO_META_CACHE_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)),
 SHORTS_THRESHOLD_SEC = 60
 
 _VIDEO_META_CACHE: dict[str, dict] = {}
-_LENGTH_RE = re.compile(r'"lengthSeconds":"(\d+)"')
 
 
 def _load_video_meta_cache() -> None:
@@ -227,48 +275,10 @@ def _save_video_meta_cache() -> None:
 _load_video_meta_cache()
 
 
-def _fetch_video_meta(video_id: str, timeout: int = 15) -> dict | None:
-    url = f"https://www.youtube.com/watch?v={video_id}"
-    try:
-        r = requests.get(url, headers=BROWSER_HEADERS, timeout=timeout)
-        if r.status_code != 200:
-            return None
-        m = _LENGTH_RE.search(r.text)
-        if not m:
-            return None
-        return {"duration_seconds": int(m.group(1))}
-    except requests.RequestException:
-        return None
-
-
-def _enrich_meta_for_new_ids(video_ids: list[str], max_workers: int = 5) -> None:
-    """未取得の動画IDに対してwatchページからdurationを取得して永続キャッシュへ。"""
-    seen: set[str] = set()
-    todo: list[str] = []
-    for vid in video_ids:
-        if vid in _VIDEO_META_CACHE or vid in seen:
-            continue
-        seen.add(vid)
-        todo.append(vid)
-    if not todo:
-        return
-    log.info("Fetching video meta for %d new videos", len(todo))
-    with ThreadPoolExecutor(max_workers=max_workers) as ex:
-        results = list(ex.map(_fetch_video_meta, todo))
-    changed = False
-    for vid, meta in zip(todo, results):
-        if meta is not None:
-            _VIDEO_META_CACHE[vid] = meta
-            changed = True
-    if changed:
-        _save_video_meta_cache()
-
-
 def refresh_all(inter_request_delay: float = 2.0) -> int:
     """全チャンネルを順次取得してキャッシュを更新。失敗したチャンネルは前回値を残す。
+    duration は _fetch_channel 内のHTMLスクレイプから永続キャッシュに書き込まれる。
     成功した件数（動画数）を返す。
-    各チャンネルのfetch直後にそのチャンネル分のdurationメタを取得することで、
-    初回ロード時にも先頭のチャンネルからdurationバッジが表示できるようにする。
     """
     success_count = 0
     for ch in CHANNELS:
@@ -276,7 +286,6 @@ def refresh_all(inter_request_delay: float = 2.0) -> int:
         if entries:
             _CHANNEL_CACHE[ch["id"]] = entries
             success_count += len(entries)
-            _enrich_meta_for_new_ids([e["video_id"] for e in entries])
         else:
             log.info("Fetch failed for %s; keeping previous cache", ch["title"])
         time.sleep(inter_request_delay)
