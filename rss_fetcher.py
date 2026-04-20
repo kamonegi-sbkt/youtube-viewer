@@ -91,8 +91,24 @@ def _parse_length_text(text: str | None) -> int | None:
     return int(h or 0) * 3600 + int(mi) * 60 + int(se)
 
 
+def _extract_live_status(vr: dict) -> str:
+    """videoRenderer の thumbnailOverlays から "live" / "upcoming" を判定。
+    通常動画なら空文字列を返す。"""
+    overlays = vr.get("thumbnailOverlays") or []
+    for ov in overlays:
+        ts = ov.get("thumbnailOverlayTimeStatusRenderer")
+        if not ts:
+            continue
+        style = ts.get("style", "")
+        if style == "LIVE":
+            return "live"
+        if style == "UPCOMING":
+            return "upcoming"
+    return ""
+
+
 def _scrape_channel_html(channel: dict, timeout: int = 20) -> list[dict]:
-    """HTML経由で動画を取得。各videoには duration_seconds (取れた場合) も含む。"""
+    """HTML経由で動画を取得。各videoには duration_seconds (取れた場合) と live_status も含む。"""
     url = f"https://www.youtube.com/channel/{channel['id']}/videos"
     try:
         r = requests.get(url, headers=BROWSER_HEADERS, timeout=timeout)
@@ -148,6 +164,7 @@ def _scrape_channel_html(channel: dict, timeout: int = 20) -> list[dict]:
 
         length_text = (vr.get("lengthText") or {}).get("simpleText")
         duration_sec = _parse_length_text(length_text)
+        live_status = _extract_live_status(vr)
 
         videos.append({
             "video_id": video_id,
@@ -158,20 +175,32 @@ def _scrape_channel_html(channel: dict, timeout: int = 20) -> list[dict]:
             "published_dt": published_dt,
             "thumbnail": thumb_url,
             "duration_seconds": duration_sec,
+            "live_status": live_status,
         })
         if len(videos) >= 15:
             break
 
-    return videos
+    return _dedup_by_video_id(videos)
 
 
-def _scrape_channel_meta(channel: dict, timeout: int = 20) -> dict[str, int]:
-    """チャンネルHTMLからvideo_id -> duration_seconds の辞書だけ抽出する。
-    RSSパスから取った動画にdurationを補完するために使う。"""
-    videos = _scrape_channel_html(channel, timeout=timeout)
-    return {v["video_id"]: v["duration_seconds"]
-            for v in videos
-            if v.get("duration_seconds") is not None}
+def _dedup_by_video_id(videos: list[dict]) -> list[dict]:
+    """同じ video_id が複数ある場合、最初のものだけ残す。
+    YouTube RSS は配信中のライブを「予約」「ライブ中」など複数のエントリで返すことがあるため。"""
+    seen: set[str] = set()
+    out = []
+    for v in videos:
+        vid = v.get("video_id")
+        if not vid or vid in seen:
+            continue
+        seen.add(vid)
+        out.append(v)
+    return out
+
+
+def _scrape_channel_html_indexed(channel: dict, timeout: int = 20) -> dict[str, dict]:
+    """HTMLスクレイピング結果を video_id -> video の辞書にして返す。
+    RSSパスからの動画に duration / live_status を補完するために使う。"""
+    return {v["video_id"]: v for v in _scrape_channel_html(channel, timeout=timeout)}
 
 
 def _absorb_durations_into_cache(meta_map: dict[str, int]) -> None:
@@ -189,16 +218,28 @@ def _absorb_durations_into_cache(meta_map: dict[str, int]) -> None:
 
 def _fetch_channel(channel: dict) -> list[dict]:
     """RSSを優先、失敗したらHTMLスクレイピングにフォールバック。
-    両経路ともdurationを永続キャッシュへ書き込む。"""
+    両経路ともdurationを永続キャッシュへ書き込み、live_status も付与する。"""
     body = _get_rss_bytes(channel)
     if body is not None:
         feed = feedparser.parse(body)
         if feed.entries:
             videos = _parse_feed_entries(channel, feed)
             if videos:
-                # RSS経路はduration無しなのでHTMLから補完取得
-                meta_map = _scrape_channel_meta(channel)
-                _absorb_durations_into_cache(meta_map)
+                # RSSパスは duration / live_status 無しなので HTML から補完
+                html_map = _scrape_channel_html_indexed(channel)
+                for v in videos:
+                    h = html_map.get(v["video_id"])
+                    if not h:
+                        continue
+                    if h.get("duration_seconds") is not None:
+                        v["duration_seconds"] = h["duration_seconds"]
+                    if h.get("live_status"):
+                        v["live_status"] = h["live_status"]
+                _absorb_durations_into_cache({
+                    vid: h["duration_seconds"]
+                    for vid, h in html_map.items()
+                    if h.get("duration_seconds") is not None
+                })
                 return videos
 
     # フォールバック
@@ -241,7 +282,7 @@ def _parse_feed_entries(channel: dict, feed) -> list[dict]:
             "published_dt": published_dt,
             "thumbnail": thumb_url,
         })
-    return videos
+    return _dedup_by_video_id(videos)
 
 
 # チャンネル別キャッシュ: 成功時に上書き、失敗しても残す（permanent）
@@ -298,17 +339,18 @@ def _is_shorts_title(title: str | None) -> bool:
 
 def get_videos(per_channel: int | None = 5) -> list[dict]:
     """キャッシュから動画リストを組み立てる。publishedの降順でマージ。
-    タイトルに `#shorts` を含む動画はShortsとして除外。
+    タイトルに `#shorts` を含む動画はShortsとして除外。video_id で重複排除する。
     """
     all_videos: list[dict] = []
     for ch in CHANNELS:
         entries = _CHANNEL_CACHE.get(ch["id"], [])
         filtered = [e for e in entries if not _is_shorts_title(e.get("title", ""))]
+        deduped = _dedup_by_video_id(filtered)
         if per_channel is not None:
-            filtered = filtered[:per_channel]
-        all_videos.extend(filtered)
+            deduped = deduped[:per_channel]
+        all_videos.extend(deduped)
     all_videos.sort(key=lambda v: v["published_dt"], reverse=True)
-    return all_videos
+    return _dedup_by_video_id(all_videos)
 
 
 # 後方互換: 旧API名も残す（最初のリクエストで同期的に温める用途）
@@ -357,11 +399,26 @@ def enrich_for_display(videos: Iterable[dict], limit: int = 60) -> list[dict]:
     now = dt.datetime.now(dt.timezone.utc)
     out = []
     for v in list(videos)[:limit]:
-        meta = _VIDEO_META_CACHE.get(v["video_id"])
-        duration_text = _format_duration(meta["duration_seconds"]) if meta else ""
+        live_status = v.get("live_status", "")
+        duration_sec = v.get("duration_seconds")
+        if duration_sec is None:
+            meta = _VIDEO_META_CACHE.get(v["video_id"])
+            if meta:
+                duration_sec = meta.get("duration_seconds")
+
+        if live_status == "live":
+            badge_text, badge_kind = "LIVE", "live"
+        elif live_status == "upcoming":
+            badge_text, badge_kind = "配信予定", "upcoming"
+        elif duration_sec is not None:
+            badge_text, badge_kind = _format_duration(duration_sec), ""
+        else:
+            badge_text, badge_kind = "", ""
+
         out.append({
             **v,
             "rel_time": humanize_delta(now, v["published_dt"]),
-            "duration_text": duration_text,
+            "duration_text": badge_text,
+            "badge_kind": badge_kind,
         })
     return out

@@ -38,7 +38,7 @@
         </svg>
       </button>
       {% if v.duration_text %}
-      <span class="duration-badge">{{ v.duration_text }}</span>
+      <span class="duration-badge{% if v.badge_kind %} is-{{ v.badge_kind }}{% endif %}">{{ v.duration_text }}</span>
       {% endif %}
     </div>
     <div class="meta">
