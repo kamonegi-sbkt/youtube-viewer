@@ -71,10 +71,10 @@ def healthz():
 
 @app.route("/")
 def index():
-    videos = get_videos()
+    videos = get_videos(per_channel=15)
     if not videos:
         _do_refresh()
-        videos = get_videos()
+        videos = get_videos(per_channel=15)
     videos = enrich_for_display(videos, limit=60)
     return render_template("index.html", videos=videos)
 
