@@ -7,8 +7,10 @@ RSS: https://www.youtube.com/feeds/videos.xml?channel_id={id}
 import datetime as dt
 import json
 import logging
+import os
 import re
 import time
+from concurrent.futures import ThreadPoolExecutor
 from typing import Iterable
 
 import feedparser
@@ -196,10 +198,77 @@ def _parse_feed_entries(channel: dict, feed) -> list[dict]:
 # チャンネル別キャッシュ: 成功時に上書き、失敗しても残す（permanent）
 _CHANNEL_CACHE: dict[str, list[dict]] = {}
 
+# ── 動画メタ（duration）の永続キャッシュ ──────────────────
+# durationは不変なので一度取得したら永続保存する。サーバ再起動後も即座にバッジ表示が可能。
+VIDEO_META_CACHE_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "video_meta.json")
+SHORTS_THRESHOLD_SEC = 60
+
+_VIDEO_META_CACHE: dict[str, dict] = {}
+_LENGTH_RE = re.compile(r'"lengthSeconds":"(\d+)"')
+
+
+def _load_video_meta_cache() -> None:
+    global _VIDEO_META_CACHE
+    try:
+        with open(VIDEO_META_CACHE_PATH, "r", encoding="utf-8") as f:
+            _VIDEO_META_CACHE = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        _VIDEO_META_CACHE = {}
+
+
+def _save_video_meta_cache() -> None:
+    os.makedirs(os.path.dirname(VIDEO_META_CACHE_PATH), exist_ok=True)
+    tmp = VIDEO_META_CACHE_PATH + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(_VIDEO_META_CACHE, f, ensure_ascii=False)
+    os.replace(tmp, VIDEO_META_CACHE_PATH)
+
+
+_load_video_meta_cache()
+
+
+def _fetch_video_meta(video_id: str, timeout: int = 15) -> dict | None:
+    url = f"https://www.youtube.com/watch?v={video_id}"
+    try:
+        r = requests.get(url, headers=BROWSER_HEADERS, timeout=timeout)
+        if r.status_code != 200:
+            return None
+        m = _LENGTH_RE.search(r.text)
+        if not m:
+            return None
+        return {"duration_seconds": int(m.group(1))}
+    except requests.RequestException:
+        return None
+
+
+def _enrich_meta_for_new_ids(video_ids: list[str], max_workers: int = 5) -> None:
+    """未取得の動画IDに対してwatchページからdurationを取得して永続キャッシュへ。"""
+    seen: set[str] = set()
+    todo: list[str] = []
+    for vid in video_ids:
+        if vid in _VIDEO_META_CACHE or vid in seen:
+            continue
+        seen.add(vid)
+        todo.append(vid)
+    if not todo:
+        return
+    log.info("Fetching video meta for %d new videos", len(todo))
+    with ThreadPoolExecutor(max_workers=max_workers) as ex:
+        results = list(ex.map(_fetch_video_meta, todo))
+    changed = False
+    for vid, meta in zip(todo, results):
+        if meta is not None:
+            _VIDEO_META_CACHE[vid] = meta
+            changed = True
+    if changed:
+        _save_video_meta_cache()
+
 
 def refresh_all(inter_request_delay: float = 2.0) -> int:
     """全チャンネルを順次取得してキャッシュを更新。失敗したチャンネルは前回値を残す。
     成功した件数（動画数）を返す。
+    各チャンネルのfetch直後にそのチャンネル分のdurationメタを取得することで、
+    初回ロード時にも先頭のチャンネルからdurationバッジが表示できるようにする。
     """
     success_count = 0
     for ch in CHANNELS:
@@ -207,6 +276,7 @@ def refresh_all(inter_request_delay: float = 2.0) -> int:
         if entries:
             _CHANNEL_CACHE[ch["id"]] = entries
             success_count += len(entries)
+            _enrich_meta_for_new_ids([e["video_id"] for e in entries])
         else:
             log.info("Fetch failed for %s; keeping previous cache", ch["title"])
         time.sleep(inter_request_delay)
@@ -214,13 +284,22 @@ def refresh_all(inter_request_delay: float = 2.0) -> int:
 
 
 def get_videos(per_channel: int | None = 5) -> list[dict]:
-    """キャッシュから動画リストを組み立てる。publishedの降順でマージ。"""
+    """キャッシュから動画リストを組み立てる。publishedの降順でマージ。
+    durationが分かっていて60秒以下のものはShortsとして除外。
+    未取得の動画は次回refreshで判定されるまで一旦表示する。
+    """
     all_videos: list[dict] = []
     for ch in CHANNELS:
         entries = _CHANNEL_CACHE.get(ch["id"], [])
+        filtered = []
+        for e in entries:
+            meta = _VIDEO_META_CACHE.get(e["video_id"])
+            if meta and meta.get("duration_seconds", 0) <= SHORTS_THRESHOLD_SEC:
+                continue
+            filtered.append(e)
         if per_channel is not None:
-            entries = entries[:per_channel]
-        all_videos.extend(entries)
+            filtered = filtered[:per_channel]
+        all_videos.extend(filtered)
     all_videos.sort(key=lambda v: v["published_dt"], reverse=True)
     return all_videos
 
@@ -259,12 +338,23 @@ def humanize_delta(now: dt.datetime, then: dt.datetime) -> str:
     return f"{s // (86400 * 365)}年前"
 
 
+def _format_duration(sec: int) -> str:
+    h, rem = divmod(sec, 3600)
+    m, s = divmod(rem, 60)
+    if h:
+        return f"{h}:{m:02d}:{s:02d}"
+    return f"{m}:{s:02d}"
+
+
 def enrich_for_display(videos: Iterable[dict], limit: int = 60) -> list[dict]:
     now = dt.datetime.now(dt.timezone.utc)
     out = []
     for v in list(videos)[:limit]:
+        meta = _VIDEO_META_CACHE.get(v["video_id"])
+        duration_text = _format_duration(meta["duration_seconds"]) if meta else ""
         out.append({
             **v,
             "rel_time": humanize_delta(now, v["published_dt"]),
+            "duration_text": duration_text,
         })
     return out

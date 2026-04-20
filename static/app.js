@@ -58,23 +58,54 @@
     return `${Math.floor(s / (86400 * 365))}年前`;
   }
 
-  // ── iframeプレイヤー ─────────────────────────────
+  // ── iframeプレイヤー (YouTube IFrame Player API) ─────────────────────
+  // iOS Safari ではiframeのautoplay=1だけでは「Tap to play」UIで止まる。
+  // user gesture (clickハンドラ) の中で player.playVideo() を呼ぶことで
+  // 確実にワンタップ再生を実現する。
   const overlay = document.getElementById('player-overlay');
   const iframe = document.getElementById('player-iframe');
   const closeBtn = overlay.querySelector('.player-close');
   const minimizeBtn = overlay.querySelector('.player-minimize');
   const expandBtn = overlay.querySelector('.player-expand');
 
+  let ytPlayer = null;
+  let ytReady = false;
+  let pendingVideoId = null;
+
+  // YouTube IFrame APIスクリプトを読み込み（グローバルコールバック onYouTubeIframeAPIReady）
+  (function loadYTApi() {
+    const tag = document.createElement('script');
+    tag.src = 'https://www.youtube.com/iframe_api';
+    document.head.appendChild(tag);
+  })();
+
+  window.onYouTubeIframeAPIReady = function () {
+    ytPlayer = new YT.Player('player-iframe', {
+      events: {
+        onReady: () => {
+          ytReady = true;
+          if (pendingVideoId) {
+            ytPlayer.loadVideoById(pendingVideoId);
+            pendingVideoId = null;
+          }
+        },
+      },
+    });
+  };
+
   function openPlayer(videoId) {
-    const src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1&playsinline=1`;
     if (overlay.hidden) {
-      iframe.src = src;
       overlay.hidden = false;
       overlay.classList.remove('is-pip');
       document.body.style.overflow = 'hidden';
+    }
+    if (ytReady && ytPlayer) {
+      // user gestureコンテキスト内でロード+再生 → モバイルでもautoplay制約を超えられる
+      ytPlayer.loadVideoById(videoId);
     } else {
-      // 再生中に別カードをタップ → src だけ差し替え（PiP/fullscreen モードは維持）
-      iframe.src = src;
+      // API未ロード時はフォールバックでsrcを直接書き換え
+      pendingVideoId = videoId;
+      iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1&playsinline=1&enablejsapi=1`;
     }
   }
   function minimizePlayer() {
@@ -86,7 +117,11 @@
     document.body.style.overflow = 'hidden';
   }
   function closePlayer() {
-    iframe.src = '';
+    if (ytReady && ytPlayer && ytPlayer.stopVideo) {
+      ytPlayer.stopVideo();
+    } else {
+      iframe.src = '';
+    }
     overlay.hidden = true;
     overlay.classList.remove('is-pip');
     document.body.style.overflow = '';
@@ -110,6 +145,7 @@
       channelTitle: card.dataset.channel,
       thumbnail: card.dataset.thumbnail,
       publishedIso: card.dataset.published,
+      duration: card.dataset.duration || '',
     };
   }
 
@@ -137,6 +173,7 @@
         channelTitle: meta.channelTitle,
         thumbnail: meta.thumbnail,
         publishedIso: meta.publishedIso,
+        duration: meta.duration || '',
         savedAt: Date.now(),
       };
       btn.setAttribute('aria-pressed', 'true');
@@ -217,8 +254,12 @@
       card.dataset.channel = v.channelTitle || '';
       card.dataset.thumbnail = v.thumbnail || '';
       card.dataset.published = v.publishedIso || '';
+      card.dataset.duration = v.duration || '';
 
       const timeLabel = relTime(v.publishedIso);
+      const durationBadge = v.duration
+        ? `<span class="duration-badge">${escapeHtml(v.duration)}</span>`
+        : '';
 
       card.innerHTML = `
         <div class="thumb">
@@ -226,14 +267,12 @@
           <div class="play-overlay">
             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
           </div>
-          <div class="play-overlay-mini" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
-          </div>
           <button class="bookmark-btn" aria-label="あとで見るから削除" aria-pressed="true">
             <svg class="bookmark-icon" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
             </svg>
           </button>
+          ${durationBadge}
         </div>
         <div class="meta">
           <div class="title">${escapeHtml(v.title || '')}</div>

@@ -28,13 +28,11 @@
            data-title="{{ v.title }}"
            data-channel="{{ v.channel_title }}"
            data-thumbnail="{{ v.thumbnail }}"
-           data-published="{{ v.published_iso }}">
+           data-published="{{ v.published_iso }}"
+           data-duration="{{ v.duration_text }}">
     <div class="thumb">
       <img src="{{ v.thumbnail }}" alt="" loading="lazy">
       <div class="play-overlay">
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
-      </div>
-      <div class="play-overlay-mini" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
       </div>
       <button class="bookmark-btn" aria-label="あとで見るに追加" aria-pressed="false">
@@ -42,6 +40,9 @@
           <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
         </svg>
       </button>
+      {% if v.duration_text %}
+      <span class="duration-badge">{{ v.duration_text }}</span>
+      {% endif %}
     </div>
     <div class="meta">
       <div class="title">{{ v.title }}</div>
@@ -82,7 +83,7 @@
     </div>
     <div class="player-iframe-wrap">
       <iframe id="player-iframe"
-              src=""
+              src="https://www.youtube.com/embed/?enablejsapi=1&playsinline=1&rel=0&modestbranding=1"
               title="YouTube"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
