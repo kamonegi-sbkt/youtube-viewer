@@ -92,6 +92,40 @@
     }
   }
 
+  // ── サムネ進捗バー（YouTube風） ─────────────────────
+  function applyProgressToCard(card) {
+    if (!card) return;
+    const videoId = card.dataset.videoId;
+    if (!videoId) return;
+    const thumb = card.querySelector('.thumb');
+    if (!thumb) return;
+    const all = loadResume();
+    const entry = all[videoId];
+    let bar = thumb.querySelector('.progress-bar');
+    if (!entry || !entry.duration || !entry.position || entry.position < 5) {
+      if (bar) bar.remove();
+      return;
+    }
+    const ratio = Math.max(0, Math.min(1, entry.position / entry.duration));
+    if (!bar) {
+      bar = document.createElement('div');
+      bar.className = 'progress-bar';
+      const fill = document.createElement('div');
+      fill.className = 'progress-bar-fill';
+      bar.appendChild(fill);
+      thumb.appendChild(bar);
+    }
+    bar.querySelector('.progress-bar-fill').style.width = `${ratio * 100}%`;
+  }
+  function applyProgressToAllCards() {
+    document.querySelectorAll('.card').forEach(applyProgressToCard);
+  }
+  function refreshProgressForVideo(videoId) {
+    if (!videoId) return;
+    document.querySelectorAll(`.card[data-video-id="${CSS.escape(videoId)}"]`)
+      .forEach(applyProgressToCard);
+  }
+
   // ── 相対時刻 ─────────────────────────────
   function relTime(iso) {
     if (!iso) return '';
@@ -151,6 +185,7 @@
     if (!ytReady || !ytPlayer || !currentVideoId) return;
     try {
       setResumePosition(currentVideoId, ytPlayer.getCurrentTime(), ytPlayer.getDuration());
+      refreshProgressForVideo(currentVideoId);
     } catch {}
   }
   function startSaveInterval() {
@@ -175,7 +210,10 @@
         break;
       case YT.PlayerState.ENDED:
         stopSaveInterval();
-        if (currentVideoId) clearResume(currentVideoId);
+        if (currentVideoId) {
+          clearResume(currentVideoId);
+          refreshProgressForVideo(currentVideoId);
+        }
         break;
     }
   }
@@ -215,6 +253,7 @@
   }
   function closePlayer() {
     // 停止前に再生位置を保存する（×ボタン / Esc / 背景クリック 共通パス）
+    // savePositionNow() の中で refreshProgressForVideo も走るのでサムネは即更新される。
     savePositionNow();
     stopSaveInterval();
     currentVideoId = null;
@@ -390,6 +429,7 @@
 
       wireCard(card, /* fromLater */ true);
       laterGrid.appendChild(card);
+      applyProgressToCard(card);
     }
   }
 
@@ -482,6 +522,7 @@
 
       wireCard(card, /* fromLater */ false);
       grid.appendChild(card);
+      applyProgressToCard(card);
     }
     grid.dataset.initialReady = 'true';
     filterHiddenFromFeed();
@@ -522,6 +563,7 @@
   filterHiddenFromFeed();
   document.querySelectorAll('#grid-feed .card').forEach((card) => wireCard(card, /* fromLater */ false));
   markBookmarksInFeed();
+  applyProgressToAllCards();
   updateLaterCount();
   renderLater();
   bootPollingIfNeeded();
