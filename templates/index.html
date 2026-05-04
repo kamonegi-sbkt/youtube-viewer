@@ -18,7 +18,7 @@
   </div>
 </header>
 
-<main class="grid" id="grid-feed" data-tab-panel="feed">
+<main class="grid" id="grid-feed" data-tab-panel="feed" data-initial-ready="{{ 'true' if initial_ready else 'false' }}">
   {% for v in videos %}
   <article class="card"
            data-video-id="{{ v.video_id }}"
@@ -51,9 +51,12 @@
     </div>
   </article>
   {% else %}
-  <div class="empty">
-    <p>動画を取得できませんでした。</p>
-    <p><a href="{{ url_for('refresh') }}">再読み込み</a></p>
+  <div class="loading-shell" id="loading-shell">
+    <div class="loading-spinner" aria-label="読み込み中"></div>
+    <p class="loading-text" id="loading-text">起動中…</p>
+    <p class="loading-hint" id="loading-hint" hidden>
+      しばらく時間がかかっています。<a href="{{ url_for('refresh') }}">再読み込み</a>
+    </p>
   </div>
   {% endfor %}
 </main>

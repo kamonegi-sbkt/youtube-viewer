@@ -418,6 +418,29 @@ svg { display: block; }
 }
 .gate p { color: var(--muted); max-width: 320px; }
 
+/* ── ローディング（HFスリープ復帰待ち） ── */
+.loading-shell {
+  grid-column: 1 / -1;
+  padding: 6rem 1rem;
+  text-align: center;
+  color: var(--muted);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.loading-spinner {
+  width: 48px; height: 48px;
+  border: 3px solid rgba(255, 255, 255, 0.12);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.9s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.loading-text { font-size: 0.95rem; }
+.loading-hint { font-size: 0.85rem; opacity: 0.85; }
+.loading-hint a { color: var(--accent); text-decoration: underline; }
+
 /* ── モーション削減設定を尊重 ── */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {

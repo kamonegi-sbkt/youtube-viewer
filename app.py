@@ -9,7 +9,7 @@ import logging
 import os
 import threading
 
-from flask import Flask, redirect, render_template, url_for
+from flask import Flask, jsonify, redirect, render_template, url_for
 
 from rss_fetcher import enrich_for_display, get_videos, refresh_all
 
@@ -71,12 +71,19 @@ def healthz():
 
 @app.route("/")
 def index():
-    videos = get_videos(per_channel=15)
-    if not videos:
-        _do_refresh()
-        videos = get_videos(per_channel=15)
-    videos = enrich_for_display(videos, limit=60)
-    return render_template("index.html", videos=videos)
+    raw = get_videos(per_channel=15)
+    videos = enrich_for_display(raw, limit=60) if raw else []
+    return render_template("index.html", videos=videos, initial_ready=bool(videos))
+
+
+@app.route("/api/videos")
+def api_videos():
+    raw = get_videos(per_channel=15)
+    ready = bool(raw)
+    videos = enrich_for_display(raw, limit=60) if ready else []
+    for v in videos:
+        v.pop("published_dt", None)  # datetimeはJSON化不可
+    return jsonify({"ready": ready, "videos": videos, "refreshing": _refresh_lock.locked()})
 
 
 @app.route("/refresh")

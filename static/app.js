@@ -402,6 +402,92 @@
       .replace(/'/g, '&#39;');
   }
 
+  // ── HFスリープ復帰中のpolling ─────────────────────────────
+  // SSR時にキャッシュが空（HF Spaceがスリープから起動した直後など）でも、
+  // すぐにローディングシェルを返した上でクライアント側で /api/videos をpoll し、
+  // バックグラウンドのrefreshが終わり次第DOMを差し替える。
+  function bootPollingIfNeeded() {
+    const grid = document.getElementById('grid-feed');
+    if (!grid || grid.dataset.initialReady === 'true') return;
+
+    const POLL_INTERVAL_MS = 2500;
+    const MAX_ATTEMPTS = 60;   // ≒ 2.5分
+    const HINT_AFTER = 5;      // 5回失敗（≒12秒）でリンク表示
+    let attempts = 0;
+    const text = document.getElementById('loading-text');
+    const hint = document.getElementById('loading-hint');
+
+    async function tick() {
+      attempts++;
+      try {
+        const r = await fetch('/api/videos', { cache: 'no-store' });
+        if (r.ok) {
+          const j = await r.json();
+          if (j.ready && Array.isArray(j.videos) && j.videos.length > 0) {
+            renderFeedFromJson(j.videos);
+            return;
+          }
+        }
+      } catch { /* HFスリープ復帰中の接続失敗は握りつぶす */ }
+      if (attempts >= HINT_AFTER && hint) hint.hidden = false;
+      if (attempts >= MAX_ATTEMPTS) {
+        if (text) text.textContent = '取得に失敗しました';
+        return;
+      }
+      setTimeout(tick, POLL_INTERVAL_MS);
+    }
+    tick();
+  }
+
+  function renderFeedFromJson(videos) {
+    const grid = document.getElementById('grid-feed');
+    if (!grid) return;
+    grid.innerHTML = '';
+    for (const v of videos) {
+      const card = document.createElement('article');
+      card.className = 'card';
+      card.dataset.videoId = v.video_id || '';
+      card.dataset.title = v.title || '';
+      card.dataset.channel = v.channel_title || '';
+      card.dataset.thumbnail = v.thumbnail || '';
+      card.dataset.published = v.published_iso || '';
+      card.dataset.duration = v.duration_text || '';
+
+      const badgeKindClass = v.badge_kind ? ` is-${v.badge_kind}` : '';
+      const badge = v.duration_text
+        ? `<span class="duration-badge${badgeKindClass}">${escapeHtml(v.duration_text)}</span>`
+        : '';
+
+      card.innerHTML = `
+        <div class="thumb">
+          <img src="${escapeHtml(v.thumbnail || '')}" alt="" loading="lazy">
+          <div class="play-overlay">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+          </div>
+          <button class="bookmark-btn" aria-label="あとで見るに追加" aria-pressed="false">
+            <svg class="bookmark-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
+            </svg>
+          </button>
+          ${badge}
+        </div>
+        <div class="meta">
+          <div class="title">${escapeHtml(v.title || '')}</div>
+          <div class="sub">
+            <span class="channel">${escapeHtml(v.channel_title || '')}</span>
+            <span class="dot">•</span>
+            <span class="time">${escapeHtml(v.rel_time || '')}</span>
+          </div>
+        </div>`;
+
+      wireCard(card, /* fromLater */ false);
+      grid.appendChild(card);
+    }
+    grid.dataset.initialReady = 'true';
+    filterHiddenFromFeed();
+    markBookmarksInFeed();
+  }
+
   // ── タブ切り替え ─────────────────────────────
   const tabs = document.querySelectorAll('.tab');
   const panels = document.querySelectorAll('[data-tab-panel]');
@@ -438,6 +524,7 @@
   markBookmarksInFeed();
   updateLaterCount();
   renderLater();
+  bootPollingIfNeeded();
 
   // #later でアクセスされたら最初からあとで見るタブ
   if (location.hash === '#later') {
