@@ -1,19 +1,21 @@
-# youtube_viewer アーキテクチャ & テンプレート仕様書
+# youtube_viewer アーキテクチャ仕様書
 
-このドキュメントは `youtube_viewer` の設計を記録すると同時に、**今後の「フロント込みのWebアプリ」の参照テンプレート**として使われることを想定している。
+このドキュメントは `youtube_viewer` の設計を記録する。**「フロント込み + 1日に数回しか更新しないコンテンツビューア」の参照テンプレート**として使うことを想定している。
+
+> 過去の Flask + HuggingFace Spaces 構成は廃止し、Claude Code routines + GitHub Pages の完全静的構成に移行した（2026-05）。
 
 ---
 
 ## 1. アプリの全体像
 
-- **種別**: Flask + Jinja2 による小〜中規模のデータキュレーションWebアプリ
-- **用途**: 複数チャンネルのYouTube動画を1画面に集約して視聴するPWA
+- **種別**: スケジュール駆動の静的サイトジェネレータ + クライアントサイド再生プレイヤー
+- **用途**: 複数YouTubeチャンネルの新着動画を1画面に集約して視聴するPWA
 - **特徴**:
-  - URLトークン + 署名Cookieによるシンプル認証
-  - バックグラウンドスレッドで10分ごとの自動更新
-  - YouTube RSS → HTMLスクレイピングのフォールバック機構
-  - PWA対応（ホーム画面追加・スタンドアロン表示）
-  - Docker化 + GitHub Actions で HuggingFace Spaces へ自動デプロイ
+  - 24/7 サーバー不要（GitHub Pages のみで配信）
+  - Claude Code routine が 4 時間ごとに RSS 取得 → HTML を再生成 → git push
+  - 認証なし・公開
+  - PWA 対応（ホーム画面追加・スタンドアロン表示）
+  - 「あとで見る」「再生位置」は localStorage に永続化（サーバー側状態ゼロ）
 
 ---
 
@@ -21,302 +23,172 @@
 
 ```
 youtube_viewer/
-├── .github/workflows/deploy.yml   # HF Spaces 自動デプロイ
-├── .dockerignore
 ├── .gitignore
-├── Dockerfile                      # gunicorn -w 1 --threads 8
-├── README.md                       # HF Spacesメタデータ + 説明
-├── requirements.txt                # flask, gunicorn, itsdangerous, requests, feedparser
-├── app.py                          # Flaskエントリ、認証、ルーティング、BGスレッド
-├── rss_fetcher.py                  # データ取得ロジック（RSS + HTMLスクレイプ）
-├── cache.py                        # スレッドセーフ TTLCache
-├── channels.py                     # 購読対象のマスターデータ
+├── README.md
+├── ARCHITECTURE.md
+├── requirements.txt              # feedparser, requests, Jinja2
+├── build.py                      # routine が呼ぶ静的サイトビルダー
+├── rss_fetcher.py                # データ取得（RSS + HTMLスクレイプ fallback）
+├── channels.py                   # 購読対象のマスタデータ
 ├── templates/
-│   ├── base.html                   # 共通レイアウト（継承元）
-│   ├── gate.html                   # 認証ゲート画面
-│   └── index.html                  # メイン画面（グリッド + プレイヤー）
+│   ├── base.html                 # 共通レイアウト
+│   └── index.html                # メイン画面（グリッド + プレイヤー）
 ├── static/
-│   ├── style.css                   # ダークテーマ + レスポンシブグリッド
-│   ├── app.js                      # カードクリック → iframeオーバーレイ
-│   ├── manifest.json               # PWA設定
+│   ├── style.css                 # ダークテーマ + レスポンシブグリッド
+│   ├── app.js                    # iframe再生・あとで見る・再生位置保存
+│   ├── manifest.json             # PWA設定
 │   └── icon-192.png / icon-512.png
-└── data/                           # スクショ等、git対象外
+├── data/
+│   └── video_meta.json           # 動画 duration の永続キャッシュ（routine が更新）
+└── docs/                         # GitHub Pages 配信ターゲット（routine が再生成）
+    ├── .nojekyll
+    ├── index.html
+    ├── data.json
+    └── static/
 ```
 
 ---
 
-## 3. バックエンド設計
+## 3. データフロー
 
-### 3.1 認証（URLトークン + 署名Cookie）
+```
+[Claude Code routine] (cron 0 */4 * * *)
+  └ git clone（毎回新規）
+  └ python build.py
+       ├ rss_fetcher.refresh_all()           # 全チャンネル取得（指数バックオフ + 2秒間隔）
+       ├ get_videos + enrich_for_display     # マージ・ソート・表示用整形
+       ├ Jinja2 で templates/index.html を render → docs/index.html
+       ├ shutil.copytree static/ → docs/static/
+       ├ json.dump videos → docs/data.json
+       └ data/video_meta.json 更新（duration 永続キャッシュ）
+  └ git add docs/ data/video_meta.json && commit && push
 
-```python
-# app.py
-from itsdangerous import URLSafeTimedSerializer, BadSignature, SignatureExpired
-
-APP_SECRET = os.environ["APP_SECRET"]
-COOKIE_NAME = "yv_auth"
-COOKIE_MAX_AGE = 60 * 60 * 24 * 30  # 30日
-signer = URLSafeTimedSerializer(APP_SECRET, salt="youtube-viewer-auth")
-
-def _is_authenticated() -> bool:
-    token = request.cookies.get(COOKIE_NAME)
-    if not token:
-        return False
-    try:
-        signer.loads(token, max_age=COOKIE_MAX_AGE)
-        return True
-    except (BadSignature, SignatureExpired):
-        return False
-
-def _issue_cookie(resp):
-    token = signer.dumps("ok")
-    resp.set_cookie(
-        COOKIE_NAME, token, max_age=COOKIE_MAX_AGE,
-        httponly=True, secure=request.is_secure, samesite="Lax"
-    )
-    return resp
+[GitHub Pages] main / docs/
+  └ ユーザーアクセス時に docs/index.html を即配信
 ```
 
-- ユーザーは `https://app/?k=<APP_SECRET>` でアクセス → トークン検証 → Cookie発行 → 以降Cookieだけで認証
-- `secrets.compare_digest()` でタイミング攻撃対策
-- Cookieは `httponly`, `secure`, `samesite=Lax`
+---
 
-### 3.2 ルーティング
-
-| エンドポイント | 認証 | 役割 |
-|---|---|---|
-| `GET /?k=<token>` | 不要 | トークン検証 → Cookie発行 → `/` へリダイレクト |
-| `GET /` | 要 | データ取得 → `index.html` |
-| `GET /refresh` | 要 | バックグラウンドで手動リフレッシュ |
-| `GET /logout` | 不要 | Cookie削除 → `gate.html` |
-| `GET /healthz` | 不要 | ヘルスチェック |
-
-### 3.3 バックグラウンド自動更新
-
-```python
-REFRESH_INTERVAL = 600  # 10分
-
-def _refresh_loop():
-    while True:
-        _do_refresh()
-        time.sleep(REFRESH_INTERVAL)
-
-def _start_background_thread():
-    # Flask reloaderの二重起動防止
-    if os.environ.get("WERKZEUG_RUN_MAIN") is None:
-        threading.Thread(target=_refresh_loop, daemon=True).start()
-```
-
-- `_refresh_lock` で同時実行防止
-- 失敗したチャンネルは前回キャッシュを保持
-
-### 3.4 データ取得（rss_fetcher.py）
+## 4. データ取得（rss_fetcher.py）
 
 - **2段フォールバック**: RSS (feedparser) → 失敗時は HTML の `ytInitialData` から JSON抽出
-- **指数バックオフ**: 2s, 4s, 8s, 16s, 32s
+- **指数バックオフ**: 2s, 4s, 8s, 16s, 32s（最大5回）
 - **ブラウザ風ヘッダー**: User-Agent, Referer, Sec-Fetch-* でブロック回避
 - **日本語相対時刻パース**: 「3日前」→ datetime
-- **マージ & ソート**: 全チャンネル分を published_dt 降順で統合
-
-### 3.5 キャッシュ（cache.py）
-
-```python
-class TTLCache:
-    def __init__(self, ttl_seconds: int = 900):
-        self._ttl = ttl_seconds
-        self._store: dict[str, tuple[float, Any]] = {}
-        self._lock = threading.Lock()
-
-    def get_or_compute(self, key, compute):
-        cached = self.get(key)
-        if cached is not None:
-            return cached
-        value = compute()
-        self.set(key, value)
-        return value
-```
-
-- スレッドセーフ（`threading.Lock`）
-- TTL経過で自動削除
-- ワーカー単位のメモリキャッシュ（Redisなし）
+- **チャンネル間 2 秒インターバル**: IP ブロック回避
+- **duration の永続キャッシュ**: `data/video_meta.json`（append-only、リポにコミット）
+- **マージ & ソート**: 全チャンネル分を published_dt 降順で統合、`#shorts` 含むタイトルは除外
 
 ---
 
-## 4. フロントエンド設計
+## 5. ビルド（build.py）
 
-### 4.1 テンプレート継承
+シンプルな同期スクリプト。`os.chdir` で自身の場所を cwd に固定するので routine の cwd に依存しない。
+
+Flask との互換性のため `url_for('static', filename='...')` の Jinja グローバルを shim として提供:
+
+```python
+def _url_for(endpoint, **kwargs):
+    if endpoint == "static":
+        return f"static/{kwargs['filename']}"
+    return "#"
+env.globals["url_for"] = _url_for
+```
+
+これでテンプレート側はほぼ無修正のまま静的化できる。
+
+---
+
+## 6. フロントエンド設計
+
+### 6.1 テンプレート継承
 
 ```
 base.html (HTMLスケルトン + head + <body>)
-  ├─ gate.html (認証前 / ログアウト画面)
-  └─ index.html (認証後のメイン画面)
+  └─ index.html (メイン画面)
 ```
 
-`base.html` には:
-- `<meta name="viewport">`
-- PWA manifest リンク
-- `apple-mobile-web-app-capable`
-- 共通CSSロード
+`base.html` には: `<meta name="viewport">`、PWA manifest リンク、`apple-mobile-web-app-capable`、共通CSSロード。
 
-### 4.2 CSS（ダーク + レスポンシブ）
+### 6.2 CSS（ダーク + レスポンシブ）
 
-```css
-:root {
-  --bg: #0a0a0b;
-  --bg-gradient: radial-gradient(1200px 800px at 0% -10%,
-                   rgba(99,102,241,0.08), transparent 60%),
-                 radial-gradient(900px 700px at 100% 110%,
-                   rgba(244,63,94,0.06), transparent 60%),
-                 #0a0a0b;
-  --accent: #6366f1;
-}
+CSS変数 `--bg`, `--bg-gradient`, `--accent` で印象をコントロール。`grid-template-columns` をブレイクポイントごとに 1/2/3/4 列に切り替え。`prefers-reduced-motion` 対応あり。
 
-.grid { display: grid; gap: 20px; grid-template-columns: 1fr; }
-@media (min-width: 481px) and (max-width: 768px) {
-  .grid { grid-template-columns: repeat(2, 1fr); }
-}
-@media (min-width: 769px) { .grid { grid-template-columns: repeat(3, 1fr); } }
-@media (min-width: 1200px) { .grid { grid-template-columns: repeat(4, 1fr); } }
+### 6.3 JS（app.js）
 
-@media (prefers-reduced-motion: reduce) {
-  * { animation-duration: 0.01ms !important; }
-}
-```
+- カード全件にクリックリスナー → YouTube IFrame Player API でオーバーレイ再生
+- iOS Safari の autoplay 制約を user gesture 内で `loadVideoById` することで突破
+- 「あとで見る」「再生位置」は localStorage に保存
+- 終盤95%以上 or duration-10s で「観終わり」扱い → サムネ進捗バー消去 + 新着から非表示
+- タブ切替・visibilitychange・pagehide で自動保存（モバイル Safari の beforeunload 不発対策）
 
-### 4.3 JS（app.js, 33行）
-
-- カード全件にクリックリスナー登録
-- `data-video-id` 取得 → iframe src 組立
-- オーバーレイ表示中は `body.overflow: hidden` でスクロール禁止
-- Escapeキーで閉じる
-
-### 4.4 PWA（manifest.json）
+### 6.4 PWA（manifest.json）
 
 ```json
 {
-  "name": "My YouTube Viewer",
-  "display": "standalone",
-  "start_url": "/",
-  "scope": "/",
-  "background_color": "#0b0b0b",
-  "icons": [{"src": "/static/icon-192.png", "sizes": "192x192"}]
+  "start_url": "../",
+  "scope": "../",
+  "icons": [{"src": "icon-192.png", "sizes": "192x192"}]
 }
 ```
 
+manifest.json は `/<repo>/static/manifest.json` に配置されるので、相対 `../` で `/<repo>/` を指す。サブパスデプロイでもカスタムドメインのルートデプロイでも動く。
+
 ---
 
-## 5. インフラ & デプロイ
+## 7. デプロイ
 
-### 5.1 Dockerfile
+### 7.1 GitHub Pages 設定
 
-```dockerfile
-FROM python:3.11-slim
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-COPY . .
-EXPOSE 7860
-CMD ["gunicorn", "-b", "0.0.0.0:7860", "-w", "1", "--threads", "8",
-     "--timeout", "120", "--access-logfile", "-", "app:app"]
+- リポ Settings → Pages → Source: `main` branch / `/docs` folder
+- `docs/.nojekyll` で Jekyll 処理を無効化（先頭 `_` 始まりのファイル等を弾かれないため）
+
+### 7.2 Claude Code routine 設定
+
+`/schedule` で作成:
+
+```
+name: youtube-viewer-refresh
+cron: 0 */4 * * *   (4時間ごと)
+prompt:
+  cd youtube_viewer
+  python build.py
+  git add docs/ data/video_meta.json
+  git diff --cached --quiet || git commit -m "auto: refresh feeds"
+  git push
 ```
 
-- `-w 1 --threads 8`: I/O待機型アプリに最適（RSS取得は待ち時間が長い）
-- ポート 7860（HuggingFace Spaces 標準）
-
-### 5.2 環境変数
-
-| 変数 | 役割 |
-|---|---|
-| `APP_SECRET` | URLトークン + Cookie署名（`secrets.token_urlsafe(32)` 推奨） |
-| `PORT` | 起動ポート（デフォルト 7860） |
-
-### 5.3 CI/CD
-
-`.github/workflows/deploy.yml`:
-- `push: branches: [main]` で自動起動
-- HF Spaces へ `git push hf hf-deploy:main --force`
-- Secrets: `HF_TOKEN`
+**重要**: `git add data/` ではなく `data/video_meta.json` のみを stage する（`data/*.png` のスクリーンショット類を巻き込まないため）。`.gitignore` 側でも `data/*` を除外して `!data/video_meta.json` のみ許可済み。
 
 ---
 
-## 6. 新規「フロント込みアプリ」を作るときの手順
+## 8. 採用しなかった構成と理由
 
-### ステップ
+| 案 | 不採用理由 |
+|---|---|
+| Flask 維持 + routine で更新ジョブだけ切り出す | HF Spaces のスリープ・スレッド死亡問題が残る。表示と更新の同期が複雑化 |
+| GitHub Actions で定期ビルド（routine の代わり） | 5 分間隔以下にできない・YouTube が GitHub の Action ノードIPをブロックすることがある・人間が触る対象でなくなる |
+| クライアント側で data.json を fetch する SPA | 初回表示が遅くなる。既存テンプレートが SSR 前提（`{% for v in videos %}`）なので JS シェル化はメリットなし |
+| Cloudflare Workers Cron + KV | サーバーレスだが課金・運用学習コスト。routine ですでに足りる |
 
-1. **youtube_viewer をコピー** → プロジェクト名に変更
-2. **app.py を修正**:
-   - `SIGNER_SALT` / `COOKIE_NAME` をアプリ固有に
-   - ルーティングを目的に合わせて書き換え
-3. **データ取得層を差し替え**:
-   - `rss_fetcher.py` → 自分のデータ取得ロジックに
-   - `channels.py` → 対応するマスタデータに
-4. **テンプレートを編集**:
-   - `base.html` は基本そのまま
-   - `index.html` のグリッド内容を置き換え
-5. **CSS微調整**: カラー変数（`--accent`, `--bg-gradient`）だけ変えれば印象が変わる
-6. **PWA**: `manifest.json` の `name`, `short_name`, icons を差し替え
-7. **Dockerfile**: そのまま流用可
-8. **CI/CD**: `.github/workflows/deploy.yml` の Space 名を書き換え
+---
+
+## 9. このアプリをコピーして新規アプリを作るとき
 
 ### 再利用率の高いファイル（コピーだけで済む）
 
-- `cache.py` ← 100% そのまま
-- `Dockerfile` ← 100% そのまま
-- `.dockerignore` / `.gitignore` ← 100% そのまま
-- `app.py` の認証・バックグラウンド更新部分 ← ほぼそのまま
-- `static/style.css` のグリッド・ダークテーマ変数 ← カラー変更のみ
-- `static/manifest.json` ← name/icon 変更のみ
+- `build.py` ← データ取得とテンプレート名を差し替えるだけ
+- `static/style.css` ← カラー変数だけ調整
+- `static/manifest.json` ← name/icon 差し替え
 - `templates/base.html` ← ほぼそのまま
-- `.github/workflows/deploy.yml` ← Space名変更のみ
+- `.gitignore` ← そのまま
 
 ### 新規に書く部分
 
-- 目的別のデータ取得ロジック
-- `templates/index.html` の中身（グリッド内のカード構造）
-- `static/app.js` のインタラクション（クリック時の挙動）
+- 目的別のデータ取得層（`rss_fetcher.py` 相当）
+- `templates/index.html` のカード構造
+- `static/app.js` のインタラクション
 
----
+### 適用条件
 
-## 7. チェックリスト（新アプリ適用時）
-
-**バックエンド**
-- [ ] APP_SECRET 環境変数を `secrets.token_urlsafe(32)` で生成
-- [ ] `SIGNER_SALT` / `COOKIE_NAME` をアプリ固有の値に変更
-- [ ] `login_required` デコレータ を適用
-- [ ] バックグラウンド更新の間隔（`REFRESH_INTERVAL`）をユースケースに合わせる
-- [ ] `/healthz` を残す（ヘルスチェック用）
-
-**フロントエンド**
-- [ ] `base.html` テンプレート継承を維持
-- [ ] レスポンシブグリッドの列数がコンテンツに合うか
-- [ ] CSS変数（`--bg`, `--accent`）をブランドカラーに
-- [ ] `prefers-reduced-motion` 対応を残す
-- [ ] PWA manifest の name/icon を差し替え
-
-**インフラ**
-- [ ] Dockerfile のポート・ワーカー数を確認
-- [ ] `.gitignore` で `.venv/`, `data/`, `__pycache__/` 除外
-- [ ] GitHub Actions の Secrets に `HF_TOKEN`（または相当のトークン）
-- [ ] requirements.txt のバージョン固定
-
-**セキュリティ**
-- [ ] Cookie `httponly=True`, `secure=request.is_secure`, `samesite="Lax"`
-- [ ] URLトークン比較は `secrets.compare_digest()`
-- [ ] APP_SECRET を git に含めない
-- [ ] スレッド安全性（`threading.Lock`）
-
----
-
-## 8. アーキテクチャの強み・弱み
-
-### 強み
-- シンプル（Flask + Jinja2 + 静的ファイル）
-- 依存最小（5パッケージのみ）
-- PWA対応でスマホでも快適
-- Docker + CI/CD で1分デプロイ
-
-### 弱み & スケール時の改善案
-- キャッシュがワーカー単位 → Redis で共有
-- データ取得が順次 → Celery / AsyncIO で並列化
-- 10分ポーリング → WebSocket / SSE でリアルタイム化
-- 認証が単一トークン → OAuth / 複数ユーザー対応
+このテンプレートは **「数時間〜1日に数回更新で十分なコンテンツビューア」向け**。リアルタイム性が必要・ユーザー入力をサーバー側で受ける必要がある場合は別アーキテクチャ（Flask / Cloudflare Workers / etc.）を検討。

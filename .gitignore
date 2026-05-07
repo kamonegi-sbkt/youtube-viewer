@@ -3,4 +3,5 @@ __pycache__/
 .venv/
 .env
 *.log
-data/
+data/*
+!data/video_meta.json

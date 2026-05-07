@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&display=swap');
+
+:root {
+  --bg: #0f0f0f;
+  --bg-gradient: #0f0f0f;
+  --surface: transparent;
+  --surface-solid: #212121;
+  --border: transparent;
+  --border-strong: rgba(255, 255, 255, 0.12);
+  --text: #f1f1f1;
+  --text-secondary: #f1f1f1;
+  --muted: #aaaaaa;
+  --accent: #ff0000;
+  --accent-2: #ff0000;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  background: var(--bg-gradient);
+  background-attachment: fixed;
+  color: var(--text);
+  font-family: 'Inter', 'Noto Sans JP', -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic UI", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  touch-action: manipulation;
+  overscroll-behavior-y: contain;
+  min-height: 100vh;
+}
+
+a { color: inherit; text-decoration: none; }
+button { font: inherit; color: inherit; border: 0; background: transparent; cursor: pointer; }
+img { display: block; max-width: 100%; }
+svg { display: block; }
+
+@supports (padding: env(safe-area-inset-top)) {
+  body { padding-bottom: env(safe-area-inset-bottom); }
+}
+
+/* ── トップバー ── */
+.topbar {
+  position: sticky; top: 0; z-index: 10;
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 12px;
+  padding: 10px 16px;
+  padding-top: calc(10px + env(safe-area-inset-top, 0px));
+  background: rgba(15, 15, 15, 0.97);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+.topbar-title {
+  display: flex; align-items: center; gap: 10px;
+  font-weight: 700; font-size: 1rem; letter-spacing: 0.01em;
+}
+.topbar-title .logo-dot {
+  width: 10px; height: 10px; border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 8px rgba(255, 0, 0, 0.6);
+}
+.topbar-actions { display: flex; gap: 8px; margin-left: auto; }
+
+/* ── タブ（YouTube風アンダーライン型） ── */
+.tabs {
+  display: flex; gap: 0;
+  align-self: stretch;
+  margin: 0 4px;
+}
+.tab {
+  position: relative;
+  padding: 12px 16px;
+  font-size: 0.9rem; font-weight: 500;
+  color: var(--muted);
+  border-radius: 0;
+  transition: color 0.15s;
+  white-space: nowrap;
+}
+.tab:hover { color: var(--text); }
+.tab.is-active {
+  color: var(--text);
+  font-weight: 600;
+}
+.tab.is-active::after {
+  content: "";
+  position: absolute;
+  left: 12px; right: 12px; bottom: 0;
+  height: 3px;
+  background: var(--accent);
+  border-radius: 2px 2px 0 0;
+}
+.tab-count {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: 18px; height: 18px; margin-left: 6px; padding: 0 5px;
+  font-size: 0.68rem; font-weight: 700; font-variant-numeric: tabular-nums;
+  background: var(--accent); color: white;
+  border-radius: 9px;
+}
+@media (max-width: 420px) {
+  .tab { padding: 10px 10px; font-size: 0.85rem; }
+  .tab.is-active::after { left: 8px; right: 8px; }
+  .topbar { padding: 8px 12px; gap: 6px; }
+  .topbar-title span:not(.logo-dot) { display: none; }
+}
+.topbar-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 40px; height: 40px;
+  color: var(--text);
+  background: transparent;
+  border: 0;
+  border-radius: 50%;
+  transition: background 0.15s, transform 0.1s;
+}
+.topbar-btn:hover { background: rgba(255, 255, 255, 0.1); }
+.topbar-btn:active { transform: scale(0.94); }
+.topbar-btn svg { width: 20px; height: 20px; }
+
+/* ── グリッド ── */
+.grid {
+  display: grid; gap: 20px;
+  padding: 20px 16px;
+  padding-bottom: calc(40px + env(safe-area-inset-bottom, 0px));
+  grid-template-columns: 1fr;
+}
+[hidden] { display: none !important; }
+@media (min-width: 481px) and (max-width: 768px) {
+  .grid { grid-template-columns: repeat(2, 1fr); gap: 18px; }
+}
+@media (min-width: 769px) {
+  .grid { grid-template-columns: repeat(3, 1fr); max-width: 1280px; margin: 0 auto; gap: 24px; padding: 24px; }
+}
+@media (min-width: 1200px) {
+  .grid { grid-template-columns: repeat(4, 1fr); max-width: 1400px; }
+}
+
+/* ── カード（YouTubeホーム風: 枠なし・背景なし） ── */
+.card {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  cursor: pointer;
+  animation: fade-in 0.4s ease both;
+}
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+/* スタガード表示（各カードを少しずつ遅延） */
+.card:nth-child(1)  { animation-delay: 0.00s; }
+.card:nth-child(2)  { animation-delay: 0.03s; }
+.card:nth-child(3)  { animation-delay: 0.06s; }
+.card:nth-child(4)  { animation-delay: 0.09s; }
+.card:nth-child(5)  { animation-delay: 0.12s; }
+.card:nth-child(6)  { animation-delay: 0.15s; }
+.card:nth-child(7)  { animation-delay: 0.18s; }
+.card:nth-child(8)  { animation-delay: 0.21s; }
+.card:nth-child(9)  { animation-delay: 0.24s; }
+.card:nth-child(10) { animation-delay: 0.27s; }
+.card:nth-child(n+11) { animation-delay: 0.3s; }
+
+.card:active { transform: scale(0.985); }
+
+.thumb {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background: #000;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.thumb img {
+  width: 100%; height: 100%; object-fit: cover;
+  transition: transform 0.35s ease;
+}
+.play-overlay {
+  position: absolute; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  opacity: 0;
+  transition: opacity 0.2s;
+  z-index: 1;
+}
+.play-overlay svg { width: 56px; height: 56px; color: white; filter: drop-shadow(0 4px 14px rgba(0,0,0,0.6)); }
+
+/* hoverできるデバイスにのみhover効果を適用（タッチ端末で擬似hover→2タップ問題を防ぐ） */
+@media (hover: hover) and (pointer: fine) {
+  .card:hover .thumb img { transform: scale(1.04); }
+  .card:hover .play-overlay { opacity: 1; }
+}
+
+/* duration-badgeで動画である事は伝わるので、ミニ再生インジケータは常時非表示 */
+.play-overlay-mini { display: none; }
+
+/* 動画長さバッジ（YouTube公式風、サムネ右下） */
+.duration-badge {
+  position: absolute;
+  right: 6px; bottom: 6px;
+  z-index: 2;
+  padding: 3px 4px;
+  font-size: 0.75rem; font-weight: 500;
+  font-variant-numeric: tabular-nums;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 4px;
+  pointer-events: none;
+  line-height: 1.2;
+}
+.duration-badge.is-live {
+  background: #cc0000;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+.duration-badge.is-upcoming {
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+
+/* 視聴進捗バー（YouTube風、サムネ底辺に赤い帯） */
+.progress-bar {
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.25);
+  z-index: 2;
+  pointer-events: none;
+  overflow: hidden;
+}
+.progress-bar-fill {
+  height: 100%;
+  background: #ff0000;
+  width: 0%;
+}
+
+.meta { padding: 12px 0 0; }
+.title {
+  font-size: 0.95rem; font-weight: 500; line-height: 1.35;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+  overflow: hidden; word-break: break-word;
+  min-height: 2.7em;
+  color: var(--text);
+  letter-spacing: 0;
+}
+.sub {
+  margin-top: 4px;
+  font-size: 0.8rem; color: var(--muted);
+  display: flex; flex-wrap: wrap; gap: 4px; align-items: center;
+}
+.channel {
+  color: var(--muted);
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+.dot { color: var(--muted); font-size: 0.7rem; }
+.time { font-variant-numeric: tabular-nums; }
+
+.empty {
+  grid-column: 1 / -1;
+  padding: 4rem 1rem; text-align: center; color: var(--muted);
+}
+.empty a { color: var(--accent); text-decoration: underline; font-weight: 500; }
+.empty-hint { font-size: 0.85rem; margin-top: 8px; opacity: 0.8; }
+#later-empty { padding: 5rem 1rem; }
+
+/* ── ブックマークボタン ── */
+.bookmark-btn {
+  position: absolute;
+  top: 8px; right: 8px;
+  z-index: 3;
+  width: 36px; height: 36px;
+  display: inline-flex; align-items: center; justify-content: center;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 50%;
+  transition: background 0.15s, transform 0.1s, color 0.2s;
+}
+.bookmark-btn:hover { background: rgba(0, 0, 0, 0.75); }
+.bookmark-btn:active { transform: scale(0.92); }
+.bookmark-btn svg { width: 16px; height: 16px; transition: fill 0.2s, stroke 0.2s; }
+
+.bookmark-btn[aria-pressed="true"] {
+  background: var(--accent);
+  border-color: transparent;
+  color: white;
+}
+.bookmark-btn[aria-pressed="true"] svg { fill: currentColor; stroke: currentColor; }
+.bookmark-btn[aria-pressed="true"]:hover { background: #d90000; }
+@keyframes bookmark-pop {
+  0%   { transform: scale(1); }
+  40%  { transform: scale(1.25); }
+  100% { transform: scale(1); }
+}
+.bookmark-btn.just-saved { animation: bookmark-pop 0.35s ease; }
+
+/* ── プレーヤーオーバーレイ ── */
+.player-overlay {
+  position: fixed; inset: 0; z-index: 50;
+  background: rgba(0, 0, 0, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  display: flex; align-items: center; justify-content: center;
+  padding: env(safe-area-inset-top, 0) 16px env(safe-area-inset-bottom, 0);
+  animation: overlay-fade 0.22s ease;
+  transition: background 0.25s ease, padding 0.25s ease;
+}
+@keyframes overlay-fade { from { opacity: 0; } to { opacity: 1; } }
+.player-overlay[hidden] { display: none !important; }
+.player-frame {
+  position: relative; width: 100%; max-width: 960px;
+  animation: player-zoom 0.28s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transition: width 0.25s ease, max-width 0.25s ease, margin 0.25s ease;
+}
+@keyframes player-zoom {
+  from { opacity: 0; transform: scale(0.92); }
+  to   { opacity: 1; transform: scale(1); }
+}
+.player-iframe-wrap {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background: #000;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 30px 80px rgba(0,0,0,0.6);
+  transition: border-radius 0.25s ease, box-shadow 0.25s ease;
+}
+.player-iframe-wrap iframe {
+  position: absolute; inset: 0; width: 100%; height: 100%; border: 0;
+}
+.player-controls {
+  position: absolute;
+  top: -52px; right: 0;
+  display: flex; gap: 8px;
+  z-index: 2;
+  transition: top 0.25s ease, right 0.25s ease, gap 0.25s ease;
+}
+.player-controls button {
+  width: 40px; height: 40px;
+  background: var(--surface-solid);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  display: inline-flex; align-items: center; justify-content: center;
+  transition: background 0.15s, transform 0.1s, width 0.25s ease, height 0.25s ease, border-radius 0.25s ease;
+}
+.player-controls button:hover { background: rgba(255,255,255,0.08); }
+.player-controls button:active { transform: scale(0.94); }
+.player-controls button svg { width: 16px; height: 16px; }
+
+/* fullscreen モードでは展開ボタンは非表示 */
+.player-expand { display: none !important; }
+
+/* ── PiP（ミニプレイヤー）モード ── */
+.player-overlay.is-pip {
+  background: transparent;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  padding: 0;
+  pointer-events: none;
+  animation: none;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.is-pip .player-frame {
+  pointer-events: auto;
+  width: min(340px, 45vw);
+  max-width: 340px;
+  margin: 0 16px calc(16px + env(safe-area-inset-bottom, 0px)) 0;
+  animation: pip-slide-in 0.28s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+@keyframes pip-slide-in {
+  from { opacity: 0; transform: translateY(12px) scale(0.96); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+.is-pip .player-iframe-wrap {
+  border-radius: 12px;
+  box-shadow: 0 12px 36px rgba(0,0,0,0.55), 0 0 0 1px var(--border-strong);
+}
+/* PiP 時のコントロール: フレーム内右上にオーバーレイ */
+.is-pip .player-controls {
+  top: 6px; right: 6px;
+  gap: 4px;
+}
+.is-pip .player-controls button {
+  width: 30px; height: 30px;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-color: rgba(255,255,255,0.15);
+  border-radius: 50%;
+}
+.is-pip .player-controls button:hover { background: rgba(0, 0, 0, 0.8); }
+.is-pip .player-controls button svg { width: 13px; height: 13px; }
+/* PiP モードではミニマイズボタンを隠し、展開ボタンを表示 */
+.is-pip .player-minimize { display: none !important; }
+.is-pip .player-expand { display: inline-flex !important; }
+
+/* モバイル: PiP をさらに小さく */
+@media (max-width: 480px) {
+  .is-pip .player-frame {
+    width: min(220px, 55vw);
+    margin: 0 12px calc(12px + env(safe-area-inset-bottom, 0px)) 0;
+  }
+  .is-pip .player-controls button {
+    width: 26px; height: 26px;
+  }
+  .is-pip .player-controls button svg { width: 11px; height: 11px; }
+}
+
+/* ── ゲート ── */
+.gate {
+  min-height: 100vh; min-height: 100dvh;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  padding: 2rem; text-align: center;
+}
+.gate-orb {
+  width: 96px; height: 96px; border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, #ff6060, #ff0000 60%, #3a0000 100%);
+  margin-bottom: 1.5rem;
+  box-shadow: 0 12px 40px rgba(255, 0, 0, 0.45), inset 0 0 30px rgba(255,255,255,0.15);
+  animation: pulse 3s ease-in-out infinite;
+}
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50%      { transform: scale(1.04); box-shadow: 0 12px 48px rgba(255, 0, 0, 0.6), inset 0 0 30px rgba(255,255,255,0.18); }
+}
+.gate h1 {
+  font-size: 1.55rem; font-weight: 700; margin-bottom: 0.75rem;
+  background: linear-gradient(135deg, #fff 20%, #a1a1aa 100%);
+  -webkit-background-clip: text; background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gate p { color: var(--muted); max-width: 320px; }
+
+/* ── ローディング（HFスリープ復帰待ち） ── */
+.loading-shell {
+  grid-column: 1 / -1;
+  padding: 6rem 1rem;
+  text-align: center;
+  color: var(--muted);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.loading-spinner {
+  width: 48px; height: 48px;
+  border: 3px solid rgba(255, 255, 255, 0.12);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.9s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.loading-text { font-size: 0.95rem; }
+.loading-hint { font-size: 0.85rem; opacity: 0.85; }
+.loading-hint a { color: var(--accent); text-decoration: underline; }
+
+/* ── モーション削減設定を尊重 ── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
