@@ -71,11 +71,27 @@ youtube_viewer/
 
 ## 4. データ取得（rss_fetcher.py）
 
+`YOUTUBE_API_KEY` 環境変数が設定されているかどうかで取得経路が切り替わる。
+
+### API 経路（`YOUTUBE_API_KEY` 設定時、クラウド routine 用）
+
+YouTube Data API v3 を使用。データセンターIPは公式RSS/HTMLが 403 で弾かれるため、クラウド実行時は必須。
+
+- **`playlistItems.list`**: 各チャンネルの uploads プレイリスト（`UU{id_without_UC}`）から最新15件
+- **`videos.list`**: `contentDetails`（duration ISO8601）と `snippet`（liveBroadcastContent）をバッチ50件で取得
+- **quota**: 11ch × 1 + 4 batches × 1 ≈ 15 unit/refresh、無料枠 10000/日（4時間ごと運用なら90 unit/日）
+- **リクエスト間隔**: 0 秒（API は IP ブロックされない）
+
+### RSS + HTML 経路（`YOUTUBE_API_KEY` 未設定時、ローカル開発用）
+
 - **2段フォールバック**: RSS (feedparser) → 失敗時は HTML の `ytInitialData` から JSON抽出
 - **指数バックオフ**: 2s, 4s, 8s, 16s, 32s（最大5回）
-- **ブラウザ風ヘッダー**: User-Agent, Referer, Sec-Fetch-* でブロック回避
+- **ブラウザ風ヘッダー**: User-Agent, Referer, Sec-Fetch-*
 - **日本語相対時刻パース**: 「3日前」→ datetime
 - **チャンネル間 2 秒インターバル**: IP ブロック回避
+
+### 共通
+
 - **duration の永続キャッシュ**: `data/video_meta.json`（append-only、リポにコミット）
 - **マージ & ソート**: 全チャンネル分を published_dt 降順で統合、`#shorts` 含むタイトルは除外
 
@@ -151,7 +167,8 @@ manifest.json は `/<repo>/static/manifest.json` に配置されるので、相�
 name: youtube-viewer-refresh
 cron: 0 */4 * * *   (4時間ごと)
 prompt:
-  cd youtube_viewer
+  cd youtube-viewer
+  pip install -r requirements.txt --quiet
   python build.py
   git add docs/ data/video_meta.json
   git diff --cached --quiet || git commit -m "auto: refresh feeds"
@@ -159,6 +176,15 @@ prompt:
 ```
 
 **重要**: `git add data/` ではなく `data/video_meta.json` のみを stage する（`data/*.png` のスクリーンショット類を巻き込まないため）。`.gitignore` 側でも `data/*` を除外して `!data/video_meta.json` のみ許可済み。
+
+### 7.3 routine 環境の前提条件
+
+クラウド routine 経由で動作させるには以下 2 つが必須：
+
+1. **`YOUTUBE_API_KEY`**: データセンターIPは YouTube に 403 で弾かれるため API 経由でないと取得不可。Google Cloud Console で YouTube Data API v3 を有効化して取得。
+2. **GitHub `contents: write` 権限**: Anthropic GitHub Integration はデフォルトで read-only スコープのため、リポへの push が 403 になる。Anthropic 側の Integration 設定で write 権限を付与するか、PAT (`repo` スコープ) を git credential として設定する必要がある。
+
+どちらかが欠けると routine は失敗する（local commit までは作成されるが push できない / フィードが空で再生成される）。
 
 ---
 

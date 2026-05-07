@@ -18,6 +18,14 @@
 - **PWA**: スマホのホーム画面に追加するとネイティブアプリ風に起動
 - **クライアント永続化**: 「あとで見る」と再生位置は localStorage に保存
 
+## 環境変数
+
+| 変数 | 必須 | 用途 |
+|---|---|---|
+| `YOUTUBE_API_KEY` | クラウド routine 実行時は必須 | YouTube Data API v3 のキー。データセンターIPは公式RSS/HTMLが 403 で弾かれるためAPI経由が必要 |
+
+`YOUTUBE_API_KEY` 未設定時はローカル開発用に従来の RSS + HTML スクレイピング経路にフォールバック（住宅IPなら問題なく動く）。
+
 ## ローカルビルド
 
 ```bash
@@ -32,19 +40,33 @@ python -m http.server -d docs 8765
 # http://localhost:8765 を開く
 ```
 
+API キー有りで動作確認:
+```bash
+YOUTUBE_API_KEY=AIza... python build.py
+```
+
 ## デプロイ（自動）
 
 `/schedule` で作成した Claude Code routine が以下を実行:
 
 ```
 cd youtube_viewer
+pip install -r requirements.txt --quiet
 python build.py
 git add docs/ data/video_meta.json
 git diff --cached --quiet || git commit -m "auto: refresh feeds"
 git push
 ```
 
-GitHub Pages の Source は `main` branch / `/docs` folder に設定。
+### routine 環境に必要な設定
+
+1. **`YOUTUBE_API_KEY` 環境変数**: Anthropic Cloud の環境設定 or routine の prompt で渡す
+   - 取得方法: https://console.cloud.google.com/ → "YouTube Data API v3" を有効化 → 認証情報 → APIキー作成
+2. **GitHub への push 権限**: 以下のいずれか
+   - Anthropic GitHub Integration に `kamonegi-sbkt/youtube-viewer` への `contents: write` 権限を付与
+   - リポへの push 権限を持つ PAT (`repo` スコープ) を git credential として routine 環境に設定
+
+GitHub Pages の Source は `main` branch / `/docs` folder に設定済み。
 
 ## 主要ファイル
 

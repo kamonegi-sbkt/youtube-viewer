@@ -1,8 +1,18 @@
 """
-YouTube公式RSSを並列取得してマージする。APIキー不要。
+YouTube動画を取得してマージする。
 
-RSS: https://www.youtube.com/feeds/videos.xml?channel_id={id}
-各チャンネル最新15件まで取得可能。
+`YOUTUBE_API_KEY` 環境変数が設定されていれば YouTube Data API v3 経由で取得（クラウド routine 用）。
+未設定なら従来の RSS + HTML スクレイピング経路（ローカル開発用、API キー不要）。
+
+API v3 経路:
+  - playlistItems.list で各チャンネルの uploads プレイリスト（UU{id_without_UC}）から最新15件
+  - videos.list で duration / live_status をまとめて取得（バッチ50件）
+  - quota: 11ch × 1 + 4 batches × 1 ≈ 15 unit/refresh、無料枠 10000/日
+
+RSS 経路:
+  - https://www.youtube.com/feeds/videos.xml?channel_id={id}
+  - HTML スクレイピング (ytInitialData) で duration を補完
+  - データセンターIPは YouTube に 403 で弾かれやすい
 """
 import datetime as dt
 import json
@@ -216,9 +226,128 @@ def _absorb_durations_into_cache(meta_map: dict[str, int]) -> None:
         _save_video_meta_cache()
 
 
+_API_BASE = "https://www.googleapis.com/youtube/v3"
+_ISO8601_DURATION_RE = re.compile(r"^PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?$")
+
+
+def _parse_iso8601_duration(s: str | None) -> int | None:
+    """`PT5M16S` `PT1H23M45S` `PT30S` を秒に変換。"""
+    if not s:
+        return None
+    m = _ISO8601_DURATION_RE.match(s)
+    if not m:
+        return None
+    h, mi, se = m.groups()
+    return int(h or 0) * 3600 + int(mi or 0) * 60 + int(se or 0)
+
+
+def _best_thumbnail(thumbs: dict, video_id: str) -> str:
+    """API レスポンスの thumbnails dict から最大解像度の URL を返す。"""
+    for k in ("maxres", "standard", "high", "medium", "default"):
+        if k in thumbs and thumbs[k].get("url"):
+            return thumbs[k]["url"]
+    return f"https://i.ytimg.com/vi/{video_id}/hqdefault.jpg"
+
+
+def _api_get(path: str, params: dict, timeout: int = 20) -> dict:
+    r = requests.get(f"{_API_BASE}/{path}", params=params, timeout=timeout)
+    if r.status_code != 200:
+        raise requests.HTTPError(f"YouTube API {path} returned {r.status_code}: {r.text[:200]}")
+    return r.json()
+
+
+def _api_playlist_items(api_key: str, playlist_id: str, max_results: int = 15) -> list[dict]:
+    return _api_get("playlistItems", {
+        "key": api_key,
+        "playlistId": playlist_id,
+        "part": "snippet",
+        "maxResults": max_results,
+    }).get("items", [])
+
+
+def _api_videos_details(api_key: str, video_ids: list[str]) -> dict[str, dict]:
+    """video_id -> {duration_seconds, live_status} のマップ。最大50件ずつバッチ取得。"""
+    out: dict[str, dict] = {}
+    for i in range(0, len(video_ids), 50):
+        batch = video_ids[i:i + 50]
+        items = _api_get("videos", {
+            "key": api_key,
+            "id": ",".join(batch),
+            "part": "contentDetails,snippet",
+        }).get("items", [])
+        for item in items:
+            vid = item.get("id")
+            if not vid:
+                continue
+            duration_sec = _parse_iso8601_duration(item.get("contentDetails", {}).get("duration"))
+            broadcast = item.get("snippet", {}).get("liveBroadcastContent")
+            live_status = broadcast if broadcast in ("live", "upcoming") else ""
+            out[vid] = {"duration_seconds": duration_sec, "live_status": live_status}
+    return out
+
+
+def _fetch_channel_via_api(api_key: str, channel: dict) -> list[dict]:
+    """YouTube Data API v3 経由でチャンネルの最新動画を取得。
+    `UC{id}` の uploads プレイリストは規則的に `UU{id}` でアクセスできる。"""
+    uploads_playlist_id = "UU" + channel["id"][2:] if channel["id"].startswith("UC") else channel["id"]
+    try:
+        items = _api_playlist_items(api_key, uploads_playlist_id, max_results=15)
+    except requests.RequestException as e:
+        log.warning("playlistItems.list failed for %s: %s", channel["title"], e)
+        return []
+
+    if not items:
+        return []
+
+    video_ids = [
+        it.get("snippet", {}).get("resourceId", {}).get("videoId")
+        for it in items
+    ]
+    video_ids = [v for v in video_ids if v]
+    try:
+        details = _api_videos_details(api_key, video_ids)
+    except requests.RequestException as e:
+        log.warning("videos.list failed for %s: %s", channel["title"], e)
+        details = {}
+
+    videos: list[dict] = []
+    for it in items:
+        snippet = it.get("snippet", {}) or {}
+        vid = snippet.get("resourceId", {}).get("videoId")
+        if not vid:
+            continue
+        published_iso = snippet.get("publishedAt", "")
+        try:
+            published_dt = dt.datetime.fromisoformat(published_iso.replace("Z", "+00:00"))
+        except ValueError:
+            continue
+        d = details.get(vid, {})
+        videos.append({
+            "video_id": vid,
+            "title": snippet.get("title", ""),
+            "channel_title": channel["title"],
+            "channel_id": channel["id"],
+            "published_iso": published_iso,
+            "published_dt": published_dt,
+            "thumbnail": _best_thumbnail(snippet.get("thumbnails", {}) or {}, vid),
+            "duration_seconds": d.get("duration_seconds"),
+            "live_status": d.get("live_status", ""),
+        })
+
+    _absorb_durations_into_cache({
+        v["video_id"]: v["duration_seconds"]
+        for v in videos
+        if v.get("duration_seconds") is not None
+    })
+    return _dedup_by_video_id(videos)
+
+
 def _fetch_channel(channel: dict) -> list[dict]:
-    """RSSを優先、失敗したらHTMLスクレイピングにフォールバック。
-    両経路ともdurationを永続キャッシュへ書き込み、live_status も付与する。"""
+    """API キーがあれば YouTube Data API v3 を使い、無ければ RSS+HTML 経路。
+    両経路とも duration を永続キャッシュへ書き込み、live_status も付与する。"""
+    api_key = os.environ.get("YOUTUBE_API_KEY")
+    if api_key:
+        return _fetch_channel_via_api(api_key, channel)
     body = _get_rss_bytes(channel)
     if body is not None:
         feed = feedparser.parse(body)
@@ -315,11 +444,14 @@ def _save_video_meta_cache() -> None:
 _load_video_meta_cache()
 
 
-def refresh_all(inter_request_delay: float = 2.0) -> int:
+def refresh_all(inter_request_delay: float | None = None) -> int:
     """全チャンネルを順次取得してキャッシュを更新。失敗したチャンネルは前回値を残す。
-    duration は _fetch_channel 内のHTMLスクレイプから永続キャッシュに書き込まれる。
+    duration は _fetch_channel 内のAPI/HTMLスクレイプから永続キャッシュに書き込まれる。
     成功した件数（動画数）を返す。
+    inter_request_delay 未指定時: API キーがあれば 0、無ければ 2.0 秒（IPブロック回避）。
     """
+    if inter_request_delay is None:
+        inter_request_delay = 0.0 if os.environ.get("YOUTUBE_API_KEY") else 2.0
     success_count = 0
     for ch in CHANNELS:
         entries = _fetch_channel(ch)
@@ -328,7 +460,8 @@ def refresh_all(inter_request_delay: float = 2.0) -> int:
             success_count += len(entries)
         else:
             log.info("Fetch failed for %s; keeping previous cache", ch["title"])
-        time.sleep(inter_request_delay)
+        if inter_request_delay > 0:
+            time.sleep(inter_request_delay)
     return success_count
 
 
