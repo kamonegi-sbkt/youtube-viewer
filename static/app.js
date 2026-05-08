@@ -158,23 +158,19 @@
   let currentVideoId = null;
   let saveIntervalId = null;
   let ytApiLoading = false;
-  let iframe = null;
 
-  function ensurePlayerIframe(src) {
-    if (!iframe || !document.getElementById('player-iframe')) {
+  function ensurePlayerHost() {
+    let host = document.getElementById('player-iframe');
+    if (!host) {
       playerHost.innerHTML = '';
-      iframe = document.createElement('iframe');
-      iframe.id = 'player-iframe';
-      iframe.title = 'YouTube';
-      iframe.setAttribute('frameborder', '0');
-      iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen');
-      playerHost.appendChild(iframe);
+      host = document.createElement('div');
+      host.id = 'player-iframe';
+      playerHost.appendChild(host);
     }
-    if (src) iframe.src = src;
-    return iframe;
+    return host;
   }
 
-  // YouTube IFrame API は初回再生時だけ読み込む。起動直後の外部iframe通信を避ける。
+  // YouTube IFrame API は起動時に準備し、クリック時の loadVideoById を user gesture 内で通す。
   function loadYTApi() {
     if (window.YT && YT.Player) {
       window.onYouTubeIframeAPIReady();
@@ -189,8 +185,15 @@
 
   window.onYouTubeIframeAPIReady = function () {
     if (ytPlayer) return;
-    ensurePlayerIframe();
+    ensurePlayerHost();
     ytPlayer = new YT.Player('player-iframe', {
+      width: '100%',
+      height: '100%',
+      playerVars: {
+        rel: 0,
+        modestbranding: 1,
+        playsinline: 1,
+      },
       events: {
         onReady: () => {
           ytReady = true;
@@ -260,11 +263,9 @@
       // user gestureコンテキスト内でロード+再生 → モバイルでもautoplay制約を超えられる
       ytPlayer.loadVideoById({ videoId, startSeconds: start });
     } else {
-      // API未ロード時はフォールバックでsrcを直接書き換え
+      // API/player 準備中だけ pending に積む。iframe src の直書き換えは二重ロードの原因になる。
       pendingVideoId = videoId;
       pendingStart = start;
-      const startParam = start > 0 ? `&start=${Math.floor(start)}` : '';
-      ensurePlayerIframe(`https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1&playsinline=1&enablejsapi=1${startParam}`);
       loadYTApi();
     }
   }
@@ -284,12 +285,7 @@
     currentVideoId = null;
     if (ytPlayer) {
       if (ytPlayer.stopVideo) ytPlayer.stopVideo();
-      if (ytPlayer.destroy) ytPlayer.destroy();
     }
-    ytPlayer = null;
-    ytReady = false;
-    iframe = null;
-    playerHost.innerHTML = '';
     overlay.hidden = true;
     overlay.classList.remove('is-pip');
     document.body.style.overflow = '';
@@ -507,6 +503,7 @@
   applyProgressToAllCards();
   updateLaterCount();
   renderLater();
+  loadYTApi();
 
   // #later でアクセスされたら最初からあとで見るタブ
   if (location.hash === '#later') {
