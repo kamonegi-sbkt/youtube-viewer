@@ -230,6 +230,11 @@ _API_BASE = "https://www.googleapis.com/youtube/v3"
 _ISO8601_DURATION_RE = re.compile(r"^PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?$")
 
 
+def _redact_api_key(text: object) -> str:
+    """ログにAPIキーを出さないため、例外文字列内の key=... を伏せる。"""
+    return re.sub(r"([?&]key=)[^&\s]+", r"\1<redacted>", str(text))
+
+
 def _parse_iso8601_duration(s: str | None) -> int | None:
     """`PT5M16S` `PT1H23M45S` `PT30S` を秒に変換。"""
     if not s:
@@ -293,7 +298,7 @@ def _fetch_channel_via_api(api_key: str, channel: dict) -> list[dict]:
     try:
         items = _api_playlist_items(api_key, uploads_playlist_id, max_results=15)
     except requests.RequestException as e:
-        log.warning("playlistItems.list failed for %s: %s", channel["title"], e)
+        log.warning("playlistItems.list failed for %s: %s", channel["title"], _redact_api_key(e))
         return []
 
     if not items:
@@ -307,7 +312,7 @@ def _fetch_channel_via_api(api_key: str, channel: dict) -> list[dict]:
     try:
         details = _api_videos_details(api_key, video_ids)
     except requests.RequestException as e:
-        log.warning("videos.list failed for %s: %s", channel["title"], e)
+        log.warning("videos.list failed for %s: %s", channel["title"], _redact_api_key(e))
         details = {}
 
     videos: list[dict] = []

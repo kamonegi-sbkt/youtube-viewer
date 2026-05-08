@@ -4,9 +4,9 @@
 
 ## 構成
 
-**Claude Code routines + GitHub Pages** の完全静的構成。
+**GitHub Actions + GitHub Pages** の完全静的構成。
 
-- **routine** が 4 時間ごとに RSS を取得 → `docs/index.html` を生成 → GitHub に push
+- **GitHub Actions** が 15 分ごとに YouTube Data API v3 で新着を取得 → `docs/index.html` を生成 → GitHub に push
 - **GitHub Pages** が `docs/` をそのまま配信
 - 24/7 稼働サーバー不要・認証なし・公開
 
@@ -22,7 +22,7 @@
 
 | 変数 | 必須 | 用途 |
 |---|---|---|
-| `YOUTUBE_API_KEY` | クラウド routine 実行時は必須 | YouTube Data API v3 のキー。データセンターIPは公式RSS/HTMLが 403 で弾かれるためAPI経由が必要 |
+| `YOUTUBE_API_KEY` | GitHub Actions 実行時は必須 | YouTube Data API v3 のキー。GitHub Actions の実行環境では公式RSS/HTMLが不安定になりやすいためAPI経由に固定 |
 
 `YOUTUBE_API_KEY` 未設定時はローカル開発用に従来の RSS + HTML スクレイピング経路にフォールバック（住宅IPなら問題なく動く）。
 
@@ -47,26 +47,30 @@ YOUTUBE_API_KEY=AIza... python build.py
 
 ## デプロイ（自動）
 
-`/schedule` で作成した Claude Code routine が以下を実行:
+`.github/workflows/refresh.yml` の GitHub Actions workflow が 15 分ごと、または手動実行で以下を実行:
 
 ```
-cd youtube_viewer
-pip install -r requirements.txt --quiet
+python -m pip install -r requirements.txt
 python build.py
+# workflow内では docs/data.json に動画が1件以上あることも検証
 git add docs/ data/video_meta.json
 git diff --cached --quiet || git commit -m "auto: refresh feeds"
 git push
 ```
 
-### routine 環境に必要な設定
+### GitHub Actions に必要な設定
 
-1. **`YOUTUBE_API_KEY` 環境変数**: Anthropic Cloud の環境設定 or routine の prompt で渡す
+1. **`YOUTUBE_API_KEY` repository secret**: GitHub の `Settings > Secrets and variables > Actions > Repository secrets` に追加
    - 取得方法: https://console.cloud.google.com/ → "YouTube Data API v3" を有効化 → 認証情報 → APIキー作成
-2. **GitHub への push 権限**: 以下のいずれか
-   - Anthropic GitHub Integration に `kamonegi-sbkt/youtube-viewer` への `contents: write` 権限を付与
-   - リポへの push 権限を持つ PAT (`repo` スコープ) を git credential として routine 環境に設定
+2. **Workflow permissions**: GitHub の `Settings > Actions > General > Workflow permissions` で `Read and write permissions` を許可
+
+`YOUTUBE_API_KEY` が未設定の場合、workflow は RSS/HTML 経路へフォールバックせず明示的に失敗する。これにより、GitHub Actions 上で「成功に見えるが動画が更新されない」状態を避ける。
 
 GitHub Pages の Source は `main` branch / `/docs` folder に設定済み。
+
+公開URL: https://kamonegi-sbkt.github.io/youtube-viewer/
+
+手動更新したい場合は GitHub の `Actions > Refresh YouTube Viewer > Run workflow` から実行する。
 
 ## 主要ファイル
 
@@ -79,7 +83,7 @@ GitHub Pages の Source は `main` branch / `/docs` folder に設定済み。
 | `static/app.js` | iframe再生・あとで見る・再生位置保存 |
 | `static/style.css` | ダークテーマUI |
 | `static/manifest.json` | PWAマニフェスト |
-| `data/video_meta.json` | 動画 duration の永続キャッシュ（routine が更新） |
+| `data/video_meta.json` | 動画 duration の永続キャッシュ（GitHub Actions が更新） |
 
 ## 詳細
 

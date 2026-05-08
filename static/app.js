@@ -146,7 +146,7 @@
   // user gesture (clickハンドラ) の中で player.playVideo() を呼ぶことで
   // 確実にワンタップ再生を実現する。
   const overlay = document.getElementById('player-overlay');
-  const iframe = document.getElementById('player-iframe');
+  const playerHost = document.getElementById('player-host');
   const closeBtn = overlay.querySelector('.player-close');
   const minimizeBtn = overlay.querySelector('.player-minimize');
   const expandBtn = overlay.querySelector('.player-expand');
@@ -157,15 +157,39 @@
   let pendingStart = 0;
   let currentVideoId = null;
   let saveIntervalId = null;
+  let ytApiLoading = false;
+  let iframe = null;
 
-  // YouTube IFrame APIスクリプトを読み込み（グローバルコールバック onYouTubeIframeAPIReady）
-  (function loadYTApi() {
+  function ensurePlayerIframe(src) {
+    if (!iframe || !document.getElementById('player-iframe')) {
+      playerHost.innerHTML = '';
+      iframe = document.createElement('iframe');
+      iframe.id = 'player-iframe';
+      iframe.title = 'YouTube';
+      iframe.setAttribute('frameborder', '0');
+      iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen');
+      playerHost.appendChild(iframe);
+    }
+    if (src) iframe.src = src;
+    return iframe;
+  }
+
+  // YouTube IFrame API は初回再生時だけ読み込む。起動直後の外部iframe通信を避ける。
+  function loadYTApi() {
+    if (window.YT && YT.Player) {
+      window.onYouTubeIframeAPIReady();
+      return;
+    }
+    if (ytApiLoading) return;
+    ytApiLoading = true;
     const tag = document.createElement('script');
     tag.src = 'https://www.youtube.com/iframe_api';
     document.head.appendChild(tag);
-  })();
+  }
 
   window.onYouTubeIframeAPIReady = function () {
+    if (ytPlayer) return;
+    ensurePlayerIframe();
     ytPlayer = new YT.Player('player-iframe', {
       events: {
         onReady: () => {
@@ -240,7 +264,8 @@
       pendingVideoId = videoId;
       pendingStart = start;
       const startParam = start > 0 ? `&start=${Math.floor(start)}` : '';
-      iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1&playsinline=1&enablejsapi=1${startParam}`;
+      ensurePlayerIframe(`https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1&playsinline=1&enablejsapi=1${startParam}`);
+      loadYTApi();
     }
   }
   function minimizePlayer() {
@@ -257,11 +282,14 @@
     savePositionNow();
     stopSaveInterval();
     currentVideoId = null;
-    if (ytReady && ytPlayer && ytPlayer.stopVideo) {
-      ytPlayer.stopVideo();
-    } else {
-      iframe.src = '';
+    if (ytPlayer) {
+      if (ytPlayer.stopVideo) ytPlayer.stopVideo();
+      if (ytPlayer.destroy) ytPlayer.destroy();
     }
+    ytPlayer = null;
+    ytReady = false;
+    iframe = null;
+    playerHost.innerHTML = '';
     overlay.hidden = true;
     overlay.classList.remove('is-pip');
     document.body.style.overflow = '';
