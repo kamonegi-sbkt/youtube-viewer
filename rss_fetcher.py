@@ -22,7 +22,10 @@ import re
 import time
 from typing import Iterable
 
-import feedparser
+try:
+    import feedparser
+except Exception:
+    feedparser = None  # type: ignore[assignment]
 import requests
 
 from channels import CHANNELS
