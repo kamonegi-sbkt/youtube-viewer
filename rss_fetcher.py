@@ -7,7 +7,7 @@ YouTube動画を取得してマージする。
 API v3 経路:
   - playlistItems.list で各チャンネルの uploads プレイリスト（UU{id_without_UC}）から最新15件
   - videos.list で duration / live_status をまとめて取得（バッチ50件）
-  - quota: 11ch × 1 + 4 batches × 1 ≈ 15 unit/refresh、無料枠 10000/日
+  - quota: 12ch × 1 + 4 batches × 1 ≈ 16 unit/refresh、無料枠 10000/日
 
 RSS 経路:
   - https://www.youtube.com/feeds/videos.xml?channel_id={id}
@@ -257,6 +257,21 @@ def _best_thumbnail(thumbs: dict, video_id: str) -> str:
     return f"https://i.ytimg.com/vi/{video_id}/hqdefault.jpg"
 
 
+def _best_thumbnail_from_list(thumbs: list[dict], video_id: str) -> str:
+    """RSS/HTML の thumbnail list から、面積が最大の URL を返す。"""
+    best = None
+    best_area = -1
+    for thumb in thumbs:
+        url = thumb.get("url")
+        if not url:
+            continue
+        area = int(thumb.get("width") or 0) * int(thumb.get("height") or 0)
+        if best is None or area > best_area:
+            best = url
+            best_area = area
+    return best or f"https://i.ytimg.com/vi/{video_id}/hqdefault.jpg"
+
+
 def _api_get(path: str, params: dict, timeout: int = 20) -> dict:
     r = requests.get(f"{_API_BASE}/{path}", params=params, timeout=timeout)
     if r.status_code != 200:
@@ -288,9 +303,14 @@ def _api_videos_details(api_key: str, video_ids: list[str]) -> dict[str, dict]:
             if not vid:
                 continue
             duration_sec = _parse_iso8601_duration(item.get("contentDetails", {}).get("duration"))
-            broadcast = item.get("snippet", {}).get("liveBroadcastContent")
+            snippet = item.get("snippet", {}) or {}
+            broadcast = snippet.get("liveBroadcastContent")
             live_status = broadcast if broadcast in ("live", "upcoming") else ""
-            out[vid] = {"duration_seconds": duration_sec, "live_status": live_status}
+            out[vid] = {
+                "duration_seconds": duration_sec,
+                "live_status": live_status,
+                "thumbnail": _best_thumbnail(snippet.get("thumbnails", {}) or {}, vid),
+            }
     return out
 
 
@@ -337,7 +357,7 @@ def _fetch_channel_via_api(api_key: str, channel: dict) -> list[dict]:
             "channel_id": channel["id"],
             "published_iso": published_iso,
             "published_dt": published_dt,
-            "thumbnail": _best_thumbnail(snippet.get("thumbnails", {}) or {}, vid),
+            "thumbnail": d.get("thumbnail") or _best_thumbnail(snippet.get("thumbnails", {}) or {}, vid),
             "duration_seconds": d.get("duration_seconds"),
             "live_status": d.get("live_status", ""),
         })
@@ -408,7 +428,7 @@ def _parse_feed_entries(channel: dict, feed) -> list[dict]:
             continue
 
         thumbnails = entry.get("media_thumbnail") or []
-        thumb_url = thumbnails[0].get("url") if thumbnails else f"https://i.ytimg.com/vi/{video_id}/hqdefault.jpg"
+        thumb_url = _best_thumbnail_from_list(thumbnails, video_id)
 
         videos.append({
             "video_id": video_id,

@@ -17,4 +17,5 @@ CHANNELS = [
     {"id": "UCqmWJJolqAgjIdLqK3zD1QQ", "title": "予備校のノリで学ぶ「大学の数学・物理」"},
     {"id": "UCtjRA-7EuBmyWMyty1HZAPQ", "title": "中島聡のLife is Beautiful"},
     {"id": "UCGhudK3AIG152KrfURCSb2Q", "title": "イチケン / ICHIKEN"},
+    {"id": "UCfTnJmRQP79C4y_BMF_XrlA", "title": "NewsPicks /ニューズピックス"},
 ]

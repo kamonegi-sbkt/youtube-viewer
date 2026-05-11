@@ -82,7 +82,7 @@ YouTube Data API v3 を使用。データセンターIPは公式RSS/HTMLが 403 
 
 - **`playlistItems.list`**: 各チャンネルの uploads プレイリスト（`UU{id_without_UC}`）から最新15件
 - **`videos.list`**: `contentDetails`（duration ISO8601）と `snippet`（liveBroadcastContent）をバッチ50件で取得
-- **quota**: 11ch × 1 + 4 batches × 1 ≈ 15 unit/refresh、15分ごと運用なら約1440 unit/日。無料枠 10000/日内に収まる想定。
+- **quota**: 12ch × 1 + 4 batches × 1 ≈ 16 unit/refresh、15分ごと運用なら約1536 unit/日。無料枠 10000/日内に収まる想定。
 - **リクエスト間隔**: 0 秒（API は IP ブロックされない）
 
 ### RSS + HTML 経路（`YOUTUBE_API_KEY` 未設定時、ローカル開発用）

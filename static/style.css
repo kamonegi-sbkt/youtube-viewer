@@ -298,6 +298,10 @@ svg { display: block; }
 /* ── プレーヤーオーバーレイ ── */
 .player-overlay {
   position: fixed; inset: 0; z-index: 50;
+  width: 100vw;
+  height: 100vh;
+  height: 100dvh;
+  max-height: 100dvh;
   background: rgba(0, 0, 0, 0.92);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
@@ -309,7 +313,10 @@ svg { display: block; }
 @keyframes overlay-fade { from { opacity: 0; } to { opacity: 1; } }
 .player-overlay[hidden] { display: none !important; }
 .player-frame {
-  position: relative; width: 100%; max-width: 960px;
+  position: relative;
+  width: min(100%, calc((100dvh - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px) - 96px) * 16 / 9));
+  max-width: 960px;
+  max-height: calc(100dvh - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px) - 96px);
   animation: player-zoom 0.28s cubic-bezier(0.2, 0.8, 0.2, 1);
   transition: width 0.25s ease, max-width 0.25s ease, margin 0.25s ease;
 }
@@ -320,6 +327,7 @@ svg { display: block; }
 .player-iframe-wrap {
   position: relative;
   aspect-ratio: 16 / 9;
+  max-height: inherit;
   background: #000;
   border-radius: 14px;
   overflow: hidden;
@@ -397,6 +405,70 @@ svg { display: block; }
 /* PiP モードではミニマイズボタンを隠し、展開ボタンを表示 */
 .is-pip .player-minimize { display: none !important; }
 .is-pip .player-expand { display: inline-flex !important; }
+
+/* Document Picture-in-Picture に移動したプレイヤーの基準スタイル */
+.player-frame.is-document-pip {
+  width: 100vw !important;
+  max-width: none !important;
+  max-height: none !important;
+  margin: 0 !important;
+  animation: none !important;
+}
+.player-frame.is-document-pip .player-iframe-wrap {
+  width: 100vw;
+  height: 100vh;
+  aspect-ratio: auto;
+  border-radius: 0;
+  box-shadow: none;
+}
+.player-frame.is-document-pip .player-controls {
+  top: 6px;
+  right: 6px;
+  gap: 4px;
+}
+.player-frame.is-document-pip .player-controls button {
+  width: 30px;
+  height: 30px;
+  background: rgba(0, 0, 0, 0.62);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-color: rgba(255,255,255,0.15);
+  border-radius: 50%;
+}
+.player-frame.is-document-pip .player-controls button svg {
+  width: 13px;
+  height: 13px;
+}
+.player-frame.is-document-pip .player-minimize { display: none !important; }
+.player-frame.is-document-pip .player-expand { display: inline-flex !important; }
+
+/* スマホ横向きなど高さが低い画面では、操作ボタンを動画内に逃がして見切れを防ぐ */
+@media (orientation: landscape) and (max-height: 520px) {
+  .player-overlay {
+    padding: calc(8px + env(safe-area-inset-top, 0px)) 8px calc(8px + env(safe-area-inset-bottom, 0px));
+  }
+  .player-frame {
+    width: min(100%, calc((100dvh - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px) - 16px) * 16 / 9));
+    max-height: calc(100dvh - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px) - 16px);
+  }
+  .player-controls {
+    top: 8px;
+    right: 8px;
+    gap: 6px;
+  }
+  .player-controls button {
+    width: 34px;
+    height: 34px;
+    background: rgba(0, 0, 0, 0.62);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border-color: rgba(255,255,255,0.15);
+    border-radius: 50%;
+  }
+  .player-iframe-wrap {
+    border-radius: 10px;
+  }
+}
 
 /* モバイル: PiP をさらに小さく */
 @media (max-width: 480px) {

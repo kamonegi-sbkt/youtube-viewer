@@ -147,6 +147,9 @@
   // 確実にワンタップ再生を実現する。
   const overlay = document.getElementById('player-overlay');
   const playerHost = document.getElementById('player-host');
+  const playerFrame = overlay.querySelector('.player-frame');
+  const playerFrameParent = playerFrame.parentNode;
+  const playerFrameNextSibling = playerFrame.nextSibling;
   const closeBtn = overlay.querySelector('.player-close');
   const minimizeBtn = overlay.querySelector('.player-minimize');
   const expandBtn = overlay.querySelector('.player-expand');
@@ -158,6 +161,135 @@
   let currentVideoId = null;
   let saveIntervalId = null;
   let ytApiLoading = false;
+  let documentPipWindow = null;
+
+  function isDocumentPipActive() {
+    return documentPipWindow && !documentPipWindow.closed;
+  }
+
+  function injectDocumentPipStyles(pipWindow) {
+    pipWindow.document.title = 'My YouTube PiP';
+    const style = pipWindow.document.createElement('style');
+    style.textContent = `
+      html, body {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: #000;
+        color: #fff;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+      body {
+        display: flex;
+        align-items: stretch;
+        justify-content: stretch;
+      }
+      .player-frame {
+        width: 100vw !important;
+        max-width: none !important;
+        max-height: none !important;
+        margin: 0 !important;
+        animation: none !important;
+      }
+      .player-iframe-wrap {
+        width: 100vw;
+        height: 100vh;
+        aspect-ratio: auto;
+        border-radius: 0;
+        box-shadow: none;
+      }
+      .player-iframe-wrap #player-host,
+      .player-iframe-wrap iframe {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+      .player-controls {
+        position: absolute;
+        top: 6px;
+        right: 6px;
+        z-index: 2;
+        display: flex;
+        gap: 4px;
+      }
+      .player-controls button {
+        width: 30px;
+        height: 30px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        border: 1px solid rgba(255,255,255,0.16);
+        border-radius: 50%;
+        background: rgba(0,0,0,0.62);
+        color: #fff;
+        cursor: pointer;
+      }
+      .player-controls svg {
+        width: 13px;
+        height: 13px;
+      }
+      .player-minimize {
+        display: none !important;
+      }
+      .player-expand {
+        display: inline-flex !important;
+      }
+    `;
+    pipWindow.document.head.appendChild(style);
+  }
+
+  function restoreFromDocumentPip({ showOverlay = true, closeWindow = true } = {}) {
+    const pipWindow = documentPipWindow;
+    documentPipWindow = null;
+
+    if (playerFrame.ownerDocument !== document) {
+      playerFrame.classList.remove('is-document-pip');
+      playerFrameParent.insertBefore(playerFrame, playerFrameNextSibling);
+    }
+
+    if (closeWindow && pipWindow && !pipWindow.closed) {
+      pipWindow.close();
+    }
+
+    if (showOverlay && currentVideoId) {
+      overlay.hidden = false;
+      overlay.classList.remove('is-pip');
+      document.body.style.overflow = 'hidden';
+    }
+  }
+
+  async function enterDocumentPip() {
+    if (!('documentPictureInPicture' in window)) return false;
+    if (isDocumentPipActive()) return true;
+
+    try {
+      const pipWindow = await window.documentPictureInPicture.requestWindow({
+        width: 360,
+        height: 220,
+        preferInitialWindowPlacement: true,
+      });
+      documentPipWindow = pipWindow;
+      injectDocumentPipStyles(pipWindow);
+      playerFrame.classList.add('is-document-pip');
+      pipWindow.document.body.append(playerFrame);
+      overlay.hidden = true;
+      overlay.classList.remove('is-pip');
+      document.body.style.overflow = '';
+      pipWindow.addEventListener('pagehide', () => {
+        if (documentPipWindow === pipWindow) {
+          restoreFromDocumentPip({ showOverlay: true, closeWindow: false });
+        }
+      }, { once: true });
+      return true;
+    } catch (e) {
+      console.warn('Document PiP failed; falling back to in-app mini player:', e);
+      return false;
+    }
+  }
 
   function ensurePlayerHost() {
     let host = document.getElementById('player-iframe');
@@ -254,7 +386,10 @@
     currentVideoId = videoId;
     const start = getResumePosition(videoId);
 
-    if (overlay.hidden) {
+    if (isDocumentPipActive()) {
+      overlay.hidden = true;
+      document.body.style.overflow = '';
+    } else if (overlay.hidden) {
       overlay.hidden = false;
       overlay.classList.remove('is-pip');
       document.body.style.overflow = 'hidden';
@@ -269,11 +404,16 @@
       loadYTApi();
     }
   }
-  function minimizePlayer() {
+  async function minimizePlayer() {
+    if (await enterDocumentPip()) return;
     overlay.classList.add('is-pip');
     document.body.style.overflow = '';
   }
   function expandPlayer() {
+    if (isDocumentPipActive()) {
+      restoreFromDocumentPip({ showOverlay: true, closeWindow: true });
+      return;
+    }
     overlay.classList.remove('is-pip');
     document.body.style.overflow = 'hidden';
   }
@@ -286,6 +426,7 @@
     if (ytPlayer) {
       if (ytPlayer.stopVideo) ytPlayer.stopVideo();
     }
+    restoreFromDocumentPip({ showOverlay: false, closeWindow: true });
     overlay.hidden = true;
     overlay.classList.remove('is-pip');
     document.body.style.overflow = '';
