@@ -568,7 +568,7 @@
 
       const timeLabel = relTime(v.publishedIso);
       const durationBadge = v.duration
-        ? `<span class="duration-badge">${escapeHtml(v.duration)}</span>`
+        ? `<span class="video-length-badge">${escapeHtml(v.duration)}</span>`
         : '';
 
       card.innerHTML = `

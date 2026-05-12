@@ -7,12 +7,15 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<link rel="icon" href="static/icon-192.png?v=20260512103146">
-<link rel="manifest" href="static/manifest.json?v=20260512103146">
-<link rel="stylesheet" href="static/style.css?v=20260512103146">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<link rel="icon" href="static/icon-192.png?v=20260512104135">
+<link rel="manifest" href="static/manifest.json?v=20260512104135">
+<link rel="stylesheet" href="static/style.css?v=20260512104135">
 <style>
-/* Keep duration badges visible even if a mobile browser reuses an older stylesheet. */
-.thumb .duration-badge {
+/* Keep video length visible even if a mobile browser reuses an older stylesheet. */
+.thumb .video-length-badge {
   position: absolute;
   right: 6px;
   bottom: 6px;
@@ -44,7 +47,7 @@
     </button>
   </nav>
   <div class="topbar-actions">
-    <a class="topbar-btn" href="#" onclick="event.preventDefault(); location.reload();" aria-label="再読み込み" title="再読み込み">
+    <a class="topbar-btn" href="#" onclick="event.preventDefault(); location.replace(location.pathname + '?reload=' + Date.now() + location.hash);" aria-label="再読み込み" title="再読み込み">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 15.5-6.2L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-15.5 6.2L3 16"/><path d="M3 21v-5h5"/></svg>
     </a>
   </div>
@@ -70,7 +73,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">1:56:17</span>
+      <span class="video-length-badge">1:56:17</span>
 
     </div>
     <div class="meta">
@@ -101,7 +104,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">26:26</span>
+      <span class="video-length-badge">26:26</span>
 
     </div>
     <div class="meta">
@@ -132,7 +135,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">55:41</span>
+      <span class="video-length-badge">55:41</span>
 
     </div>
     <div class="meta">
@@ -163,7 +166,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">49:36</span>
+      <span class="video-length-badge">49:36</span>
 
     </div>
     <div class="meta">
@@ -194,7 +197,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">1:52:01</span>
+      <span class="video-length-badge">1:52:01</span>
 
     </div>
     <div class="meta">
@@ -202,7 +205,7 @@
       <div class="sub">
         <span class="channel">ウェブ職TV / Nesheep</span>
         <span class="dot">•</span>
-        <span class="time">10時間前</span>
+        <span class="time">11時間前</span>
       </div>
     </div>
   </article>
@@ -225,7 +228,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">1:08:56</span>
+      <span class="video-length-badge">1:08:56</span>
 
     </div>
     <div class="meta">
@@ -256,7 +259,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">31:21</span>
+      <span class="video-length-badge">31:21</span>
 
     </div>
     <div class="meta">
@@ -287,7 +290,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">1:08</span>
+      <span class="video-length-badge">1:08</span>
 
     </div>
     <div class="meta">
@@ -318,7 +321,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">16:43</span>
+      <span class="video-length-badge">16:43</span>
 
     </div>
     <div class="meta">
@@ -349,7 +352,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">14:34</span>
+      <span class="video-length-badge">14:34</span>
 
     </div>
     <div class="meta">
@@ -380,7 +383,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">0:56</span>
+      <span class="video-length-badge">0:56</span>
 
     </div>
     <div class="meta">
@@ -411,7 +414,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">2:03:27</span>
+      <span class="video-length-badge">2:03:27</span>
 
     </div>
     <div class="meta">
@@ -442,7 +445,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">8:57</span>
+      <span class="video-length-badge">8:57</span>
 
     </div>
     <div class="meta">
@@ -473,7 +476,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">22:20</span>
+      <span class="video-length-badge">22:20</span>
 
     </div>
     <div class="meta">
@@ -504,7 +507,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">45:54</span>
+      <span class="video-length-badge">45:54</span>
 
     </div>
     <div class="meta">
@@ -535,7 +538,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">1:09</span>
+      <span class="video-length-badge">1:09</span>
 
     </div>
     <div class="meta">
@@ -566,7 +569,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">13:43</span>
+      <span class="video-length-badge">13:43</span>
 
     </div>
     <div class="meta">
@@ -597,7 +600,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">41:17</span>
+      <span class="video-length-badge">41:17</span>
 
     </div>
     <div class="meta">
@@ -628,7 +631,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">32:32</span>
+      <span class="video-length-badge">32:32</span>
 
     </div>
     <div class="meta">
@@ -659,7 +662,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">1:12</span>
+      <span class="video-length-badge">1:12</span>
 
     </div>
     <div class="meta">
@@ -690,7 +693,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">1:36</span>
+      <span class="video-length-badge">1:36</span>
 
     </div>
     <div class="meta">
@@ -721,7 +724,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">2:26:09</span>
+      <span class="video-length-badge">2:26:09</span>
 
     </div>
     <div class="meta">
@@ -752,7 +755,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">0:56</span>
+      <span class="video-length-badge">0:56</span>
 
     </div>
     <div class="meta">
@@ -783,7 +786,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">7:48</span>
+      <span class="video-length-badge">7:48</span>
 
     </div>
     <div class="meta">
@@ -814,7 +817,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">44:59</span>
+      <span class="video-length-badge">44:59</span>
 
     </div>
     <div class="meta">
@@ -845,7 +848,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">0:53</span>
+      <span class="video-length-badge">0:53</span>
 
     </div>
     <div class="meta">
@@ -876,7 +879,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">19:12</span>
+      <span class="video-length-badge">19:12</span>
 
     </div>
     <div class="meta">
@@ -907,7 +910,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">46:44</span>
+      <span class="video-length-badge">46:44</span>
 
     </div>
     <div class="meta">
@@ -938,7 +941,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">26:30</span>
+      <span class="video-length-badge">26:30</span>
 
     </div>
     <div class="meta">
@@ -969,7 +972,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">39:41</span>
+      <span class="video-length-badge">39:41</span>
 
     </div>
     <div class="meta">
@@ -1000,7 +1003,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">1:03</span>
+      <span class="video-length-badge">1:03</span>
 
     </div>
     <div class="meta">
@@ -1031,7 +1034,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">1:21</span>
+      <span class="video-length-badge">1:21</span>
 
     </div>
     <div class="meta">
@@ -1062,7 +1065,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">2:12:39</span>
+      <span class="video-length-badge">2:12:39</span>
 
     </div>
     <div class="meta">
@@ -1093,7 +1096,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">8:20</span>
+      <span class="video-length-badge">8:20</span>
 
     </div>
     <div class="meta">
@@ -1124,7 +1127,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">32:02</span>
+      <span class="video-length-badge">32:02</span>
 
     </div>
     <div class="meta">
@@ -1155,7 +1158,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">32:04</span>
+      <span class="video-length-badge">32:04</span>
 
     </div>
     <div class="meta">
@@ -1186,7 +1189,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">32:05</span>
+      <span class="video-length-badge">32:05</span>
 
     </div>
     <div class="meta">
@@ -1217,7 +1220,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">37:16</span>
+      <span class="video-length-badge">37:16</span>
 
     </div>
     <div class="meta">
@@ -1248,7 +1251,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">15:43</span>
+      <span class="video-length-badge">15:43</span>
 
     </div>
     <div class="meta">
@@ -1279,7 +1282,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">1:54:53</span>
+      <span class="video-length-badge">1:54:53</span>
 
     </div>
     <div class="meta">
@@ -1310,7 +1313,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">2:16:34</span>
+      <span class="video-length-badge">2:16:34</span>
 
     </div>
     <div class="meta">
@@ -1341,7 +1344,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">24:13</span>
+      <span class="video-length-badge">24:13</span>
 
     </div>
     <div class="meta">
@@ -1372,7 +1375,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">22:52</span>
+      <span class="video-length-badge">22:52</span>
 
     </div>
     <div class="meta">
@@ -1403,7 +1406,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">1:58:30</span>
+      <span class="video-length-badge">1:58:30</span>
 
     </div>
     <div class="meta">
@@ -1434,7 +1437,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">20:12</span>
+      <span class="video-length-badge">20:12</span>
 
     </div>
     <div class="meta">
@@ -1465,7 +1468,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">1:54:34</span>
+      <span class="video-length-badge">1:54:34</span>
 
     </div>
     <div class="meta">
@@ -1496,7 +1499,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">6:22</span>
+      <span class="video-length-badge">6:22</span>
 
     </div>
     <div class="meta">
@@ -1527,7 +1530,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">1:45:25</span>
+      <span class="video-length-badge">1:45:25</span>
 
     </div>
     <div class="meta">
@@ -1558,7 +1561,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">1:08:06</span>
+      <span class="video-length-badge">1:08:06</span>
 
     </div>
     <div class="meta">
@@ -1589,7 +1592,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">25:57</span>
+      <span class="video-length-badge">25:57</span>
 
     </div>
     <div class="meta">
@@ -1620,7 +1623,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">25:35</span>
+      <span class="video-length-badge">25:35</span>
 
     </div>
     <div class="meta">
@@ -1651,7 +1654,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">15:23</span>
+      <span class="video-length-badge">15:23</span>
 
     </div>
     <div class="meta">
@@ -1682,7 +1685,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">29:17</span>
+      <span class="video-length-badge">29:17</span>
 
     </div>
     <div class="meta">
@@ -1713,7 +1716,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">2:36:20</span>
+      <span class="video-length-badge">2:36:20</span>
 
     </div>
     <div class="meta">
@@ -1744,7 +1747,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">33:42</span>
+      <span class="video-length-badge">33:42</span>
 
     </div>
     <div class="meta">
@@ -1775,7 +1778,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">27:39</span>
+      <span class="video-length-badge">27:39</span>
 
     </div>
     <div class="meta">
@@ -1806,7 +1809,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">1:02:19</span>
+      <span class="video-length-badge">1:02:19</span>
 
     </div>
     <div class="meta">
@@ -1837,7 +1840,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">26:02</span>
+      <span class="video-length-badge">26:02</span>
 
     </div>
     <div class="meta">
@@ -1868,7 +1871,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">2:25</span>
+      <span class="video-length-badge">2:25</span>
 
     </div>
     <div class="meta">
@@ -1899,7 +1902,7 @@
         </svg>
       </button>
 
-      <span class="duration-badge">0:49</span>
+      <span class="video-length-badge">0:49</span>
 
     </div>
     <div class="meta">
@@ -1940,7 +1943,7 @@
   </div>
 </div>
 
-<script src="static/app.js?v=20260512103146"></script>
+<script src="static/app.js?v=20260512104135"></script>
 
 </body>
 </html>

@@ -189,11 +189,11 @@ svg { display: block; }
   .card:hover .play-overlay { opacity: 1; }
 }
 
-/* duration-badgeで動画である事は伝わるので、ミニ再生インジケータは常時非表示 */
+/* video-length-badgeで動画である事は伝わるので、ミニ再生インジケータは常時非表示 */
 .play-overlay-mini { display: none; }
 
 /* 動画長さバッジ（YouTube公式風、サムネ右下） */
-.duration-badge {
+.video-length-badge {
   position: absolute;
   right: 6px; bottom: 6px;
   z-index: 2;
@@ -206,12 +206,12 @@ svg { display: block; }
   pointer-events: none;
   line-height: 1.2;
 }
-.duration-badge.is-live {
+.video-length-badge.is-live {
   background: #cc0000;
   font-weight: 600;
   letter-spacing: 0.04em;
 }
-.duration-badge.is-upcoming {
+.video-length-badge.is-upcoming {
   background: rgba(0, 0, 0, 0.8);
   color: #fff;
 }
