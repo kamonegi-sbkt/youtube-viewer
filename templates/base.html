@@ -10,6 +10,24 @@
 <link rel="icon" href="{{ url_for('static', filename='icon-192.png') }}">
 <link rel="manifest" href="{{ url_for('static', filename='manifest.json') }}">
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<style>
+/* Keep duration badges visible even if a mobile browser reuses an older stylesheet. */
+.thumb .duration-badge {
+  position: absolute;
+  right: 6px;
+  bottom: 6px;
+  z-index: 4;
+  padding: 3px 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.2;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.86);
+  border-radius: 4px;
+  pointer-events: none;
+}
+</style>
 <title>{% block title %}My YouTube Viewer{% endblock %}</title>
 </head>
 <body>
