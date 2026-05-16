@@ -79,8 +79,8 @@ jobs:
           import os
           from huggingface_hub import HfApi
 
-          repo_id = os.environ["HF_SPACE_REPO_ID"]
-          token = os.environ["HF_TOKEN"]
+          repo_id = os.environ["HF_SPACE_REPO_ID"].strip()
+          token = os.environ["HF_TOKEN"].strip()
           api = HfApi(token=token)
           api.upload_folder(
               folder_path=".",
