@@ -66,10 +66,14 @@ svg { display: block; }
   display: flex; gap: 0;
   align-self: stretch;
   margin: 0 4px;
+  min-width: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
 }
+.tabs::-webkit-scrollbar { display: none; }
 .tab {
   position: relative;
-  padding: 12px 16px;
+  padding: 12px 14px;
   font-size: 0.9rem; font-weight: 500;
   color: var(--muted);
   border-radius: 0;
@@ -97,7 +101,7 @@ svg { display: block; }
   border-radius: 9px;
 }
 @media (max-width: 420px) {
-  .tab { padding: 10px 10px; font-size: 0.85rem; }
+  .tab { padding: 10px 9px; font-size: 0.84rem; }
   .tab.is-active::after { left: 8px; right: 8px; }
   .topbar { padding: 8px 12px; gap: 6px; }
   .topbar-title span:not(.logo-dot) { display: none; }
@@ -114,6 +118,63 @@ svg { display: block; }
 .topbar-btn:hover { background: rgba(255, 255, 255, 0.1); }
 .topbar-btn:active { transform: scale(0.94); }
 .topbar-btn svg { width: 20px; height: 20px; }
+
+/* ── チャンネルフィルタ ── */
+.channel-filter {
+  position: sticky;
+  top: calc(61px + env(safe-area-inset-top, 0px));
+  z-index: 9;
+  background: rgba(15, 15, 15, 0.97);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+.channel-filter-scroll {
+  display: flex;
+  gap: 8px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 16px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.channel-filter-scroll::-webkit-scrollbar { display: none; }
+.channel-chip {
+  flex: 0 0 auto;
+  max-width: min(260px, 72vw);
+  min-height: 32px;
+  padding: 0 12px;
+  overflow: hidden;
+  color: var(--text);
+  font-size: 0.85rem;
+  font-weight: 500;
+  line-height: 32px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  background: #272727;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.channel-chip:hover {
+  background: #3a3a3a;
+}
+.channel-chip.is-active {
+  color: #0f0f0f;
+  background: #f1f1f1;
+  border-color: #f1f1f1;
+}
+@media (max-width: 420px) {
+  .channel-filter {
+    top: calc(53px + env(safe-area-inset-top, 0px));
+  }
+  .channel-filter-scroll {
+    padding: 8px 12px;
+  }
+  .channel-chip {
+    min-height: 30px;
+    line-height: 30px;
+    font-size: 0.82rem;
+  }
+}
 
 /* ── グリッド ── */
 .grid {

@@ -10,6 +10,9 @@
     <button class="tab" data-tab="later" role="tab" aria-selected="false">
       あとで<span class="tab-count" id="later-count" hidden>0</span>
     </button>
+    <button class="tab" data-tab="history" role="tab" aria-selected="false">
+      履歴<span class="tab-count" id="history-count" hidden>0</span>
+    </button>
   </nav>
   <div class="topbar-actions">
     <a class="topbar-btn" href="#" onclick="event.preventDefault(); location.replace(location.pathname + '?reload=' + Date.now() + location.hash);" aria-label="再読み込み" title="再読み込み">
@@ -18,12 +21,19 @@
   </div>
 </header>
 
+<section class="channel-filter" aria-label="チャンネル絞り込み">
+  <div class="channel-filter-scroll" id="channel-filter" role="listbox" aria-label="チャンネル">
+    <button class="channel-chip is-active" type="button" data-channel-filter="" aria-selected="true">すべて</button>
+  </div>
+</section>
+
 <main class="grid" id="grid-feed" data-tab-panel="feed" data-initial-ready="{{ 'true' if initial_ready else 'false' }}">
   {% for v in videos %}
   <article class="card"
            data-video-id="{{ v.video_id }}"
            data-title="{{ v.title }}"
            data-channel="{{ v.channel_title }}"
+           data-channel-id="{{ v.channel_id }}"
            data-thumbnail="{{ v.thumbnail }}"
            data-published="{{ v.published_iso }}"
            data-duration="{{ v.duration_text }}">
@@ -61,11 +71,33 @@
   {% endfor %}
 </main>
 
+<div class="empty" id="feed-empty" data-tab-panel="feed" hidden>
+  <p>このチャンネルの新着動画はありません</p>
+  <p class="empty-hint">別のチャンネルを選ぶと表示されます</p>
+</div>
+
 <main class="grid" id="grid-later" data-tab-panel="later" hidden></main>
 
 <div class="empty" id="later-empty" data-tab-panel="later" hidden>
-  <p>🔖 あとで見る動画はまだありません</p>
+  <p>あとで見る動画はまだありません</p>
   <p class="empty-hint">カードの右上のブックマークをタップして追加</p>
+</div>
+
+<div class="empty" id="later-filter-empty" data-tab-panel="later" hidden>
+  <p>このチャンネルのあとで見る動画はありません</p>
+  <p class="empty-hint">別のチャンネルを選ぶと表示されます</p>
+</div>
+
+<main class="grid" id="grid-history" data-tab-panel="history" hidden></main>
+
+<div class="empty" id="history-empty" data-tab-panel="history" hidden>
+  <p>再生履歴はまだありません</p>
+  <p class="empty-hint">動画を開くとここに追加されます</p>
+</div>
+
+<div class="empty" id="history-filter-empty" data-tab-panel="history" hidden>
+  <p>このチャンネルの再生履歴はありません</p>
+  <p class="empty-hint">別のチャンネルを選ぶと表示されます</p>
 </div>
 
 <div id="player-overlay" class="player-overlay" hidden>

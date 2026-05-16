@@ -10,9 +10,9 @@
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
-<link rel="icon" href="static/icon-192.png?v=20260516000757">
-<link rel="manifest" href="static/manifest.json?v=20260516000757">
-<link rel="stylesheet" href="static/style.css?v=20260516000757">
+<link rel="icon" href="static/icon-192.png?v=20260516124317">
+<link rel="manifest" href="static/manifest.json?v=20260516124317">
+<link rel="stylesheet" href="static/style.css?v=20260516124317">
 <style>
 /* Keep video length visible even if a mobile browser reuses an older stylesheet. */
 .thumb .video-length-badge {
@@ -45,6 +45,9 @@
     <button class="tab" data-tab="later" role="tab" aria-selected="false">
       あとで<span class="tab-count" id="later-count" hidden>0</span>
     </button>
+    <button class="tab" data-tab="history" role="tab" aria-selected="false">
+      履歴<span class="tab-count" id="history-count" hidden>0</span>
+    </button>
   </nav>
   <div class="topbar-actions">
     <a class="topbar-btn" href="#" onclick="event.preventDefault(); location.replace(location.pathname + '?reload=' + Date.now() + location.hash);" aria-label="再読み込み" title="再読み込み">
@@ -53,12 +56,83 @@
   </div>
 </header>
 
+<section class="channel-filter" aria-label="チャンネル絞り込み">
+  <div class="channel-filter-scroll" id="channel-filter" role="listbox" aria-label="チャンネル">
+    <button class="channel-chip is-active" type="button" data-channel-filter="" aria-selected="true">すべて</button>
+  </div>
+</section>
+
 <main class="grid" id="grid-feed" data-tab-panel="feed" data-initial-ready="true">
+
+  <article class="card"
+           data-video-id="UJfrW48qoIc"
+           data-title="【疲れてる人は必見】休むだけが正解じゃない「超ゆっくり仕事をする」 #仕事 #働き方 #ストレス #疲労"
+           data-channel="NewsPicks /ニューズピックス"
+           data-channel-id="UCfTnJmRQP79C4y_BMF_XrlA"
+           data-thumbnail="https://i.ytimg.com/vi/UJfrW48qoIc/maxresdefault.jpg"
+           data-published="2026-05-16T03:00:17Z"
+           data-duration="1:15">
+    <div class="thumb">
+      <img src="https://i.ytimg.com/vi/UJfrW48qoIc/maxresdefault.jpg" alt="" loading="lazy">
+      <div class="play-overlay">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+      <button class="bookmark-btn" aria-label="あとで見るに追加" aria-pressed="false">
+        <svg class="bookmark-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
+        </svg>
+      </button>
+
+      <span class="video-length-badge">1:15</span>
+
+    </div>
+    <div class="meta">
+      <div class="title">【疲れてる人は必見】休むだけが正解じゃない「超ゆっくり仕事をする」 #仕事 #働き方 #ストレス #疲労</div>
+      <div class="sub">
+        <span class="channel">NewsPicks /ニューズピックス</span>
+        <span class="dot">•</span>
+        <span class="time">43分前</span>
+      </div>
+    </div>
+  </article>
+
+  <article class="card"
+           data-video-id="XDN6fSCy7zk"
+           data-title="【新潮流】アンソロピックが「コンサルの牙城」をぶっ壊す（Claude/OpenAI/ゴールドマン・サックス/マッキンゼー/ダリオ・アモデイ/FDE/解説：後藤直義、森川潤）"
+           data-channel="NewsPicks /ニューズピックス"
+           data-channel-id="UCfTnJmRQP79C4y_BMF_XrlA"
+           data-thumbnail="https://i.ytimg.com/vi/XDN6fSCy7zk/maxresdefault.jpg"
+           data-published="2026-05-16T03:00:10Z"
+           data-duration="20:13">
+    <div class="thumb">
+      <img src="https://i.ytimg.com/vi/XDN6fSCy7zk/maxresdefault.jpg" alt="" loading="lazy">
+      <div class="play-overlay">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+      <button class="bookmark-btn" aria-label="あとで見るに追加" aria-pressed="false">
+        <svg class="bookmark-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
+        </svg>
+      </button>
+
+      <span class="video-length-badge">20:13</span>
+
+    </div>
+    <div class="meta">
+      <div class="title">【新潮流】アンソロピックが「コンサルの牙城」をぶっ壊す（Claude/OpenAI/ゴールドマン・サックス/マッキンゼー/ダリオ・アモデイ/FDE/解説：後藤直義、森川潤）</div>
+      <div class="sub">
+        <span class="channel">NewsPicks /ニューズピックス</span>
+        <span class="dot">•</span>
+        <span class="time">43分前</span>
+      </div>
+    </div>
+  </article>
 
   <article class="card"
            data-video-id="X_Umi6ALYZg"
            data-title="貯金100万円未満→資産2400万円｜あるリベ民の人生再起の物語&amp;今日は大型イベントでみんなに会えるの楽しみ【5月16日8時30分まで】"
            data-channel="両学長 リベラルアーツ大学"
+           data-channel-id="UC67Wr_9pA4I0glIxDt_Cpyw"
            data-thumbnail="https://i.ytimg.com/vi/X_Umi6ALYZg/maxresdefault.jpg"
            data-published="2026-05-15T23:37:59Z"
            data-duration="1:52:07">
@@ -81,7 +155,7 @@
       <div class="sub">
         <span class="channel">両学長 リベラルアーツ大学</span>
         <span class="dot">•</span>
-        <span class="time">30分前</span>
+        <span class="time">4時間前</span>
       </div>
     </div>
   </article>
@@ -90,6 +164,7 @@
            data-video-id="0bSsdPPVUu4"
            data-title="【坂井風太×高橋弘樹】なぜReHacQで政治をやるのか？ #newspicks #マネジメント #組織 #高橋弘樹 #坂井風太 #リーダーシップ"
            data-channel="NewsPicks /ニューズピックス"
+           data-channel-id="UCfTnJmRQP79C4y_BMF_XrlA"
            data-thumbnail="https://i.ytimg.com/vi/0bSsdPPVUu4/maxresdefault.jpg"
            data-published="2026-05-15T22:00:39Z"
            data-duration="0:44">
@@ -112,7 +187,7 @@
       <div class="sub">
         <span class="channel">NewsPicks /ニューズピックス</span>
         <span class="dot">•</span>
-        <span class="time">2時間前</span>
+        <span class="time">5時間前</span>
       </div>
     </div>
   </article>
@@ -121,6 +196,7 @@
            data-video-id="S4nypeF4_ic"
            data-title="【悲報？朗報？】高額療養費が8月に改正。制度の復習＆変更点を分かりやすく解説【リベ大公式切り抜き】"
            data-channel="両学長 リベラルアーツ大学"
+           data-channel-id="UC67Wr_9pA4I0glIxDt_Cpyw"
            data-thumbnail="https://i.ytimg.com/vi/S4nypeF4_ic/maxresdefault.jpg"
            data-published="2026-05-15T22:00:33Z"
            data-duration="7:46">
@@ -143,7 +219,7 @@
       <div class="sub">
         <span class="channel">両学長 リベラルアーツ大学</span>
         <span class="dot">•</span>
-        <span class="time">2時間前</span>
+        <span class="time">5時間前</span>
       </div>
     </div>
   </article>
@@ -152,6 +228,7 @@
            data-video-id="pDT1_s4Wz7A"
            data-title="Claude Code Skills完全ガイド / スキルを使えたら脱初心者 / ただし、スキルの入れすぎ注意！"
            data-channel="ウェブ職TV / Nesheep"
+           data-channel-id="UClNZUVnSFRKKUfJYarEUqdA"
            data-thumbnail="https://i.ytimg.com/vi/pDT1_s4Wz7A/maxresdefault.jpg"
            data-published="2026-05-15T21:00:49Z"
            data-duration="38:55">
@@ -174,7 +251,7 @@
       <div class="sub">
         <span class="channel">ウェブ職TV / Nesheep</span>
         <span class="dot">•</span>
-        <span class="time">3時間前</span>
+        <span class="time">6時間前</span>
       </div>
     </div>
   </article>
@@ -183,6 +260,7 @@
            data-video-id="Y9vpDCNteOs"
            data-title="【アベマ同時配信中】「新卒＝リスク時代？悩める人事／障害ある娘を監禁」アベプラ｜5/15(金) 21:00〜"
            data-channel="ABEMA Prime"
+           data-channel-id="UCB1dgsqLiEp57oDAyNV_vww"
            data-thumbnail="https://i.ytimg.com/vi/Y9vpDCNteOs/maxresdefault.jpg"
            data-published="2026-05-15T13:25:18Z"
            data-duration="1:10:23">
@@ -205,7 +283,7 @@
       <div class="sub">
         <span class="channel">ABEMA Prime</span>
         <span class="dot">•</span>
-        <span class="time">10時間前</span>
+        <span class="time">14時間前</span>
       </div>
     </div>
   </article>
@@ -214,6 +292,7 @@
            data-video-id="Xaig36h5uhk"
            data-title="【三菱UFJ銀行】硬派なエリート集団？　#offreco #吉村崇  #大室正志  #黄皓  #勝倉千尋 #高野光博 #三菱 #三菱商事  #UFJ #年収 #キャリア #転職 #就活 #外資"
            data-channel="NewsPicks /ニューズピックス"
+           data-channel-id="UCfTnJmRQP79C4y_BMF_XrlA"
            data-thumbnail="https://i.ytimg.com/vi/Xaig36h5uhk/maxresdefault.jpg"
            data-published="2026-05-15T12:00:16Z"
            data-duration="1:10">
@@ -236,7 +315,7 @@
       <div class="sub">
         <span class="channel">NewsPicks /ニューズピックス</span>
         <span class="dot">•</span>
-        <span class="time">12時間前</span>
+        <span class="time">15時間前</span>
       </div>
     </div>
   </article>
@@ -245,6 +324,7 @@
            data-video-id="kSJinhYG-MU"
            data-title="THE BOOSTERS.【石丸伸二×柳沢正史】世界一寝不足な日本を救う睡眠の科学「スマホゲーム」で睡眠改善"
            data-channel="NewsPicks /ニューズピックス"
+           data-channel-id="UCfTnJmRQP79C4y_BMF_XrlA"
            data-thumbnail="https://i.ytimg.com/vi/kSJinhYG-MU/maxresdefault.jpg"
            data-published="2026-05-15T12:00:01Z"
            data-duration="24:57">
@@ -267,7 +347,7 @@
       <div class="sub">
         <span class="channel">NewsPicks /ニューズピックス</span>
         <span class="dot">•</span>
-        <span class="time">12時間前</span>
+        <span class="time">15時間前</span>
       </div>
     </div>
   </article>
@@ -276,6 +356,7 @@
            data-video-id="hQ3o3RHwADY"
            data-title="【ゆる解説】AIで組織はどう変わる？ Company Brainという新概念 / 組織階層はなくなる？ / SkillsやMCPで実現可能？ / 人間の意思決定の価値 / 政治にも応用？"
            data-channel="安野貴博の自由研究"
+           data-channel-id="UCiMwbmcCSMORJ-85XWhStBw"
            data-thumbnail="https://i.ytimg.com/vi/hQ3o3RHwADY/maxresdefault.jpg"
            data-published="2026-05-15T11:00:06Z"
            data-duration="9:34">
@@ -298,7 +379,7 @@
       <div class="sub">
         <span class="channel">安野貴博の自由研究</span>
         <span class="dot">•</span>
-        <span class="time">13時間前</span>
+        <span class="time">16時間前</span>
       </div>
     </div>
   </article>
@@ -307,6 +388,7 @@
            data-video-id="z9aD6-JrwjI"
            data-title="【ゆる解説】AIで組織はどう変わる？ Company Brainという新概念 / 組織階層はなくなる？ / SkillsやMCPで実現可能？ / 人間の意思決定の価値 / 政治にも応用？ #安野貴博"
            data-channel="安野貴博の自由研究"
+           data-channel-id="UCiMwbmcCSMORJ-85XWhStBw"
            data-thumbnail="https://i.ytimg.com/vi/z9aD6-JrwjI/maxresdefault.jpg"
            data-published="2026-05-15T11:00:03Z"
            data-duration="0:38">
@@ -329,7 +411,7 @@
       <div class="sub">
         <span class="channel">安野貴博の自由研究</span>
         <span class="dot">•</span>
-        <span class="time">13時間前</span>
+        <span class="time">16時間前</span>
       </div>
     </div>
   </article>
@@ -338,6 +420,7 @@
            data-video-id="bFFCHy-D17Y"
            data-title="【国力研究会】高市総理の応援団？派閥じゃないの？自民党議員に聞く｜アベプラ"
            data-channel="ABEMA Prime"
+           data-channel-id="UCB1dgsqLiEp57oDAyNV_vww"
            data-thumbnail="https://i.ytimg.com/vi/bFFCHy-D17Y/maxresdefault.jpg"
            data-published="2026-05-15T10:30:22Z"
            data-duration="29:52">
@@ -360,7 +443,7 @@
       <div class="sub">
         <span class="channel">ABEMA Prime</span>
         <span class="dot">•</span>
-        <span class="time">13時間前</span>
+        <span class="time">17時間前</span>
       </div>
     </div>
   </article>
@@ -369,6 +452,7 @@
            data-video-id="nhx6XE7xepA"
            data-title="【Ｆラン】財務省が250校削減案！私大って減らして大丈夫？wakkate.TV高田ふーみんと考える"
            data-channel="ABEMA Prime"
+           data-channel-id="UCB1dgsqLiEp57oDAyNV_vww"
            data-thumbnail="https://i.ytimg.com/vi/nhx6XE7xepA/maxresdefault.jpg"
            data-published="2026-05-15T10:01:15Z"
            data-duration="39:50">
@@ -391,7 +475,7 @@
       <div class="sub">
         <span class="channel">ABEMA Prime</span>
         <span class="dot">•</span>
-        <span class="time">14時間前</span>
+        <span class="time">17時間前</span>
       </div>
     </div>
   </article>
@@ -400,6 +484,7 @@
            data-video-id="6OOO1CO0Jms"
            data-title="人気急上昇エリア、福岡の糸島へ！なぜここまで盛り上がっているのか、ホリエモンが視察＆ホテル宿泊"
            data-channel="堀江貴文 ホリエモン"
+           data-channel-id="UCXjTiSGclQLVVU83GVrRM4w"
            data-thumbnail="https://i.ytimg.com/vi/6OOO1CO0Jms/maxresdefault.jpg"
            data-published="2026-05-15T10:00:10Z"
            data-duration="30:01">
@@ -422,7 +507,7 @@
       <div class="sub">
         <span class="channel">堀江貴文 ホリエモン</span>
         <span class="dot">•</span>
-        <span class="time">14時間前</span>
+        <span class="time">17時間前</span>
       </div>
     </div>
   </article>
@@ -431,6 +516,7 @@
            data-video-id="T5zAeFT65hQ"
            data-title="「人が騙されるカラクリ」偽警官詐欺が流行中”裏社会”を取材する作家が教える特殊詐欺の手口/MONEY&amp;MATE（マネーメイト）【草下シンヤ×田中渓】"
            data-channel="NewsPicks /ニューズピックス"
+           data-channel-id="UCfTnJmRQP79C4y_BMF_XrlA"
            data-thumbnail="https://i.ytimg.com/vi/T5zAeFT65hQ/maxresdefault.jpg"
            data-published="2026-05-15T10:00:00Z"
            data-duration="20:37">
@@ -453,7 +539,7 @@
       <div class="sub">
         <span class="channel">NewsPicks /ニューズピックス</span>
         <span class="dot">•</span>
-        <span class="time">14時間前</span>
+        <span class="time">17時間前</span>
       </div>
     </div>
   </article>
@@ -462,6 +548,7 @@
            data-video-id="eF_LAHffOOw"
            data-title="【ゲオHD遠藤結蔵社長】レンタル絶好調の裏にある当時の危機感と不安 #遠藤結蔵 #ゲオ #GEO  #セカンドストリート"
            data-channel="NewsPicks /ニューズピックス"
+           data-channel-id="UCfTnJmRQP79C4y_BMF_XrlA"
            data-thumbnail="https://i.ytimg.com/vi/eF_LAHffOOw/maxresdefault.jpg"
            data-published="2026-05-15T03:00:09Z"
            data-duration="1:38">
@@ -484,7 +571,7 @@
       <div class="sub">
         <span class="channel">NewsPicks /ニューズピックス</span>
         <span class="dot">•</span>
-        <span class="time">21時間前</span>
+        <span class="time">1日前</span>
       </div>
     </div>
   </article>
@@ -493,6 +580,7 @@
            data-video-id="m3s2NruzDEQ"
            data-title="学長AIが選んだ今週のお金ニュース、ぜんぶまとめて学長コメント【5月15日8時30分まで】"
            data-channel="両学長 リベラルアーツ大学"
+           data-channel-id="UC67Wr_9pA4I0glIxDt_Cpyw"
            data-thumbnail="https://i.ytimg.com/vi/m3s2NruzDEQ/maxresdefault.jpg"
            data-published="2026-05-14T23:48:52Z"
            data-duration="2:01:25">
@@ -524,6 +612,7 @@
            data-video-id="hFbtixZueYE"
            data-title="Claude Code(Codex)で頻出する危険コマンドを解説 / AIに従うだけの運用をやめよう / NOと言える日本人を目指す"
            data-channel="ウェブ職TV / Nesheep"
+           data-channel-id="UClNZUVnSFRKKUfJYarEUqdA"
            data-thumbnail="https://i.ytimg.com/vi/hFbtixZueYE/maxresdefault.jpg"
            data-published="2026-05-14T22:00:56Z"
            data-duration="44:55">
@@ -555,6 +644,7 @@
            data-video-id="hzo17nc-2iU"
            data-title="【再放送】年間30万円の配当金で人生は変わるのか？増配率を加味した30年後の世界【株式投資編】：（アニメ動画）第428回"
            data-channel="両学長 リベラルアーツ大学"
+           data-channel-id="UC67Wr_9pA4I0glIxDt_Cpyw"
            data-thumbnail="https://i.ytimg.com/vi/hzo17nc-2iU/maxresdefault.jpg"
            data-published="2026-05-14T22:00:48Z"
            data-duration="16:59">
@@ -586,6 +676,7 @@
            data-video-id="WoIMoUjBZjA"
            data-title="実業家・宮崎麗果さんが1.5億円を脱税した件について解説します"
            data-channel="堀江貴文 ホリエモン"
+           data-channel-id="UCXjTiSGclQLVVU83GVrRM4w"
            data-thumbnail="https://i.ytimg.com/vi/WoIMoUjBZjA/maxresdefault.jpg"
            data-published="2026-05-14T12:00:51Z"
            data-duration="7:27">
@@ -617,6 +708,7 @@
            data-video-id="Mz70pa39Fqs"
            data-title="「知識で勝つ時代は終わった」機械より賢い人間が消えた今、残る仕事と教育の正解とは？（ひろゆき、佐藤亮子、薄井シンシア）The UPDATE"
            data-channel="NewsPicks /ニューズピックス"
+           data-channel-id="UCfTnJmRQP79C4y_BMF_XrlA"
            data-thumbnail="https://i.ytimg.com/vi/Mz70pa39Fqs/maxresdefault.jpg"
            data-published="2026-05-14T12:00:33Z"
            data-duration="15:35">
@@ -648,6 +740,7 @@
            data-video-id="ku9H60ni3_8"
            data-title="【フードデリバリーが安すぎる】配達してもらっても「お店と同価格」 #フードデリバリー #デリバリー #飲食業界 #配達料"
            data-channel="NewsPicks /ニューズピックス"
+           data-channel-id="UCfTnJmRQP79C4y_BMF_XrlA"
            data-thumbnail="https://i.ytimg.com/vi/ku9H60ni3_8/maxresdefault.jpg"
            data-published="2026-05-14T12:00:02Z"
            data-duration="1:26">
@@ -679,6 +772,7 @@
            data-video-id="s1Jbzc90ye4"
            data-title="「僕はダメ人間になっていたと思う」「進撃の巨人は一度断った」ドラマ『医龍』の音楽を生んだ澤野弘之が明かす秘話！アニメとの違いは？年間２００曲作り上げる“驚異の作曲力”、人生最後に聴きたい曲【落合陽一】"
            data-channel="NewsPicks /ニューズピックス"
+           data-channel-id="UCfTnJmRQP79C4y_BMF_XrlA"
            data-thumbnail="https://i.ytimg.com/vi/s1Jbzc90ye4/maxresdefault.jpg"
            data-published="2026-05-14T11:00:32Z"
            data-duration="17:14">
@@ -710,6 +804,7 @@
            data-video-id="F0Qgtqdga_c"
            data-title="【AI裁判官】申請数が爆増でパニック？人間を裁ける？司法×テックの可能性を考える｜アベプラ"
            data-channel="ABEMA Prime"
+           data-channel-id="UCB1dgsqLiEp57oDAyNV_vww"
            data-thumbnail="https://i.ytimg.com/vi/F0Qgtqdga_c/maxresdefault.jpg"
            data-published="2026-05-14T11:00:21Z"
            data-duration="26:32">
@@ -741,6 +836,7 @@
            data-video-id="E8n_LvZleM4"
            data-title="【トランプ×習近平】イーロンら緊急参戦？超大国トップの思惑は？ひろゆきが大胆予想｜アベプラ"
            data-channel="ABEMA Prime"
+           data-channel-id="UCB1dgsqLiEp57oDAyNV_vww"
            data-thumbnail="https://i.ytimg.com/vi/E8n_LvZleM4/maxresdefault.jpg"
            data-published="2026-05-14T10:30:06Z"
            data-duration="34:56">
@@ -772,6 +868,7 @@
            data-video-id="c9cNYuuGR_M"
            data-title="【黙秘権】取り調べの在り方は？“被害者救済と加害者の人権“バランスは？元刑事＆弁護士と議論｜アベプラ"
            data-channel="ABEMA Prime"
+           data-channel-id="UCB1dgsqLiEp57oDAyNV_vww"
            data-thumbnail="https://i.ytimg.com/vi/c9cNYuuGR_M/maxresdefault.jpg"
            data-published="2026-05-14T10:01:01Z"
            data-duration="32:05">
@@ -803,6 +900,7 @@
            data-video-id="aIZzK39CR8o"
            data-title="チームを疲弊させる「優秀な上司」の正体／感情に流された課題設定の危険／9割の上司が陥る「自己流マネジメントの落とし穴」（長村禎庸）NewSchool Lite"
            data-channel="NewsPicks /ニューズピックス"
+           data-channel-id="UCfTnJmRQP79C4y_BMF_XrlA"
            data-thumbnail="https://i.ytimg.com/vi/aIZzK39CR8o/maxresdefault.jpg"
            data-published="2026-05-14T10:00:18Z"
            data-duration="16:32">
@@ -834,6 +932,7 @@
            data-video-id="aiRA8Ho5KTQ"
            data-title="博多うどん店の美味しさの秘密に迫る！企業秘密のスープにホリエモンも感動「うちだ屋 筑紫野店」リニューアル"
            data-channel="堀江貴文 ホリエモン"
+           data-channel-id="UCXjTiSGclQLVVU83GVrRM4w"
            data-thumbnail="https://i.ytimg.com/vi/aiRA8Ho5KTQ/maxresdefault.jpg"
            data-published="2026-05-14T10:00:04Z"
            data-duration="17:33">
@@ -865,6 +964,7 @@
            data-video-id="Sz-sSuBmGuo"
            data-title="【大吉洋平】世界50カ国で感じた死生観  #newspicks"
            data-channel="NewsPicks /ニューズピックス"
+           data-channel-id="UCfTnJmRQP79C4y_BMF_XrlA"
            data-thumbnail="https://i.ytimg.com/vi/Sz-sSuBmGuo/maxresdefault.jpg"
            data-published="2026-05-14T09:00:13Z"
            data-duration="0:51">
@@ -896,6 +996,7 @@
            data-video-id="GRHEtdnxLQI"
            data-title="【田中渓×後藤達也】旧来マスメディアの利点とは？　#後藤達也 #田中渓 #投資 #資産運用 #円安 #マインドセット #不動産投資 #お金の勉強 #マネーメイト #MONEYandMATE"
            data-channel="NewsPicks /ニューズピックス"
+           data-channel-id="UCfTnJmRQP79C4y_BMF_XrlA"
            data-thumbnail="https://i.ytimg.com/vi/GRHEtdnxLQI/maxresdefault.jpg"
            data-published="2026-05-14T03:00:32Z"
            data-duration="0:38">
@@ -918,7 +1019,7 @@
       <div class="sub">
         <span class="channel">NewsPicks /ニューズピックス</span>
         <span class="dot">•</span>
-        <span class="time">1日前</span>
+        <span class="time">2日前</span>
       </div>
     </div>
   </article>
@@ -927,6 +1028,7 @@
            data-video-id="ZKIchYEXdCE"
            data-title="Claude CodeとObsidianを連携させると。"
            data-channel="ウェブ職TV / Nesheep"
+           data-channel-id="UClNZUVnSFRKKUfJYarEUqdA"
            data-thumbnail="https://i.ytimg.com/vi/ZKIchYEXdCE/maxresdefault.jpg"
            data-published="2026-05-14T02:43:13Z"
            data-duration="1:31:29">
@@ -949,7 +1051,7 @@
       <div class="sub">
         <span class="channel">ウェブ職TV / Nesheep</span>
         <span class="dot">•</span>
-        <span class="time">1日前</span>
+        <span class="time">2日前</span>
       </div>
     </div>
   </article>
@@ -958,6 +1060,7 @@
            data-video-id="bwLC9aERFGo"
            data-title="【2兆円の隠れ増税】気づいてる？インフレで進む『ステルス増税』の正体&amp;なんでも無料で使おうとするあなたへ【損する。笑】【5月14日8時30分まで】"
            data-channel="両学長 リベラルアーツ大学"
+           data-channel-id="UC67Wr_9pA4I0glIxDt_Cpyw"
            data-thumbnail="https://i.ytimg.com/vi/bwLC9aERFGo/maxresdefault.jpg"
            data-published="2026-05-13T23:47:09Z"
            data-duration="2:01:38">
@@ -989,6 +1092,7 @@
            data-video-id="l-MRGPGeNVg"
            data-title="【今すぐ見直し】不幸になるお金の使い方19選【リベ大公式切り抜き】"
            data-channel="両学長 リベラルアーツ大学"
+           data-channel-id="UC67Wr_9pA4I0glIxDt_Cpyw"
            data-thumbnail="https://i.ytimg.com/vi/l-MRGPGeNVg/maxresdefault.jpg"
            data-published="2026-05-13T22:00:47Z"
            data-duration="23:01">
@@ -1020,6 +1124,7 @@
            data-video-id="KcTM9TCVA7Q"
            data-title="東京のホテルから配信 / 俺の考える最強AIたち / Claude CodeとCodexの使い分け"
            data-channel="ウェブ職TV / Nesheep"
+           data-channel-id="UClNZUVnSFRKKUfJYarEUqdA"
            data-thumbnail="https://i.ytimg.com/vi/KcTM9TCVA7Q/maxresdefault.jpg"
            data-published="2026-05-13T14:09:17Z"
            data-duration="50:51">
@@ -1051,6 +1156,7 @@
            data-video-id="4FCQDCSSXOk"
            data-title="【佐藤優×宮台真司】宮台ゼミの教育方針　#exclusive #佐藤優 #宮台真司 #ポピュリズム  #AI倫理 #文脈 #体験 #カリスマ  #統治 #日本政治 #リベラル"
            data-channel="NewsPicks /ニューズピックス"
+           data-channel-id="UCfTnJmRQP79C4y_BMF_XrlA"
            data-thumbnail="https://i.ytimg.com/vi/4FCQDCSSXOk/maxresdefault.jpg"
            data-published="2026-05-13T12:00:12Z"
            data-duration="1:04">
@@ -1082,6 +1188,7 @@
            data-video-id="li8xpUInhJw"
            data-title="「日本の逆襲が始まる」製造業AIで世界を獲る可能性【NewsPicks/AI/製造業/AWS/資産】"
            data-channel="NewsPicks /ニューズピックス"
+           data-channel-id="UCfTnJmRQP79C4y_BMF_XrlA"
            data-thumbnail="https://i.ytimg.com/vi/li8xpUInhJw/maxresdefault.jpg"
            data-published="2026-05-13T12:00:08Z"
            data-duration="34:55">
@@ -1113,6 +1220,7 @@
            data-video-id="S_5haKTP3ec"
            data-title="【AIバブル】「トヨタ超」の声も？時価総額ランク4位のキオクシアってなんだ？今後の市場は？｜アベプラ"
            data-channel="ABEMA Prime"
+           data-channel-id="UCB1dgsqLiEp57oDAyNV_vww"
            data-thumbnail="https://i.ytimg.com/vi/S_5haKTP3ec/maxresdefault.jpg"
            data-published="2026-05-13T11:32:58Z"
            data-duration="37:06">
@@ -1144,6 +1252,7 @@
            data-video-id="koQdi-8jMMY"
            data-title="【OpenAI論文を読む】なぜAIは“もっともらしい嘘“をつくのか？ ハルシネーションの正体をゆる解説　#安野貴博 #ai"
            data-channel="安野貴博の自由研究"
+           data-channel-id="UCiMwbmcCSMORJ-85XWhStBw"
            data-thumbnail="https://i.ytimg.com/vi/koQdi-8jMMY/maxresdefault.jpg"
            data-published="2026-05-13T11:00:31Z"
            data-duration="0:45">
@@ -1175,6 +1284,7 @@
            data-video-id="jWIsArhd86U"
            data-title="【特大放送事故発生】年商60億志願者がフルボッコで滝汗涙目…マフィアVS会員の怒鳴り合いも。地獄絵図の結末は？【REAL VALUE#72】"
            data-channel="堀江貴文 ホリエモン"
+           data-channel-id="UCXjTiSGclQLVVU83GVrRM4w"
            data-thumbnail="https://i.ytimg.com/vi/jWIsArhd86U/maxresdefault.jpg"
            data-published="2026-05-13T10:01:06Z"
            data-duration="1:16:25">
@@ -1203,71 +1313,10 @@
   </article>
 
   <article class="card"
-           data-video-id="7BW3IQUP0Vw"
-           data-title="若手が「すぐ辞める」本当の理由、「即戦力」ばかり狙う組織の末路。DeNA南場氏に学ぶ、本質を見抜く「15分の面接術」【前⽥裕⼆、⽚⽯貴展、安⽥雅彦、安野遼平】The UPDATE"
-           data-channel="NewsPicks /ニューズピックス"
-           data-thumbnail="https://i.ytimg.com/vi/7BW3IQUP0Vw/maxresdefault.jpg"
-           data-published="2026-05-13T10:00:29Z"
-           data-duration="1:00:59">
-    <div class="thumb">
-      <img src="https://i.ytimg.com/vi/7BW3IQUP0Vw/maxresdefault.jpg" alt="" loading="lazy">
-      <div class="play-overlay">
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
-      </div>
-      <button class="bookmark-btn" aria-label="あとで見るに追加" aria-pressed="false">
-        <svg class="bookmark-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
-        </svg>
-      </button>
-
-      <span class="video-length-badge">1:00:59</span>
-
-    </div>
-    <div class="meta">
-      <div class="title">若手が「すぐ辞める」本当の理由、「即戦力」ばかり狙う組織の末路。DeNA南場氏に学ぶ、本質を見抜く「15分の面接術」【前⽥裕⼆、⽚⽯貴展、安⽥雅彦、安野遼平】The UPDATE</div>
-      <div class="sub">
-        <span class="channel">NewsPicks /ニューズピックス</span>
-        <span class="dot">•</span>
-        <span class="time">2日前</span>
-      </div>
-    </div>
-  </article>
-
-  <article class="card"
-           data-video-id="acBzgC_ZNyE"
-           data-title="【アメリカで大ブームの求人】コンサルを脅かすAI時代の新職種「FDE」 #コンサル #anthropic #FDE #palantir #AI"
-           data-channel="NewsPicks /ニューズピックス"
-           data-thumbnail="https://i.ytimg.com/vi/acBzgC_ZNyE/maxresdefault.jpg"
-           data-published="2026-05-13T03:00:29Z"
-           data-duration="1:20">
-    <div class="thumb">
-      <img src="https://i.ytimg.com/vi/acBzgC_ZNyE/maxresdefault.jpg" alt="" loading="lazy">
-      <div class="play-overlay">
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
-      </div>
-      <button class="bookmark-btn" aria-label="あとで見るに追加" aria-pressed="false">
-        <svg class="bookmark-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
-        </svg>
-      </button>
-
-      <span class="video-length-badge">1:20</span>
-
-    </div>
-    <div class="meta">
-      <div class="title">【アメリカで大ブームの求人】コンサルを脅かすAI時代の新職種「FDE」 #コンサル #anthropic #FDE #palantir #AI</div>
-      <div class="sub">
-        <span class="channel">NewsPicks /ニューズピックス</span>
-        <span class="dot">•</span>
-        <span class="time">2日前</span>
-      </div>
-    </div>
-  </article>
-
-  <article class="card"
            data-video-id="qifHCO7nZv8"
            data-title="本当に使っている最強AI / 2026年5月時点でプロが厳選 / 迷ったらこれを使えばOK"
            data-channel="ウェブ職TV / Nesheep"
+           data-channel-id="UClNZUVnSFRKKUfJYarEUqdA"
            data-thumbnail="https://i.ytimg.com/vi/qifHCO7nZv8/maxresdefault.jpg"
            data-published="2026-05-13T00:41:20Z"
            data-duration="46:49">
@@ -1290,7 +1339,7 @@
       <div class="sub">
         <span class="channel">ウェブ職TV / Nesheep</span>
         <span class="dot">•</span>
-        <span class="time">2日前</span>
+        <span class="time">3日前</span>
       </div>
     </div>
   </article>
@@ -1299,6 +1348,7 @@
            data-video-id="z36-uF98weQ"
            data-title="【衝撃】お金持ちほど資産運用に失敗する理由&amp;マネーフォワード連携再開し出してるよん【5月13日8時30分まで】"
            data-channel="両学長 リベラルアーツ大学"
+           data-channel-id="UC67Wr_9pA4I0glIxDt_Cpyw"
            data-thumbnail="https://i.ytimg.com/vi/z36-uF98weQ/maxresdefault.jpg"
            data-published="2026-05-12T23:46:11Z"
            data-duration="2:00:34">
@@ -1330,6 +1380,7 @@
            data-video-id="xbJdZOAR_1U"
            data-title="【再放送】副業で成功する人の5つの特徴【体験談アリ】【稼ぐ実践編】：（アニメ動画）第247回"
            data-channel="両学長 リベラルアーツ大学"
+           data-channel-id="UC67Wr_9pA4I0glIxDt_Cpyw"
            data-thumbnail="https://i.ytimg.com/vi/xbJdZOAR_1U/maxresdefault.jpg"
            data-published="2026-05-12T22:01:05Z"
            data-duration="22:37">
@@ -1361,6 +1412,7 @@
            data-video-id="KyvH4pXLC8U"
            data-title="【退職金】廃止→給与上乗せする企業も？老後資金の新常識とは｜アベプラ"
            data-channel="ABEMA Prime"
+           data-channel-id="UCB1dgsqLiEp57oDAyNV_vww"
            data-thumbnail="https://i.ytimg.com/vi/KyvH4pXLC8U/maxresdefault.jpg"
            data-published="2026-05-12T11:00:34Z"
            data-duration="32:09">
@@ -1392,6 +1444,7 @@
            data-video-id="fsFYISCK-GA"
            data-title="【仮面浪人】大学に通いながら受験…お金＆時間はどう捻出？なぜ高みめざす？｜アベプラ"
            data-channel="ABEMA Prime"
+           data-channel-id="UCB1dgsqLiEp57oDAyNV_vww"
            data-thumbnail="https://i.ytimg.com/vi/fsFYISCK-GA/maxresdefault.jpg"
            data-published="2026-05-12T10:30:20Z"
            data-duration="28:03">
@@ -1423,6 +1476,7 @@
            data-video-id="dDS-S7j-7PA"
            data-title="「痛くない乳がん検診」最新鋭のMRI技術を徹底解説"
            data-channel="堀江貴文 ホリエモン"
+           data-channel-id="UCXjTiSGclQLVVU83GVrRM4w"
            data-thumbnail="https://i.ytimg.com/vi/dDS-S7j-7PA/maxresdefault.jpg"
            data-published="2026-05-12T10:01:02Z"
            data-duration="25:10">
@@ -1454,6 +1508,7 @@
            data-video-id="7hSx8g5vHXA"
            data-title="【党首討論】なぜ必要？台本ナシこそ政治家の醍醐味？中道改革連合・泉健太と考える｜アベプラ"
            data-channel="ABEMA Prime"
+           data-channel-id="UCB1dgsqLiEp57oDAyNV_vww"
            data-thumbnail="https://i.ytimg.com/vi/7hSx8g5vHXA/maxresdefault.jpg"
            data-published="2026-05-12T10:00:16Z"
            data-duration="31:47">
@@ -1485,6 +1540,7 @@
            data-video-id="UFH0C9hPlCc"
            data-title="祝☆チャンネル登録900万人&amp;会社員を辞めて看護学校へ。リベが教えてくれたのは『お金』だけじゃなかった【5月12日8時30分まで】"
            data-channel="両学長 リベラルアーツ大学"
+           data-channel-id="UC67Wr_9pA4I0glIxDt_Cpyw"
            data-thumbnail="https://i.ytimg.com/vi/UFH0C9hPlCc/maxresdefault.jpg"
            data-published="2026-05-11T23:44:00Z"
            data-duration="1:56:17">
@@ -1516,6 +1572,7 @@
            data-video-id="-VYs1gbT7XE"
            data-title="第135回 【知ると差がつく】2026年4月 学長が選ぶ「お得」「トレンド」お金のニュース Best4【トレンド】"
            data-channel="両学長 リベラルアーツ大学"
+           data-channel-id="UC67Wr_9pA4I0glIxDt_Cpyw"
            data-thumbnail="https://i.ytimg.com/vi/-VYs1gbT7XE/maxresdefault.jpg"
            data-published="2026-05-11T22:00:01Z"
            data-duration="26:26">
@@ -1547,6 +1604,7 @@
            data-video-id="jAKaOK-s428"
            data-title="Claude Codeセキュリティ対策の最終形 / Claude Code Safety Hub / 知識0でも使える / うっかりミスしても安心安全"
            data-channel="ウェブ職TV / Nesheep"
+           data-channel-id="UClNZUVnSFRKKUfJYarEUqdA"
            data-thumbnail="https://i.ytimg.com/vi/jAKaOK-s428/maxresdefault.jpg"
            data-published="2026-05-11T21:00:51Z"
            data-duration="55:41">
@@ -1578,6 +1636,7 @@
            data-video-id="y8b3rFe7X6c"
            data-title="本日の最新AIニュース！ / 遂にClaude Codeを安全に使う仕組みが完成間近！ / Codexに浮気そう"
            data-channel="ウェブ職TV / Nesheep"
+           data-channel-id="UClNZUVnSFRKKUfJYarEUqdA"
            data-thumbnail="https://i.ytimg.com/vi/y8b3rFe7X6c/maxresdefault.jpg"
            data-published="2026-05-11T14:37:23Z"
            data-duration="1:52:01">
@@ -1609,6 +1668,7 @@
            data-video-id="dq--ir16Yjo"
            data-title="ホリエモンSNS炎上の背景とは？BUDDICA中野さんが語る新事業への挑戦と自動運転時代への適用【中野優作×堀江貴文】"
            data-channel="堀江貴文 ホリエモン"
+           data-channel-id="UCXjTiSGclQLVVU83GVrRM4w"
            data-thumbnail="https://i.ytimg.com/vi/dq--ir16Yjo/maxresdefault.jpg"
            data-published="2026-05-11T10:01:04Z"
            data-duration="16:43">
@@ -1640,6 +1700,7 @@
            data-video-id="B5xyTO2q7B4"
            data-title="【研究で判明】コレ見るだけで貯金額が2倍になる方法【5月11日8時30分まで】"
            data-channel="両学長 リベラルアーツ大学"
+           data-channel-id="UC67Wr_9pA4I0glIxDt_Cpyw"
            data-thumbnail="https://i.ytimg.com/vi/B5xyTO2q7B4/maxresdefault.jpg"
            data-published="2026-05-10T23:47:24Z"
            data-duration="2:03:27">
@@ -1671,6 +1732,7 @@
            data-video-id="lInpNttva4c"
            data-title="FP資格だけではお金持ちになれない理由と、取得後にやるべきこと【リベ大公式切り抜き】"
            data-channel="両学長 リベラルアーツ大学"
+           data-channel-id="UC67Wr_9pA4I0glIxDt_Cpyw"
            data-thumbnail="https://i.ytimg.com/vi/lInpNttva4c/maxresdefault.jpg"
            data-published="2026-05-10T22:01:00Z"
            data-duration="8:57">
@@ -1702,6 +1764,7 @@
            data-video-id="-nJgbaOGLC8"
            data-title="OpenAIの「Codex App Server」を使ってない人なんていないよね？ / こんなすごいものが無料なの意味不明 / Claude Code一強じゃない！"
            data-channel="ウェブ職TV / Nesheep"
+           data-channel-id="UClNZUVnSFRKKUfJYarEUqdA"
            data-thumbnail="https://i.ytimg.com/vi/-nJgbaOGLC8/maxresdefault.jpg"
            data-published="2026-05-10T21:00:00Z"
            data-duration="45:54">
@@ -1733,6 +1796,7 @@
            data-video-id="m6ZPkQT4WEY"
            data-title="最先端の技術を使った整形外科が凄い！？エコー・超音波を活用した最新治療をTAO Clinicで体験"
            data-channel="堀江貴文 ホリエモン"
+           data-channel-id="UCXjTiSGclQLVVU83GVrRM4w"
            data-thumbnail="https://i.ytimg.com/vi/m6ZPkQT4WEY/maxresdefault.jpg"
            data-published="2026-05-10T10:01:10Z"
            data-duration="41:17">
@@ -1764,6 +1828,7 @@
            data-video-id="npschIlYnB8"
            data-title="バイブコーディングの脆弱性とセキュリティ / 東大生マッチングアプリ「UTopia」の情報漏洩から学ぶ / Claude CodeとCodexを使う非エンジニアに届けたい"
            data-channel="ウェブ職TV / Nesheep"
+           data-channel-id="UClNZUVnSFRKKUfJYarEUqdA"
            data-thumbnail="https://i.ytimg.com/vi/npschIlYnB8/maxresdefault.jpg"
            data-published="2026-05-09T14:45:41Z"
            data-duration="44:59">
@@ -1795,6 +1860,7 @@
            data-video-id="qZuPac8RIYI"
            data-title="ホリエモンの馬「イッテラッシャイ」の成績が凄い！？ホリエモンが解説する血統戦略と競馬ビジネスの構造"
            data-channel="堀江貴文 ホリエモン"
+           data-channel-id="UCXjTiSGclQLVVU83GVrRM4w"
            data-thumbnail="https://i.ytimg.com/vi/qZuPac8RIYI/maxresdefault.jpg"
            data-published="2026-05-09T10:01:25Z"
            data-duration="46:44">
@@ -1826,6 +1892,7 @@
            data-video-id="yvJkufDaU_8"
            data-title="CodexがClaude Codeより優れているところ / Codexは速い!安い!使いやすい! / 画像生成が最高すぎる / ローカルLLMの話が多め"
            data-channel="ウェブ職TV / Nesheep"
+           data-channel-id="UClNZUVnSFRKKUfJYarEUqdA"
            data-thumbnail="https://i.ytimg.com/vi/yvJkufDaU_8/maxresdefault.jpg"
            data-published="2026-05-08T11:01:48Z"
            data-duration="32:02">
@@ -1857,6 +1924,7 @@
            data-video-id="mlAGP0PM4xc"
            data-title="ホリエモンが離婚した理由とは…？女性議員と「少子化対策・子育て政策」を真剣に考える【 #それどう ダイジェスト】"
            data-channel="堀江貴文 ホリエモン"
+           data-channel-id="UCXjTiSGclQLVVU83GVrRM4w"
            data-thumbnail="https://i.ytimg.com/vi/mlAGP0PM4xc/maxresdefault.jpg"
            data-published="2026-05-08T10:01:29Z"
            data-duration="15:43">
@@ -1888,6 +1956,7 @@
            data-video-id="QLNIlMZVwK8"
            data-title="本日のAIニュース / ローカルLLMがあつい！ / Claude Code+Codexで開発しているもの / AI秘書の進捗"
            data-channel="ウェブ職TV / Nesheep"
+           data-channel-id="UClNZUVnSFRKKUfJYarEUqdA"
            data-thumbnail="https://i.ytimg.com/vi/QLNIlMZVwK8/maxresdefault.jpg"
            data-published="2026-05-08T02:18:15Z"
            data-duration="1:54:53">
@@ -1917,11 +1986,33 @@
 
 </main>
 
+<div class="empty" id="feed-empty" data-tab-panel="feed" hidden>
+  <p>このチャンネルの新着動画はありません</p>
+  <p class="empty-hint">別のチャンネルを選ぶと表示されます</p>
+</div>
+
 <main class="grid" id="grid-later" data-tab-panel="later" hidden></main>
 
 <div class="empty" id="later-empty" data-tab-panel="later" hidden>
-  <p>🔖 あとで見る動画はまだありません</p>
+  <p>あとで見る動画はまだありません</p>
   <p class="empty-hint">カードの右上のブックマークをタップして追加</p>
+</div>
+
+<div class="empty" id="later-filter-empty" data-tab-panel="later" hidden>
+  <p>このチャンネルのあとで見る動画はありません</p>
+  <p class="empty-hint">別のチャンネルを選ぶと表示されます</p>
+</div>
+
+<main class="grid" id="grid-history" data-tab-panel="history" hidden></main>
+
+<div class="empty" id="history-empty" data-tab-panel="history" hidden>
+  <p>再生履歴はまだありません</p>
+  <p class="empty-hint">動画を開くとここに追加されます</p>
+</div>
+
+<div class="empty" id="history-filter-empty" data-tab-panel="history" hidden>
+  <p>このチャンネルの再生履歴はありません</p>
+  <p class="empty-hint">別のチャンネルを選ぶと表示されます</p>
 </div>
 
 <div id="player-overlay" class="player-overlay" hidden>
@@ -1943,7 +2034,7 @@
   </div>
 </div>
 
-<script src="static/app.js?v=20260516000757"></script>
+<script src="static/app.js?v=20260516124317"></script>
 
 </body>
 </html>

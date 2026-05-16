@@ -4,6 +4,8 @@
   const STORAGE_KEY = 'ytv_watch_later';
   const HIDDEN_KEY = 'ytv_hidden';
   const RESUME_KEY = 'ytv_resume';
+  const HISTORY_KEY = 'ytv_history';
+  const FILTER_KEY = 'ytv_channel_filter';
 
   // ── localStorage ラッパ ─────────────────────────────
   function loadLater() {
@@ -42,6 +44,55 @@
     const hidden = loadHidden();
     hidden[videoId] = Date.now();
     saveHidden(hidden);
+  }
+
+  function loadHistory() {
+    try {
+      const raw = localStorage.getItem(HISTORY_KEY);
+      return raw ? JSON.parse(raw) : {};
+    } catch {
+      return {};
+    }
+  }
+  function saveHistory(obj) {
+    try {
+      localStorage.setItem(HISTORY_KEY, JSON.stringify(obj));
+    } catch (e) {
+      console.warn('saveHistory failed:', e);
+    }
+  }
+  function addToHistory(meta) {
+    if (!meta || !meta.videoId) return;
+    const all = loadHistory();
+    all[meta.videoId] = {
+      title: meta.title,
+      channelTitle: meta.channelTitle,
+      channelId: meta.channelId || '',
+      thumbnail: meta.thumbnail,
+      publishedIso: meta.publishedIso,
+      duration: meta.duration || '',
+      watchedAt: Date.now(),
+    };
+    saveHistory(all);
+    updateHistoryCount();
+    renderHistory();
+    renderChannelFilter();
+    refreshActivePanel();
+  }
+
+  function loadChannelFilter() {
+    try {
+      return localStorage.getItem(FILTER_KEY) || '';
+    } catch {
+      return '';
+    }
+  }
+  function saveChannelFilter(channel) {
+    try {
+      localStorage.setItem(FILTER_KEY, channel || '');
+    } catch (e) {
+      console.warn('saveChannelFilter failed:', e);
+    }
   }
 
   // 再生位置の保存。videoId → { position, duration, updatedAt }
@@ -453,6 +504,7 @@
       videoId: card.dataset.videoId,
       title: card.dataset.title,
       channelTitle: card.dataset.channel,
+      channelId: card.dataset.channelId || '',
       thumbnail: card.dataset.thumbnail,
       publishedIso: card.dataset.published,
       duration: card.dataset.duration || '',
@@ -462,6 +514,13 @@
   function updateLaterCount() {
     const n = Object.keys(loadLater()).length;
     const el = document.getElementById('later-count');
+    if (n > 0) { el.textContent = n; el.hidden = false; }
+    else       { el.hidden = true; }
+  }
+
+  function updateHistoryCount() {
+    const n = Object.keys(loadHistory()).length;
+    const el = document.getElementById('history-count');
     if (n > 0) { el.textContent = n; el.hidden = false; }
     else       { el.hidden = true; }
   }
@@ -481,6 +540,7 @@
       all[meta.videoId] = {
         title: meta.title,
         channelTitle: meta.channelTitle,
+        channelId: meta.channelId || '',
         thumbnail: meta.thumbnail,
         publishedIso: meta.publishedIso,
         duration: meta.duration || '',
@@ -495,7 +555,11 @@
     }
     saveLater(all);
     updateLaterCount();
+    document.querySelectorAll('.card').forEach(applyBookmarkStateToCard);
     renderLater();
+    renderHistory();
+    renderChannelFilter();
+    refreshActivePanel();
   }
 
   function removeFeedCard(videoId) {
@@ -528,8 +592,11 @@
     card.addEventListener('click', (e) => {
       // ブックマーク操作は再生トリガに含めない
       if (e.target.closest('.bookmark-btn')) return;
-      const id = card.dataset.videoId;
-      if (id) openPlayer(id);
+      const meta = metaFromCard(card);
+      if (meta.videoId) {
+        addToHistory(meta);
+        openPlayer(meta.videoId);
+      }
     });
     const btn = card.querySelector('.bookmark-btn');
     if (btn) {
@@ -541,61 +608,167 @@
     }
   }
 
-  // ── Watch Later 一覧描画 ─────────────────────────────
+  // ── カード一覧描画 ─────────────────────────────
   const laterGrid = document.getElementById('grid-later');
   const laterEmpty = document.getElementById('later-empty');
+  const laterFilterEmpty = document.getElementById('later-filter-empty');
+  const historyGrid = document.getElementById('grid-history');
+  const historyEmpty = document.getElementById('history-empty');
+  const historyFilterEmpty = document.getElementById('history-filter-empty');
+  const feedEmpty = document.getElementById('feed-empty');
+  const channelFilter = document.getElementById('channel-filter');
+
+  function getSelectedChannel() {
+    return loadChannelFilter();
+  }
+
+  function matchesSelectedChannel(channelTitle) {
+    const selected = getSelectedChannel();
+    return !selected || channelTitle === selected;
+  }
+
+  function isFeedCardVisible(card) {
+    return card.classList.contains('card') && !card.hidden;
+  }
+
+  function updateBookmarkButton(btn, pressed) {
+    if (!btn) return;
+    btn.setAttribute('aria-pressed', pressed ? 'true' : 'false');
+    btn.setAttribute('aria-label', pressed ? 'あとで見るから削除' : 'あとで見るに追加');
+  }
+
+  function applyBookmarkStateToCard(card) {
+    const all = loadLater();
+    const btn = card.querySelector('.bookmark-btn');
+    updateBookmarkButton(btn, Boolean(all[card.dataset.videoId]));
+  }
+
+  function createVideoCard(v, { fromLater = false } = {}) {
+    const card = document.createElement('article');
+    card.className = 'card';
+    card.dataset.videoId = v.videoId;
+    card.dataset.title = v.title || '';
+    card.dataset.channel = v.channelTitle || '';
+    card.dataset.channelId = v.channelId || '';
+    card.dataset.thumbnail = v.thumbnail || '';
+    card.dataset.published = v.publishedIso || '';
+    card.dataset.duration = v.duration || '';
+
+    const timeLabel = relTime(v.publishedIso);
+    const durationBadge = v.duration
+      ? `<span class="video-length-badge">${escapeHtml(v.duration)}</span>`
+      : '';
+    const isBookmarked = Boolean(loadLater()[v.videoId]);
+    const bookmarkFill = isBookmarked ? 'currentColor' : 'none';
+
+    card.innerHTML = `
+      <div class="thumb">
+        <img src="${escapeHtml(v.thumbnail || '')}" alt="" loading="lazy">
+        <div class="play-overlay">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+        </div>
+        <button class="bookmark-btn" aria-label="${isBookmarked ? 'あとで見るから削除' : 'あとで見るに追加'}" aria-pressed="${isBookmarked ? 'true' : 'false'}">
+          <svg class="bookmark-icon" viewBox="0 0 24 24" fill="${bookmarkFill}" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
+          </svg>
+        </button>
+        ${durationBadge}
+      </div>
+      <div class="meta">
+        <div class="title">${escapeHtml(v.title || '')}</div>
+        <div class="sub">
+          <span class="channel">${escapeHtml(v.channelTitle || '')}</span>
+          ${timeLabel ? `<span class="dot">•</span><span class="time">${timeLabel}</span>` : ''}
+        </div>
+      </div>`;
+
+    wireCard(card, fromLater);
+    applyProgressToCard(card);
+    return card;
+  }
+
+  function applyChannelFilterToFeed() {
+    let visible = 0;
+    const hasCards = Boolean(document.querySelector('#grid-feed .card'));
+    document.querySelectorAll('#grid-feed .card').forEach((card) => {
+      const match = matchesSelectedChannel(card.dataset.channel || '');
+      card.hidden = !match;
+      if (match) visible += 1;
+    });
+    if (feedEmpty) {
+      feedEmpty.hidden = !hasCards || visible > 0 || !getSelectedChannel();
+    }
+  }
+
+  function renderChannelFilter() {
+    if (!channelFilter) return;
+    const selected = getSelectedChannel();
+    const channels = new Set();
+
+    document.querySelectorAll('#grid-feed .card').forEach((card) => {
+      if (card.dataset.channel) channels.add(card.dataset.channel);
+    });
+    Object.values(loadLater()).forEach((v) => {
+      if (v.channelTitle) channels.add(v.channelTitle);
+    });
+    Object.values(loadHistory()).forEach((v) => {
+      if (v.channelTitle) channels.add(v.channelTitle);
+    });
+
+    const sorted = Array.from(channels).sort((a, b) => a.localeCompare(b, 'ja'));
+    const hasSelected = !selected || sorted.includes(selected);
+    const activeValue = hasSelected ? selected : '';
+    if (!hasSelected) saveChannelFilter('');
+
+    channelFilter.innerHTML = '';
+    const allChip = document.createElement('button');
+    allChip.className = `channel-chip${activeValue ? '' : ' is-active'}`;
+    allChip.type = 'button';
+    allChip.dataset.channelFilter = '';
+    allChip.setAttribute('aria-selected', activeValue ? 'false' : 'true');
+    allChip.textContent = 'すべて';
+    channelFilter.appendChild(allChip);
+
+    for (const channel of sorted) {
+      const chip = document.createElement('button');
+      const active = channel === activeValue;
+      chip.className = `channel-chip${active ? ' is-active' : ''}`;
+      chip.type = 'button';
+      chip.dataset.channelFilter = channel;
+      chip.setAttribute('aria-selected', active ? 'true' : 'false');
+      chip.textContent = channel;
+      channelFilter.appendChild(chip);
+    }
+  }
+
+  function applyChannelFilter() {
+    renderChannelFilter();
+    applyChannelFilterToFeed();
+    renderLater();
+    renderHistory();
+    refreshActivePanel();
+  }
 
   function renderLater() {
     const all = loadLater();
     const entries = Object.entries(all)
       .map(([videoId, v]) => ({ videoId, ...v }))
       .sort((a, b) => (b.savedAt || 0) - (a.savedAt || 0));
+    const filtered = entries.filter((v) => matchesSelectedChannel(v.channelTitle || ''));
 
     laterGrid.innerHTML = '';
-    if (entries.length === 0) {
-      return; // empty表示はタブ切替側で制御
-    }
+    filtered.forEach((v) => laterGrid.appendChild(createVideoCard(v, { fromLater: true })));
+  }
 
-    for (const v of entries) {
-      const card = document.createElement('article');
-      card.className = 'card';
-      card.dataset.videoId = v.videoId;
-      card.dataset.title = v.title || '';
-      card.dataset.channel = v.channelTitle || '';
-      card.dataset.thumbnail = v.thumbnail || '';
-      card.dataset.published = v.publishedIso || '';
-      card.dataset.duration = v.duration || '';
+  function renderHistory() {
+    const all = loadHistory();
+    const entries = Object.entries(all)
+      .map(([videoId, v]) => ({ videoId, ...v }))
+      .sort((a, b) => (b.watchedAt || 0) - (a.watchedAt || 0));
+    const filtered = entries.filter((v) => matchesSelectedChannel(v.channelTitle || ''));
 
-      const timeLabel = relTime(v.publishedIso);
-      const durationBadge = v.duration
-        ? `<span class="video-length-badge">${escapeHtml(v.duration)}</span>`
-        : '';
-
-      card.innerHTML = `
-        <div class="thumb">
-          <img src="${escapeHtml(v.thumbnail || '')}" alt="" loading="lazy">
-          <div class="play-overlay">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
-          </div>
-          <button class="bookmark-btn" aria-label="あとで見るから削除" aria-pressed="true">
-            <svg class="bookmark-icon" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
-            </svg>
-          </button>
-          ${durationBadge}
-        </div>
-        <div class="meta">
-          <div class="title">${escapeHtml(v.title || '')}</div>
-          <div class="sub">
-            <span class="channel">${escapeHtml(v.channelTitle || '')}</span>
-            ${timeLabel ? `<span class="dot">•</span><span class="time">${timeLabel}</span>` : ''}
-          </div>
-        </div>`;
-
-      wireCard(card, /* fromLater */ true);
-      laterGrid.appendChild(card);
-      applyProgressToCard(card);
-    }
+    historyGrid.innerHTML = '';
+    filtered.forEach((v) => historyGrid.appendChild(createVideoCard(v)));
   }
 
   function escapeHtml(s) {
@@ -611,31 +784,71 @@
   const tabs = document.querySelectorAll('.tab');
   const panels = document.querySelectorAll('[data-tab-panel]');
 
+  function getActiveTabName() {
+    return document.querySelector('.tab.is-active')?.dataset.tab || 'feed';
+  }
+
+  function refreshActivePanel() {
+    const name = getActiveTabName();
+    panels.forEach((p) => {
+      p.hidden = p.dataset.tabPanel !== name;
+    });
+
+    if (name === 'feed') {
+      const visibleFeedCards = Array.from(document.querySelectorAll('#grid-feed .card')).filter(isFeedCardVisible).length;
+      const hasFeedCards = Boolean(document.querySelector('#grid-feed .card'));
+      const showFeedEmpty = Boolean(getSelectedChannel()) && hasFeedCards && visibleFeedCards === 0;
+      document.getElementById('grid-feed').hidden = false;
+      if (feedEmpty) feedEmpty.hidden = !showFeedEmpty;
+      return;
+    }
+
+    if (name === 'later') {
+      const total = Object.keys(loadLater()).length;
+      const visible = laterGrid.children.length;
+      laterGrid.hidden = total === 0 || visible === 0;
+      laterEmpty.hidden = total !== 0;
+      laterFilterEmpty.hidden = total === 0 || visible !== 0;
+      return;
+    }
+
+    if (name === 'history') {
+      const total = Object.keys(loadHistory()).length;
+      const visible = historyGrid.children.length;
+      historyGrid.hidden = total === 0 || visible === 0;
+      historyEmpty.hidden = total !== 0;
+      historyFilterEmpty.hidden = total === 0 || visible !== 0;
+    }
+  }
+
   function switchTab(name) {
     tabs.forEach((t) => {
       const active = t.dataset.tab === name;
       t.classList.toggle('is-active', active);
       t.setAttribute('aria-selected', active ? 'true' : 'false');
     });
-    panels.forEach((p) => {
-      if (p.dataset.tabPanel !== name) { p.hidden = true; return; }
-      // later-empty は中身があるかで分岐
-      if (p.id === 'later-empty') {
-        p.hidden = Object.keys(loadLater()).length !== 0;
-      } else if (p.id === 'grid-later') {
-        p.hidden = Object.keys(loadLater()).length === 0;
-      } else {
-        p.hidden = false;
-      }
-    });
+    renderLater();
+    renderHistory();
+    refreshActivePanel();
     // 選択タブをURLハッシュに反映（リロードで維持）
     if (name === 'later') {
       history.replaceState(null, '', '#later');
+    } else if (name === 'history') {
+      history.replaceState(null, '', '#history');
     } else {
       history.replaceState(null, '', location.pathname + location.search);
     }
   }
   tabs.forEach((t) => t.addEventListener('click', () => switchTab(t.dataset.tab)));
+
+  if (channelFilter) {
+    channelFilter.addEventListener('click', (e) => {
+      const chip = e.target.closest('.channel-chip');
+      if (!chip) return;
+      saveChannelFilter(chip.dataset.channelFilter || '');
+      applyChannelFilter();
+    });
+  }
 
   // ── 起動処理 ─────────────────────────────
   filterHiddenFromFeed();
@@ -643,12 +856,17 @@
   markBookmarksInFeed();
   applyProgressToAllCards();
   updateLaterCount();
+  updateHistoryCount();
   renderLater();
+  renderHistory();
+  applyChannelFilter();
   loadYTApi();
 
-  // #later でアクセスされたら最初からあとで見るタブ
+  // #later / #history でアクセスされたら該当タブを開く
   if (location.hash === '#later') {
     switchTab('later');
+  } else if (location.hash === '#history') {
+    switchTab('history');
   } else {
     switchTab('feed');
   }
