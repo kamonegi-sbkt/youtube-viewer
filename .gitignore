@@ -5,4 +5,9 @@ __pycache__/
 *.log
 key.txt
 data/*
+!data/feed.json
 !data/video_meta.json
+front/node_modules/
+front/dist/
+.pytest_cache/
+.playwright-mcp/

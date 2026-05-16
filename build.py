@@ -17,6 +17,7 @@ from datetime import datetime
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 import rss_fetcher
+from services.feed_store import save_feed
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
 log = logging.getLogger("build")
@@ -78,6 +79,7 @@ def main() -> None:
     if os.environ.get("YOUTUBE_API_KEY") and not raw:
         raise RuntimeError("No videos fetched via YouTube Data API; refusing to overwrite docs with an empty feed")
     videos = rss_fetcher.enrich_for_display(raw, limit=60) if raw else []
+    save_feed(videos)
     log.info("Prepared %d videos for rendering", len(videos))
 
     env = Environment(

@@ -43,17 +43,16 @@ jobs:
       - name: Build static site
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-        run: python build.py
+        run: python scripts/refresh_feed.py
 
       - name: Validate generated data
-        run: |
-          python -c "import json; data=json.load(open('docs/data.json', encoding='utf-8')); assert isinstance(data, list) and len(data) > 0, 'docs/data.json has no videos'; print(f'Generated {len(data)} videos')"
+        run: python -c "import json; data=json.load(open('data/feed.json', encoding='utf-8')); videos=data.get('videos', []); assert isinstance(videos, list) and len(videos) > 0, 'data/feed.json has no videos'; print(f'Generated {len(videos)} videos')"
 
       - name: Commit refreshed data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/ data/video_meta.json
+          git add data/feed.json data/video_meta.json
           if git diff --cached --quiet; then
             echo "No feed changes to commit."
             exit 0

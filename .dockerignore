@@ -1,0 +1,14 @@
+.git
+.github
+.venv
+__pycache__
+*.pyc
+*.log
+.env
+key.txt
+front/node_modules
+.pytest_cache
+.playwright-mcp
+docs
+templates
+static
