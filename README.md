@@ -1,3 +1,13 @@
+---
+title: YouTube Viewer
+emoji: 📺
+colorFrom: red
+colorTo: gray
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # My YouTube Viewer
 
 登録したYouTubeチャンネルの新着動画だけを、時系列で見るための個人用ビューア。動画本体は保存せず、YouTube iframe playerでストリーミング再生する。
