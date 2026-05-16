@@ -423,7 +423,7 @@ function App() {
         <nav className="tabs" role="tablist">
           <button className={`tab${activeTab === 'feed' ? ' is-active' : ''}`} type="button" role="tab" aria-selected={activeTab === 'feed'} onClick={() => setActiveTab('feed')}>新着</button>
           <button className={`tab${activeTab === 'later' ? ' is-active' : ''}`} type="button" role="tab" aria-selected={activeTab === 'later'} onClick={() => setActiveTab('later')}>あとで{laterEntries.length ? <span className="tab-count">{laterEntries.length}</span> : null}</button>
-          <button className={`tab${activeTab === 'history' ? ' is-active' : ''}`} type="button" role="tab" aria-selected={activeTab === 'history'} onClick={() => setActiveTab('history')}>履歴{historyEntries.length ? <span className="tab-count">{historyEntries.length}</span> : null}</button>
+          <button className={`tab${activeTab === 'history' ? ' is-active' : ''}`} type="button" role="tab" aria-selected={activeTab === 'history'} onClick={() => setActiveTab('history')}>履歴</button>
         </nav>
         <div className="topbar-actions">
           <button className="topbar-btn" type="button" aria-label="再読み込み" title="再読み込み" onClick={() => location.replace(`${location.pathname}?reload=${Date.now()}${location.hash}`)}>

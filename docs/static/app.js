@@ -521,6 +521,7 @@
   function updateHistoryCount() {
     const n = Object.keys(loadHistory()).length;
     const el = document.getElementById('history-count');
+    if (!el) return;
     if (n > 0) { el.textContent = n; el.hidden = false; }
     else       { el.hidden = true; }
   }

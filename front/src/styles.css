@@ -307,14 +307,7 @@ img {
   color: #fff;
   background: rgba(0, 0, 0, 0.62);
   border-radius: 50%;
-  opacity: 0;
   transition: opacity 0.15s, transform 0.1s, background 0.15s;
-}
-
-.card:hover .bookmark-btn,
-.bookmark-btn[aria-pressed="true"],
-.bookmark-btn:focus-visible {
-  opacity: 1;
 }
 
 .bookmark-btn:active {
@@ -599,11 +592,6 @@ img {
     font-size: 0.82rem;
     line-height: 30px;
   }
-
-  .bookmark-btn {
-    opacity: 1;
-  }
-
   .player-controls {
     top: -44px;
   }
