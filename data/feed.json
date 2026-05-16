@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T05:09:42+00:00",
+  "generated_at": "2026-05-16T05:20:22+00:00",
   "videos": [
     {
       "video_id": "UJfrW48qoIc",
@@ -11,13 +11,13 @@
       "thumbnail": "https://i.ytimg.com/vi/UJfrW48qoIc/maxresdefault.jpg",
       "duration_seconds": 75,
       "live_status": "",
-      "rel_time": "43分前",
+      "rel_time": "2時間前",
       "duration_text": "1:15",
       "badge_kind": ""
     },
     {
       "video_id": "XDN6fSCy7zk",
-      "title": "【新潮流】アンソロピックが「コンサルの牙城」をぶっ壊す（Claude/OpenAI/ゴールドマン・サックス/マッキンゼー/ダリオ・アモデイ/FDE/解説：後藤直義、森川潤）",
+      "title": "【殺到】OpenAIも、「新職種」でコンサルを潰しに来た（FDE/OpenAI/アンソロピック/パランティア/SaaS/サム・アルトマン/解説：後藤直義、森川潤）",
       "channel_title": "NewsPicks /ニューズピックス",
       "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
       "published_iso": "2026-05-16T03:00:10Z",
@@ -25,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/XDN6fSCy7zk/maxresdefault.jpg",
       "duration_seconds": 1213,
       "live_status": "",
-      "rel_time": "43分前",
+      "rel_time": "2時間前",
       "duration_text": "20:13",
       "badge_kind": ""
     },
@@ -39,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/X_Umi6ALYZg/maxresdefault.jpg",
       "duration_seconds": 6727,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "5時間前",
       "duration_text": "1:52:07",
       "badge_kind": ""
     },
@@ -53,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0bSsdPPVUu4/maxresdefault.jpg",
       "duration_seconds": 44,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "7時間前",
       "duration_text": "0:44",
       "badge_kind": ""
     },
@@ -67,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/S4nypeF4_ic/maxresdefault.jpg",
       "duration_seconds": 466,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "7時間前",
       "duration_text": "7:46",
       "badge_kind": ""
     },
@@ -81,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pDT1_s4Wz7A/maxresdefault.jpg",
       "duration_seconds": 2335,
       "live_status": "",
-      "rel_time": "6時間前",
+      "rel_time": "8時間前",
       "duration_text": "38:55",
       "badge_kind": ""
     },
@@ -95,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Y9vpDCNteOs/maxresdefault.jpg",
       "duration_seconds": 4223,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "15時間前",
       "duration_text": "1:10:23",
       "badge_kind": ""
     },
@@ -109,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Xaig36h5uhk/maxresdefault.jpg",
       "duration_seconds": 70,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "17時間前",
       "duration_text": "1:10",
       "badge_kind": ""
     },
@@ -123,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kSJinhYG-MU/maxresdefault.jpg",
       "duration_seconds": 1497,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "17時間前",
       "duration_text": "24:57",
       "badge_kind": ""
     },
@@ -137,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/hQ3o3RHwADY/maxresdefault.jpg",
       "duration_seconds": 574,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "18時間前",
       "duration_text": "9:34",
       "badge_kind": ""
     },
@@ -151,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/z9aD6-JrwjI/maxresdefault.jpg",
       "duration_seconds": 38,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "18時間前",
       "duration_text": "0:38",
       "badge_kind": ""
     },
@@ -165,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bFFCHy-D17Y/maxresdefault.jpg",
       "duration_seconds": 1792,
       "live_status": "",
-      "rel_time": "17時間前",
+      "rel_time": "18時間前",
       "duration_text": "29:52",
       "badge_kind": ""
     },
@@ -179,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/nhx6XE7xepA/maxresdefault.jpg",
       "duration_seconds": 2390,
       "live_status": "",
-      "rel_time": "17時間前",
+      "rel_time": "19時間前",
       "duration_text": "39:50",
       "badge_kind": ""
     },
@@ -193,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/6OOO1CO0Jms/maxresdefault.jpg",
       "duration_seconds": 1801,
       "live_status": "",
-      "rel_time": "17時間前",
+      "rel_time": "19時間前",
       "duration_text": "30:01",
       "badge_kind": ""
     },
@@ -207,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/T5zAeFT65hQ/maxresdefault.jpg",
       "duration_seconds": 1237,
       "live_status": "",
-      "rel_time": "17時間前",
+      "rel_time": "19時間前",
       "duration_text": "20:37",
       "badge_kind": ""
     },
@@ -716,20 +716,6 @@
       "badge_kind": ""
     },
     {
-      "video_id": "B5xyTO2q7B4",
-      "title": "【研究で判明】コレ見るだけで貯金額が2倍になる方法【5月11日8時30分まで】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-05-10T23:47:24Z",
-      "published_dt": "2026-05-10T23:47:24+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/B5xyTO2q7B4/maxresdefault.jpg",
-      "duration_seconds": 7407,
-      "live_status": "",
-      "rel_time": "5日前",
-      "duration_text": "2:03:27",
-      "badge_kind": ""
-    },
-    {
       "video_id": "lInpNttva4c",
       "title": "FP資格だけではお金持ちになれない理由と、取得後にやるべきこと【リベ大公式切り抜き】",
       "channel_title": "両学長 リベラルアーツ大学",
@@ -769,6 +755,20 @@
       "live_status": "",
       "rel_time": "5日前",
       "duration_text": "41:17",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "eOXMZPgqFrc",
+      "title": "AI時代の今、教育・自己投資をムダにしないための3つのポイントを解説【リベ大公式切り抜き】",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-05-09T22:00:40Z",
+      "published_dt": "2026-05-09T22:00:40+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/eOXMZPgqFrc/maxresdefault.jpg",
+      "duration_seconds": 468,
+      "live_status": "",
+      "rel_time": "6日前",
+      "duration_text": "7:48",
       "badge_kind": ""
     },
     {
