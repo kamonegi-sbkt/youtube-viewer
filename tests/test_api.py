@@ -36,6 +36,8 @@ class ApiTest(unittest.TestCase):
             feed_router.load_feed = original
 
         self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.headers["cache-control"], "no-store, max-age=0")
+        self.assertEqual(response.headers["pragma"], "no-cache")
         self.assertEqual(response.json()["videos"][0]["video_id"], "abc")
 
 
