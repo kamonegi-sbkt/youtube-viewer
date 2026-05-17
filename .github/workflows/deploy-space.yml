@@ -2,6 +2,9 @@ name: Deploy Hugging Face Space
 
 on:
   workflow_dispatch:
+  workflow_run:
+    workflows: ["Refresh YouTube Viewer"]
+    types: [completed]
   push:
     branches: [main]
     paths:
@@ -17,6 +20,7 @@ on:
 
 jobs:
   deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - name: Check required secrets
