@@ -1,19 +1,47 @@
 {
-  "generated_at": "2026-05-17T21:39:14+00:00",
+  "generated_at": "2026-05-17T22:29:06+00:00",
   "videos": [
     {
-      "video_id": "Py4Q4GFxcJE",
-      "title": "【韓国の憂鬱】韓国の株価指数がヤバい。若者に投資ブーム【5月18日8時30分まで】",
+      "video_id": "PPN3z32W1PA",
+      "title": "「自分の尻、嗅いでるの…？」他人に言えない\"やめられない癖\"総決算！血が出るまで肛門を拭く、部下への説教依存、飲酒後の無限シメ…世間のヤバい悪癖をぶった斬る！【アレン様×トンツカタン森本】",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-05-17T22:00:35Z",
+      "published_dt": "2026-05-17T22:00:35+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/PPN3z32W1PA/maxresdefault.jpg",
+      "duration_seconds": 1070,
+      "live_status": "",
+      "rel_time": "28分前",
+      "duration_text": "17:50",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "-QJRpNKRqVM",
+      "title": "【再放送】【知らないと恥ずかしい】税務調査と査察調査の違いを分かりやすく解説【稼ぐ 実践編】：（アニメ動画）第503回",
       "channel_title": "両学長 リベラルアーツ大学",
       "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-05-17T13:44:57Z",
-      "published_dt": "2026-05-17T13:44:57+00:00",
+      "published_iso": "2026-05-17T22:00:01Z",
+      "published_dt": "2026-05-17T22:00:01+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/-QJRpNKRqVM/maxresdefault.jpg",
+      "duration_seconds": 1055,
+      "live_status": "",
+      "rel_time": "29分前",
+      "duration_text": "17:35",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "Py4Q4GFxcJE",
+      "title": "【韓国の憂鬱】韓国の株価指数がヤバい。若者に投資ブーム&28年ぶりの平和な家族外食｜行動したら人生は変えられる、を体現したリベ民の手紙【5月18日8時30分まで】",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-05-17T21:41:12Z",
+      "published_dt": "2026-05-17T21:41:12+00:00",
       "thumbnail": "https://i.ytimg.com/vi/Py4Q4GFxcJE/maxresdefault_live.jpg",
       "duration_seconds": null,
-      "live_status": "upcoming",
-      "rel_time": "7時間前",
-      "duration_text": "配信予定",
-      "badge_kind": "upcoming"
+      "live_status": "live",
+      "rel_time": "47分前",
+      "duration_text": "LIVE",
+      "badge_kind": "live"
     },
     {
       "video_id": "JI_2DUlxeI8",
@@ -25,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JI_2DUlxeI8/maxresdefault.jpg",
       "duration_seconds": 70,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "10時間前",
       "duration_text": "1:10",
       "badge_kind": ""
     },
@@ -53,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/CNBFSeC-UaA/maxresdefault.jpg",
       "duration_seconds": 1275,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "12時間前",
       "duration_text": "21:15",
       "badge_kind": ""
     },
@@ -67,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/D1LRht1ULig/maxresdefault.jpg",
       "duration_seconds": 1894,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "12時間前",
       "duration_text": "31:34",
       "badge_kind": ""
     },
@@ -81,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zZ6FvZR-t7w/maxresdefault.jpg",
       "duration_seconds": 729,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "12時間前",
       "duration_text": "12:09",
       "badge_kind": ""
     },
@@ -109,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gs4Ra8Vy3IY/maxresdefault.jpg",
       "duration_seconds": 88,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "13時間前",
       "duration_text": "1:28",
       "badge_kind": ""
     },
@@ -123,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/xl4Wi6KyO6A/maxresdefault.jpg",
       "duration_seconds": 67,
       "live_status": "",
-      "rel_time": "18時間前",
+      "rel_time": "19時間前",
       "duration_text": "1:07",
       "badge_kind": ""
     },
@@ -137,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/nPyEt3egQec/maxresdefault.jpg",
       "duration_seconds": 8235,
       "live_status": "",
-      "rel_time": "21時間前",
+      "rel_time": "22時間前",
       "duration_text": "2:17:15",
       "badge_kind": ""
     },
@@ -151,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jsFZuWYjqAU/maxresdefault.jpg",
       "duration_seconds": 748,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "12:28",
       "badge_kind": ""
     },
@@ -165,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3eCuiAdv3_g/maxresdefault.jpg",
       "duration_seconds": 54,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "0:54",
       "badge_kind": ""
     },
@@ -319,7 +347,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0bSsdPPVUu4/maxresdefault.jpg",
       "duration_seconds": 44,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "0:44",
       "badge_kind": ""
     },
@@ -333,7 +361,7 @@
       "thumbnail": "https://i.ytimg.com/vi/S4nypeF4_ic/maxresdefault.jpg",
       "duration_seconds": 466,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "7:46",
       "badge_kind": ""
     },
@@ -464,20 +492,6 @@
       "badge_kind": ""
     },
     {
-      "video_id": "eF_LAHffOOw",
-      "title": "【ゲオHD遠藤結蔵社長】レンタル絶好調の裏にある当時の危機感と不安 #遠藤結蔵 #ゲオ #GEO  #セカンドストリート",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-05-15T03:00:09Z",
-      "published_dt": "2026-05-15T03:00:09+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/eF_LAHffOOw/maxresdefault.jpg",
-      "duration_seconds": 98,
-      "live_status": "",
-      "rel_time": "2日前",
-      "duration_text": "1:38",
-      "badge_kind": ""
-    },
-    {
       "video_id": "m3s2NruzDEQ",
       "title": "学長AIが選んだ今週のお金ニュース、ぜんぶまとめて学長コメント【5月15日8時30分まで】",
       "channel_title": "両学長 リベラルアーツ大学",
@@ -501,7 +515,7 @@
       "thumbnail": "https://i.ytimg.com/vi/hFbtixZueYE/maxresdefault.jpg",
       "duration_seconds": 2695,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "44:55",
       "badge_kind": ""
     },
@@ -515,7 +529,7 @@
       "thumbnail": "https://i.ytimg.com/vi/hzo17nc-2iU/maxresdefault.jpg",
       "duration_seconds": 1019,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "16:59",
       "badge_kind": ""
     },
@@ -599,7 +613,7 @@
       "thumbnail": "https://i.ytimg.com/vi/l-MRGPGeNVg/maxresdefault.jpg",
       "duration_seconds": 1381,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "23:01",
       "badge_kind": ""
     },
@@ -671,20 +685,6 @@
       "live_status": "",
       "rel_time": "4日前",
       "duration_text": "2:00:34",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "xbJdZOAR_1U",
-      "title": "【再放送】副業で成功する人の5つの特徴【体験談アリ】【稼ぐ実践編】：（アニメ動画）第247回",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-05-12T22:01:05Z",
-      "published_dt": "2026-05-12T22:01:05+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/xbJdZOAR_1U/maxresdefault.jpg",
-      "duration_seconds": 1357,
-      "live_status": "",
-      "rel_time": "4日前",
-      "duration_text": "22:37",
       "badge_kind": ""
     },
     {
