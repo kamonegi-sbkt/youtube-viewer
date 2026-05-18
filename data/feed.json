@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-05-18T10:43:12+00:00",
+  "generated_at": "2026-05-18T14:19:56+00:00",
   "videos": [
+    {
+      "video_id": "jOxKuf8-Zsc",
+      "title": "AIセキュリティを向上させる配信 / Claude、Codexアプリ版の欠点",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-05-18T13:44:02Z",
+      "published_dt": "2026-05-18T13:44:02+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/jOxKuf8-Zsc/maxresdefault.jpg",
+      "duration_seconds": 6734,
+      "live_status": "",
+      "rel_time": "35分前",
+      "duration_text": "1:52:14",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "1hrISzGzur8",
+      "title": "【アベマ同時配信中】「抗議した東大生に聞く！参政代表の講演なぜ反対」アベプラ｜5/18(月) 21:00〜",
+      "channel_title": "ABEMA Prime",
+      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
+      "published_iso": "2026-05-18T13:29:44Z",
+      "published_dt": "2026-05-18T13:29:44+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/1hrISzGzur8/maxresdefault.jpg",
+      "duration_seconds": 4717,
+      "live_status": "",
+      "rel_time": "50分前",
+      "duration_text": "1:18:37",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "GWd6Ss_xs30",
+      "title": "【坪田信貴】学習を動機付ける方法とは？ #エデュパ #山﨑晴太郎 #宮村優子 #坪田信貴 #益田裕介 #益川弘如 #勉強 #才能 #ビリギャル",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-05-18T12:00:04Z",
+      "published_dt": "2026-05-18T12:00:04+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/GWd6Ss_xs30/maxresdefault.jpg",
+      "duration_seconds": 59,
+      "live_status": "",
+      "rel_time": "2時間前",
+      "duration_text": "0:59",
+      "badge_kind": ""
+    },
     {
       "video_id": "dILW34xiIfM",
       "title": "丘珠空港やセントレアは名前を変えるべき！挑戦を続ける航空会社・トキエア代表と「航空業界の改善点」を徹底議論",
@@ -11,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/dILW34xiIfM/maxresdefault.jpg",
       "duration_seconds": 970,
       "live_status": "",
-      "rel_time": "42分前",
+      "rel_time": "4時間前",
       "duration_text": "16:10",
       "badge_kind": ""
     },
@@ -25,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0EEvXc89NRU/maxresdefault.jpg",
       "duration_seconds": 1653,
       "live_status": "",
-      "rel_time": "43分前",
+      "rel_time": "4時間前",
       "duration_text": "27:33",
       "badge_kind": ""
     },
@@ -39,22 +81,8 @@
       "thumbnail": "https://i.ytimg.com/vi/RLP0LrLoplY/maxresdefault.jpg",
       "duration_seconds": 53,
       "live_status": "",
-      "rel_time": "7時間前",
+      "rel_time": "11時間前",
       "duration_text": "0:53",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "jOxKuf8-Zsc",
-      "title": "AIセキュリティを向上させる配信 / Claude、Codexアプリ版の欠点",
-      "channel_title": "ウェブ職TV / Nesheep",
-      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-05-18T01:28:58Z",
-      "published_dt": "2026-05-18T01:28:58+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/jOxKuf8-Zsc/maxresdefault_live.jpg",
-      "duration_seconds": 6728,
-      "live_status": "",
-      "rel_time": "9時間前",
-      "duration_text": "1:52:08",
       "badge_kind": ""
     },
     {
@@ -67,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Py4Q4GFxcJE/maxresdefault.jpg",
       "duration_seconds": 6908,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "14時間前",
       "duration_text": "1:55:08",
       "badge_kind": ""
     },
@@ -81,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PPN3z32W1PA/maxresdefault.jpg",
       "duration_seconds": 1070,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "16時間前",
       "duration_text": "17:50",
       "badge_kind": ""
     },
@@ -95,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/-QJRpNKRqVM/maxresdefault.jpg",
       "duration_seconds": 1055,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "16時間前",
       "duration_text": "17:35",
       "badge_kind": ""
     },
@@ -109,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JI_2DUlxeI8/maxresdefault.jpg",
       "duration_seconds": 70,
       "live_status": "",
-      "rel_time": "22時間前",
+      "rel_time": "1日前",
       "duration_text": "1:10",
       "badge_kind": ""
     },
@@ -263,7 +291,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Tj5ojVE0mKg/maxresdefault.jpg",
       "duration_seconds": 1054,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "17:34",
       "badge_kind": ""
     },
@@ -277,7 +305,7 @@
       "thumbnail": "https://i.ytimg.com/vi/c5UD69k3Wzo/maxresdefault.jpg",
       "duration_seconds": 52,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "0:52",
       "badge_kind": ""
     },
@@ -436,20 +464,6 @@
       "badge_kind": ""
     },
     {
-      "video_id": "Xaig36h5uhk",
-      "title": "【三菱UFJ銀行】硬派なエリート集団？　#offreco #吉村崇  #大室正志  #黄皓  #勝倉千尋 #高野光博 #三菱 #三菱商事  #UFJ #年収 #キャリア #転職 #就活 #外資",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-05-15T12:00:16Z",
-      "published_dt": "2026-05-15T12:00:16+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/Xaig36h5uhk/maxresdefault.jpg",
-      "duration_seconds": 70,
-      "live_status": "",
-      "rel_time": "2日前",
-      "duration_text": "1:10",
-      "badge_kind": ""
-    },
-    {
       "video_id": "hQ3o3RHwADY",
       "title": "【ゆる解説】AIで組織はどう変わる？ Company Brainという新概念 / 組織階層はなくなる？ / SkillsやMCPで実現可能？ / 人間の意思決定の価値 / 政治にも応用？",
       "channel_title": "安野貴博の自由研究",
@@ -459,7 +473,7 @@
       "thumbnail": "https://i.ytimg.com/vi/hQ3o3RHwADY/maxresdefault.jpg",
       "duration_seconds": 574,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "9:34",
       "badge_kind": ""
     },
@@ -473,7 +487,7 @@
       "thumbnail": "https://i.ytimg.com/vi/z9aD6-JrwjI/maxresdefault.jpg",
       "duration_seconds": 38,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "0:38",
       "badge_kind": ""
     },
@@ -489,20 +503,6 @@
       "live_status": "",
       "rel_time": "3日前",
       "duration_text": "29:52",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "nhx6XE7xepA",
-      "title": "【Fラン】財務省が250校削減案！私大って減らして大丈夫？wakkate.TV高田ふーみんと考える",
-      "channel_title": "ABEMA Prime",
-      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-05-15T10:01:15Z",
-      "published_dt": "2026-05-15T10:01:15+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/nhx6XE7xepA/maxresdefault.jpg",
-      "duration_seconds": 2390,
-      "live_status": "",
-      "rel_time": "3日前",
-      "duration_text": "39:50",
       "badge_kind": ""
     },
     {
@@ -571,7 +571,7 @@
       "thumbnail": "https://i.ytimg.com/vi/WoIMoUjBZjA/maxresdefault.jpg",
       "duration_seconds": 447,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "7:27",
       "badge_kind": ""
     },
@@ -641,7 +641,7 @@
       "thumbnail": "https://i.ytimg.com/vi/KcTM9TCVA7Q/maxresdefault.jpg",
       "duration_seconds": 3051,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "50:51",
       "badge_kind": ""
     },
@@ -655,7 +655,7 @@
       "thumbnail": "https://i.ytimg.com/vi/koQdi-8jMMY/maxresdefault.jpg",
       "duration_seconds": 45,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "0:45",
       "badge_kind": ""
     },
