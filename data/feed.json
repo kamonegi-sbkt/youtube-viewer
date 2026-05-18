@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-18T17:17:11+00:00",
+  "generated_at": "2026-05-18T19:12:01+00:00",
   "videos": [
+    {
+      "video_id": "c9a35k_8UQM",
+      "title": "Claude Codeの間違ったセキュリティ対策 / .claudeignoreは存在しません / CCSHの重要性",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-05-18T18:08:42Z",
+      "published_dt": "2026-05-18T18:08:42+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/c9a35k_8UQM/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "upcoming",
+      "rel_time": "1時間前",
+      "duration_text": "配信予定",
+      "badge_kind": "upcoming"
+    },
     {
       "video_id": "jOxKuf8-Zsc",
       "title": "AIセキュリティを向上させる配信 / Claude、Codexアプリ版の欠点",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jOxKuf8-Zsc/maxresdefault.jpg",
       "duration_seconds": 6734,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "5時間前",
       "duration_text": "1:52:14",
       "badge_kind": ""
     },
@@ -25,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/1hrISzGzur8/maxresdefault.jpg",
       "duration_seconds": 4717,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "5時間前",
       "duration_text": "1:18:37",
       "badge_kind": ""
     },
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/GWd6Ss_xs30/maxresdefault.jpg",
       "duration_seconds": 59,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "7時間前",
       "duration_text": "0:59",
       "badge_kind": ""
     },
@@ -53,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/dILW34xiIfM/maxresdefault.jpg",
       "duration_seconds": 970,
       "live_status": "",
-      "rel_time": "7時間前",
+      "rel_time": "9時間前",
       "duration_text": "16:10",
       "badge_kind": ""
     },
@@ -67,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0EEvXc89NRU/maxresdefault.jpg",
       "duration_seconds": 1653,
       "live_status": "",
-      "rel_time": "7時間前",
+      "rel_time": "9時間前",
       "duration_text": "27:33",
       "badge_kind": ""
     },
@@ -81,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/RLP0LrLoplY/maxresdefault.jpg",
       "duration_seconds": 53,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "16時間前",
       "duration_text": "0:53",
       "badge_kind": ""
     },
@@ -95,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Py4Q4GFxcJE/maxresdefault.jpg",
       "duration_seconds": 6908,
       "live_status": "",
-      "rel_time": "17時間前",
+      "rel_time": "19時間前",
       "duration_text": "1:55:08",
       "badge_kind": ""
     },
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PPN3z32W1PA/maxresdefault.jpg",
       "duration_seconds": 1070,
       "live_status": "",
-      "rel_time": "19時間前",
+      "rel_time": "21時間前",
       "duration_text": "17:50",
       "badge_kind": ""
     },
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/-QJRpNKRqVM/maxresdefault.jpg",
       "duration_seconds": 1055,
       "live_status": "",
-      "rel_time": "19時間前",
+      "rel_time": "21時間前",
       "duration_text": "17:35",
       "badge_kind": ""
     },
@@ -825,20 +839,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "32:02",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "mlAGP0PM4xc",
-      "title": "ホリエモンが離婚した理由とは…？女性議員と「少子化対策・子育て政策」を真剣に考える【 #それどう ダイジェスト】",
-      "channel_title": "堀江貴文 ホリエモン",
-      "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
-      "published_iso": "2026-05-08T10:01:29Z",
-      "published_dt": "2026-05-08T10:01:29+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/mlAGP0PM4xc/maxresdefault.jpg",
-      "duration_seconds": 943,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "15:43",
       "badge_kind": ""
     }
   ]
