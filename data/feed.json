@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-05-18T23:19:12+00:00",
+  "generated_at": "2026-05-19T01:28:54+00:00",
   "videos": [
+    {
+      "video_id": "c9a35k_8UQM",
+      "title": "Claude Codeの間違ったセキュリティ対策 / .claudeignoreは存在しません / CCSHの重要性",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-05-19T00:32:32Z",
+      "published_dt": "2026-05-19T00:32:32+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/c9a35k_8UQM/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "live",
+      "rel_time": "56分前",
+      "duration_text": "LIVE",
+      "badge_kind": "live"
+    },
+    {
+      "video_id": "KpdINTPTFGY",
+      "title": "【2028年予測】住宅ローン金利1.7%へ｜月1〜2万円の返済増に備える方法【5月19日8時30分まで】",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-05-18T23:47:02Z",
+      "published_dt": "2026-05-18T23:47:02+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/KpdINTPTFGY/maxresdefault.jpg",
+      "duration_seconds": 7246,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "2:00:46",
+      "badge_kind": ""
+    },
     {
       "video_id": "gR3KA371z-8",
       "title": "「今から投資」が遅くないたった1つの理由【株式投資編】：（アニメ動画）第518回",
@@ -11,23 +39,9 @@
       "thumbnail": "https://i.ytimg.com/vi/gR3KA371z-8/maxresdefault.jpg",
       "duration_seconds": 1186,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "3時間前",
       "duration_text": "19:46",
       "badge_kind": ""
-    },
-    {
-      "video_id": "KpdINTPTFGY",
-      "title": "【2028年予測】住宅ローン金利1.7%へ｜月1〜2万円の返済増に備える方法【5月19日8時30分まで】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-05-18T21:41:34Z",
-      "published_dt": "2026-05-18T21:41:34+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/KpdINTPTFGY/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "1時間前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
     },
     {
       "video_id": "IZnqgW1f6U4",
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/IZnqgW1f6U4/maxresdefault.jpg",
       "duration_seconds": 2165,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "4時間前",
       "duration_text": "36:05",
       "badge_kind": ""
     },
@@ -53,23 +67,9 @@
       "thumbnail": "https://i.ytimg.com/vi/3p-kHK1M0k8/maxresdefault.jpg",
       "duration_seconds": 4130,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "4時間前",
       "duration_text": "1:08:50",
       "badge_kind": ""
-    },
-    {
-      "video_id": "c9a35k_8UQM",
-      "title": "Claude Codeの間違ったセキュリティ対策 / .claudeignoreは存在しません / CCSHの重要性",
-      "channel_title": "ウェブ職TV / Nesheep",
-      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-05-18T18:08:42Z",
-      "published_dt": "2026-05-18T18:08:42+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/c9a35k_8UQM/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "upcoming",
-      "rel_time": "5時間前",
-      "duration_text": "配信予定",
-      "badge_kind": "upcoming"
     },
     {
       "video_id": "jOxKuf8-Zsc",
@@ -81,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jOxKuf8-Zsc/maxresdefault.jpg",
       "duration_seconds": 6734,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "11時間前",
       "duration_text": "1:52:14",
       "badge_kind": ""
     },
@@ -95,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/1hrISzGzur8/maxresdefault.jpg",
       "duration_seconds": 4717,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "11時間前",
       "duration_text": "1:18:37",
       "badge_kind": ""
     },
@@ -109,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/GWd6Ss_xs30/maxresdefault.jpg",
       "duration_seconds": 59,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "13時間前",
       "duration_text": "0:59",
       "badge_kind": ""
     },
@@ -123,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/dILW34xiIfM/maxresdefault.jpg",
       "duration_seconds": 970,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "15時間前",
       "duration_text": "16:10",
       "badge_kind": ""
     },
@@ -137,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0EEvXc89NRU/maxresdefault.jpg",
       "duration_seconds": 1653,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "15時間前",
       "duration_text": "27:33",
       "badge_kind": ""
     },
@@ -151,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/RLP0LrLoplY/maxresdefault.jpg",
       "duration_seconds": 53,
       "live_status": "",
-      "rel_time": "20時間前",
+      "rel_time": "22時間前",
       "duration_text": "0:53",
       "badge_kind": ""
     },
@@ -165,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Py4Q4GFxcJE/maxresdefault.jpg",
       "duration_seconds": 6908,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "1:55:08",
       "badge_kind": ""
     },
@@ -319,7 +319,7 @@
       "thumbnail": "https://i.ytimg.com/vi/nPyEt3egQec/maxresdefault.jpg",
       "duration_seconds": 8235,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "2:17:15",
       "badge_kind": ""
     },
@@ -487,7 +487,7 @@
       "thumbnail": "https://i.ytimg.com/vi/X_Umi6ALYZg/maxresdefault.jpg",
       "duration_seconds": 6727,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "1:52:07",
       "badge_kind": ""
     },
@@ -585,7 +585,7 @@
       "thumbnail": "https://i.ytimg.com/vi/m3s2NruzDEQ/maxresdefault.jpg",
       "duration_seconds": 7285,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "2:01:25",
       "badge_kind": ""
     },
@@ -669,7 +669,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bwLC9aERFGo/maxresdefault.jpg",
       "duration_seconds": 7298,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "2:01:38",
       "badge_kind": ""
     },
@@ -739,7 +739,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qifHCO7nZv8/maxresdefault.jpg",
       "duration_seconds": 2809,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "46:49",
       "badge_kind": ""
     },
