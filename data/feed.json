@@ -1,19 +1,33 @@
 {
-  "generated_at": "2026-05-19T01:28:54+00:00",
+  "generated_at": "2026-05-19T05:44:41+00:00",
   "videos": [
+    {
+      "video_id": "3Ran6gG3kHA",
+      "title": "【三菱重工】失敗なくやる組織　#offreco #吉村崇  #大室正志  #黄皓  #勝倉千尋 #高野光博 #三菱 #三菱商事  #UFJ #年収 #キャリア #転職 #就活 #外資",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-05-19T03:00:31Z",
+      "published_dt": "2026-05-19T03:00:31+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/3Ran6gG3kHA/maxresdefault.jpg",
+      "duration_seconds": 75,
+      "live_status": "",
+      "rel_time": "2時間前",
+      "duration_text": "1:15",
+      "badge_kind": ""
+    },
     {
       "video_id": "c9a35k_8UQM",
       "title": "Claude Codeの間違ったセキュリティ対策 / .claudeignoreは存在しません / CCSHの重要性",
       "channel_title": "ウェブ職TV / Nesheep",
       "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-05-19T00:32:32Z",
-      "published_dt": "2026-05-19T00:32:32+00:00",
+      "published_iso": "2026-05-19T02:23:07Z",
+      "published_dt": "2026-05-19T02:23:07+00:00",
       "thumbnail": "https://i.ytimg.com/vi/c9a35k_8UQM/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "56分前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
+      "duration_seconds": 6635,
+      "live_status": "",
+      "rel_time": "3時間前",
+      "duration_text": "1:50:35",
+      "badge_kind": ""
     },
     {
       "video_id": "KpdINTPTFGY",
@@ -25,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/KpdINTPTFGY/maxresdefault.jpg",
       "duration_seconds": 7246,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "5時間前",
       "duration_text": "2:00:46",
       "badge_kind": ""
     },
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gR3KA371z-8/maxresdefault.jpg",
       "duration_seconds": 1186,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "7時間前",
       "duration_text": "19:46",
       "badge_kind": ""
     },
@@ -53,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/IZnqgW1f6U4/maxresdefault.jpg",
       "duration_seconds": 2165,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "8時間前",
       "duration_text": "36:05",
       "badge_kind": ""
     },
@@ -67,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3p-kHK1M0k8/maxresdefault.jpg",
       "duration_seconds": 4130,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "8時間前",
       "duration_text": "1:08:50",
       "badge_kind": ""
     },
@@ -81,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jOxKuf8-Zsc/maxresdefault.jpg",
       "duration_seconds": 6734,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "16時間前",
       "duration_text": "1:52:14",
       "badge_kind": ""
     },
@@ -95,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/1hrISzGzur8/maxresdefault.jpg",
       "duration_seconds": 4717,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "16時間前",
       "duration_text": "1:18:37",
       "badge_kind": ""
     },
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/GWd6Ss_xs30/maxresdefault.jpg",
       "duration_seconds": 59,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "17時間前",
       "duration_text": "0:59",
       "badge_kind": ""
     },
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/dILW34xiIfM/maxresdefault.jpg",
       "duration_seconds": 970,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "19時間前",
       "duration_text": "16:10",
       "badge_kind": ""
     },
@@ -137,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0EEvXc89NRU/maxresdefault.jpg",
       "duration_seconds": 1653,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "19時間前",
       "duration_text": "27:33",
       "badge_kind": ""
     },
@@ -151,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/RLP0LrLoplY/maxresdefault.jpg",
       "duration_seconds": 53,
       "live_status": "",
-      "rel_time": "22時間前",
+      "rel_time": "1日前",
       "duration_text": "0:53",
       "badge_kind": ""
     },
@@ -305,7 +319,7 @@
       "thumbnail": "https://i.ytimg.com/vi/xl4Wi6KyO6A/maxresdefault.jpg",
       "duration_seconds": 67,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "1:07",
       "badge_kind": ""
     },
@@ -459,22 +473,8 @@
       "thumbnail": "https://i.ytimg.com/vi/UJfrW48qoIc/maxresdefault.jpg",
       "duration_seconds": 75,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "1:15",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "XDN6fSCy7zk",
-      "title": "【殺到】OpenAIも、「新職種」でコンサルを潰しに来た（FDE/OpenAI/アンソロピック/パランティア/SaaS/サム・アルトマン/解説：後藤直義、森川潤）",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-05-16T03:00:10Z",
-      "published_dt": "2026-05-16T03:00:10+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/XDN6fSCy7zk/maxresdefault.jpg",
-      "duration_seconds": 1213,
-      "live_status": "",
-      "rel_time": "2日前",
-      "duration_text": "20:13",
       "badge_kind": ""
     },
     {
@@ -655,22 +655,8 @@
       "thumbnail": "https://i.ytimg.com/vi/ZKIchYEXdCE/maxresdefault.jpg",
       "duration_seconds": 5489,
       "live_status": "",
-      "rel_time": "4日前",
-      "duration_text": "1:31:29",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "bwLC9aERFGo",
-      "title": "【2兆円の隠れ増税】気づいてる？インフレで進む『ステルス増税』の正体&なんでも無料で使おうとするあなたへ【損する。笑】【5月14日8時30分まで】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-05-13T23:47:09Z",
-      "published_dt": "2026-05-13T23:47:09+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/bwLC9aERFGo/maxresdefault.jpg",
-      "duration_seconds": 7298,
-      "live_status": "",
       "rel_time": "5日前",
-      "duration_text": "2:01:38",
+      "duration_text": "1:31:29",
       "badge_kind": ""
     },
     {
@@ -839,6 +825,20 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "44:59",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "qZuPac8RIYI",
+      "title": "ホリエモンの馬「イッテラッシャイ」の成績が凄い！？ホリエモンが解説する血統戦略と競馬ビジネスの構造",
+      "channel_title": "堀江貴文 ホリエモン",
+      "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
+      "published_iso": "2026-05-09T10:01:25Z",
+      "published_dt": "2026-05-09T10:01:25+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/qZuPac8RIYI/maxresdefault.jpg",
+      "duration_seconds": 2804,
+      "live_status": "",
+      "rel_time": "1週間前",
+      "duration_text": "46:44",
       "badge_kind": ""
     }
   ]
