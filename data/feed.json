@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-05-19T12:11:09+00:00",
+  "generated_at": "2026-05-19T15:50:48+00:00",
   "videos": [
+    {
+      "video_id": "c9a35k_8UQM",
+      "title": "Claude Codeの間違ったセキュリティ対策 / .claudeignoreは存在しません / CCSHの重要性",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-05-19T15:10:07Z",
+      "published_dt": "2026-05-19T15:10:07+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/c9a35k_8UQM/maxresdefault.jpg",
+      "duration_seconds": 6639,
+      "live_status": "",
+      "rel_time": "40分前",
+      "duration_text": "1:50:39",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "aGOP39sD-nc",
+      "title": "【アベマ同時配信中】「部活の移動のあり方は？事故で『バス禁止』の声も」アベプラ｜5/19(火) 21:00〜",
+      "channel_title": "ABEMA Prime",
+      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
+      "published_iso": "2026-05-19T13:32:04Z",
+      "published_dt": "2026-05-19T13:32:04+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/aGOP39sD-nc/maxresdefault.jpg",
+      "duration_seconds": 4444,
+      "live_status": "",
+      "rel_time": "2時間前",
+      "duration_text": "1:14:04",
+      "badge_kind": ""
+    },
     {
       "video_id": "kc-0YJFsGoU",
       "title": "「聴覚検査では見つからない…」あなたの生産性と幸福度を下げる“隠れ難聴”の恐怖をプロが解説【NewsPicks/吉村崇/大室正志/千葉佳織/安田雅彦/カシオ計算機/モヤ耳】",
@@ -11,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kc-0YJFsGoU/maxresdefault.jpg",
       "duration_seconds": 2457,
       "live_status": "",
-      "rel_time": "10分前",
+      "rel_time": "3時間前",
       "duration_text": "40:57",
       "badge_kind": ""
     },
@@ -25,23 +53,9 @@
       "thumbnail": "https://i.ytimg.com/vi/6mnXYs_6svk/maxresdefault.jpg",
       "duration_seconds": 85,
       "live_status": "",
-      "rel_time": "11分前",
+      "rel_time": "3時間前",
       "duration_text": "1:25",
       "badge_kind": ""
-    },
-    {
-      "video_id": "aGOP39sD-nc",
-      "title": "【アベマ同時配信中】「部活の移動のあり方は？事故で『バス禁止』の声も」アベプラ｜5/19(火) 21:00〜",
-      "channel_title": "ABEMA Prime",
-      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-05-19T11:30:17Z",
-      "published_dt": "2026-05-19T11:30:17+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/aGOP39sD-nc/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "40分前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
     },
     {
       "video_id": "Ioi47QT_rxI",
@@ -53,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Ioi47QT_rxI/maxresdefault.jpg",
       "duration_seconds": 1532,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "4時間前",
       "duration_text": "25:32",
       "badge_kind": ""
     },
@@ -67,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4M1btgZpRNQ/maxresdefault.jpg",
       "duration_seconds": 2687,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "4時間前",
       "duration_text": "44:47",
       "badge_kind": ""
     },
@@ -81,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/XDByhqU1IoQ/maxresdefault.jpg",
       "duration_seconds": 1799,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "5時間前",
       "duration_text": "29:59",
       "badge_kind": ""
     },
@@ -95,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/nxbeXsZJImk/maxresdefault.jpg",
       "duration_seconds": 2274,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "5時間前",
       "duration_text": "37:54",
       "badge_kind": ""
     },
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_zd6rhM_-AE/maxresdefault.jpg",
       "duration_seconds": 1765,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "5時間前",
       "duration_text": "29:25",
       "badge_kind": ""
     },
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/MtrRbJjIAVY/maxresdefault.jpg",
       "duration_seconds": 969,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "5時間前",
       "duration_text": "16:09",
       "badge_kind": ""
     },
@@ -137,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lNjMfnLqCbI/maxresdefault.jpg",
       "duration_seconds": 42,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "6時間前",
       "duration_text": "0:42",
       "badge_kind": ""
     },
@@ -151,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_OqAeJsfU0k/maxresdefault_live.jpg",
       "duration_seconds": null,
       "live_status": "upcoming",
-      "rel_time": "3時間前",
+      "rel_time": "6時間前",
       "duration_text": "配信予定",
       "badge_kind": "upcoming"
     },
@@ -165,22 +179,8 @@
       "thumbnail": "https://i.ytimg.com/vi/3Ran6gG3kHA/maxresdefault.jpg",
       "duration_seconds": 75,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "12時間前",
       "duration_text": "1:15",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "c9a35k_8UQM",
-      "title": "Claude Codeの間違ったセキュリティ対策 / .claudeignoreは存在しません / CCSHの重要性",
-      "channel_title": "ウェブ職TV / Nesheep",
-      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-05-19T02:23:07Z",
-      "published_dt": "2026-05-19T02:23:07+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/c9a35k_8UQM/maxresdefault_live.jpg",
-      "duration_seconds": 6635,
-      "live_status": "",
-      "rel_time": "9時間前",
-      "duration_text": "1:50:35",
       "badge_kind": ""
     },
     {
@@ -193,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/KpdINTPTFGY/maxresdefault.jpg",
       "duration_seconds": 7246,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "16時間前",
       "duration_text": "2:00:46",
       "badge_kind": ""
     },
@@ -207,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gR3KA371z-8/maxresdefault.jpg",
       "duration_seconds": 1186,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "17時間前",
       "duration_text": "19:46",
       "badge_kind": ""
     },
@@ -221,7 +221,7 @@
       "thumbnail": "https://i.ytimg.com/vi/IZnqgW1f6U4/maxresdefault.jpg",
       "duration_seconds": 2165,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "18時間前",
       "duration_text": "36:05",
       "badge_kind": ""
     },
@@ -235,7 +235,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3p-kHK1M0k8/maxresdefault.jpg",
       "duration_seconds": 4130,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "18時間前",
       "duration_text": "1:08:50",
       "badge_kind": ""
     },
@@ -249,7 +249,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jOxKuf8-Zsc/maxresdefault.jpg",
       "duration_seconds": 6734,
       "live_status": "",
-      "rel_time": "22時間前",
+      "rel_time": "1日前",
       "duration_text": "1:52:14",
       "badge_kind": ""
     },
@@ -697,7 +697,7 @@
       "thumbnail": "https://i.ytimg.com/vi/KcTM9TCVA7Q/maxresdefault.jpg",
       "duration_seconds": 3051,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "50:51",
       "badge_kind": ""
     },
