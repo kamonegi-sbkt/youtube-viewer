@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-20T17:30:01+00:00",
+  "generated_at": "2026-05-20T19:50:16+00:00",
   "videos": [
+    {
+      "video_id": "r9xaG-wJ_ko",
+      "title": "Githubの情報漏洩がヤバすぎる… / Google I/O 2026も簡単におさらい / 今日もまた激動のAI業界",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-05-20T18:20:17Z",
+      "published_dt": "2026-05-20T18:20:17+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/r9xaG-wJ_ko/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "upcoming",
+      "rel_time": "1時間前",
+      "duration_text": "配信予定",
+      "badge_kind": "upcoming"
+    },
     {
       "video_id": "g8neiNkJ7B8",
       "title": "Googleが遂に本気を出してきたああああ！！ / Google I/O2026まとめ / Gemini 3.5 Flash、Gemini Omni、Gemini Spark",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/g8neiNkJ7B8/maxresdefault.jpg",
       "duration_seconds": 2730,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "3時間前",
       "duration_text": "45:30",
       "badge_kind": ""
     },
@@ -25,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/nsR6HTAFcLI/maxresdefault.jpg",
       "duration_seconds": 3928,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "6時間前",
       "duration_text": "1:05:28",
       "badge_kind": ""
     },
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0AFZ8zEFxGo/maxresdefault.jpg",
       "duration_seconds": 58,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "7時間前",
       "duration_text": "0:58",
       "badge_kind": ""
     },
@@ -53,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/u4uXFj5l0Kc/maxresdefault.jpg",
       "duration_seconds": 2071,
       "live_status": "",
-      "rel_time": "6時間前",
+      "rel_time": "8時間前",
       "duration_text": "34:31",
       "badge_kind": ""
     },
@@ -67,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/SbhdgfvAzrc/maxresdefault.jpg",
       "duration_seconds": 1714,
       "live_status": "",
-      "rel_time": "6時間前",
+      "rel_time": "9時間前",
       "duration_text": "28:34",
       "badge_kind": ""
     },
@@ -81,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/e16TmSTudfk/maxresdefault.jpg",
       "duration_seconds": 4510,
       "live_status": "",
-      "rel_time": "7時間前",
+      "rel_time": "9時間前",
       "duration_text": "1:15:10",
       "badge_kind": ""
     },
@@ -95,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/5-psFh8UYW0/maxresdefault.jpg",
       "duration_seconds": 954,
       "live_status": "",
-      "rel_time": "7時間前",
+      "rel_time": "9時間前",
       "duration_text": "15:54",
       "badge_kind": ""
     },
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7krkLGqNPxQ/maxresdefault.jpg",
       "duration_seconds": 43,
       "live_status": "",
-      "rel_time": "8時間前",
+      "rel_time": "10時間前",
       "duration_text": "0:43",
       "badge_kind": ""
     },
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_OqAeJsfU0k/maxresdefault.jpg",
       "duration_seconds": 2996,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "14時間前",
       "duration_text": "49:56",
       "badge_kind": ""
     },
@@ -137,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/14CFqrDK6Xk/maxresdefault.jpg",
       "duration_seconds": 67,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "16時間前",
       "duration_text": "1:07",
       "badge_kind": ""
     },
@@ -151,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/VBiO9Fx1F1s/maxresdefault.jpg",
       "duration_seconds": 8036,
       "live_status": "",
-      "rel_time": "17時間前",
+      "rel_time": "19時間前",
       "duration_text": "2:13:56",
       "badge_kind": ""
     },
@@ -165,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/cSukiILNe4U/maxresdefault.jpg",
       "duration_seconds": 1033,
       "live_status": "",
-      "rel_time": "19時間前",
+      "rel_time": "21時間前",
       "duration_text": "17:13",
       "badge_kind": ""
     },
@@ -825,20 +839,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "55:41",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "y8b3rFe7X6c",
-      "title": "本日の最新AIニュース！ / 遂にClaude Codeを安全に使う仕組みが完成間近！ / Codexに浮気そう",
-      "channel_title": "ウェブ職TV / Nesheep",
-      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-05-11T14:37:23Z",
-      "published_dt": "2026-05-11T14:37:23+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/y8b3rFe7X6c/maxresdefault.jpg",
-      "duration_seconds": 6721,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "1:52:01",
       "badge_kind": ""
     }
   ]
