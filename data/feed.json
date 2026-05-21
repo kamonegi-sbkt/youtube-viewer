@@ -1,19 +1,33 @@
 {
-  "generated_at": "2026-05-21T00:19:11+00:00",
+  "generated_at": "2026-05-21T04:52:45+00:00",
   "videos": [
+    {
+      "video_id": "kQqfrT4Pp-w",
+      "title": "【田中渓】実践するインプット術とは？　#後藤達也 #田中渓 #投資 #資産運用 #円安 #マインドセット #不動産投資 #お金の勉強 #マネーメイト #MONEYandMATE",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-05-21T03:00:24Z",
+      "published_dt": "2026-05-21T03:00:24+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/kQqfrT4Pp-w/maxresdefault.jpg",
+      "duration_seconds": 85,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "1:25",
+      "badge_kind": ""
+    },
     {
       "video_id": "r9xaG-wJ_ko",
       "title": "Githubの情報漏洩がヤバすぎる… / Google I/O 2026も簡単におさらい / 今日もまた激動のAI業界",
       "channel_title": "ウェブ職TV / Nesheep",
       "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-05-21T00:14:02Z",
-      "published_dt": "2026-05-21T00:14:02+00:00",
+      "published_iso": "2026-05-21T01:33:23Z",
+      "published_dt": "2026-05-21T01:33:23+00:00",
       "thumbnail": "https://i.ytimg.com/vi/r9xaG-wJ_ko/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "5分前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
+      "duration_seconds": 4760,
+      "live_status": "",
+      "rel_time": "3時間前",
+      "duration_text": "1:19:20",
+      "badge_kind": ""
     },
     {
       "video_id": "y2tTgsFQS58",
@@ -25,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/y2tTgsFQS58/maxresdefault.jpg",
       "duration_seconds": 7056,
       "live_status": "",
-      "rel_time": "36分前",
+      "rel_time": "5時間前",
       "duration_text": "1:57:36",
       "badge_kind": ""
     },
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/tC-iN_232dE/maxresdefault.jpg",
       "duration_seconds": 373,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "6時間前",
       "duration_text": "6:13",
       "badge_kind": ""
     },
@@ -53,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/g8neiNkJ7B8/maxresdefault.jpg",
       "duration_seconds": 2730,
       "live_status": "",
-      "rel_time": "8時間前",
+      "rel_time": "12時間前",
       "duration_text": "45:30",
       "badge_kind": ""
     },
@@ -67,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/nsR6HTAFcLI/maxresdefault.jpg",
       "duration_seconds": 3928,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "15時間前",
       "duration_text": "1:05:28",
       "badge_kind": ""
     },
@@ -81,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0AFZ8zEFxGo/maxresdefault.jpg",
       "duration_seconds": 58,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "16時間前",
       "duration_text": "0:58",
       "badge_kind": ""
     },
@@ -95,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/u4uXFj5l0Kc/maxresdefault.jpg",
       "duration_seconds": 2071,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "17時間前",
       "duration_text": "34:31",
       "badge_kind": ""
     },
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/SbhdgfvAzrc/maxresdefault.jpg",
       "duration_seconds": 1714,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "18時間前",
       "duration_text": "28:34",
       "badge_kind": ""
     },
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/e16TmSTudfk/maxresdefault.jpg",
       "duration_seconds": 4510,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "18時間前",
       "duration_text": "1:15:10",
       "badge_kind": ""
     },
@@ -137,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/5-psFh8UYW0/maxresdefault.jpg",
       "duration_seconds": 954,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "18時間前",
       "duration_text": "15:54",
       "badge_kind": ""
     },
@@ -151,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7krkLGqNPxQ/maxresdefault.jpg",
       "duration_seconds": 43,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "19時間前",
       "duration_text": "0:43",
       "badge_kind": ""
     },
@@ -165,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_OqAeJsfU0k/maxresdefault.jpg",
       "duration_seconds": 2996,
       "live_status": "",
-      "rel_time": "19時間前",
+      "rel_time": "23時間前",
       "duration_text": "49:56",
       "badge_kind": ""
     },
@@ -179,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/14CFqrDK6Xk/maxresdefault.jpg",
       "duration_seconds": 67,
       "live_status": "",
-      "rel_time": "21時間前",
+      "rel_time": "1日前",
       "duration_text": "1:07",
       "badge_kind": ""
     },
@@ -361,7 +375,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3Ran6gG3kHA/maxresdefault.jpg",
       "duration_seconds": 75,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "1:15",
       "badge_kind": ""
     },
@@ -501,7 +515,7 @@
       "thumbnail": "https://i.ytimg.com/vi/RLP0LrLoplY/maxresdefault.jpg",
       "duration_seconds": 53,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "0:53",
       "badge_kind": ""
     },
@@ -517,20 +531,6 @@
       "live_status": "",
       "rel_time": "3日前",
       "duration_text": "1:55:08",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "PPN3z32W1PA",
-      "title": "「自分の尻、嗅いでるの…？」他人に言えない\"やめられない癖\"総決算！血が出るまで肛門を拭く、部下への説教依存、飲酒後の無限シメ…世間のヤバい悪癖をぶった斬る！【アレン様×トンツカタン森本】",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-05-17T22:00:35Z",
-      "published_dt": "2026-05-17T22:00:35+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/PPN3z32W1PA/maxresdefault.jpg",
-      "duration_seconds": 1070,
-      "live_status": "",
-      "rel_time": "3日前",
-      "duration_text": "17:50",
       "badge_kind": ""
     },
     {
@@ -632,20 +632,6 @@
       "badge_kind": ""
     },
     {
-      "video_id": "X_Umi6ALYZg",
-      "title": "貯金100万円未満→資産2400万円｜あるリベ民の人生再起の物語&今日は大型イベントでみんなに会えるの楽しみ【5月16日8時30分まで】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-05-15T23:37:59Z",
-      "published_dt": "2026-05-15T23:37:59+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/X_Umi6ALYZg/maxresdefault.jpg",
-      "duration_seconds": 6727,
-      "live_status": "",
-      "rel_time": "5日前",
-      "duration_text": "1:52:07",
-      "badge_kind": ""
-    },
-    {
       "video_id": "S4nypeF4_ic",
       "title": "【悲報？朗報？】高額療養費が8月に改正。制度の復習＆変更点を分かりやすく解説【リベ大公式切り抜き】",
       "channel_title": "両学長 リベラルアーツ大学",
@@ -730,6 +716,20 @@
       "badge_kind": ""
     },
     {
+      "video_id": "hzo17nc-2iU",
+      "title": "【再放送】年間30万円の配当金で人生は変わるのか？増配率を加味した30年後の世界【株式投資編】：（アニメ動画）第428回",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-05-14T22:00:48Z",
+      "published_dt": "2026-05-14T22:00:48+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/hzo17nc-2iU/maxresdefault.jpg",
+      "duration_seconds": 1019,
+      "live_status": "",
+      "rel_time": "6日前",
+      "duration_text": "16:59",
+      "badge_kind": ""
+    },
+    {
       "video_id": "WoIMoUjBZjA",
       "title": "実業家・宮崎麗果さんが1.5億円を脱税した件について解説します",
       "channel_title": "堀江貴文 ホリエモン",
@@ -767,7 +767,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ZKIchYEXdCE/maxresdefault.jpg",
       "duration_seconds": 5489,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "1:31:29",
       "badge_kind": ""
     },
