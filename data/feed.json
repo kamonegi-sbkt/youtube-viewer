@@ -1,19 +1,61 @@
 {
-  "generated_at": "2026-05-21T11:53:10+00:00",
+  "generated_at": "2026-05-21T15:25:47+00:00",
   "videos": [
+    {
+      "video_id": "r9xaG-wJ_ko",
+      "title": "Githubの情報漏洩がヤバすぎる… / Google I/O 2026も簡単におさらい / 今日もまた激動のAI業界",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-05-21T14:12:07Z",
+      "published_dt": "2026-05-21T14:12:07+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/r9xaG-wJ_ko/maxresdefault.jpg",
+      "duration_seconds": 4766,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "1:19:26",
+      "badge_kind": ""
+    },
     {
       "video_id": "fsi1YsDn624",
       "title": "【アベマ同時配信中】「国旗損壊罪に罰則案 なぜ必要？／高所得者へ課税」アベプラ｜5/21(木) 21:00〜",
       "channel_title": "ABEMA Prime",
       "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-05-21T11:31:22Z",
-      "published_dt": "2026-05-21T11:31:22+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/fsi1YsDn624/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "21分前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
+      "published_iso": "2026-05-21T13:32:25Z",
+      "published_dt": "2026-05-21T13:32:25+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/fsi1YsDn624/maxresdefault.jpg",
+      "duration_seconds": 4497,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "1:14:57",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "5ZZd1b6tZtY",
+      "title": "【マンションの選び方を解説】中古マンションを買うならこの条件を狙え #中古マンション #不動産  #住宅価格",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-05-21T12:00:16Z",
+      "published_dt": "2026-05-21T12:00:16+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/5ZZd1b6tZtY/maxresdefault.jpg",
+      "duration_seconds": 61,
+      "live_status": "",
+      "rel_time": "3時間前",
+      "duration_text": "1:01",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "pBxSSqNkwKE",
+      "title": "「キャバクラ・ラウンジ系の裏社会で多発中」“億”レベルの被害も発生する恐ろしいポンジスキームと深刻化する闇バイト/MONEY&MATE（マネーメイト）【草下シンヤ×田中渓】",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-05-21T12:00:12Z",
+      "published_dt": "2026-05-21T12:00:12+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/pBxSSqNkwKE/maxresdefault.jpg",
+      "duration_seconds": 813,
+      "live_status": "",
+      "rel_time": "3時間前",
+      "duration_text": "13:33",
+      "badge_kind": ""
     },
     {
       "video_id": "YDAlFSReSl4",
@@ -25,13 +67,13 @@
       "thumbnail": "https://i.ytimg.com/vi/YDAlFSReSl4/maxresdefault.jpg",
       "duration_seconds": 2656,
       "live_status": "",
-      "rel_time": "23分前",
+      "rel_time": "3時間前",
       "duration_text": "44:16",
       "badge_kind": ""
     },
     {
       "video_id": "0ZVMeOkaN4I",
-      "title": "「貯金ゼロになった」レジェンド漫画家、池田理代子がナゼ？『ベルサイユのばら』秘話、オスカルへの思いを明かす「売れない」「漫画は害悪」批判に手塚治虫から助言！全てを掛けた『オルフェウスの窓』【落合陽一】",
+      "title": "「車で連れ去られた」レジェンド漫画家、池田理代子が”壮絶すぎる”制作現場を告白『ベルサイユのばら』秘話、オスカルへの思いとは？害悪批判に手塚治虫から助言！「オルフェウスの窓に全てを掛けた」【落合陽一】",
       "channel_title": "NewsPicks /ニューズピックス",
       "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
       "published_iso": "2026-05-21T11:00:14Z",
@@ -39,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0ZVMeOkaN4I/maxresdefault.jpg",
       "duration_seconds": 1053,
       "live_status": "",
-      "rel_time": "52分前",
+      "rel_time": "4時間前",
       "duration_text": "17:33",
       "badge_kind": ""
     },
@@ -53,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3nI8CnvKtUQ/maxresdefault.jpg",
       "duration_seconds": 1561,
       "live_status": "",
-      "rel_time": "53分前",
+      "rel_time": "4時間前",
       "duration_text": "26:01",
       "badge_kind": ""
     },
@@ -67,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/2lFIs-2u19s/maxresdefault.jpg",
       "duration_seconds": 1918,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "4時間前",
       "duration_text": "31:58",
       "badge_kind": ""
     },
@@ -81,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/t94weLr0kP0/maxresdefault.jpg",
       "duration_seconds": 1007,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "5時間前",
       "duration_text": "16:47",
       "badge_kind": ""
     },
@@ -95,22 +137,8 @@
       "thumbnail": "https://i.ytimg.com/vi/kQqfrT4Pp-w/maxresdefault.jpg",
       "duration_seconds": 85,
       "live_status": "",
-      "rel_time": "8時間前",
+      "rel_time": "12時間前",
       "duration_text": "1:25",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "r9xaG-wJ_ko",
-      "title": "Githubの情報漏洩がヤバすぎる… / Google I/O 2026も簡単におさらい / 今日もまた激動のAI業界",
-      "channel_title": "ウェブ職TV / Nesheep",
-      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-05-21T01:33:23Z",
-      "published_dt": "2026-05-21T01:33:23+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/r9xaG-wJ_ko/maxresdefault_live.jpg",
-      "duration_seconds": 4760,
-      "live_status": "",
-      "rel_time": "10時間前",
-      "duration_text": "1:19:20",
       "badge_kind": ""
     },
     {
@@ -123,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/y2tTgsFQS58/maxresdefault.jpg",
       "duration_seconds": 7056,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "15時間前",
       "duration_text": "1:57:36",
       "badge_kind": ""
     },
@@ -137,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/tC-iN_232dE/maxresdefault.jpg",
       "duration_seconds": 373,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "17時間前",
       "duration_text": "6:13",
       "badge_kind": ""
     },
@@ -151,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/g8neiNkJ7B8/maxresdefault.jpg",
       "duration_seconds": 2730,
       "live_status": "",
-      "rel_time": "19時間前",
+      "rel_time": "23時間前",
       "duration_text": "45:30",
       "badge_kind": ""
     },
@@ -165,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0AFZ8zEFxGo/maxresdefault.jpg",
       "duration_seconds": 58,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "0:58",
       "badge_kind": ""
     },
@@ -305,7 +333,7 @@
       "thumbnail": "https://i.ytimg.com/vi/c9a35k_8UQM/maxresdefault.jpg",
       "duration_seconds": 6639,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "1:50:39",
       "badge_kind": ""
     },
@@ -319,7 +347,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kc-0YJFsGoU/maxresdefault.jpg",
       "duration_seconds": 2457,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "40:57",
       "badge_kind": ""
     },
@@ -333,7 +361,7 @@
       "thumbnail": "https://i.ytimg.com/vi/6mnXYs_6svk/maxresdefault.jpg",
       "duration_seconds": 85,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "1:25",
       "badge_kind": ""
     },
@@ -515,22 +543,8 @@
       "thumbnail": "https://i.ytimg.com/vi/jOxKuf8-Zsc/maxresdefault.jpg",
       "duration_seconds": 6734,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "1:52:14",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "GWd6Ss_xs30",
-      "title": "【坪田信貴】学習を動機付ける方法とは？ #エデュパ #山﨑晴太郎 #宮村優子 #坪田信貴 #益田裕介 #益川弘如 #勉強 #才能 #ビリギャル",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-05-18T12:00:04Z",
-      "published_dt": "2026-05-18T12:00:04+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/GWd6Ss_xs30/maxresdefault.jpg",
-      "duration_seconds": 59,
-      "live_status": "",
-      "rel_time": "2日前",
-      "duration_text": "0:59",
       "badge_kind": ""
     },
     {
@@ -545,20 +559,6 @@
       "live_status": "",
       "rel_time": "3日前",
       "duration_text": "16:10",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "0EEvXc89NRU",
-      "title": "「MBA型」のドラゴンボール、「起業家型」のワンピース。仕事の成長モデルは世代でどう変わった？スタートアップ時代の仕事論【NewsPicks/吉村崇/大室正志/OFFRECO/SUBRECO】",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-05-18T10:00:00Z",
-      "published_dt": "2026-05-18T10:00:00+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/0EEvXc89NRU/maxresdefault.jpg",
-      "duration_seconds": 1653,
-      "live_status": "",
-      "rel_time": "3日前",
-      "duration_text": "27:33",
       "badge_kind": ""
     },
     {
@@ -739,7 +739,7 @@
       "thumbnail": "https://i.ytimg.com/vi/WoIMoUjBZjA/maxresdefault.jpg",
       "duration_seconds": 447,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "7:27",
       "badge_kind": ""
     },
