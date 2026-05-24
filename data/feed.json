@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-24T18:50:12+00:00",
+  "generated_at": "2026-05-24T20:05:26+00:00",
   "videos": [
+    {
+      "video_id": "8pGjwe_hwSI",
+      "title": "本日東京でオフラインイベント！ / ウェブ担フォーラムMTG春2026 / AIエージェントの話をするよ。",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-05-24T18:50:36Z",
+      "published_dt": "2026-05-24T18:50:36+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/8pGjwe_hwSI/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "upcoming",
+      "rel_time": "1時間前",
+      "duration_text": "配信予定",
+      "badge_kind": "upcoming"
+    },
     {
       "video_id": "G2tVb5zMqQw",
       "title": "【黒岩里奈×アパ社長・元谷芙美子】時代の変化に対応するには？#強運 #元谷芙美子 #APA #元谷外志雄  #経営者 #経営哲学 #女性経営者 #NewsPicks #ビジネス #リーダーシップ",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/G2tVb5zMqQw/maxresdefault.jpg",
       "duration_seconds": 57,
       "live_status": "",
-      "rel_time": "6時間前",
+      "rel_time": "8時間前",
       "duration_text": "0:57",
       "badge_kind": ""
     },
@@ -25,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lVwPvIrzRZI/maxresdefault.jpg",
       "duration_seconds": 804,
       "live_status": "",
-      "rel_time": "8時間前",
+      "rel_time": "10時間前",
       "duration_text": "13:24",
       "badge_kind": ""
     },
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/DU4fFysoDlc/maxresdefault.jpg",
       "duration_seconds": 1981,
       "live_status": "",
-      "rel_time": "8時間前",
+      "rel_time": "10時間前",
       "duration_text": "33:01",
       "badge_kind": ""
     },
@@ -53,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/NZGGvQdnx2g/maxresdefault.jpg",
       "duration_seconds": 723,
       "live_status": "",
-      "rel_time": "8時間前",
+      "rel_time": "10時間前",
       "duration_text": "12:03",
       "badge_kind": ""
     },
@@ -67,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/fSAG8tNHYHM/maxresdefault.jpg",
       "duration_seconds": 1957,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "10時間前",
       "duration_text": "32:37",
       "badge_kind": ""
     },
@@ -81,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JSmOxEGQ53Q/maxresdefault.jpg",
       "duration_seconds": 76,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "11時間前",
       "duration_text": "1:16",
       "badge_kind": ""
     },
@@ -95,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/AXhoipH2Pyc/maxresdefault.jpg",
       "duration_seconds": 56,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "14時間前",
       "duration_text": "0:56",
       "badge_kind": ""
     },
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/i_IEhnLi8dQ/maxresdefault.jpg",
       "duration_seconds": 59,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "17時間前",
       "duration_text": "0:59",
       "badge_kind": ""
     },
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LJ4MiDDJFLo/maxresdefault.jpg",
       "duration_seconds": 13,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "17時間前",
       "duration_text": "0:13",
       "badge_kind": ""
     },
@@ -137,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/I0TURxCS1t0/maxresdefault_live.jpg",
       "duration_seconds": null,
       "live_status": "upcoming",
-      "rel_time": "17時間前",
+      "rel_time": "19時間前",
       "duration_text": "配信予定",
       "badge_kind": "upcoming"
     },
@@ -151,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kV2yNRdsaR8/maxresdefault.jpg",
       "duration_seconds": 10014,
       "live_status": "",
-      "rel_time": "18時間前",
+      "rel_time": "19時間前",
       "duration_text": "2:46:54",
       "badge_kind": ""
     },
@@ -165,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/sLtrYu1ca9c/maxresdefault.jpg",
       "duration_seconds": 444,
       "live_status": "",
-      "rel_time": "20時間前",
+      "rel_time": "22時間前",
       "duration_text": "7:24",
       "badge_kind": ""
     },
@@ -825,20 +839,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "30:01",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "hFbtixZueYE",
-      "title": "Claude Code(Codex)で頻出する危険コマンドを解説 / AIに従うだけの運用をやめよう / NOと言える日本人を目指す",
-      "channel_title": "ウェブ職TV / Nesheep",
-      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-05-14T22:00:56Z",
-      "published_dt": "2026-05-14T22:00:56+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/hFbtixZueYE/maxresdefault.jpg",
-      "duration_seconds": 2695,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "44:55",
       "badge_kind": ""
     }
   ]
