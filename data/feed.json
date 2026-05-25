@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-05-25T10:48:04+00:00",
+  "generated_at": "2026-05-25T14:08:12+00:00",
   "videos": [
+    {
+      "video_id": "JUGdTAopFUo",
+      "title": "【アベマ同時配信中】「参政党代表の講演中止 企画した東大生と語る！」アベプラ｜5/25(月) 21:00〜",
+      "channel_title": "ABEMA Prime",
+      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
+      "published_iso": "2026-05-25T13:29:50Z",
+      "published_dt": "2026-05-25T13:29:50+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/JUGdTAopFUo/maxresdefault.jpg",
+      "duration_seconds": 6760,
+      "live_status": "",
+      "rel_time": "38分前",
+      "duration_text": "1:52:40",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "26F3VAwbap4",
+      "title": "【田中渓×後藤達也】信頼を得る発信方法とは？　#後藤達也 #田中渓 #投資 #資産運用 #円安 #マインドセット #不動産投資 #お金の勉強 #マネーメイト #MONEYandMATE",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-05-25T12:00:20Z",
+      "published_dt": "2026-05-25T12:00:20+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/26F3VAwbap4/maxresdefault.jpg",
+      "duration_seconds": 86,
+      "live_status": "",
+      "rel_time": "2時間前",
+      "duration_text": "1:26",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "0pV9hTSr9uA",
+      "title": "「膝から上を切られてた」 病院選びは命に関わる。大病経験者2人が教えるセカンドオピニオンの重要性を徹底解説【ハチミツ二郎×笠井信輔／加藤浩次】2Sides",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-05-25T11:00:34Z",
+      "published_dt": "2026-05-25T11:00:34+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/0pV9hTSr9uA/maxresdefault.jpg",
+      "duration_seconds": 963,
+      "live_status": "",
+      "rel_time": "3時間前",
+      "duration_text": "16:03",
+      "badge_kind": ""
+    },
     {
       "video_id": "hLf5XSJRS-U",
       "title": "堀江が注目するビジネス！女性に大人気のコスメブランド「SHIRO」工場訪問で知る成功の裏側",
@@ -11,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/hLf5XSJRS-U/maxresdefault.jpg",
       "duration_seconds": 1384,
       "live_status": "",
-      "rel_time": "47分前",
+      "rel_time": "4時間前",
       "duration_text": "23:04",
       "badge_kind": ""
     },
@@ -25,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/BzT5Qi5n8UA/maxresdefault.jpg",
       "duration_seconds": 64,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "5時間前",
       "duration_text": "1:04",
       "badge_kind": ""
     },
@@ -39,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JAgAb-b0TGU/maxresdefault.jpg",
       "duration_seconds": 69,
       "live_status": "",
-      "rel_time": "7時間前",
+      "rel_time": "11時間前",
       "duration_text": "1:09",
       "badge_kind": ""
     },
@@ -51,10 +93,10 @@
       "published_iso": "2026-05-25T01:59:42Z",
       "published_dt": "2026-05-25T01:59:42+00:00",
       "thumbnail": "https://i.ytimg.com/vi/8pGjwe_hwSI/maxresdefault_live.jpg",
-      "duration_seconds": 3173,
+      "duration_seconds": 3177,
       "live_status": "",
-      "rel_time": "8時間前",
-      "duration_text": "52:53",
+      "rel_time": "12時間前",
+      "duration_text": "52:57",
       "badge_kind": ""
     },
     {
@@ -67,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/BVlf2TuXJDY/maxresdefault.jpg",
       "duration_seconds": 6847,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "14時間前",
       "duration_text": "1:54:07",
       "badge_kind": ""
     },
@@ -81,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3_uL9SBH6SE/maxresdefault.jpg",
       "duration_seconds": 1206,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "16時間前",
       "duration_text": "20:06",
       "badge_kind": ""
     },
@@ -95,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Pr3oJrgf790/maxresdefault.jpg",
       "duration_seconds": 812,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "16時間前",
       "duration_text": "13:32",
       "badge_kind": ""
     },
@@ -109,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/G2tVb5zMqQw/maxresdefault.jpg",
       "duration_seconds": 57,
       "live_status": "",
-      "rel_time": "22時間前",
+      "rel_time": "1日前",
       "duration_text": "0:57",
       "badge_kind": ""
     },
@@ -277,7 +319,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Rx6P6sp3L_I/maxresdefault.jpg",
       "duration_seconds": 57,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "0:57",
       "badge_kind": ""
     },
@@ -291,7 +333,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lZaxzcoxlIE/maxresdefault.jpg",
       "duration_seconds": 659,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "10:59",
       "badge_kind": ""
     },
@@ -305,7 +347,7 @@
       "thumbnail": "https://i.ytimg.com/vi/1rSJ1CyAdYg/maxresdefault.jpg",
       "duration_seconds": 986,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "16:26",
       "badge_kind": ""
     },
@@ -450,34 +492,6 @@
       "badge_kind": ""
     },
     {
-      "video_id": "MNvWiEFSAeo",
-      "title": "【入居率99%】ゲーム感覚？スマホ1つで完結する不動産経営【NewsPicks／木嵜綾奈／古木大咲／可視化AI／不動産経営／1棟オーナー／不労所得／robot home／1on1 DEEP】",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-05-22T13:00:25Z",
-      "published_dt": "2026-05-22T13:00:25+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/MNvWiEFSAeo/maxresdefault.jpg",
-      "duration_seconds": 1885,
-      "live_status": "",
-      "rel_time": "2日前",
-      "duration_text": "31:25",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "EP0cHYFT6D8",
-      "title": "【落合陽一×養老孟司】メタバースと現実世界、どう考える？ #落合陽一 #養老孟司 #バカの壁 #AI時代 #生き方 #生と死 #日本社会 #闘病 #哲学 #幸せとは",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-05-22T12:00:13Z",
-      "published_dt": "2026-05-22T12:00:13+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/EP0cHYFT6D8/maxresdefault.jpg",
-      "duration_seconds": 40,
-      "live_status": "",
-      "rel_time": "2日前",
-      "duration_text": "0:40",
-      "badge_kind": ""
-    },
-    {
       "video_id": "4xJFxpMAnY4",
       "title": "【ゆる解説】AIで仕事がなくなる？AI失業は実際どれくらい起きるのか？／AI失業の３つの仮説とは／予測データを比較／ジェボンズのパラドックスとは／日本は人手不足をAIで解消？",
       "channel_title": "安野貴博の自由研究",
@@ -487,7 +501,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4xJFxpMAnY4/maxresdefault.jpg",
       "duration_seconds": 1136,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "18:56",
       "badge_kind": ""
     },
@@ -501,7 +515,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Lpt38BVyIrs/maxresdefault.jpg",
       "duration_seconds": 1973,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "32:53",
       "badge_kind": ""
     },
@@ -515,7 +529,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7-ozeWadx1k/maxresdefault.jpg",
       "duration_seconds": 3026,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "50:26",
       "badge_kind": ""
     },
@@ -529,7 +543,7 @@
       "thumbnail": "https://i.ytimg.com/vi/tHrIGs3v5nA/maxresdefault.jpg",
       "duration_seconds": 27,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "0:27",
       "badge_kind": ""
     },
@@ -545,20 +559,6 @@
       "live_status": "",
       "rel_time": "3日前",
       "duration_text": "33:51",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "GD2zRloLidI",
-      "title": "【国旗損壊罪】不快・嫌悪は人それぞれ？“損壊”の境界線は？賛否で考える｜アベプラ",
-      "channel_title": "ABEMA Prime",
-      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-05-22T10:00:01Z",
-      "published_dt": "2026-05-22T10:00:01+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/GD2zRloLidI/maxresdefault.jpg",
-      "duration_seconds": 2419,
-      "live_status": "",
-      "rel_time": "3日前",
-      "duration_text": "40:19",
       "badge_kind": ""
     },
     {
@@ -753,7 +753,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jOxKuf8-Zsc/maxresdefault.jpg",
       "duration_seconds": 6734,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "1:52:14",
       "badge_kind": ""
     },
