@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-05-25T22:41:25+00:00",
+  "generated_at": "2026-05-25T23:46:24+00:00",
   "videos": [
+    {
+      "video_id": "ue24md1wWDQ",
+      "title": "『家賃値上げ通知が来た…』SNSで悲鳴続出｜実は断れるって知ってた？&学長スピリチュアルなBARに行ってきたお【5月26日8時30分まで】",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-05-25T23:41:49Z",
+      "published_dt": "2026-05-25T23:41:49+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/ue24md1wWDQ/maxresdefault_live.jpg",
+      "duration_seconds": 7326,
+      "live_status": "",
+      "rel_time": "4分前",
+      "duration_text": "2:02:06",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "8UQAh5tPipc",
+      "title": "【真の港区女子】男に頼らず夜を楽しむ  #newspicks",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-05-25T23:00:38Z",
+      "published_dt": "2026-05-25T23:00:38+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/8UQAh5tPipc/maxresdefault.jpg",
+      "duration_seconds": 52,
+      "live_status": "",
+      "rel_time": "45分前",
+      "duration_text": "0:52",
+      "badge_kind": ""
+    },
     {
       "video_id": "rfwB2bu0o2Q",
       "title": "テスラも絶望する「最後の1cm」に異常な投資マネーが集結中。出遅れた日本企業がロボットハンドをバラして見つけた大逆転の勝機とは？（頼嘉満・田中年一）/ 電脈イースト",
@@ -11,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rfwB2bu0o2Q/maxresdefault.jpg",
       "duration_seconds": 1216,
       "live_status": "",
-      "rel_time": "40分前",
+      "rel_time": "1時間前",
       "duration_text": "20:16",
       "badge_kind": ""
     },
@@ -25,23 +53,9 @@
       "thumbnail": "https://i.ytimg.com/vi/73m1jCFtBtw/maxresdefault.jpg",
       "duration_seconds": 770,
       "live_status": "",
-      "rel_time": "41分前",
+      "rel_time": "1時間前",
       "duration_text": "12:50",
       "badge_kind": ""
-    },
-    {
-      "video_id": "ue24md1wWDQ",
-      "title": "『家賃値上げ通知が来た…』SNSで悲鳴続出｜実は断れるって知ってた？&学長スピリチュアルなBARに行ってきたお【5月26日8時30分まで】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-05-25T21:39:47Z",
-      "published_dt": "2026-05-25T21:39:47+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/ue24md1wWDQ/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "1時間前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
     },
     {
       "video_id": "4OV_Sls8CpI",
@@ -53,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4OV_Sls8CpI/maxresdefault.jpg",
       "duration_seconds": 2221,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "2時間前",
       "duration_text": "37:01",
       "badge_kind": ""
     },
@@ -67,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jyI4KF-eIHQ/maxresdefault_live.jpg",
       "duration_seconds": null,
       "live_status": "upcoming",
-      "rel_time": "2時間前",
+      "rel_time": "4時間前",
       "duration_text": "配信予定",
       "badge_kind": "upcoming"
     },
@@ -81,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/8pGjwe_hwSI/maxresdefault.jpg",
       "duration_seconds": 3177,
       "live_status": "",
-      "rel_time": "8時間前",
+      "rel_time": "9時間前",
       "duration_text": "52:57",
       "badge_kind": ""
     },
@@ -95,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JUGdTAopFUo/maxresdefault.jpg",
       "duration_seconds": 4416,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "10時間前",
       "duration_text": "1:13:36",
       "badge_kind": ""
     },
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/26F3VAwbap4/maxresdefault.jpg",
       "duration_seconds": 86,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "11時間前",
       "duration_text": "1:26",
       "badge_kind": ""
     },
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0pV9hTSr9uA/maxresdefault.jpg",
       "duration_seconds": 963,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "12時間前",
       "duration_text": "16:03",
       "badge_kind": ""
     },
@@ -137,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/hLf5XSJRS-U/maxresdefault.jpg",
       "duration_seconds": 1384,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "13時間前",
       "duration_text": "23:04",
       "badge_kind": ""
     },
@@ -151,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/BzT5Qi5n8UA/maxresdefault.jpg",
       "duration_seconds": 64,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "14時間前",
       "duration_text": "1:04",
       "badge_kind": ""
     },
@@ -165,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JAgAb-b0TGU/maxresdefault.jpg",
       "duration_seconds": 69,
       "live_status": "",
-      "rel_time": "19時間前",
+      "rel_time": "20時間前",
       "duration_text": "1:09",
       "badge_kind": ""
     },
@@ -179,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/BVlf2TuXJDY/maxresdefault.jpg",
       "duration_seconds": 6847,
       "live_status": "",
-      "rel_time": "22時間前",
+      "rel_time": "1日前",
       "duration_text": "1:54:07",
       "badge_kind": ""
     },
@@ -464,20 +478,6 @@
       "badge_kind": ""
     },
     {
-      "video_id": "fG4wqbRw8C0",
-      "title": "【最強コミュニケーション術】伝わらないならとにかく「述語」 #トランプ #言葉 #心理 #コミュニケーション",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-05-23T09:00:22Z",
-      "published_dt": "2026-05-23T09:00:22+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/fG4wqbRw8C0/maxresdefault.jpg",
-      "duration_seconds": 76,
-      "live_status": "",
-      "rel_time": "2日前",
-      "duration_text": "1:16",
-      "badge_kind": ""
-    },
-    {
       "video_id": "vwFSC_XrRmU",
       "title": "絵の対数を取るとはどういうことか",
       "channel_title": "3Blue1BrownJapan",
@@ -669,7 +669,7 @@
       "thumbnail": "https://i.ytimg.com/vi/y2tTgsFQS58/maxresdefault.jpg",
       "duration_seconds": 7056,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "1:57:36",
       "badge_kind": ""
     },
