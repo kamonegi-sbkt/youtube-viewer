@@ -1,17 +1,45 @@
 {
-  "generated_at": "2026-05-25T23:46:24+00:00",
+  "generated_at": "2026-05-26T03:31:26+00:00",
   "videos": [
+    {
+      "video_id": "BXCaCHhx5ss",
+      "title": "【物価高騰時代】低リスクで始める副業とは？　#newspicks #offreco #吉村崇 #大室正志 #小林昌裕 #節約オタクふゆこ #大村信夫 #副業 #働き方改革 #物価上昇 #終身雇用",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-05-26T03:00:09Z",
+      "published_dt": "2026-05-26T03:00:09+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/BXCaCHhx5ss/maxresdefault.jpg",
+      "duration_seconds": 54,
+      "live_status": "",
+      "rel_time": "31分前",
+      "duration_text": "0:54",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "jyI4KF-eIHQ",
+      "title": "時代はローカルLLMか / API価格のさらなる高騰が予想される / Claude CodeもCodexもローカルLLMで動かす",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-05-26T01:55:01Z",
+      "published_dt": "2026-05-26T01:55:01+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/jyI4KF-eIHQ/maxresdefault_live.jpg",
+      "duration_seconds": 6190,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "1:43:10",
+      "badge_kind": ""
+    },
     {
       "video_id": "ue24md1wWDQ",
       "title": "『家賃値上げ通知が来た…』SNSで悲鳴続出｜実は断れるって知ってた？&学長スピリチュアルなBARに行ってきたお【5月26日8時30分まで】",
       "channel_title": "両学長 リベラルアーツ大学",
       "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-05-25T23:41:49Z",
-      "published_dt": "2026-05-25T23:41:49+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/ue24md1wWDQ/maxresdefault_live.jpg",
+      "published_iso": "2026-05-25T23:47:36Z",
+      "published_dt": "2026-05-25T23:47:36+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/ue24md1wWDQ/maxresdefault.jpg",
       "duration_seconds": 7326,
       "live_status": "",
-      "rel_time": "4分前",
+      "rel_time": "3時間前",
       "duration_text": "2:02:06",
       "badge_kind": ""
     },
@@ -25,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/8UQAh5tPipc/maxresdefault.jpg",
       "duration_seconds": 52,
       "live_status": "",
-      "rel_time": "45分前",
+      "rel_time": "4時間前",
       "duration_text": "0:52",
       "badge_kind": ""
     },
@@ -39,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rfwB2bu0o2Q/maxresdefault.jpg",
       "duration_seconds": 1216,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "5時間前",
       "duration_text": "20:16",
       "badge_kind": ""
     },
@@ -53,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/73m1jCFtBtw/maxresdefault.jpg",
       "duration_seconds": 770,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "5時間前",
       "duration_text": "12:50",
       "badge_kind": ""
     },
@@ -67,23 +95,9 @@
       "thumbnail": "https://i.ytimg.com/vi/4OV_Sls8CpI/maxresdefault.jpg",
       "duration_seconds": 2221,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "6時間前",
       "duration_text": "37:01",
       "badge_kind": ""
-    },
-    {
-      "video_id": "jyI4KF-eIHQ",
-      "title": "時代はローカルLLMか / API価格のさらなる高騰が予想される / Claude CodeもCodexもローカルLLMで動かす",
-      "channel_title": "ウェブ職TV / Nesheep",
-      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-05-25T19:42:00Z",
-      "published_dt": "2026-05-25T19:42:00+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/jyI4KF-eIHQ/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "upcoming",
-      "rel_time": "4時間前",
-      "duration_text": "配信予定",
-      "badge_kind": "upcoming"
     },
     {
       "video_id": "8pGjwe_hwSI",
@@ -95,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/8pGjwe_hwSI/maxresdefault.jpg",
       "duration_seconds": 3177,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "13時間前",
       "duration_text": "52:57",
       "badge_kind": ""
     },
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JUGdTAopFUo/maxresdefault.jpg",
       "duration_seconds": 4416,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "14時間前",
       "duration_text": "1:13:36",
       "badge_kind": ""
     },
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/26F3VAwbap4/maxresdefault.jpg",
       "duration_seconds": 86,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "15時間前",
       "duration_text": "1:26",
       "badge_kind": ""
     },
@@ -137,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0pV9hTSr9uA/maxresdefault.jpg",
       "duration_seconds": 963,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "16時間前",
       "duration_text": "16:03",
       "badge_kind": ""
     },
@@ -151,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/hLf5XSJRS-U/maxresdefault.jpg",
       "duration_seconds": 1384,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "17時間前",
       "duration_text": "23:04",
       "badge_kind": ""
     },
@@ -165,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/BzT5Qi5n8UA/maxresdefault.jpg",
       "duration_seconds": 64,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "18時間前",
       "duration_text": "1:04",
       "badge_kind": ""
     },
@@ -179,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JAgAb-b0TGU/maxresdefault.jpg",
       "duration_seconds": 69,
       "live_status": "",
-      "rel_time": "20時間前",
+      "rel_time": "1日前",
       "duration_text": "1:09",
       "badge_kind": ""
     },
@@ -333,7 +347,7 @@
       "thumbnail": "https://i.ytimg.com/vi/i_IEhnLi8dQ/maxresdefault.jpg",
       "duration_seconds": 59,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "0:59",
       "badge_kind": ""
     },
@@ -347,7 +361,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LJ4MiDDJFLo/maxresdefault.jpg",
       "duration_seconds": 13,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "0:13",
       "badge_kind": ""
     },
@@ -361,7 +375,7 @@
       "thumbnail": "https://i.ytimg.com/vi/I0TURxCS1t0/maxresdefault_live.jpg",
       "duration_seconds": null,
       "live_status": "upcoming",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "配信予定",
       "badge_kind": "upcoming"
     },
@@ -375,7 +389,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kV2yNRdsaR8/maxresdefault.jpg",
       "duration_seconds": 10014,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "2:46:54",
       "badge_kind": ""
     },
@@ -419,20 +433,6 @@
       "live_status": "",
       "rel_time": "2日前",
       "duration_text": "10:59",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "1rSJ1CyAdYg",
-      "title": "「行かなきゃ非国民？」「高市政権戦争してないし…」東浩紀が目的不明デモに物申す！エヴァンゲリオンは「ヨーロッパ的」SNSは”免許制”の導入？「すいません」AIが電力使いすぎ問題で落合陽一が代わりに謝罪",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-05-23T11:00:08Z",
-      "published_dt": "2026-05-23T11:00:08+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/1rSJ1CyAdYg/maxresdefault.jpg",
-      "duration_seconds": 986,
-      "live_status": "",
-      "rel_time": "2日前",
-      "duration_text": "16:26",
       "badge_kind": ""
     },
     {
@@ -501,7 +501,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7DCRA5YdzOY/maxresdefault.jpg",
       "duration_seconds": 16,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "0:16",
       "badge_kind": ""
     },
@@ -515,7 +515,7 @@
       "thumbnail": "https://i.ytimg.com/vi/O4fYBSgac0o/maxresdefault.jpg",
       "duration_seconds": 8380,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "2:19:40",
       "badge_kind": ""
     },
@@ -613,7 +613,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Q4CS4a2OBQM/maxresdefault.jpg",
       "duration_seconds": 7984,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "2:13:04",
       "badge_kind": ""
     },
