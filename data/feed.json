@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-26T19:36:05+00:00",
+  "generated_at": "2026-05-26T21:19:44+00:00",
   "videos": [
+    {
+      "video_id": "lLILQVPnab8",
+      "title": "Claude CodeかCodexか  / 個人利用としてのローカルLLM / AIセキュリティの重要度が高まる",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-05-26T20:35:05Z",
+      "published_dt": "2026-05-26T20:35:05+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/lLILQVPnab8/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "upcoming",
+      "rel_time": "44分前",
+      "duration_text": "配信予定",
+      "badge_kind": "upcoming"
+    },
     {
       "video_id": "jyI4KF-eIHQ",
       "title": "時代はローカルLLMか / API価格のさらなる高騰が予想される / Claude CodeもCodexもローカルLLMで動かす",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jyI4KF-eIHQ/maxresdefault.jpg",
       "duration_seconds": 6195,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "6時間前",
       "duration_text": "1:43:15",
       "badge_kind": ""
     },
@@ -25,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/DdTBZIn76H4/maxresdefault.jpg",
       "duration_seconds": 4134,
       "live_status": "",
-      "rel_time": "6時間前",
+      "rel_time": "7時間前",
       "duration_text": "1:08:54",
       "badge_kind": ""
     },
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ce0F0dEFTwQ/maxresdefault.jpg",
       "duration_seconds": 58,
       "live_status": "",
-      "rel_time": "7時間前",
+      "rel_time": "9時間前",
       "duration_text": "0:58",
       "badge_kind": ""
     },
@@ -53,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/1SQCbw2a0_Q/maxresdefault.jpg",
       "duration_seconds": 1373,
       "live_status": "",
-      "rel_time": "8時間前",
+      "rel_time": "9時間前",
       "duration_text": "22:53",
       "badge_kind": ""
     },
@@ -67,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JC48b8Xdbu4/maxresdefault.jpg",
       "duration_seconds": 2833,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "10時間前",
       "duration_text": "47:13",
       "badge_kind": ""
     },
@@ -81,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pygXILPYgZ4/maxresdefault.jpg",
       "duration_seconds": 2911,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "11時間前",
       "duration_text": "48:31",
       "badge_kind": ""
     },
@@ -95,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Ptg4hwzTElI/maxresdefault.jpg",
       "duration_seconds": 57,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "12時間前",
       "duration_text": "0:57",
       "badge_kind": ""
     },
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/BXCaCHhx5ss/maxresdefault.jpg",
       "duration_seconds": 54,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "18時間前",
       "duration_text": "0:54",
       "badge_kind": ""
     },
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ue24md1wWDQ/maxresdefault.jpg",
       "duration_seconds": 7326,
       "live_status": "",
-      "rel_time": "19時間前",
+      "rel_time": "21時間前",
       "duration_text": "2:02:06",
       "badge_kind": ""
     },
@@ -137,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/8UQAh5tPipc/maxresdefault.jpg",
       "duration_seconds": 52,
       "live_status": "",
-      "rel_time": "20時間前",
+      "rel_time": "22時間前",
       "duration_text": "0:52",
       "badge_kind": ""
     },
@@ -151,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rfwB2bu0o2Q/maxresdefault.jpg",
       "duration_seconds": 1216,
       "live_status": "",
-      "rel_time": "21時間前",
+      "rel_time": "23時間前",
       "duration_text": "20:16",
       "badge_kind": ""
     },
@@ -165,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/73m1jCFtBtw/maxresdefault.jpg",
       "duration_seconds": 770,
       "live_status": "",
-      "rel_time": "21時間前",
+      "rel_time": "23時間前",
       "duration_text": "12:50",
       "badge_kind": ""
     },
@@ -179,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4OV_Sls8CpI/maxresdefault.jpg",
       "duration_seconds": 2221,
       "live_status": "",
-      "rel_time": "22時間前",
+      "rel_time": "1日前",
       "duration_text": "37:01",
       "badge_kind": ""
     },
@@ -825,20 +839,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "16:10",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "CNBFSeC-UaA",
-      "title": "堀江貴文が本気で仕掛ける、エンターテインメントショーの全貌を公開【CRAZY MUSCLE SHOW】",
-      "channel_title": "堀江貴文 ホリエモン",
-      "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
-      "published_iso": "2026-05-17T10:00:15Z",
-      "published_dt": "2026-05-17T10:00:15+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/CNBFSeC-UaA/maxresdefault.jpg",
-      "duration_seconds": 1275,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "21:15",
       "badge_kind": ""
     }
   ]
