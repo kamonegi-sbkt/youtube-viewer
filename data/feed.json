@@ -1,19 +1,47 @@
 {
-  "generated_at": "2026-05-27T12:00:18+00:00",
+  "generated_at": "2026-05-27T16:06:00+00:00",
   "videos": [
+    {
+      "video_id": "lLILQVPnab8",
+      "title": "Claude CodeかCodexか  / 個人利用としてのローカルLLM / AIセキュリティの重要度が高まる",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-05-27T14:05:21Z",
+      "published_dt": "2026-05-27T14:05:21+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/lLILQVPnab8/maxresdefault.jpg",
+      "duration_seconds": 5381,
+      "live_status": "",
+      "rel_time": "2時間前",
+      "duration_text": "1:29:41",
+      "badge_kind": ""
+    },
     {
       "video_id": "JAC52xBTUEg",
       "title": "【アベマ同時配信中】「政府『足りてる』現場『不足』ナフサめぐる矛盾／世界最弱通貨」アベプラ｜5/27(水) 21:00〜",
       "channel_title": "ABEMA Prime",
       "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-05-27T11:31:47Z",
-      "published_dt": "2026-05-27T11:31:47+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/JAC52xBTUEg/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "28分前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
+      "published_iso": "2026-05-27T13:27:08Z",
+      "published_dt": "2026-05-27T13:27:08+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/JAC52xBTUEg/maxresdefault.jpg",
+      "duration_seconds": 4240,
+      "live_status": "",
+      "rel_time": "2時間前",
+      "duration_text": "1:10:40",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "3RRLEc5bleo",
+      "title": "【AI時代】コンテンツの作家性　#落合陽一 #東浩紀 #NewsPicks #WEEKLYOCHIAI #AI  #SNS #社会問題 #デモ #言論の自由 #メディア #テクノロジー #日本政治",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-05-27T12:00:19Z",
+      "published_dt": "2026-05-27T12:00:19+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/3RRLEc5bleo/maxresdefault.jpg",
+      "duration_seconds": 80,
+      "live_status": "",
+      "rel_time": "4時間前",
+      "duration_text": "1:20",
+      "badge_kind": ""
     },
     {
       "video_id": "N4d4YoyAvxQ",
@@ -25,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/N4d4YoyAvxQ/maxresdefault.jpg",
       "duration_seconds": 3398,
       "live_status": "",
-      "rel_time": "59分前",
+      "rel_time": "5時間前",
       "duration_text": "56:38",
       "badge_kind": ""
     },
@@ -39,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/2kR5qdJELAA/maxresdefault.jpg",
       "duration_seconds": 26,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "5時間前",
       "duration_text": "0:26",
       "badge_kind": ""
     },
@@ -53,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/dUfDyavpvto/maxresdefault.jpg",
       "duration_seconds": 3991,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "6時間前",
       "duration_text": "1:06:31",
       "badge_kind": ""
     },
@@ -67,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/13MW_lo8HiM/maxresdefault.jpg",
       "duration_seconds": 57,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "7時間前",
       "duration_text": "0:57",
       "badge_kind": ""
     },
@@ -81,22 +109,8 @@
       "thumbnail": "https://i.ytimg.com/vi/2ShSABpKza4/maxresdefault.jpg",
       "duration_seconds": 64,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "13時間前",
       "duration_text": "1:04",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "lLILQVPnab8",
-      "title": "Claude CodeかCodexか  / 個人利用としてのローカルLLM / AIセキュリティの重要度が高まる",
-      "channel_title": "ウェブ職TV / Nesheep",
-      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-05-27T01:50:19Z",
-      "published_dt": "2026-05-27T01:50:19+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/lLILQVPnab8/maxresdefault_live.jpg",
-      "duration_seconds": 5377,
-      "live_status": "",
-      "rel_time": "10時間前",
-      "duration_text": "1:29:37",
       "badge_kind": ""
     },
     {
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qgN63bQxbs4/maxresdefault.jpg",
       "duration_seconds": 7405,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "16時間前",
       "duration_text": "2:03:25",
       "badge_kind": ""
     },
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/brT09fs5RCI/maxresdefault.jpg",
       "duration_seconds": 441,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "18時間前",
       "duration_text": "7:21",
       "badge_kind": ""
     },
@@ -137,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jyI4KF-eIHQ/maxresdefault.jpg",
       "duration_seconds": 6195,
       "live_status": "",
-      "rel_time": "21時間前",
+      "rel_time": "1日前",
       "duration_text": "1:43:15",
       "badge_kind": ""
     },
@@ -305,7 +319,7 @@
       "thumbnail": "https://i.ytimg.com/vi/8pGjwe_hwSI/maxresdefault.jpg",
       "duration_seconds": 3177,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "52:57",
       "badge_kind": ""
     },
@@ -319,7 +333,7 @@
       "thumbnail": "https://i.ytimg.com/vi/26F3VAwbap4/maxresdefault.jpg",
       "duration_seconds": 86,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "1:26",
       "badge_kind": ""
     },
@@ -433,20 +447,6 @@
       "live_status": "",
       "rel_time": "3日前",
       "duration_text": "0:57",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "lVwPvIrzRZI",
-      "title": "アメリカで「セカスト」が急成長、なぜ世界で日本発リユースがウケるのか（2ndSTREET/ゲオ/遠藤結蔵/メルカリ/CtoC/聞き手:泉秀一）",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-05-24T10:00:30Z",
-      "published_dt": "2026-05-24T10:00:30+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/lVwPvIrzRZI/maxresdefault.jpg",
-      "duration_seconds": 804,
-      "live_status": "",
-      "rel_time": "3日前",
-      "duration_text": "13:24",
       "badge_kind": ""
     },
     {
@@ -739,7 +739,7 @@
       "thumbnail": "https://i.ytimg.com/vi/r9xaG-wJ_ko/maxresdefault.jpg",
       "duration_seconds": 4766,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "1:19:26",
       "badge_kind": ""
     },
