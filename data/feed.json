@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-05-27T00:03:37+00:00",
+  "generated_at": "2026-05-27T04:48:42+00:00",
   "videos": [
+    {
+      "video_id": "2ShSABpKza4",
+      "title": "【コールセンターでAIが活躍】カスハラも怒る気が失せる #コールセンター #カスハラ #AI #営業 #カスタマーサポート",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-05-27T03:00:15Z",
+      "published_dt": "2026-05-27T03:00:15+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/2ShSABpKza4/maxresdefault.jpg",
+      "duration_seconds": 64,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "1:04",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "lLILQVPnab8",
+      "title": "Claude CodeかCodexか  / 個人利用としてのローカルLLM / AIセキュリティの重要度が高まる",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-05-27T01:50:19Z",
+      "published_dt": "2026-05-27T01:50:19+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/lLILQVPnab8/maxresdefault_live.jpg",
+      "duration_seconds": 5377,
+      "live_status": "",
+      "rel_time": "2時間前",
+      "duration_text": "1:29:37",
+      "badge_kind": ""
+    },
     {
       "video_id": "qgN63bQxbs4",
       "title": "【あなたの家は大丈夫？】エアコン2027年問題、対策3選｜6畳12万→20万円の時代【5月27日8時30分まで】",
@@ -11,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qgN63bQxbs4/maxresdefault.jpg",
       "duration_seconds": 7405,
       "live_status": "",
-      "rel_time": "16分前",
+      "rel_time": "5時間前",
       "duration_text": "2:03:25",
       "badge_kind": ""
     },
@@ -25,23 +53,9 @@
       "thumbnail": "https://i.ytimg.com/vi/brT09fs5RCI/maxresdefault.jpg",
       "duration_seconds": 441,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "6時間前",
       "duration_text": "7:21",
       "badge_kind": ""
-    },
-    {
-      "video_id": "lLILQVPnab8",
-      "title": "Claude CodeかCodexか  / 個人利用としてのローカルLLM / AIセキュリティの重要度が高まる",
-      "channel_title": "ウェブ職TV / Nesheep",
-      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-05-26T20:35:05Z",
-      "published_dt": "2026-05-26T20:35:05+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/lLILQVPnab8/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "upcoming",
-      "rel_time": "3時間前",
-      "duration_text": "配信予定",
-      "badge_kind": "upcoming"
     },
     {
       "video_id": "jyI4KF-eIHQ",
@@ -53,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jyI4KF-eIHQ/maxresdefault.jpg",
       "duration_seconds": 6195,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "14時間前",
       "duration_text": "1:43:15",
       "badge_kind": ""
     },
@@ -67,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/DdTBZIn76H4/maxresdefault.jpg",
       "duration_seconds": 4134,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "15時間前",
       "duration_text": "1:08:54",
       "badge_kind": ""
     },
@@ -81,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ce0F0dEFTwQ/maxresdefault.jpg",
       "duration_seconds": 58,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "16時間前",
       "duration_text": "0:58",
       "badge_kind": ""
     },
@@ -95,13 +109,13 @@
       "thumbnail": "https://i.ytimg.com/vi/1SQCbw2a0_Q/maxresdefault.jpg",
       "duration_seconds": 1373,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "17時間前",
       "duration_text": "22:53",
       "badge_kind": ""
     },
     {
       "video_id": "JC48b8Xdbu4",
-      "title": "【五月祭】東大唯一の保守サークル「右合の衆」代表と語る 主義主張の違う人と対話できる？│アベプラ",
+      "title": "【五月祭】東大唯一の保守サークル「右合の衆」代表と語る 主義主張の違う人と対話できる？｜アベプラ",
       "channel_title": "ABEMA Prime",
       "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
       "published_iso": "2026-05-26T10:30:17Z",
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JC48b8Xdbu4/maxresdefault.jpg",
       "duration_seconds": 2833,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "18時間前",
       "duration_text": "47:13",
       "badge_kind": ""
     },
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pygXILPYgZ4/maxresdefault.jpg",
       "duration_seconds": 2911,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "18時間前",
       "duration_text": "48:31",
       "badge_kind": ""
     },
@@ -137,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Ptg4hwzTElI/maxresdefault.jpg",
       "duration_seconds": 57,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "19時間前",
       "duration_text": "0:57",
       "badge_kind": ""
     },
@@ -151,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/BXCaCHhx5ss/maxresdefault.jpg",
       "duration_seconds": 54,
       "live_status": "",
-      "rel_time": "21時間前",
+      "rel_time": "1日前",
       "duration_text": "0:54",
       "badge_kind": ""
     },
@@ -305,7 +319,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JAgAb-b0TGU/maxresdefault.jpg",
       "duration_seconds": 69,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "1:09",
       "badge_kind": ""
     },
@@ -450,20 +464,6 @@
       "badge_kind": ""
     },
     {
-      "video_id": "i_IEhnLi8dQ",
-      "title": "【今すぐ試せる】「丁寧にディスる」だけ？傷つかず楽になる方法 #仕事 #働き方 #ストレス #疲労",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-05-24T03:00:33Z",
-      "published_dt": "2026-05-24T03:00:33+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/i_IEhnLi8dQ/maxresdefault.jpg",
-      "duration_seconds": 59,
-      "live_status": "",
-      "rel_time": "2日前",
-      "duration_text": "0:59",
-      "badge_kind": ""
-    },
-    {
       "video_id": "LJ4MiDDJFLo",
       "title": "PUMPさせて、51cm...?!",
       "channel_title": "堀江貴文 ホリエモン",
@@ -473,7 +473,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LJ4MiDDJFLo/maxresdefault.jpg",
       "duration_seconds": 13,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "0:13",
       "badge_kind": ""
     },
@@ -487,7 +487,7 @@
       "thumbnail": "https://i.ytimg.com/vi/I0TURxCS1t0/maxresdefault_live.jpg",
       "duration_seconds": null,
       "live_status": "upcoming",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "配信予定",
       "badge_kind": "upcoming"
     },
@@ -501,7 +501,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kV2yNRdsaR8/maxresdefault.jpg",
       "duration_seconds": 10014,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "2:46:54",
       "badge_kind": ""
     },
@@ -585,7 +585,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7DCRA5YdzOY/maxresdefault.jpg",
       "duration_seconds": 16,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "0:16",
       "badge_kind": ""
     },
@@ -599,7 +599,7 @@
       "thumbnail": "https://i.ytimg.com/vi/O4fYBSgac0o/maxresdefault.jpg",
       "duration_seconds": 8380,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "2:19:40",
       "badge_kind": ""
     },
@@ -688,20 +688,6 @@
       "badge_kind": ""
     },
     {
-      "video_id": "Q4CS4a2OBQM",
-      "title": "【教えて】どうやって所得増やした？AI副業・新しい稼ぎ方シェア会【5月22日8時30分まで】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-05-21T23:58:37Z",
-      "published_dt": "2026-05-21T23:58:37+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/Q4CS4a2OBQM/maxresdefault.jpg",
-      "duration_seconds": 7984,
-      "live_status": "",
-      "rel_time": "5日前",
-      "duration_text": "2:13:04",
-      "badge_kind": ""
-    },
-    {
       "video_id": "vIhAgvnHGmo",
       "title": "【再放送】投資を始めて資本家になろう【お金の勉強 初級編 】：（アニメ動画）第328回",
       "channel_title": "両学長 リベラルアーツ大学",
@@ -741,6 +727,20 @@
       "live_status": "",
       "rel_time": "5日前",
       "duration_text": "16:47",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "tC-iN_232dE",
+      "title": "【超簡単シミュレーション】貯金を2倍にしたいあなたに今すぐ試してほしいこと【リベ大公式切り抜き】",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-05-20T22:00:55Z",
+      "published_dt": "2026-05-20T22:00:55+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/tC-iN_232dE/maxresdefault.jpg",
+      "duration_seconds": 373,
+      "live_status": "",
+      "rel_time": "6日前",
+      "duration_text": "6:13",
       "badge_kind": ""
     },
     {
