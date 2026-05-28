@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-05-27T23:47:51+00:00",
+  "generated_at": "2026-05-28T03:34:27+00:00",
   "videos": [
+    {
+      "video_id": "gKFIUJ2bjic",
+      "title": "SpaceXのスターリンクとAIデータセンターの未来について解説します",
+      "channel_title": "堀江貴文 ホリエモン",
+      "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
+      "published_iso": "2026-05-28T03:05:57Z",
+      "published_dt": "2026-05-28T03:05:57+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/gKFIUJ2bjic/maxresdefault.jpg",
+      "duration_seconds": 499,
+      "live_status": "",
+      "rel_time": "28分前",
+      "duration_text": "8:19",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "Ho_m_86kLsQ",
+      "title": "【黒岩里奈×元谷芙美子】強運を呼び込む財布とは？　#幸運 #強運 #APA  #黒岩里奈 #アパホテル #元谷芙美子 #ホテル #アパ #元谷外志雄 #運   #運勢 #金運 #財布 #ルーティン",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-05-28T03:00:29Z",
+      "published_dt": "2026-05-28T03:00:29+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/Ho_m_86kLsQ/maxresdefault.jpg",
+      "duration_seconds": 41,
+      "live_status": "",
+      "rel_time": "33分前",
+      "duration_text": "0:41",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "edKThZt4Qrw",
+      "title": "ITリテラシー向上配信 / OpenAIの「Secure MCP Tunnel」がすごい / ビジネス交流会に行ってきた！",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-05-28T02:20:21Z",
+      "published_dt": "2026-05-28T02:20:21+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/edKThZt4Qrw/maxresdefault_live.jpg",
+      "duration_seconds": 5736,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "1:35:36",
+      "badge_kind": ""
+    },
     {
       "video_id": "3lQY3K7NAMI",
       "title": "富士通10万人がAI導入｜中小の6割はまだ未対応、個人・小規模事業者の大チャンス【5月28日8時30分まで】",
@@ -11,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3lQY3K7NAMI/maxresdefault.jpg",
       "duration_seconds": 7000,
       "live_status": "",
-      "rel_time": "3分前",
+      "rel_time": "3時間前",
       "duration_text": "1:56:40",
       "badge_kind": ""
     },
@@ -25,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4Mgg_b26YGI/maxresdefault.jpg",
       "duration_seconds": 473,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "5時間前",
       "duration_text": "7:53",
       "badge_kind": ""
     },
@@ -39,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/EfDynILJcr4/maxresdefault.jpg",
       "duration_seconds": 1209,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "5時間前",
       "duration_text": "20:09",
       "badge_kind": ""
     },
@@ -53,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lLILQVPnab8/maxresdefault.jpg",
       "duration_seconds": 5381,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "13時間前",
       "duration_text": "1:29:41",
       "badge_kind": ""
     },
@@ -67,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JAC52xBTUEg/maxresdefault.jpg",
       "duration_seconds": 4240,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "14時間前",
       "duration_text": "1:10:40",
       "badge_kind": ""
     },
@@ -81,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3RRLEc5bleo/maxresdefault.jpg",
       "duration_seconds": 80,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "15時間前",
       "duration_text": "1:20",
       "badge_kind": ""
     },
@@ -95,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/N4d4YoyAvxQ/maxresdefault.jpg",
       "duration_seconds": 3398,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "16時間前",
       "duration_text": "56:38",
       "badge_kind": ""
     },
@@ -109,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/2kR5qdJELAA/maxresdefault.jpg",
       "duration_seconds": 26,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "16時間前",
       "duration_text": "0:26",
       "badge_kind": ""
     },
@@ -123,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/dUfDyavpvto/maxresdefault.jpg",
       "duration_seconds": 3991,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "17時間前",
       "duration_text": "1:06:31",
       "badge_kind": ""
     },
@@ -137,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/13MW_lo8HiM/maxresdefault.jpg",
       "duration_seconds": 57,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "18時間前",
       "duration_text": "0:57",
       "badge_kind": ""
     },
@@ -151,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/2ShSABpKza4/maxresdefault.jpg",
       "duration_seconds": 64,
       "live_status": "",
-      "rel_time": "20時間前",
+      "rel_time": "1日前",
       "duration_text": "1:04",
       "badge_kind": ""
     },
@@ -277,7 +319,7 @@
       "thumbnail": "https://i.ytimg.com/vi/BXCaCHhx5ss/maxresdefault.jpg",
       "duration_seconds": 54,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "0:54",
       "badge_kind": ""
     },
@@ -431,7 +473,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JAgAb-b0TGU/maxresdefault.jpg",
       "duration_seconds": 69,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "1:09",
       "badge_kind": ""
     },
@@ -447,20 +489,6 @@
       "live_status": "",
       "rel_time": "3日前",
       "duration_text": "1:54:07",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "3_uL9SBH6SE",
-      "title": "「他責チビに人権なし！」男の価値は身長で決まる？ゲイカップルのラブホNG問題、海外でのアジア人差別のリアル、男のアソコのサイズ格差まで…世にある差別・偏見をぶった斬る！【アレン様×トンツカタン森本】",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-05-24T22:00:26Z",
-      "published_dt": "2026-05-24T22:00:26+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/3_uL9SBH6SE/maxresdefault.jpg",
-      "duration_seconds": 1206,
-      "live_status": "",
-      "rel_time": "3日前",
-      "duration_text": "20:06",
       "badge_kind": ""
     },
     {
@@ -543,7 +571,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LJ4MiDDJFLo/maxresdefault.jpg",
       "duration_seconds": 13,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "0:13",
       "badge_kind": ""
     },
@@ -557,7 +585,7 @@
       "thumbnail": "https://i.ytimg.com/vi/I0TURxCS1t0/maxresdefault_live.jpg",
       "duration_seconds": null,
       "live_status": "upcoming",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "配信予定",
       "badge_kind": "upcoming"
     },
@@ -571,7 +599,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kV2yNRdsaR8/maxresdefault.jpg",
       "duration_seconds": 10014,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "2:46:54",
       "badge_kind": ""
     },
@@ -655,7 +683,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7DCRA5YdzOY/maxresdefault.jpg",
       "duration_seconds": 16,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "0:16",
       "badge_kind": ""
     },
@@ -669,7 +697,7 @@
       "thumbnail": "https://i.ytimg.com/vi/O4fYBSgac0o/maxresdefault.jpg",
       "duration_seconds": 8380,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "2:19:40",
       "badge_kind": ""
     },
@@ -811,34 +839,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "49:56",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "c9a35k_8UQM",
-      "title": "Claude Codeの間違ったセキュリティ対策 / .claudeignoreは存在しません / CCSHの重要性",
-      "channel_title": "ウェブ職TV / Nesheep",
-      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-05-19T15:10:07Z",
-      "published_dt": "2026-05-19T15:10:07+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/c9a35k_8UQM/maxresdefault.jpg",
-      "duration_seconds": 6639,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "1:50:39",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "nxbeXsZJImk",
-      "title": "カノックスターとYouTube界隈裏話！青汁王子とてんちむさぁ…｜ヒカキン鬼茶は成功するのか？｜かのくんがYouTubeを始めるまで【ホリエキッチン：西山丼】",
-      "channel_title": "堀江貴文 ホリエモン",
-      "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
-      "published_iso": "2026-05-19T10:01:02Z",
-      "published_dt": "2026-05-19T10:01:02+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/nxbeXsZJImk/maxresdefault.jpg",
-      "duration_seconds": 2274,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "37:54",
       "badge_kind": ""
     }
   ]
