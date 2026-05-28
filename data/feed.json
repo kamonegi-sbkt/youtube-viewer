@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-28T14:50:38+00:00",
+  "generated_at": "2026-05-28T18:11:45+00:00",
   "videos": [
+    {
+      "video_id": "2KwWjyqIcSM",
+      "title": "Claude Opus 4.8リリース！！ / 6月28日にブログセミナー開催！",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-05-28T15:40:07Z",
+      "published_dt": "2026-05-28T15:40:07+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/2KwWjyqIcSM/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "upcoming",
+      "rel_time": "2時間前",
+      "duration_text": "配信予定",
+      "badge_kind": "upcoming"
+    },
     {
       "video_id": "edKThZt4Qrw",
       "title": "ITリテラシー向上配信 / OpenAIの「Secure MCP Tunnel」がすごい / ビジネス交流会に行ってきた！",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/edKThZt4Qrw/maxresdefault.jpg",
       "duration_seconds": 5742,
       "live_status": "",
-      "rel_time": "5分前",
+      "rel_time": "3時間前",
       "duration_text": "1:35:42",
       "badge_kind": ""
     },
@@ -25,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gY9yyjQvXzM/maxresdefault.jpg",
       "duration_seconds": 4359,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "4時間前",
       "duration_text": "1:12:39",
       "badge_kind": ""
     },
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/VpvedrSw394/maxresdefault.jpg",
       "duration_seconds": 53,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "6時間前",
       "duration_text": "0:53",
       "badge_kind": ""
     },
@@ -53,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0qT565_2DUM/maxresdefault.jpg",
       "duration_seconds": 1895,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "6時間前",
       "duration_text": "31:35",
       "badge_kind": ""
     },
@@ -67,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/yxmTUKkHVvU/maxresdefault.jpg",
       "duration_seconds": 162,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "7時間前",
       "duration_text": "2:42",
       "badge_kind": ""
     },
@@ -81,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/fbc9mL2_WTE/maxresdefault.jpg",
       "duration_seconds": 1832,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "7時間前",
       "duration_text": "30:32",
       "badge_kind": ""
     },
@@ -95,13 +109,13 @@
       "thumbnail": "https://i.ytimg.com/vi/sOzpEpF-CYU/maxresdefault.jpg",
       "duration_seconds": 1366,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "7時間前",
       "duration_text": "22:46",
       "badge_kind": ""
     },
     {
       "video_id": "7NakHKXJK3U",
-      "title": "遺骨が「ゆうパック」で届く…日本の衝撃的お墓事情「国土狭いから立ったまま埋葬」イスラム教国の土葬、独身の葬儀に『埋葬税』を利用！世界45カ国調査のお墓博士が明かす実態！タイタニックの墓とは【落合陽一】",
+      "title": "「ごめん死んじゃった」が届く時代…若い世代に終活ブーム？「国土狭いから立ったまま埋葬」イスラム教国の土葬、独身の葬儀に『埋葬税』を使う北欧！世界45カ国を調査したお墓博士が明かす驚愕の実態【落合陽一】",
       "channel_title": "NewsPicks /ニューズピックス",
       "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
       "published_iso": "2026-05-28T11:00:12Z",
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7NakHKXJK3U/maxresdefault.jpg",
       "duration_seconds": 1046,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "7時間前",
       "duration_text": "17:26",
       "badge_kind": ""
     },
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7qKSaUhuzUQ/maxresdefault.jpg",
       "duration_seconds": 2319,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "7時間前",
       "duration_text": "38:39",
       "badge_kind": ""
     },
@@ -137,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/wIJ6rWxqak8/maxresdefault.jpg",
       "duration_seconds": 893,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "7時間前",
       "duration_text": "14:53",
       "badge_kind": ""
     },
@@ -151,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/I0TURxCS1t0/maxresdefault.jpg",
       "duration_seconds": 21911,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "7時間前",
       "duration_text": "6:05:11",
       "badge_kind": ""
     },
@@ -165,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ZJJ6L8bUHtY/maxresdefault.jpg",
       "duration_seconds": 1017,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "8時間前",
       "duration_text": "16:57",
       "badge_kind": ""
     },
@@ -179,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/eQ84ZlfeCa8/maxresdefault.jpg",
       "duration_seconds": 1882,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "8時間前",
       "duration_text": "31:22",
       "badge_kind": ""
     },
@@ -193,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/TlrZyiPr5bM/maxresdefault.jpg",
       "duration_seconds": 1114,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "8時間前",
       "duration_text": "18:34",
       "badge_kind": ""
     },
@@ -207,7 +221,7 @@
       "thumbnail": "https://i.ytimg.com/vi/xIDTR6iu9jk/maxresdefault.jpg",
       "duration_seconds": 61,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "9時間前",
       "duration_text": "1:01",
       "badge_kind": ""
     },
@@ -221,7 +235,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gKFIUJ2bjic/maxresdefault.jpg",
       "duration_seconds": 499,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "15時間前",
       "duration_text": "8:19",
       "badge_kind": ""
     },
@@ -235,7 +249,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Ho_m_86kLsQ/maxresdefault.jpg",
       "duration_seconds": 41,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "15時間前",
       "duration_text": "0:41",
       "badge_kind": ""
     },
@@ -249,7 +263,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3lQY3K7NAMI/maxresdefault.jpg",
       "duration_seconds": 7000,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "18時間前",
       "duration_text": "1:56:40",
       "badge_kind": ""
     },
@@ -263,7 +277,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4Mgg_b26YGI/maxresdefault.jpg",
       "duration_seconds": 473,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "20時間前",
       "duration_text": "7:53",
       "badge_kind": ""
     },
@@ -277,7 +291,7 @@
       "thumbnail": "https://i.ytimg.com/vi/EfDynILJcr4/maxresdefault.jpg",
       "duration_seconds": 1209,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "20時間前",
       "duration_text": "20:09",
       "badge_kind": ""
     },
@@ -825,20 +839,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "1:19:26",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "t94weLr0kP0",
-      "title": "本当？ヤラセ？丸の内OLレイナが大炎上「人間シャンパンタワー」の真相を語る",
-      "channel_title": "堀江貴文 ホリエモン",
-      "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
-      "published_iso": "2026-05-21T10:00:08Z",
-      "published_dt": "2026-05-21T10:00:08+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/t94weLr0kP0/maxresdefault.jpg",
-      "duration_seconds": 1007,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "16:47",
       "badge_kind": ""
     }
   ]
