@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-05-28T03:34:27+00:00",
+  "generated_at": "2026-05-28T07:43:14+00:00",
   "videos": [
+    {
+      "video_id": "I0TURxCS1t0",
+      "title": "堀江貴文Special Program ホリスペ！",
+      "channel_title": "堀江貴文 ホリエモン",
+      "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
+      "published_iso": "2026-05-28T03:55:51Z",
+      "published_dt": "2026-05-28T03:55:51+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/I0TURxCS1t0/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "live",
+      "rel_time": "3時間前",
+      "duration_text": "LIVE",
+      "badge_kind": "live"
+    },
     {
       "video_id": "gKFIUJ2bjic",
       "title": "SpaceXのスターリンクとAIデータセンターの未来について解説します",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gKFIUJ2bjic/maxresdefault.jpg",
       "duration_seconds": 499,
       "live_status": "",
-      "rel_time": "28分前",
+      "rel_time": "4時間前",
       "duration_text": "8:19",
       "badge_kind": ""
     },
@@ -25,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Ho_m_86kLsQ/maxresdefault.jpg",
       "duration_seconds": 41,
       "live_status": "",
-      "rel_time": "33分前",
+      "rel_time": "4時間前",
       "duration_text": "0:41",
       "badge_kind": ""
     },
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/edKThZt4Qrw/maxresdefault_live.jpg",
       "duration_seconds": 5736,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "5時間前",
       "duration_text": "1:35:36",
       "badge_kind": ""
     },
@@ -53,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3lQY3K7NAMI/maxresdefault.jpg",
       "duration_seconds": 7000,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "7時間前",
       "duration_text": "1:56:40",
       "badge_kind": ""
     },
@@ -67,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4Mgg_b26YGI/maxresdefault.jpg",
       "duration_seconds": 473,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "9時間前",
       "duration_text": "7:53",
       "badge_kind": ""
     },
@@ -81,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/EfDynILJcr4/maxresdefault.jpg",
       "duration_seconds": 1209,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "9時間前",
       "duration_text": "20:09",
       "badge_kind": ""
     },
@@ -95,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lLILQVPnab8/maxresdefault.jpg",
       "duration_seconds": 5381,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "17時間前",
       "duration_text": "1:29:41",
       "badge_kind": ""
     },
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JAC52xBTUEg/maxresdefault.jpg",
       "duration_seconds": 4240,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "18時間前",
       "duration_text": "1:10:40",
       "badge_kind": ""
     },
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3RRLEc5bleo/maxresdefault.jpg",
       "duration_seconds": 80,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "19時間前",
       "duration_text": "1:20",
       "badge_kind": ""
     },
@@ -137,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/N4d4YoyAvxQ/maxresdefault.jpg",
       "duration_seconds": 3398,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "20時間前",
       "duration_text": "56:38",
       "badge_kind": ""
     },
@@ -151,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/2kR5qdJELAA/maxresdefault.jpg",
       "duration_seconds": 26,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "20時間前",
       "duration_text": "0:26",
       "badge_kind": ""
     },
@@ -165,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/dUfDyavpvto/maxresdefault.jpg",
       "duration_seconds": 3991,
       "live_status": "",
-      "rel_time": "17時間前",
+      "rel_time": "21時間前",
       "duration_text": "1:06:31",
       "badge_kind": ""
     },
@@ -179,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/13MW_lo8HiM/maxresdefault.jpg",
       "duration_seconds": 57,
       "live_status": "",
-      "rel_time": "18時間前",
+      "rel_time": "22時間前",
       "duration_text": "0:57",
       "badge_kind": ""
     },
@@ -557,7 +571,7 @@
       "thumbnail": "https://i.ytimg.com/vi/AXhoipH2Pyc/maxresdefault.jpg",
       "duration_seconds": 56,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "0:56",
       "badge_kind": ""
     },
@@ -574,20 +588,6 @@
       "rel_time": "4日前",
       "duration_text": "0:13",
       "badge_kind": ""
-    },
-    {
-      "video_id": "I0TURxCS1t0",
-      "title": "堀江貴文Special Program ホリスペ！",
-      "channel_title": "堀江貴文 ホリエモン",
-      "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
-      "published_iso": "2026-05-24T01:00:37Z",
-      "published_dt": "2026-05-24T01:00:37+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/I0TURxCS1t0/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "upcoming",
-      "rel_time": "4日前",
-      "duration_text": "配信予定",
-      "badge_kind": "upcoming"
     },
     {
       "video_id": "kV2yNRdsaR8",
@@ -688,20 +688,6 @@
       "badge_kind": ""
     },
     {
-      "video_id": "O4fYBSgac0o",
-      "title": "本日リベシティでAI合宿やるで！高額スクールに金使うんじゃねぇ！【5月23日8時30分まで】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-05-23T00:07:31Z",
-      "published_dt": "2026-05-23T00:07:31+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/O4fYBSgac0o/maxresdefault.jpg",
-      "duration_seconds": 8380,
-      "live_status": "",
-      "rel_time": "5日前",
-      "duration_text": "2:19:40",
-      "badge_kind": ""
-    },
-    {
       "video_id": "nHVJmX09Ea4",
       "title": "【全ての年代必見】金融投資全振りはNG！重要なもうひとつの投資とは？【リベ大公式切り抜き】",
       "channel_title": "両学長 リベラルアーツ大学",
@@ -769,6 +755,20 @@
       "live_status": "",
       "rel_time": "5日前",
       "duration_text": "33:51",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "vIhAgvnHGmo",
+      "title": "【再放送】投資を始めて資本家になろう【お金の勉強 初級編 】：（アニメ動画）第328回",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-05-21T22:00:54Z",
+      "published_dt": "2026-05-21T22:00:54+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/vIhAgvnHGmo/maxresdefault.jpg",
+      "duration_seconds": 806,
+      "live_status": "",
+      "rel_time": "6日前",
+      "duration_text": "13:26",
       "badge_kind": ""
     },
     {
