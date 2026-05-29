@@ -45,4 +45,20 @@ describe('storage compatibility', () => {
     clearResume('abc');
     expect(getResumePosition('abc')).toBe(0);
   });
+
+  it('keeps old watch-later entries instead of expiring them', () => {
+    storage.saveLater({
+      old: {
+        title: 'Old Demo',
+        channelTitle: 'Channel',
+        channelId: 'UC1',
+        thumbnail: 'thumb',
+        publishedIso: '2026-01-01T00:00:00Z',
+        duration: '1:00',
+        savedAt: 1,
+      },
+    });
+
+    expect(storage.loadLater().old?.title).toBe('Old Demo');
+  });
 });

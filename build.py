@@ -75,10 +75,10 @@ def main() -> None:
     count = rss_fetcher.refresh_all()
     log.info("Fetched %d videos across all channels", count)
 
-    raw = rss_fetcher.get_videos(per_channel=15)
+    raw = rss_fetcher.get_videos(per_channel=50)
     if os.environ.get("YOUTUBE_API_KEY") and not raw:
         raise RuntimeError("No videos fetched via YouTube Data API; refusing to overwrite docs with an empty feed")
-    videos = rss_fetcher.enrich_for_display(raw, limit=60) if raw else []
+    videos = rss_fetcher.enrich_for_display(raw, limit=150) if raw else []
     save_feed(videos)
     log.info("Prepared %d videos for rendering", len(videos))
 

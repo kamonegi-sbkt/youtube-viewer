@@ -11,7 +11,7 @@ from services.feed_store import save_feed
 log = logging.getLogger(__name__)
 
 
-def refresh_feed(limit: int = 60, per_channel: int = 15) -> dict:
+def refresh_feed(limit: int = 150, per_channel: int = 50) -> dict:
     log.info("Refreshing all channels...")
     count = rss_fetcher.refresh_all()
     log.info("Fetched %d videos across all channels", count)

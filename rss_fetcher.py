@@ -5,9 +5,9 @@ YouTube動画を取得してマージする。
 未設定なら従来の RSS + HTML スクレイピング経路（ローカル開発用、API キー不要）。
 
 API v3 経路:
-  - playlistItems.list で各チャンネルの uploads プレイリスト（UU{id_without_UC}）から最新15件
+  - playlistItems.list で各チャンネルの uploads プレイリスト（UU{id_without_UC}）から最新50件
   - videos.list で duration / live_status をまとめて取得（バッチ50件）
-  - quota: 12ch × 1 + 4 batches × 1 ≈ 16 unit/refresh、無料枠 10000/日
+  - quota: 12ch × 2 ≈ 24 unit/refresh、無料枠 10000/日
 
 RSS 経路:
   - https://www.youtube.com/feeds/videos.xml?channel_id={id}
@@ -43,6 +43,7 @@ BROWSER_HEADERS = {
     "Sec-Fetch-Site": "same-origin",
 }
 RSS_URL = "https://www.youtube.com/feeds/videos.xml?channel_id={}"
+DEFAULT_PER_CHANNEL = 50
 
 
 def _get_rss_bytes(channel: dict, timeout: int = 20, retries: int = 5) -> bytes | None:
@@ -120,7 +121,7 @@ def _extract_live_status(vr: dict) -> str:
     return ""
 
 
-def _scrape_channel_html(channel: dict, timeout: int = 20) -> list[dict]:
+def _scrape_channel_html(channel: dict, timeout: int = 20, limit: int = DEFAULT_PER_CHANNEL) -> list[dict]:
     """HTML経由で動画を取得。各videoには duration_seconds (取れた場合) と live_status も含む。"""
     url = f"https://www.youtube.com/channel/{channel['id']}/videos"
     try:
@@ -190,7 +191,7 @@ def _scrape_channel_html(channel: dict, timeout: int = 20) -> list[dict]:
             "duration_seconds": duration_sec,
             "live_status": live_status,
         })
-        if len(videos) >= 15:
+        if len(videos) >= limit:
             break
 
     return _dedup_by_video_id(videos)
@@ -279,7 +280,7 @@ def _api_get(path: str, params: dict, timeout: int = 20) -> dict:
     return r.json()
 
 
-def _api_playlist_items(api_key: str, playlist_id: str, max_results: int = 15) -> list[dict]:
+def _api_playlist_items(api_key: str, playlist_id: str, max_results: int = DEFAULT_PER_CHANNEL) -> list[dict]:
     return _api_get("playlistItems", {
         "key": api_key,
         "playlistId": playlist_id,
@@ -319,7 +320,7 @@ def _fetch_channel_via_api(api_key: str, channel: dict) -> list[dict]:
     `UC{id}` の uploads プレイリストは規則的に `UU{id}` でアクセスできる。"""
     uploads_playlist_id = "UU" + channel["id"][2:] if channel["id"].startswith("UC") else channel["id"]
     try:
-        items = _api_playlist_items(api_key, uploads_playlist_id, max_results=15)
+        items = _api_playlist_items(api_key, uploads_playlist_id, max_results=DEFAULT_PER_CHANNEL)
     except requests.RequestException as e:
         log.warning("playlistItems.list failed for %s: %s", channel["title"], _redact_api_key(e))
         return []
@@ -498,7 +499,7 @@ def _is_shorts_title(title: str | None) -> bool:
     return "#shorts" in (title or "").lower()
 
 
-def get_videos(per_channel: int | None = 5) -> list[dict]:
+def get_videos(per_channel: int | None = DEFAULT_PER_CHANNEL) -> list[dict]:
     """キャッシュから動画リストを組み立てる。publishedの降順でマージ。
     タイトルに `#shorts` を含む動画はShortsとして除外。video_id で重複排除する。
     """
@@ -515,7 +516,7 @@ def get_videos(per_channel: int | None = 5) -> list[dict]:
 
 
 # 後方互換: 旧API名も残す（最初のリクエストで同期的に温める用途）
-def fetch_all(per_channel: int | None = 5) -> list[dict]:
+def fetch_all(per_channel: int | None = DEFAULT_PER_CHANNEL) -> list[dict]:
     if not _CHANNEL_CACHE:
         refresh_all()
     return get_videos(per_channel=per_channel)
@@ -556,7 +557,7 @@ def _format_duration(sec: int) -> str:
     return f"{m}:{s:02d}"
 
 
-def enrich_for_display(videos: Iterable[dict], limit: int = 60) -> list[dict]:
+def enrich_for_display(videos: Iterable[dict], limit: int = 150) -> list[dict]:
     now = dt.datetime.now(dt.timezone.utc)
     out = []
     for v in list(videos)[:limit]:
