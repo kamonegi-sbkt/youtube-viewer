@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-05-31T23:46:40+00:00",
+  "generated_at": "2026-06-01T04:02:22+00:00",
   "videos": [
+    {
+      "video_id": "TokiunyUnbY",
+      "title": "【生成AIと教育】人間に残る役割とは？ #教育改革 #子育て #学習指導要領 #生成AI #NewsPicks #EduPassion #学校教育 #テクノロジー教育 #AI教育",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-06-01T03:00:22Z",
+      "published_dt": "2026-06-01T03:00:22+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/TokiunyUnbY/maxresdefault.jpg",
+      "duration_seconds": 66,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "1:06",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "ml-x65wvBWE",
+      "title": "Claude Codeの使い方がわからない人いる？ / データセンターを作りたい / GPUの調達方法を知りたい",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-05-31T23:52:43Z",
+      "published_dt": "2026-05-31T23:52:43+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/ml-x65wvBWE/maxresdefault_live.jpg",
+      "duration_seconds": 4557,
+      "live_status": "",
+      "rel_time": "4時間前",
+      "duration_text": "1:15:57",
+      "badge_kind": ""
+    },
     {
       "video_id": "2IQpCGuzjfE",
       "title": "☆祝 リベシティ6周年！会員の約9割が資産を増やす街で、一緒に学ぼう。みんなの未来は明るいで【6/1 8:30まで】",
@@ -11,23 +39,9 @@
       "thumbnail": "https://i.ytimg.com/vi/2IQpCGuzjfE/maxresdefault.jpg",
       "duration_seconds": 6821,
       "live_status": "",
-      "rel_time": "6分前",
+      "rel_time": "4時間前",
       "duration_text": "1:53:41",
       "badge_kind": ""
-    },
-    {
-      "video_id": "ml-x65wvBWE",
-      "title": "Claude Codeの使い方がわからない人いる？ / データセンターを作りたい / GPUの調達方法を知りたい",
-      "channel_title": "ウェブ職TV / Nesheep",
-      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-05-31T22:36:46Z",
-      "published_dt": "2026-05-31T22:36:46+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/ml-x65wvBWE/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "1時間前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
     },
     {
       "video_id": "SPskuU5_BDY",
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/SPskuU5_BDY/maxresdefault.jpg",
       "duration_seconds": 862,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "6時間前",
       "duration_text": "14:22",
       "badge_kind": ""
     },
@@ -53,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PctLg3K3Fi8/maxresdefault.jpg",
       "duration_seconds": 1260,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "6時間前",
       "duration_text": "21:00",
       "badge_kind": ""
     },
@@ -67,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/UuREdC5NgWs/maxresdefault.jpg",
       "duration_seconds": 90,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "16時間前",
       "duration_text": "1:30",
       "badge_kind": ""
     },
@@ -81,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/8qtq-HAOXuQ/maxresdefault.jpg",
       "duration_seconds": 554,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "16時間前",
       "duration_text": "9:14",
       "badge_kind": ""
     },
@@ -95,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/BtLPzQZE0gs/maxresdefault.jpg",
       "duration_seconds": 2094,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "17時間前",
       "duration_text": "34:54",
       "badge_kind": ""
     },
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/q2QQ-_a3uxQ/maxresdefault.jpg",
       "duration_seconds": 1483,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "18時間前",
       "duration_text": "24:43",
       "badge_kind": ""
     },
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3g72eGNLSTc/maxresdefault.jpg",
       "duration_seconds": 53,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "18時間前",
       "duration_text": "0:53",
       "badge_kind": ""
     },
@@ -137,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/RxiIp5exVi4/maxresdefault.jpg",
       "duration_seconds": 1981,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "18時間前",
       "duration_text": "33:01",
       "badge_kind": ""
     },
@@ -151,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3ZBoi9CyICo/maxresdefault.jpg",
       "duration_seconds": 75,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "19時間前",
       "duration_text": "1:15",
       "badge_kind": ""
     },
@@ -165,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/AJnwzvV1LCM/maxresdefault.jpg",
       "duration_seconds": 5740,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "20時間前",
       "duration_text": "1:35:40",
       "badge_kind": ""
     },
@@ -179,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/GEv0Z0qF4uE/maxresdefault.jpg",
       "duration_seconds": 63,
       "live_status": "",
-      "rel_time": "20時間前",
+      "rel_time": "1日前",
       "duration_text": "1:03",
       "badge_kind": ""
     },
@@ -193,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/AlPmZ33HFe4/maxresdefault.jpg",
       "duration_seconds": 5184,
       "live_status": "",
-      "rel_time": "20時間前",
+      "rel_time": "1日前",
       "duration_text": "1:26:24",
       "badge_kind": ""
     },
@@ -207,7 +221,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JfEL5HcOd6M/maxresdefault.jpg",
       "duration_seconds": 69,
       "live_status": "",
-      "rel_time": "20時間前",
+      "rel_time": "1日前",
       "duration_text": "1:09",
       "badge_kind": ""
     },
@@ -221,7 +235,7 @@
       "thumbnail": "https://i.ytimg.com/vi/J5WP2Zo6DmI/maxresdefault.jpg",
       "duration_seconds": 8885,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "2:28:05",
       "badge_kind": ""
     },
@@ -261,10 +275,10 @@
       "published_iso": "2026-05-30T12:00:03Z",
       "published_dt": "2026-05-30T12:00:03+00:00",
       "thumbnail": "https://i.ytimg.com/vi/qcKdmSwWuqQ/maxresdefault.jpg",
-      "duration_seconds": 967,
+      "duration_seconds": 958,
       "live_status": "",
       "rel_time": "1日前",
-      "duration_text": "16:07",
+      "duration_text": "15:58",
       "badge_kind": ""
     },
     {
@@ -361,7 +375,7 @@
       "thumbnail": "https://i.ytimg.com/vi/8vP03WlUHdE/maxresdefault.jpg",
       "duration_seconds": 67,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "1:07",
       "badge_kind": ""
     },
@@ -375,7 +389,7 @@
       "thumbnail": "https://i.ytimg.com/vi/L2MEmWlGF2M/maxresdefault.jpg",
       "duration_seconds": 52,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "0:52",
       "badge_kind": ""
     },
@@ -389,7 +403,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JZkTr09aQGs/maxresdefault.jpg",
       "duration_seconds": 1338,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "22:18",
       "badge_kind": ""
     },
@@ -403,7 +417,7 @@
       "thumbnail": "https://i.ytimg.com/vi/8nQxjsUXK38/maxresdefault.jpg",
       "duration_seconds": 8175,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "2:16:15",
       "badge_kind": ""
     },
@@ -465,7 +479,7 @@
     },
     {
       "video_id": "WdrbZatVyNM",
-      "title": "THE BOOSTERS.【石丸伸二×柳沢正史】「寝る前スマホOK」最新科学が解き明かす睡眠の真実",
+      "title": "THE BOOSTERS.【石丸伸二×柳沢正史】「4時間睡眠は”飲酒運転”と同じ」最新科学が解き明かす睡眠の真実",
       "channel_title": "NewsPicks /ニューズピックス",
       "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
       "published_iso": "2026-05-29T12:00:14Z",
@@ -627,7 +641,7 @@
       "thumbnail": "https://i.ytimg.com/vi/9jR6y5elueU/maxresdefault.jpg",
       "duration_seconds": 67,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "1:07",
       "badge_kind": ""
     },
@@ -641,7 +655,7 @@
       "thumbnail": "https://i.ytimg.com/vi/2KwWjyqIcSM/maxresdefault.jpg",
       "duration_seconds": 4396,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "1:13:16",
       "badge_kind": ""
     },
@@ -879,7 +893,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gKFIUJ2bjic/maxresdefault.jpg",
       "duration_seconds": 499,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "8:19",
       "badge_kind": ""
     },
@@ -893,7 +907,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Ho_m_86kLsQ/maxresdefault.jpg",
       "duration_seconds": 41,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "0:41",
       "badge_kind": ""
     },
@@ -1033,7 +1047,7 @@
       "thumbnail": "https://i.ytimg.com/vi/2ShSABpKza4/maxresdefault.jpg",
       "duration_seconds": 64,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "1:04",
       "badge_kind": ""
     },
@@ -1047,7 +1061,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qgN63bQxbs4/maxresdefault.jpg",
       "duration_seconds": 7405,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "2:03:25",
       "badge_kind": ""
     },
@@ -1159,7 +1173,7 @@
       "thumbnail": "https://i.ytimg.com/vi/BXCaCHhx5ss/maxresdefault.jpg",
       "duration_seconds": 54,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "0:54",
       "badge_kind": ""
     },
@@ -1299,7 +1313,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JAgAb-b0TGU/maxresdefault.jpg",
       "duration_seconds": 69,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "1:09",
       "badge_kind": ""
     },
@@ -1641,7 +1655,7 @@
     },
     {
       "video_id": "MNvWiEFSAeo",
-      "title": "【入居率99%】ゲーム感覚？スマホ1つで完結する不動産経営【NewsPicks／木嵜綾奈／古木大咲／可視化AI／不動産経営／1棟オーナー／不労所得／robot home／1on1 DEEP】",
+      "title": "【入居率99%】スマホ1つで完結する不動産経営【NewsPicks／木嵜綾奈／古木大咲／1棟オーナー／不労所得／robot home／1on1 DEEP】「AI融資診断」は概要欄からアクセスできます",
       "channel_title": "NewsPicks /ニューズピックス",
       "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
       "published_iso": "2026-05-22T13:00:25Z",
@@ -1651,20 +1665,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "31:25",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "EP0cHYFT6D8",
-      "title": "【落合陽一×養老孟司】メタバースと現実世界、どう考える？ #落合陽一 #養老孟司 #バカの壁 #AI時代 #生き方 #生と死 #日本社会 #闘病 #哲学 #幸せとは",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-05-22T12:00:13Z",
-      "published_dt": "2026-05-22T12:00:13+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/EP0cHYFT6D8/maxresdefault.jpg",
-      "duration_seconds": 40,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "0:40",
       "badge_kind": ""
     },
     {
