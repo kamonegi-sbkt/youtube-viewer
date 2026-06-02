@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-06-02T12:48:53+00:00",
+  "generated_at": "2026-06-02T17:22:59+00:00",
   "videos": [
+    {
+      "video_id": "qW-h9bw8ZxQ",
+      "title": "Anthropic、遂に上場へ！ / MacでのローカルLLM評価 / なかじへの質問募集中(概要欄チェック)",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-06-02T15:31:41Z",
+      "published_dt": "2026-06-02T15:31:41+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/qW-h9bw8ZxQ/maxresdefault.jpg",
+      "duration_seconds": 6262,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "1:44:22",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "n1dV60zKhiw",
+      "title": "【アベマ同時配信中】「消費減税は効果薄？必要な対策／直マンと医師不足」アベプラ｜6/2(火) 21:00〜",
+      "channel_title": "ABEMA Prime",
+      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
+      "published_iso": "2026-06-02T13:29:53Z",
+      "published_dt": "2026-06-02T13:29:53+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/n1dV60zKhiw/maxresdefault.jpg",
+      "duration_seconds": 4429,
+      "live_status": "",
+      "rel_time": "3時間前",
+      "duration_text": "1:13:49",
+      "badge_kind": ""
+    },
     {
       "video_id": "sMFBh0O0tYw",
       "title": "【怖すぎる日本の検察】「冤罪」のウラ側。村木厚子の実体験 #冤罪 #検察 #司法 #村木厚子",
@@ -11,23 +39,9 @@
       "thumbnail": "https://i.ytimg.com/vi/sMFBh0O0tYw/maxresdefault.jpg",
       "duration_seconds": 84,
       "live_status": "",
-      "rel_time": "48分前",
+      "rel_time": "5時間前",
       "duration_text": "1:24",
       "badge_kind": ""
-    },
-    {
-      "video_id": "n1dV60zKhiw",
-      "title": "【アベマ同時配信中】「消費減税は効果薄？必要な対策／直マンと医師不足」アベプラ｜6/2(火) 21:00〜",
-      "channel_title": "ABEMA Prime",
-      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-06-02T11:30:21Z",
-      "published_dt": "2026-06-02T11:30:21+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/n1dV60zKhiw/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "1時間前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
     },
     {
       "video_id": "Nvfp0P17j1M",
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Nvfp0P17j1M/maxresdefault.jpg",
       "duration_seconds": 1953,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "6時間前",
       "duration_text": "32:33",
       "badge_kind": ""
     },
@@ -53,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/mQF7UzHGx-4/maxresdefault.jpg",
       "duration_seconds": 1769,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "6時間前",
       "duration_text": "29:29",
       "badge_kind": ""
     },
@@ -67,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/GZ2cvkBo9_Q/maxresdefault.jpg",
       "duration_seconds": 808,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "7時間前",
       "duration_text": "13:28",
       "badge_kind": ""
     },
@@ -81,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Oq6TKkcBy0I/maxresdefault.jpg",
       "duration_seconds": 1994,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "7時間前",
       "duration_text": "33:14",
       "badge_kind": ""
     },
@@ -95,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3EzqF-eHqO8/maxresdefault.jpg",
       "duration_seconds": 3114,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "7時間前",
       "duration_text": "51:54",
       "badge_kind": ""
     },
@@ -109,22 +123,8 @@
       "thumbnail": "https://i.ytimg.com/vi/8GkCWU0POBw/maxresdefault.jpg",
       "duration_seconds": 58,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "8時間前",
       "duration_text": "0:58",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "qW-h9bw8ZxQ",
-      "title": "Anthropic、遂に上場へ！ / MacでのローカルLLM評価 / なかじへの質問募集中(概要欄チェック)",
-      "channel_title": "ウェブ職TV / Nesheep",
-      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-06-02T03:01:16Z",
-      "published_dt": "2026-06-02T03:01:16+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/qW-h9bw8ZxQ/maxresdefault_live.jpg",
-      "duration_seconds": 6258,
-      "live_status": "",
-      "rel_time": "9時間前",
-      "duration_text": "1:44:18",
       "badge_kind": ""
     },
     {
@@ -137,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/uhutZ6qEbLc/maxresdefault.jpg",
       "duration_seconds": 86,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "14時間前",
       "duration_text": "1:26",
       "badge_kind": ""
     },
@@ -151,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pYzOqPfIuTw/maxresdefault.jpg",
       "duration_seconds": 7225,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "17時間前",
       "duration_text": "2:00:25",
       "badge_kind": ""
     },
@@ -165,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/58rE2GRCsvs/maxresdefault.jpg",
       "duration_seconds": 774,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "19時間前",
       "duration_text": "12:54",
       "badge_kind": ""
     },
@@ -179,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/KCrIpokA2uY/maxresdefault.jpg",
       "duration_seconds": 1182,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "19時間前",
       "duration_text": "19:42",
       "badge_kind": ""
     },
@@ -193,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gQFLnZcsHDA/maxresdefault.jpg",
       "duration_seconds": 58,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "19時間前",
       "duration_text": "0:58",
       "badge_kind": ""
     },
@@ -207,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/N8_GLZC7pOs/maxresdefault.jpg",
       "duration_seconds": 3812,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "20時間前",
       "duration_text": "1:03:32",
       "badge_kind": ""
     },
@@ -221,7 +221,7 @@
       "thumbnail": "https://i.ytimg.com/vi/8atJqXZAAdA/maxresdefault.jpg",
       "duration_seconds": 2545,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "20時間前",
       "duration_text": "42:25",
       "badge_kind": ""
     },
@@ -711,7 +711,7 @@
       "thumbnail": "https://i.ytimg.com/vi/hoVS_wKQdaI/maxresdefault.jpg",
       "duration_seconds": 3855,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "1:04:15",
       "badge_kind": ""
     },
@@ -725,7 +725,7 @@
       "thumbnail": "https://i.ytimg.com/vi/l6BF0766s-8/maxresdefault.jpg",
       "duration_seconds": 2160,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "36:00",
       "badge_kind": ""
     },
@@ -963,7 +963,7 @@
       "thumbnail": "https://i.ytimg.com/vi/edKThZt4Qrw/maxresdefault.jpg",
       "duration_seconds": 5742,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "1:35:42",
       "badge_kind": ""
     },
@@ -1215,7 +1215,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lLILQVPnab8/maxresdefault.jpg",
       "duration_seconds": 5381,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "1:29:41",
       "badge_kind": ""
     },
@@ -1327,7 +1327,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jyI4KF-eIHQ/maxresdefault.jpg",
       "duration_seconds": 6195,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "1:43:15",
       "badge_kind": ""
     },
@@ -2055,7 +2055,7 @@
       "thumbnail": "https://i.ytimg.com/vi/c9a35k_8UQM/maxresdefault.jpg",
       "duration_seconds": 6639,
       "live_status": "",
-      "rel_time": "1週間前",
+      "rel_time": "2週間前",
       "duration_text": "1:50:39",
       "badge_kind": ""
     },
