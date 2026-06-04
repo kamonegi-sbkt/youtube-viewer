@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-06-04T22:11:37+00:00",
+  "generated_at": "2026-06-04T23:37:41+00:00",
   "videos": [
+    {
+      "video_id": "dP-MogY1tiY",
+      "title": "Gemma4 12Bの衝撃 / ローカルLLMの活用方法 / Claude Codeを安く使う方法",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-06-04T23:12:46Z",
+      "published_dt": "2026-06-04T23:12:46+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/dP-MogY1tiY/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "live",
+      "rel_time": "24分前",
+      "duration_text": "LIVE",
+      "badge_kind": "live"
+    },
     {
       "video_id": "DGFENbP5SIk",
       "title": "第271回【超重要】株式投資に役立つ5月の投資トピック総まとめ【インデックス・高配当】【株式投資編】",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/DGFENbP5SIk/maxresdefault.jpg",
       "duration_seconds": 2021,
       "live_status": "",
-      "rel_time": "11分前",
+      "rel_time": "1時間前",
       "duration_text": "33:41",
       "badge_kind": ""
     },
@@ -25,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rzAu4BBj9Xw/maxresdefault_live.jpg",
       "duration_seconds": null,
       "live_status": "live",
-      "rel_time": "30分前",
+      "rel_time": "1時間前",
       "duration_text": "LIVE",
       "badge_kind": "live"
     },
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/R9Ih1CeCQP4/maxresdefault.jpg",
       "duration_seconds": 3452,
       "live_status": "",
-      "rel_time": "6時間前",
+      "rel_time": "8時間前",
       "duration_text": "57:32",
       "badge_kind": ""
     },
@@ -53,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/6z95rYwOeR8/maxresdefault.jpg",
       "duration_seconds": 4265,
       "live_status": "",
-      "rel_time": "8時間前",
+      "rel_time": "10時間前",
       "duration_text": "1:11:05",
       "badge_kind": ""
     },
@@ -67,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/eyGXcsL7K74/maxresdefault.jpg",
       "duration_seconds": 72,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "11時間前",
       "duration_text": "1:12",
       "badge_kind": ""
     },
@@ -81,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/-Lq0iNF3pNc/maxresdefault.jpg",
       "duration_seconds": 1750,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "12時間前",
       "duration_text": "29:10",
       "badge_kind": ""
     },
@@ -95,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gllb3cKXwqY/maxresdefault.jpg",
       "duration_seconds": 1057,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "12時間前",
       "duration_text": "17:37",
       "badge_kind": ""
     },
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/IzMdoub9TTU/maxresdefault.jpg",
       "duration_seconds": 2182,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "13時間前",
       "duration_text": "36:22",
       "badge_kind": ""
     },
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/yjk6qpgFXPs/maxresdefault.jpg",
       "duration_seconds": 2109,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "13時間前",
       "duration_text": "35:09",
       "badge_kind": ""
     },
@@ -137,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/r2TTo8wIrZ4/maxresdefault.jpg",
       "duration_seconds": 327,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "14時間前",
       "duration_text": "5:27",
       "badge_kind": ""
     },
@@ -151,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/XrDdkKHeVoc/maxresdefault.jpg",
       "duration_seconds": 64,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "14時間前",
       "duration_text": "1:04",
       "badge_kind": ""
     },
@@ -165,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/S8sFWl5S9v0/maxresdefault.jpg",
       "duration_seconds": 61,
       "live_status": "",
-      "rel_time": "19時間前",
+      "rel_time": "20時間前",
       "duration_text": "1:01",
       "badge_kind": ""
     },
@@ -179,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/FlpSNa3IW6M/maxresdefault.jpg",
       "duration_seconds": 6989,
       "live_status": "",
-      "rel_time": "22時間前",
+      "rel_time": "23時間前",
       "duration_text": "1:56:29",
       "badge_kind": ""
     },
@@ -2085,20 +2099,6 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "1:19:26",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "t94weLr0kP0",
-      "title": "本当？ヤラセ？丸の内OLレイナが大炎上「人間シャンパンタワー」の真相を語る",
-      "channel_title": "堀江貴文 ホリエモン",
-      "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
-      "published_iso": "2026-05-21T10:00:08Z",
-      "published_dt": "2026-05-21T10:00:08+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/t94weLr0kP0/maxresdefault.jpg",
-      "duration_seconds": 1007,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "16:47",
       "badge_kind": ""
     }
   ]
