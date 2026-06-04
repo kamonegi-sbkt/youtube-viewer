@@ -72,7 +72,7 @@ jobs:
         run: npm run build
 
       - name: Install Hugging Face Hub client
-        run: python -m pip install huggingface_hub
+        run: python -m pip install "huggingface_hub>=1,<2"
 
       - name: Sync to Hugging Face Space
         env:
@@ -80,30 +80,52 @@ jobs:
           HF_SPACE_REPO_ID: ${{ secrets.HF_SPACE_REPO_ID }}
         run: |
           python - <<'PY'
+          import json
           import os
+          import time
+
+          import httpx
           from huggingface_hub import HfApi
+          from huggingface_hub.errors import HfHubHTTPError
 
           repo_id = os.environ["HF_SPACE_REPO_ID"].strip()
           token = os.environ["HF_TOKEN"].strip()
           api = HfApi(token=token)
-          api.upload_folder(
-              folder_path=".",
-              repo_id=repo_id,
-              repo_type="space",
-              ignore_patterns=[
-                  ".git/*",
-                  ".github/*",
-                  ".venv/*",
-                  "__pycache__/*",
-                  "front/node_modules/*",
-                  ".pytest_cache/*",
-                  ".playwright-mcp/*",
-                  "key.txt",
-                  ".env",
-                  "docs/*",
-                  "templates/*",
-                  "static/*",
-              ],
-              commit_message="Deploy YouTube Viewer",
-          )
+          retryable_errors = (json.JSONDecodeError, httpx.HTTPError, HfHubHTTPError)
+          max_attempts = 3
+
+          for attempt in range(1, max_attempts + 1):
+              try:
+                  print(f"Upload attempt {attempt}/{max_attempts}")
+                  api.upload_folder(
+                      folder_path=".",
+                      repo_id=repo_id,
+                      repo_type="space",
+                      ignore_patterns=[
+                          ".git/*",
+                          ".github/*",
+                          ".venv/*",
+                          "__pycache__/*",
+                          "front/node_modules/*",
+                          ".pytest_cache/*",
+                          ".playwright-mcp/*",
+                          "key.txt",
+                          ".env",
+                          "docs/*",
+                          "templates/*",
+                          "static/*",
+                      ],
+                      commit_message="Deploy YouTube Viewer",
+                  )
+                  print("Upload completed")
+                  break
+              except retryable_errors as exc:
+                  if attempt == max_attempts:
+                      print(f"Upload failed after {max_attempts} attempts: {exc!r}")
+                      raise
+
+                  wait_seconds = 15 * attempt
+                  print(f"Upload failed with retryable error: {exc!r}")
+                  print(f"Retrying in {wait_seconds} seconds...")
+                  time.sleep(wait_seconds)
           PY
