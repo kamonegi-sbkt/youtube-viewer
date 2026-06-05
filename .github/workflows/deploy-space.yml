@@ -87,13 +87,17 @@ jobs:
             --exclude ".playwright-mcp/" \
             --exclude "key.txt" \
             --exclude ".env" \
-            --exclude "docs/" \
-            --exclude "templates/" \
-            --exclude "static/" \
+            --exclude "/docs/" \
+            --exclude "/templates/" \
+            --exclude "/static/" \
             ./ "$deploy_dir/"
 
           if [ ! -f "$deploy_dir/front/dist/index.html" ]; then
             echo "::error::Missing frontend build artifact: front/dist/index.html"
+            exit 1
+          fi
+          if [ ! -f "$deploy_dir/front/dist/static/manifest.json" ]; then
+            echo "::error::Missing frontend static artifact: front/dist/static/manifest.json"
             exit 1
           fi
 
@@ -114,6 +118,7 @@ jobs:
           git add .
           git add -f front/dist
           git ls-files --error-unmatch front/dist/index.html
+          git ls-files --error-unmatch front/dist/static/manifest.json
           git commit -m "Deploy YouTube Viewer"
           git remote add origin "https://huggingface.co/spaces/${HF_SPACE_REPO_ID}"
           GIT_ASKPASS="$RUNNER_TEMP/hf-askpass.sh" GIT_TERMINAL_PROMPT=0 git push --force origin main
