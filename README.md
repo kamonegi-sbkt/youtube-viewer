@@ -17,7 +17,7 @@ pinned: false
 主構成は **FastAPI + React/TypeScript/Vite + Docker + Hugging Face Space**。
 
 - GitHub Actionsが15分ごとにYouTube Data API v3で新着を取得し、`data/feed.json` を更新する。
-- FastAPIが `/api/v1/feed` で最新feedを返し、Reactのビルド済みSPAも配信する。
+- FastAPIがGitHub上の最新 `data/feed.json` を読み、`/api/v1/feed` で返す。Reactのビルド済みSPAも配信する。
 - 「あとで見る」「再生位置」「履歴」「チャンネル絞り込み」はサーバーに保存せず、ブラウザのlocalStorageに保存する。
 - Hugging Face Spaceの非永続ディスクにはユーザー状態を置かない。
 
@@ -75,7 +75,7 @@ localStorageは「ブラウザ + プロファイル + origin」単位の保存�
 
 ## デプロイ
 
-`deploy-space.yml` はpushまたは手動実行で以下を行う。
+`deploy-space.yml` はアプリ本体のpushまたは手動実行で以下を行う。
 
 1. Python依存をインストール
 2. backend tests
@@ -83,7 +83,7 @@ localStorageは「ブラウザ + プロファイル + origin」単位の保存�
 4. frontend build
 5. Hugging Face Spaceへ同期
 
-`refresh.yml` は15分ごと、または手動実行で `data/feed.json` と `data/video_meta.json` を更新してcommit/pushする。
+`refresh.yml` は15分ごと、または手動実行で `data/feed.json` と `data/video_meta.json` を更新してcommit/pushする。このデータ更新だけではHugging Face Spaceを再デプロイしない。
 
 ## 主要ファイル
 
