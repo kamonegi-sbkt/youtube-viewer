@@ -81,9 +81,6 @@ jobs:
             --exclude ".playwright-mcp/" \
             --exclude "key.txt" \
             --exclude ".env" \
-            --exclude "/docs/" \
-            --exclude "/templates/" \
-            --exclude "/static/" \
             ./ "$deploy_dir/"
 
           if [ ! -f "$deploy_dir/front/dist/index.html" ]; then

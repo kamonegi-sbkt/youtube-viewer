@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useRef, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 
 import { fetchFeed } from './api';
@@ -71,6 +71,7 @@ function useYouTubePlayer(onResumeChange: (resume: ResumeMap) => void) {
   const currentVideoIdRef = useRef<string | null>(null);
   const intervalRef = useRef<number | null>(null);
   const [overlayMode, setOverlayMode] = useState<'closed' | 'open' | 'mini'>('closed');
+  const [currentMeta, setCurrentMeta] = useState<VideoMeta | null>(null);
   const [isReady, setReady] = useState(false);
 
   const stopInterval = () => {
@@ -157,11 +158,13 @@ function useYouTubePlayer(onResumeChange: (resume: ResumeMap) => void) {
     };
   }, []);
 
-  const openPlayer = (videoId: string) => {
+  const openPlayer = (meta: VideoMeta) => {
+    const videoId = meta.videoId;
     if (currentVideoIdRef.current && currentVideoIdRef.current !== videoId) {
       savePositionNow();
     }
     currentVideoIdRef.current = videoId;
+    setCurrentMeta(meta);
     setOverlayMode('open');
     const startSeconds = getResumePosition(videoId);
     if (isReady && playerRef.current) {
@@ -181,11 +184,13 @@ function useYouTubePlayer(onResumeChange: (resume: ResumeMap) => void) {
     stopInterval();
     currentVideoIdRef.current = null;
     playerRef.current?.stopVideo?.();
+    setCurrentMeta(null);
     setOverlayMode('closed');
   };
 
   return {
     overlayMode,
+    currentMeta,
     openPlayer,
     closePlayer,
     minimizePlayer: () => setOverlayMode('mini'),
@@ -193,31 +198,116 @@ function useYouTubePlayer(onResumeChange: (resume: ResumeMap) => void) {
   };
 }
 
+// Pull-to-refresh for touch devices. Fires only when the page is scrolled to the
+// very top and the gesture is a downward, mostly-vertical drag, so it never steals
+// normal vertical scrolling or the horizontal tab/channel strips.
+function usePullToRefresh(onRefresh: () => Promise<void> | void, enabled: boolean) {
+  const [pull, setPull] = useState(0);
+  const [active, setActive] = useState(false);
+  const startX = useRef(0);
+  const startY = useRef(0);
+  const pulling = useRef(false);
+  const enabledRef = useRef(enabled);
+  enabledRef.current = enabled;
+  const THRESHOLD = 64;
+  const MAX = 96;
+
+  useEffect(() => {
+    const onStart = (event: TouchEvent) => {
+      if (!enabledRef.current || event.touches.length !== 1 || window.scrollY > 0) return;
+      startX.current = event.touches[0].clientX;
+      startY.current = event.touches[0].clientY;
+      pulling.current = true;
+    };
+    const onMove = (event: TouchEvent) => {
+      if (!pulling.current) return;
+      const dy = event.touches[0].clientY - startY.current;
+      const dx = event.touches[0].clientX - startX.current;
+      if (dy <= 0 || Math.abs(dx) > Math.abs(dy) || window.scrollY > 0) {
+        pulling.current = false;
+        setPull(0);
+        return;
+      }
+      event.preventDefault(); // suppress iOS rubber-band only while actively pulling at the top
+      setPull(Math.min(MAX, dy * 0.5));
+    };
+    const onEnd = async () => {
+      if (!pulling.current) return;
+      pulling.current = false;
+      if (pull >= THRESHOLD) {
+        setActive(true);
+        setPull(THRESHOLD);
+        try {
+          await onRefresh();
+        } finally {
+          setActive(false);
+          setPull(0);
+        }
+      } else {
+        setPull(0);
+      }
+    };
+    window.addEventListener('touchstart', onStart, { passive: true });
+    window.addEventListener('touchmove', onMove, { passive: false });
+    window.addEventListener('touchend', onEnd);
+    window.addEventListener('touchcancel', onEnd);
+    return () => {
+      window.removeEventListener('touchstart', onStart);
+      window.removeEventListener('touchmove', onMove);
+      window.removeEventListener('touchend', onEnd);
+      window.removeEventListener('touchcancel', onEnd);
+    };
+  }, [onRefresh, pull]);
+
+  return { pull, active, threshold: THRESHOLD };
+}
+
 function VideoCard({
   meta,
   bookmarked,
   resume,
+  watched,
   onOpen,
   onToggleLater,
+  onDismiss,
 }: {
   meta: VideoMeta;
   bookmarked: boolean;
   resume?: { position: number; duration: number };
+  watched?: boolean;
   onOpen: (meta: VideoMeta) => void;
   onToggleLater: (meta: VideoMeta) => void;
+  onDismiss?: (meta: VideoMeta) => void;
 }) {
   const timeLabel = meta.relTime || relTime(meta.publishedIso);
   const progress = resume?.duration ? Math.max(0, Math.min(1, resume.position / resume.duration)) : 0;
 
   return (
     <article className="card" onClick={() => onOpen(meta)}>
-      <div className="thumb">
+      <div className={`thumb${watched ? ' is-watched' : ''}`}>
         <img src={meta.thumbnail} alt="" loading="lazy" />
         <div className="play-overlay">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
             <path d="M8 5v14l11-7z" />
           </svg>
         </div>
+        {onDismiss ? (
+          <button
+            className="dismiss-btn"
+            type="button"
+            aria-label="興味なし（新着から隠す）"
+            title="興味なし"
+            onClick={(event) => {
+              event.preventDefault();
+              event.stopPropagation();
+              onDismiss(meta);
+            }}
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" />
+            </svg>
+          </button>
+        ) : null}
         <button
           className="bookmark-btn"
           type="button"
@@ -233,6 +323,14 @@ function VideoCard({
             <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
           </svg>
         </button>
+        {watched ? (
+          <span className="watched-badge" aria-label="視聴済み">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <polyline points="20 6 9 17 4 12" />
+            </svg>
+            視聴済み
+          </span>
+        ) : null}
         {meta.duration ? <span className={`video-length-badge${meta.badgeKind ? ` is-${meta.badgeKind}` : ''}`}>{meta.duration}</span> : null}
         {progress > 0 ? (
           <div className="progress-bar">
@@ -258,11 +356,13 @@ function VideoCard({
 
 function PlayerOverlay({
   mode,
+  meta,
   onClose,
   onMinimize,
   onExpand,
 }: {
   mode: 'closed' | 'open' | 'mini';
+  meta: VideoMeta | null;
   onClose: () => void;
   onMinimize: () => void;
   onExpand: () => void;
@@ -288,6 +388,12 @@ function PlayerOverlay({
             <div id="player-iframe" />
           </div>
         </div>
+        {meta ? (
+          <div className="player-meta">
+            <div className="player-title">{meta.title}</div>
+            <div className="player-channel">{meta.channelTitle}</div>
+          </div>
+        ) : null}
       </div>
     </div>
   );
@@ -317,17 +423,40 @@ function App() {
   const [watchHistory, setWatchHistory] = useState<HistoryMap>(() => storage.loadHistory());
   const [resume, setResume] = useState<ResumeMap>(() => storage.loadResume());
   const [selectedChannel, setSelectedChannel] = useState(() => storage.loadChannelFilter());
+  const [refreshing, setRefreshing] = useState(false);
+  const [lastDismissed, setLastDismissed] = useState<VideoMeta | null>(null);
+  const dismissTimerRef = useRef<number | null>(null);
   const player = useYouTubePlayer(setResume);
 
+  const loadFeed = useCallback(async () => {
+    try {
+      const feed = await fetchFeed();
+      setFeedVideos(feed.videos.map(apiVideoToMeta));
+      setGeneratedAt(feed.generated_at);
+      setError('');
+    } catch (err: unknown) {
+      setError(err instanceof Error ? err.message : 'feed request failed');
+    }
+  }, []);
+
   useEffect(() => {
-    fetchFeed()
-      .then((feed) => {
-        setFeedVideos(feed.videos.map(apiVideoToMeta));
-        setGeneratedAt(feed.generated_at);
-        setError('');
-      })
-      .catch((err: unknown) => setError(err instanceof Error ? err.message : 'feed request failed'))
-      .finally(() => setLoading(false));
+    loadFeed().finally(() => setLoading(false));
+  }, [loadFeed]);
+
+  const refreshFeed = useCallback(async () => {
+    if (refreshing) return;
+    setRefreshing(true);
+    try {
+      await loadFeed();
+    } finally {
+      setRefreshing(false);
+    }
+  }, [refreshing, loadFeed]);
+
+  const ptr = usePullToRefresh(refreshFeed, player.overlayMode !== 'open');
+
+  useEffect(() => () => {
+    if (dismissTimerRef.current) window.clearTimeout(dismissTimerRef.current);
   }, []);
 
   useEffect(() => {
@@ -386,7 +515,26 @@ function App() {
 
   const openVideo = (meta: VideoMeta) => {
     addHistory(meta);
-    player.openPlayer(meta.videoId);
+    player.openPlayer(meta);
+  };
+
+  const dismissVideo = (meta: VideoMeta) => {
+    const next = { ...storage.loadHidden(), [meta.videoId]: Date.now() };
+    storage.saveHidden(next);
+    setHidden(next);
+    setLastDismissed(meta);
+    if (dismissTimerRef.current) window.clearTimeout(dismissTimerRef.current);
+    dismissTimerRef.current = window.setTimeout(() => setLastDismissed(null), 5000);
+  };
+
+  const undoDismiss = () => {
+    if (!lastDismissed) return;
+    const next = { ...storage.loadHidden() };
+    delete next[lastDismissed.videoId];
+    storage.saveHidden(next);
+    setHidden(next);
+    setLastDismissed(null);
+    if (dismissTimerRef.current) window.clearTimeout(dismissTimerRef.current);
   };
 
   const toggleLater = (meta: VideoMeta) => {
@@ -426,11 +574,15 @@ function App() {
           <button className={`tab${activeTab === 'history' ? ' is-active' : ''}`} type="button" role="tab" aria-selected={activeTab === 'history'} onClick={() => setActiveTab('history')}>履歴</button>
         </nav>
         <div className="topbar-actions">
-          <button className="topbar-btn" type="button" aria-label="再読み込み" title="再読み込み" onClick={() => location.replace(`${location.pathname}?reload=${Date.now()}${location.hash}`)}>
+          <button className={`topbar-btn${refreshing ? ' is-spinning' : ''}`} type="button" aria-label="再読み込み" title="再読み込み" disabled={refreshing} onClick={refreshFeed}>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 0 1 15.5-6.2L21 8" /><path d="M21 3v5h-5" /><path d="M21 12a9 9 0 0 1-15.5 6.2L3 16" /><path d="M3 21v-5h5" /></svg>
           </button>
         </div>
       </header>
+
+      <div className="ptr-indicator" style={{ height: ptr.pull, opacity: ptr.pull ? 1 : 0 }} aria-hidden={!ptr.pull}>
+        <div className={`ptr-spinner${ptr.active || ptr.pull >= ptr.threshold ? ' is-active' : ''}`} />
+      </div>
 
       <section className="channel-filter" aria-label="チャンネル絞り込み">
         <div className="channel-filter-scroll" role="listbox" aria-label="チャンネル">
@@ -458,7 +610,7 @@ function App() {
         visibleFeed.length ? (
           <main className="grid">
             {visibleFeed.map((meta) => (
-              <VideoCard key={meta.videoId} meta={meta} bookmarked={Boolean(later[meta.videoId])} resume={resume[meta.videoId]} onOpen={openVideo} onToggleLater={toggleLater} />
+              <VideoCard key={meta.videoId} meta={meta} bookmarked={Boolean(later[meta.videoId])} resume={resume[meta.videoId]} watched={Boolean(watchHistory[meta.videoId])} onOpen={openVideo} onToggleLater={toggleLater} onDismiss={dismissVideo} />
             ))}
           </main>
         ) : (
@@ -490,7 +642,14 @@ function App() {
         )
       ) : null}
 
-      <PlayerOverlay mode={player.overlayMode} onClose={player.closePlayer} onMinimize={player.minimizePlayer} onExpand={player.expandPlayer} />
+      <PlayerOverlay mode={player.overlayMode} meta={player.currentMeta} onClose={player.closePlayer} onMinimize={player.minimizePlayer} onExpand={player.expandPlayer} />
+
+      {lastDismissed ? (
+        <div className={`toast${player.overlayMode === 'mini' ? ' is-raised' : ''}`} role="status">
+          <span className="toast-text">「{lastDismissed.title}」を非表示にしました</span>
+          <button type="button" className="toast-undo" onClick={undoDismiss}>元に戻す</button>
+        </div>
+      ) : null}
     </>
   );
 }

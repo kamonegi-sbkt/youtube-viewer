@@ -2,7 +2,7 @@
 表示対象のYouTubeチャンネル一覧（手動メンテ）。
 
 追加・削除したい場合はこのリストを直接書き換えて git push。
-次回の Claude Code routine 実行時に build.py が拾って docs/ を再生成する。
+GitHub Actions (refresh.yml) が rss_fetcher 経由で data/feed.json を更新する。
 """
 
 CHANNELS = [

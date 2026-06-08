@@ -11,3 +11,4 @@ front/node_modules/
 front/dist/
 .pytest_cache/
 .playwright-mcp/
+.playwright-cli/

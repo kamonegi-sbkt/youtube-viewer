@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
@@ -33,4 +33,4 @@ def serve_spa(path: str) -> FileResponse:
     index_path = settings.frontend_dist_dir / "index.html"
     if index_path.exists():
         return FileResponse(index_path)
-    return FileResponse(settings.root_dir / "docs" / "index.html")
+    raise HTTPException(status_code=404, detail="Frontend build not found. Run `npm run build` in front/.")
