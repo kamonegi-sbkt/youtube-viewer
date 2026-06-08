@@ -270,6 +270,7 @@ function VideoCard({
   onOpen,
   onToggleLater,
   onDismiss,
+  dismissLabel = '興味なし（新着から隠す）',
 }: {
   meta: VideoMeta;
   bookmarked: boolean;
@@ -278,6 +279,7 @@ function VideoCard({
   onOpen: (meta: VideoMeta) => void;
   onToggleLater: (meta: VideoMeta) => void;
   onDismiss?: (meta: VideoMeta) => void;
+  dismissLabel?: string;
 }) {
   const timeLabel = meta.relTime || relTime(meta.publishedIso);
   const progress = resume?.duration ? Math.max(0, Math.min(1, resume.position / resume.duration)) : 0;
@@ -295,8 +297,8 @@ function VideoCard({
           <button
             className="dismiss-btn"
             type="button"
-            aria-label="興味なし（新着から隠す）"
-            title="興味なし"
+            aria-label={dismissLabel}
+            title={dismissLabel}
             onClick={(event) => {
               event.preventDefault();
               event.stopPropagation();
@@ -424,9 +426,22 @@ function App() {
   const [resume, setResume] = useState<ResumeMap>(() => storage.loadResume());
   const [selectedChannel, setSelectedChannel] = useState(() => storage.loadChannelFilter());
   const [refreshing, setRefreshing] = useState(false);
-  const [lastDismissed, setLastDismissed] = useState<VideoMeta | null>(null);
-  const dismissTimerRef = useRef<number | null>(null);
+  const [toast, setToast] = useState<{ message: string; undo: () => void } | null>(null);
+  const toastTimerRef = useRef<number | null>(null);
   const player = useYouTubePlayer(setResume);
+
+  const showToast = (message: string, undo: () => void) => {
+    setToast({ message, undo });
+    if (toastTimerRef.current) window.clearTimeout(toastTimerRef.current);
+    toastTimerRef.current = window.setTimeout(() => setToast(null), 5000);
+  };
+
+  const runUndo = () => {
+    if (!toast) return;
+    toast.undo();
+    setToast(null);
+    if (toastTimerRef.current) window.clearTimeout(toastTimerRef.current);
+  };
 
   const loadFeed = useCallback(async () => {
     try {
@@ -456,7 +471,7 @@ function App() {
   const ptr = usePullToRefresh(refreshFeed, player.overlayMode !== 'open');
 
   useEffect(() => () => {
-    if (dismissTimerRef.current) window.clearTimeout(dismissTimerRef.current);
+    if (toastTimerRef.current) window.clearTimeout(toastTimerRef.current);
   }, []);
 
   useEffect(() => {
@@ -522,19 +537,27 @@ function App() {
     const next = { ...storage.loadHidden(), [meta.videoId]: Date.now() };
     storage.saveHidden(next);
     setHidden(next);
-    setLastDismissed(meta);
-    if (dismissTimerRef.current) window.clearTimeout(dismissTimerRef.current);
-    dismissTimerRef.current = window.setTimeout(() => setLastDismissed(null), 5000);
+    showToast(`「${meta.title}」を非表示にしました`, () => {
+      const restored = { ...storage.loadHidden() };
+      delete restored[meta.videoId];
+      storage.saveHidden(restored);
+      setHidden(restored);
+    });
   };
 
-  const undoDismiss = () => {
-    if (!lastDismissed) return;
-    const next = { ...storage.loadHidden() };
-    delete next[lastDismissed.videoId];
-    storage.saveHidden(next);
-    setHidden(next);
-    setLastDismissed(null);
-    if (dismissTimerRef.current) window.clearTimeout(dismissTimerRef.current);
+  const removeHistory = (meta: VideoMeta) => {
+    const current = storage.loadHistory();
+    const entry = current[meta.videoId];
+    const next = { ...current };
+    delete next[meta.videoId];
+    storage.saveHistory(next);
+    setWatchHistory(next);
+    showToast(`「${meta.title}」を履歴から削除しました`, () => {
+      if (!entry) return;
+      const restored = { ...storage.loadHistory(), [meta.videoId]: entry };
+      storage.saveHistory(restored);
+      setWatchHistory(restored);
+    });
   };
 
   const toggleLater = (meta: VideoMeta) => {
@@ -596,11 +619,14 @@ function App() {
       </section>
 
       {loading ? (
-        <main className="grid">
-          <div className="loading-shell">
-            <div className="loading-spinner" aria-label="読み込み中" />
-            <p className="loading-text">起動中...</p>
-          </div>
+        <main className="grid" aria-busy="true" aria-label="読み込み中">
+          {Array.from({ length: 6 }).map((_, i) => (
+            <div className="skeleton-card" key={i} aria-hidden="true">
+              <div className="skeleton-thumb" />
+              <div className="skeleton-line" />
+              <div className="skeleton-line short" />
+            </div>
+          ))}
         </main>
       ) : null}
 
@@ -634,7 +660,7 @@ function App() {
         visibleHistory.length ? (
           <main className="grid">
             {visibleHistory.map((entry) => (
-              <VideoCard key={entry.videoId} meta={entry} bookmarked={Boolean(later[entry.videoId])} resume={resume[entry.videoId]} onOpen={openVideo} onToggleLater={toggleLater} />
+              <VideoCard key={entry.videoId} meta={entry} bookmarked={Boolean(later[entry.videoId])} resume={resume[entry.videoId]} onOpen={openVideo} onToggleLater={toggleLater} onDismiss={removeHistory} dismissLabel="履歴から削除" />
             ))}
           </main>
         ) : (
@@ -644,10 +670,10 @@ function App() {
 
       <PlayerOverlay mode={player.overlayMode} meta={player.currentMeta} onClose={player.closePlayer} onMinimize={player.minimizePlayer} onExpand={player.expandPlayer} />
 
-      {lastDismissed ? (
+      {toast ? (
         <div className={`toast${player.overlayMode === 'mini' ? ' is-raised' : ''}`} role="status">
-          <span className="toast-text">「{lastDismissed.title}」を非表示にしました</span>
-          <button type="button" className="toast-undo" onClick={undoDismiss}>元に戻す</button>
+          <span className="toast-text">{toast.message}</span>
+          <button type="button" className="toast-undo" onClick={runUndo}>元に戻す</button>
         </div>
       ) : null}
     </>
