@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-06-08T12:08:28+00:00",
+  "generated_at": "2026-06-08T16:19:06+00:00",
   "videos": [
+    {
+      "video_id": "VGWSsXFaVYA",
+      "title": "Claude Codeのセキュリティチェックを自動化できる「Security Guidance」 / Anthropic公式プラグインだから安心 /",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-06-08T14:15:19Z",
+      "published_dt": "2026-06-08T14:15:19+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/VGWSsXFaVYA/maxresdefault.jpg",
+      "duration_seconds": 3305,
+      "live_status": "",
+      "rel_time": "2時間前",
+      "duration_text": "55:05",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "1MelIxH2mzA",
+      "title": "【アベマ同時配信中】「中道×立憲×公明でシン新党結成？／面接は公平？」アベプラ｜6/8(月) 21:00〜",
+      "channel_title": "ABEMA Prime",
+      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
+      "published_iso": "2026-06-08T13:44:01Z",
+      "published_dt": "2026-06-08T13:44:01+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/1MelIxH2mzA/maxresdefault.jpg",
+      "duration_seconds": 4569,
+      "live_status": "",
+      "rel_time": "2時間前",
+      "duration_text": "1:16:09",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "5OeLgJKWmq0",
+      "title": "Codexのスマホ連携が神すぎる！ / Claudeの性能低下が深刻 / 慶應義塾大学西先生の特別講義が決定！",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-06-08T13:13:44Z",
+      "published_dt": "2026-06-08T13:13:44+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/5OeLgJKWmq0/maxresdefault.jpg",
+      "duration_seconds": 5009,
+      "live_status": "",
+      "rel_time": "3時間前",
+      "duration_text": "1:23:29",
+      "badge_kind": ""
+    },
     {
       "video_id": "Mt6yj_DObpI",
       "title": "【笠井信輔×ハチミツ二郎】自分に合う病院と出会うには？　#がん #闘病 #加藤浩次 #笠井信輔 #ハチミツ二郎 #人生論 #NewsPicks",
@@ -11,27 +53,13 @@
       "thumbnail": "https://i.ytimg.com/vi/Mt6yj_DObpI/maxresdefault.jpg",
       "duration_seconds": 66,
       "live_status": "",
-      "rel_time": "7分前",
+      "rel_time": "4時間前",
       "duration_text": "1:06",
       "badge_kind": ""
     },
     {
-      "video_id": "1MelIxH2mzA",
-      "title": "【アベマ同時配信中】「中道×立憲×公明でシン新党結成？／面接は公平？」アベプラ｜6/8(月) 21:00〜",
-      "channel_title": "ABEMA Prime",
-      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-06-08T11:30:51Z",
-      "published_dt": "2026-06-08T11:30:51+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/1MelIxH2mzA/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "37分前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
-    },
-    {
       "video_id": "D-auN2Gj4SM",
-      "title": "「運の悪い人から今すぐ離れろ！」我慢する人は搾取される【黒岩里奈×中野信子】",
+      "title": "頑張っても「報われない人」の正体【黒岩里奈×中野信子】",
       "channel_title": "NewsPicks /ニューズピックス",
       "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
       "published_iso": "2026-06-08T11:00:37Z",
@@ -39,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/D-auN2Gj4SM/maxresdefault.jpg",
       "duration_seconds": 1495,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "5時間前",
       "duration_text": "24:55",
       "badge_kind": ""
     },
@@ -53,13 +81,13 @@
       "thumbnail": "https://i.ytimg.com/vi/BkZycvxQoCA/maxresdefault.jpg",
       "duration_seconds": 2271,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "6時間前",
       "duration_text": "37:51",
       "badge_kind": ""
     },
     {
       "video_id": "5_aIvm-i4ag",
-      "title": "世界一低性能な1ビットCPUをASICしてチップから自作! そしてオーバークロックしました",
+      "title": "世界一低性能な1ビットCPUをASIC化してチップから自作! そしてオーバークロックしました",
       "channel_title": "イチケン / ICHIKEN",
       "channel_id": "UCGhudK3AIG152KrfURCSb2Q",
       "published_iso": "2026-06-08T10:00:14Z",
@@ -67,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/5_aIvm-i4ag/maxresdefault.jpg",
       "duration_seconds": 1006,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "6時間前",
       "duration_text": "16:46",
       "badge_kind": ""
     },
@@ -81,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Iq4xZWvzxwI/maxresdefault.jpg",
       "duration_seconds": 1005,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "6時間前",
       "duration_text": "16:45",
       "badge_kind": ""
     },
@@ -95,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/GzQjlQAfaYg/maxresdefault.jpg",
       "duration_seconds": 80,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "13時間前",
       "duration_text": "1:20",
       "badge_kind": ""
     },
@@ -109,22 +137,8 @@
       "thumbnail": "https://i.ytimg.com/vi/C2QExcJS_is/maxresdefault.jpg",
       "duration_seconds": 40,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "13時間前",
       "duration_text": "0:40",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "5OeLgJKWmq0",
-      "title": "Codexのスマホ連携が神すぎる！ / Claudeの性能低下が深刻 / 慶應義塾大学西先生の特別講義が決定！",
-      "channel_title": "ウェブ職TV / Nesheep",
-      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-06-08T00:40:20Z",
-      "published_dt": "2026-06-08T00:40:20+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/5OeLgJKWmq0/maxresdefault_live.jpg",
-      "duration_seconds": 5005,
-      "live_status": "",
-      "rel_time": "11時間前",
-      "duration_text": "1:23:25",
       "badge_kind": ""
     },
     {
@@ -137,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/yTpkO5cLoQw/maxresdefault.jpg",
       "duration_seconds": 7743,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "16時間前",
       "duration_text": "2:09:03",
       "badge_kind": ""
     },
@@ -151,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/g_nNEKTKL1I/maxresdefault.jpg",
       "duration_seconds": 2584,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "18時間前",
       "duration_text": "43:04",
       "badge_kind": ""
     },
@@ -445,7 +459,7 @@
       "thumbnail": "https://i.ytimg.com/vi/dP-MogY1tiY/maxresdefault.jpg",
       "duration_seconds": 6250,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "1:44:10",
       "badge_kind": ""
     },
@@ -627,7 +641,7 @@
       "thumbnail": "https://i.ytimg.com/vi/R9Ih1CeCQP4/maxresdefault.jpg",
       "duration_seconds": 3452,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "57:32",
       "badge_kind": ""
     },
@@ -809,7 +823,7 @@
       "thumbnail": "https://i.ytimg.com/vi/HlkkKMRBdh0/maxresdefault.jpg",
       "duration_seconds": 4290,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "1:11:30",
       "badge_kind": ""
     },
@@ -963,7 +977,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qW-h9bw8ZxQ/maxresdefault.jpg",
       "duration_seconds": 6262,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "1:44:22",
       "badge_kind": ""
     },
@@ -2055,7 +2069,7 @@
       "thumbnail": "https://i.ytimg.com/vi/8pGjwe_hwSI/maxresdefault.jpg",
       "duration_seconds": 3177,
       "live_status": "",
-      "rel_time": "1週間前",
+      "rel_time": "2週間前",
       "duration_text": "52:57",
       "badge_kind": ""
     },
@@ -2085,20 +2099,6 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "13:32",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "DU4fFysoDlc",
-      "title": "【推し本】“良い本が埋もれてる”だけ？読書嫌いも沼らせる「本当におもしろい一冊」｜アベプラ",
-      "channel_title": "ABEMA Prime",
-      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-05-24T10:00:27Z",
-      "published_dt": "2026-05-24T10:00:27+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/DU4fFysoDlc/maxresdefault.jpg",
-      "duration_seconds": 1981,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "33:01",
       "badge_kind": ""
     }
   ]
