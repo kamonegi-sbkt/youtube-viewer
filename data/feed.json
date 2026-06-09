@@ -1,19 +1,47 @@
 {
-  "generated_at": "2026-06-09T11:39:08+00:00",
+  "generated_at": "2026-06-09T14:05:06+00:00",
   "videos": [
     {
       "video_id": "P7Z8mN0rOBg",
       "title": "【アベマ同時配信中】「介入より待ちが大事？ヤングケアラーに必要な支援」アベプラ｜6/9(火) 21:00〜",
       "channel_title": "ABEMA Prime",
       "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-06-09T11:30:27Z",
-      "published_dt": "2026-06-09T11:30:27+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/P7Z8mN0rOBg/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "8分前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
+      "published_iso": "2026-06-09T13:36:00Z",
+      "published_dt": "2026-06-09T13:36:00+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/P7Z8mN0rOBg/maxresdefault.jpg",
+      "duration_seconds": 7130,
+      "live_status": "",
+      "rel_time": "29分前",
+      "duration_text": "1:58:50",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "50DlZ9oP9O0",
+      "title": "Opus4.8が性能低下！←間違いでした / ショート動画を自動編集 / Claude Codeの1on1レッスン",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-06-09T12:15:27Z",
+      "published_dt": "2026-06-09T12:15:27+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/50DlZ9oP9O0/maxresdefault.jpg",
+      "duration_seconds": 3811,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "1:03:31",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "E918qG1OgJg",
+      "title": "【日本メディア初】Claude Codeの父「SaaSの死」を語る #Claude #AI #anthropic #コーディング #SaaS",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-06-09T12:00:08Z",
+      "published_dt": "2026-06-09T12:00:08+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/E918qG1OgJg/maxresdefault.jpg",
+      "duration_seconds": 69,
+      "live_status": "",
+      "rel_time": "2時間前",
+      "duration_text": "1:09",
+      "badge_kind": ""
     },
     {
       "video_id": "7UIofs6mYdc",
@@ -25,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7UIofs6mYdc/maxresdefault.jpg",
       "duration_seconds": 1639,
       "live_status": "",
-      "rel_time": "8分前",
+      "rel_time": "2時間前",
       "duration_text": "27:19",
       "badge_kind": ""
     },
@@ -39,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LGA7qMwCJSc/maxresdefault.jpg",
       "duration_seconds": 2078,
       "live_status": "",
-      "rel_time": "38分前",
+      "rel_time": "3時間前",
       "duration_text": "34:38",
       "badge_kind": ""
     },
@@ -53,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/yRlkT9zsbE8/maxresdefault.jpg",
       "duration_seconds": 1473,
       "live_status": "",
-      "rel_time": "38分前",
+      "rel_time": "3時間前",
       "duration_text": "24:33",
       "badge_kind": ""
     },
@@ -67,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/q8Kemn0O7M8/maxresdefault.jpg",
       "duration_seconds": 2342,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "3時間前",
       "duration_text": "39:02",
       "badge_kind": ""
     },
@@ -81,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bDMv2WlgDS0/maxresdefault.jpg",
       "duration_seconds": 1836,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "4時間前",
       "duration_text": "30:36",
       "badge_kind": ""
     },
@@ -95,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Hhbq5vmzrKA/maxresdefault.jpg",
       "duration_seconds": 843,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "4時間前",
       "duration_text": "14:03",
       "badge_kind": ""
     },
@@ -109,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/RcQgdMFgsXM/maxresdefault.jpg",
       "duration_seconds": 66,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "5時間前",
       "duration_text": "1:06",
       "badge_kind": ""
     },
@@ -123,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/t32Bt6k5PVE/maxresdefault.jpg",
       "duration_seconds": 33,
       "live_status": "",
-      "rel_time": "8時間前",
+      "rel_time": "11時間前",
       "duration_text": "0:33",
       "badge_kind": ""
     },
@@ -137,22 +165,8 @@
       "thumbnail": "https://i.ytimg.com/vi/GP5dkG7MUGw/maxresdefault.jpg",
       "duration_seconds": 60,
       "live_status": "",
-      "rel_time": "8時間前",
-      "duration_text": "1:00",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "50DlZ9oP9O0",
-      "title": "Opus4.8が性能低下！←間違いでした / ショート動画を自動編集 / Claude Codeの1on1レッスン",
-      "channel_title": "ウェブ職TV / Nesheep",
-      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-06-09T00:10:06Z",
-      "published_dt": "2026-06-09T00:10:06+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/50DlZ9oP9O0/maxresdefault_live.jpg",
-      "duration_seconds": 3805,
-      "live_status": "",
       "rel_time": "11時間前",
-      "duration_text": "1:03:25",
+      "duration_text": "1:00",
       "badge_kind": ""
     },
     {
@@ -165,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/C6wOJ6mzo4s/maxresdefault.jpg",
       "duration_seconds": 6818,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "14時間前",
       "duration_text": "1:53:38",
       "badge_kind": ""
     },
@@ -179,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/34YICg-si20/maxresdefault.jpg",
       "duration_seconds": 1221,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "16時間前",
       "duration_text": "20:21",
       "badge_kind": ""
     },
@@ -193,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ThAwZzRROR4/maxresdefault.jpg",
       "duration_seconds": 828,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "16時間前",
       "duration_text": "13:48",
       "badge_kind": ""
     },
@@ -207,7 +221,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4Pye4ps-_TA/maxresdefault.jpg",
       "duration_seconds": 45,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "16時間前",
       "duration_text": "0:45",
       "badge_kind": ""
     },
@@ -221,7 +235,7 @@
       "thumbnail": "https://i.ytimg.com/vi/xUyY6N1AQ94/maxresdefault.jpg",
       "duration_seconds": 3942,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "17時間前",
       "duration_text": "1:05:42",
       "badge_kind": ""
     },
@@ -235,7 +249,7 @@
       "thumbnail": "https://i.ytimg.com/vi/VGWSsXFaVYA/maxresdefault.jpg",
       "duration_seconds": 3305,
       "live_status": "",
-      "rel_time": "21時間前",
+      "rel_time": "23時間前",
       "duration_text": "55:05",
       "badge_kind": ""
     },
@@ -249,7 +263,7 @@
       "thumbnail": "https://i.ytimg.com/vi/5OeLgJKWmq0/maxresdefault.jpg",
       "duration_seconds": 5009,
       "live_status": "",
-      "rel_time": "22時間前",
+      "rel_time": "1日前",
       "duration_text": "1:23:29",
       "badge_kind": ""
     },
@@ -263,7 +277,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Mt6yj_DObpI/maxresdefault.jpg",
       "duration_seconds": 66,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "1:06",
       "badge_kind": ""
     },
@@ -389,7 +403,7 @@
       "thumbnail": "https://i.ytimg.com/vi/sM3_OkLo-c4/maxresdefault.jpg",
       "duration_seconds": 66,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "1:06",
       "badge_kind": ""
     },
@@ -515,7 +529,7 @@
       "thumbnail": "https://i.ytimg.com/vi/1584cp_Pjlw/maxresdefault.jpg",
       "duration_seconds": 71,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "1:11",
       "badge_kind": ""
     },
@@ -669,7 +683,7 @@
       "thumbnail": "https://i.ytimg.com/vi/dP-MogY1tiY/maxresdefault.jpg",
       "duration_seconds": 6250,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "1:44:10",
       "badge_kind": ""
     },
@@ -683,7 +697,7 @@
       "thumbnail": "https://i.ytimg.com/vi/CdFtc4dK16s/maxresdefault.jpg",
       "duration_seconds": 43,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "0:43",
       "badge_kind": ""
     },
@@ -865,7 +879,7 @@
       "thumbnail": "https://i.ytimg.com/vi/eyGXcsL7K74/maxresdefault.jpg",
       "duration_seconds": 72,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "1:12",
       "badge_kind": ""
     },
@@ -1033,7 +1047,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Ix9lEftL6KE/maxresdefault.jpg",
       "duration_seconds": 1916,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "31:56",
       "badge_kind": ""
     },
@@ -1047,7 +1061,7 @@
       "thumbnail": "https://i.ytimg.com/vi/R6BWhWFBbYU/maxresdefault.jpg",
       "duration_seconds": 928,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "15:28",
       "badge_kind": ""
     },
@@ -1061,7 +1075,7 @@
       "thumbnail": "https://i.ytimg.com/vi/eg6p-pT1_KE/maxresdefault.jpg",
       "duration_seconds": 64,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "1:04",
       "badge_kind": ""
     },
@@ -1187,7 +1201,7 @@
       "thumbnail": "https://i.ytimg.com/vi/sMFBh0O0tYw/maxresdefault.jpg",
       "duration_seconds": 84,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "1:24",
       "badge_kind": ""
     },
@@ -1539,20 +1553,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "33:01",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "3ZBoi9CyICo",
-      "title": "【言葉は感情を操る】トランプは知っていた言葉の「ヤバい正体」 #トランプ #言葉 #心理 #コミュニケーション",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-05-31T09:00:12Z",
-      "published_dt": "2026-05-31T09:00:12+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/3ZBoi9CyICo/maxresdefault.jpg",
-      "duration_seconds": 75,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "1:15",
       "badge_kind": ""
     },
     {
