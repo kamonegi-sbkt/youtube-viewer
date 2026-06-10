@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-06-10T12:20:39+00:00",
+  "generated_at": "2026-06-10T16:21:17+00:00",
   "videos": [
+    {
+      "video_id": "cZL8lqWneG4",
+      "title": "【緊急配信】Claude Fable 5はぶっちゃけどうよ？",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-06-10T15:46:33Z",
+      "published_dt": "2026-06-10T15:46:33+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/cZL8lqWneG4/maxresdefault.jpg",
+      "duration_seconds": 6436,
+      "live_status": "",
+      "rel_time": "34分前",
+      "duration_text": "1:47:16",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "XnnV1ctcats",
+      "title": "【アベマ同時配信中】「3度目の正直？どうなる大阪都構想／名作映画が配信停止」アベプラ｜6/10(水) 21:00〜",
+      "channel_title": "ABEMA Prime",
+      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
+      "published_iso": "2026-06-10T14:06:13Z",
+      "published_dt": "2026-06-10T14:06:13+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/XnnV1ctcats/maxresdefault.jpg",
+      "duration_seconds": 6886,
+      "live_status": "",
+      "rel_time": "2時間前",
+      "duration_text": "1:54:46",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "PGNIZ6-QGJ4",
+      "title": "【資本主義に飲み込まれた右翼と左翼】左翼とリベラルはどこが違うのか／イーロン・マスクが体現する強欲の正体／殺し屋の電話番号を渡された夜、資本主義の本質を見た（佐藤優×斎藤幸平）#知性密談",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-06-10T12:30:32Z",
+      "published_dt": "2026-06-10T12:30:32+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/PGNIZ6-QGJ4/maxresdefault.jpg",
+      "duration_seconds": 1222,
+      "live_status": "",
+      "rel_time": "3時間前",
+      "duration_text": "20:22",
+      "badge_kind": ""
+    },
     {
       "video_id": "jnATu005Tb8",
       "title": "【笠井信輔×ハチミツ二郎】セカンドオピニオンの重要性　#がん #闘病 #加藤浩次 #笠井信輔 #ハチミツ二郎 #人生論 #NewsPicks",
@@ -11,13 +53,13 @@
       "thumbnail": "https://i.ytimg.com/vi/jnATu005Tb8/maxresdefault.jpg",
       "duration_seconds": 60,
       "live_status": "",
-      "rel_time": "20分前",
+      "rel_time": "4時間前",
       "duration_text": "1:00",
       "badge_kind": ""
     },
     {
       "video_id": "Xw1eo1h157A",
-      "title": "インフレの鍵を握るFRB新議長とは何者か（ケビン・ウォーシュ／トランプ／高市早苗／FOMC／円安／金利／ニューエコノミー）",
+      "title": "「円安・インフレ」の鍵を握る男の論理（高市政権／FRB／ケビン・ウォーシュ／トランプ／高市早苗／FOMC／円安／金利／ニューエコノミー）",
       "channel_title": "NewsPicks /ニューズピックス",
       "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
       "published_iso": "2026-06-10T12:00:28Z",
@@ -25,23 +67,9 @@
       "thumbnail": "https://i.ytimg.com/vi/Xw1eo1h157A/maxresdefault.jpg",
       "duration_seconds": 1386,
       "live_status": "",
-      "rel_time": "20分前",
+      "rel_time": "4時間前",
       "duration_text": "23:06",
       "badge_kind": ""
-    },
-    {
-      "video_id": "XnnV1ctcats",
-      "title": "【アベマ同時配信中】「3度目の正直？どうなる大阪都構想／名作映画が配信停止」アベプラ｜6/10(水) 21:00〜",
-      "channel_title": "ABEMA Prime",
-      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-06-10T11:31:11Z",
-      "published_dt": "2026-06-10T11:31:11+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/XnnV1ctcats/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "49分前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
     },
     {
       "video_id": "GN-ll7v_Nnw",
@@ -53,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/GN-ll7v_Nnw/maxresdefault.jpg",
       "duration_seconds": 1762,
       "live_status": "",
-      "rel_time": "50分前",
+      "rel_time": "4時間前",
       "duration_text": "29:22",
       "badge_kind": ""
     },
@@ -67,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/z92Ho5EbN9M/maxresdefault.jpg",
       "duration_seconds": 3653,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "5時間前",
       "duration_text": "1:00:53",
       "badge_kind": ""
     },
@@ -81,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0UJYPMsnJ7Y/maxresdefault.jpg",
       "duration_seconds": 1887,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "5時間前",
       "duration_text": "31:27",
       "badge_kind": ""
     },
@@ -95,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3b1jOC0cKBw/maxresdefault.jpg",
       "duration_seconds": 1963,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "5時間前",
       "duration_text": "32:43",
       "badge_kind": ""
     },
@@ -109,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/xZxUaxYCML0/maxresdefault.jpg",
       "duration_seconds": 1318,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "6時間前",
       "duration_text": "21:58",
       "badge_kind": ""
     },
@@ -123,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/UBYXQ0vuyW0/maxresdefault.jpg",
       "duration_seconds": 806,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "6時間前",
       "duration_text": "13:26",
       "badge_kind": ""
     },
@@ -137,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/KM6nbPaCV1c/maxresdefault.jpg",
       "duration_seconds": 938,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "9時間前",
       "duration_text": "15:38",
       "badge_kind": ""
     },
@@ -151,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3afr0x8ef9Q/maxresdefault.jpg",
       "duration_seconds": 1736,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "9時間前",
       "duration_text": "28:56",
       "badge_kind": ""
     },
@@ -165,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/UKiJWw7_fCM/maxresdefault_live.jpg",
       "duration_seconds": null,
       "live_status": "upcoming",
-      "rel_time": "6時間前",
+      "rel_time": "10時間前",
       "duration_text": "配信予定",
       "badge_kind": "upcoming"
     },
@@ -179,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/y1zRTET8kh8/maxresdefault.jpg",
       "duration_seconds": 63,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "13時間前",
       "duration_text": "1:03",
       "badge_kind": ""
     },
@@ -193,7 +221,7 @@
       "thumbnail": "https://i.ytimg.com/vi/C8gljReEghs/maxresdefault.jpg",
       "duration_seconds": 34,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "13時間前",
       "duration_text": "0:34",
       "badge_kind": ""
     },
@@ -207,7 +235,7 @@
       "thumbnail": "https://i.ytimg.com/vi/UE8zyW7kBeo/maxresdefault.jpg",
       "duration_seconds": 7187,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "16時間前",
       "duration_text": "1:59:47",
       "badge_kind": ""
     },
@@ -221,7 +249,7 @@
       "thumbnail": "https://i.ytimg.com/vi/iQ8DB2WpNvg/maxresdefault.jpg",
       "duration_seconds": 1598,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "18時間前",
       "duration_text": "26:38",
       "badge_kind": ""
     },
@@ -235,7 +263,7 @@
       "thumbnail": "https://i.ytimg.com/vi/a7SZsz2HB8A/maxresdefault.jpg",
       "duration_seconds": 1969,
       "live_status": "",
-      "rel_time": "21時間前",
+      "rel_time": "1日前",
       "duration_text": "32:49",
       "badge_kind": ""
     },
@@ -473,7 +501,7 @@
       "thumbnail": "https://i.ytimg.com/vi/VGWSsXFaVYA/maxresdefault.jpg",
       "duration_seconds": 3305,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "55:05",
       "badge_kind": ""
     },
@@ -487,7 +515,7 @@
       "thumbnail": "https://i.ytimg.com/vi/5OeLgJKWmq0/maxresdefault.jpg",
       "duration_seconds": 5009,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "1:23:29",
       "badge_kind": ""
     },
@@ -907,7 +935,7 @@
       "thumbnail": "https://i.ytimg.com/vi/dP-MogY1tiY/maxresdefault.jpg",
       "duration_seconds": 6250,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "1:44:10",
       "badge_kind": ""
     },
@@ -1075,7 +1103,7 @@
       "thumbnail": "https://i.ytimg.com/vi/R9Ih1CeCQP4/maxresdefault.jpg",
       "duration_seconds": 3452,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "57:32",
       "badge_kind": ""
     },
@@ -1243,7 +1271,7 @@
       "thumbnail": "https://i.ytimg.com/vi/HlkkKMRBdh0/maxresdefault.jpg",
       "duration_seconds": 4290,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "1:11:30",
       "badge_kind": ""
     },
@@ -1581,20 +1609,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "42:25",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "NnDg8pYZwKs",
-      "title": "【黒岩里奈×アパ社長・元谷芙美子】アパホテル社員との絆 #強運 #元谷芙美子 #APA #元谷外志雄  #経営者 #経営哲学 #女性経営者 #NewsPicks #ビジネス #リーダーシップ",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-06-01T12:00:33Z",
-      "published_dt": "2026-06-01T12:00:33+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/NnDg8pYZwKs/maxresdefault.jpg",
-      "duration_seconds": 72,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "1:12",
       "badge_kind": ""
     },
     {
@@ -2085,20 +2099,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "6:05:11",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "ZJJ6L8bUHtY",
-      "title": "CIOの試作版 USB充電器を試験!! 発熱が想定より大きく、設計をやりなおす必要が出てきました【国産充電器プロジェクト02】",
-      "channel_title": "イチケン / ICHIKEN",
-      "channel_id": "UCGhudK3AIG152KrfURCSb2Q",
-      "published_iso": "2026-05-28T10:00:31Z",
-      "published_dt": "2026-05-28T10:00:31+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/ZJJ6L8bUHtY/maxresdefault.jpg",
-      "duration_seconds": 1017,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "16:57",
       "badge_kind": ""
     }
   ]
