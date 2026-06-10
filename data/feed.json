@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-06-10T04:51:06+00:00",
+  "generated_at": "2026-06-10T08:48:52+00:00",
   "videos": [
+    {
+      "video_id": "KM6nbPaCV1c",
+      "title": "「ここまでやるから選ばれる」震災時に“マーケを止めて支援”──アメックスが“愛の会社”と呼ばれる理由(佐藤隆太、池端由基、須藤靖洋）【THE HIGHLIGHT】",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-06-10T07:00:02Z",
+      "published_dt": "2026-06-10T07:00:02+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/KM6nbPaCV1c/maxresdefault.jpg",
+      "duration_seconds": 938,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "15:38",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "3afr0x8ef9Q",
+      "title": "Claude Mythos(Fable5)、遂に公開！！ / 世界を破滅に導く力を持つAIはほんと？ / 6月22日までの期間限定！",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-06-10T06:30:07Z",
+      "published_dt": "2026-06-10T06:30:07+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/3afr0x8ef9Q/maxresdefault.jpg",
+      "duration_seconds": 1736,
+      "live_status": "",
+      "rel_time": "2時間前",
+      "duration_text": "28:56",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "UKiJWw7_fCM",
+      "title": "「HPVワクチン男性接種の公費化に向けて」生配信鼎談【三原じゅん子×三輪綾子×堀江貴文】",
+      "channel_title": "堀江貴文 ホリエモン",
+      "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
+      "published_iso": "2026-06-10T05:31:10Z",
+      "published_dt": "2026-06-10T05:31:10+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/UKiJWw7_fCM/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "upcoming",
+      "rel_time": "3時間前",
+      "duration_text": "配信予定",
+      "badge_kind": "upcoming"
+    },
     {
       "video_id": "y1zRTET8kh8",
       "title": "【\"生みの親\"が語る】Claude Codeが生まれたその瞬間 #Claude #AI #anthropic #コーディング",
@@ -11,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/y1zRTET8kh8/maxresdefault.jpg",
       "duration_seconds": 63,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "5時間前",
       "duration_text": "1:03",
       "badge_kind": ""
     },
@@ -25,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/C8gljReEghs/maxresdefault.jpg",
       "duration_seconds": 34,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "5時間前",
       "duration_text": "0:34",
       "badge_kind": ""
     },
@@ -39,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/UE8zyW7kBeo/maxresdefault.jpg",
       "duration_seconds": 7187,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "8時間前",
       "duration_text": "1:59:47",
       "badge_kind": ""
     },
@@ -53,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/iQ8DB2WpNvg/maxresdefault.jpg",
       "duration_seconds": 1598,
       "live_status": "",
-      "rel_time": "6時間前",
+      "rel_time": "10時間前",
       "duration_text": "26:38",
       "badge_kind": ""
     },
@@ -67,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/a7SZsz2HB8A/maxresdefault.jpg",
       "duration_seconds": 1969,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "17時間前",
       "duration_text": "32:49",
       "badge_kind": ""
     },
@@ -81,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/P7Z8mN0rOBg/maxresdefault.jpg",
       "duration_seconds": 4662,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "19時間前",
       "duration_text": "1:17:42",
       "badge_kind": ""
     },
@@ -95,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/50DlZ9oP9O0/maxresdefault.jpg",
       "duration_seconds": 3811,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "20時間前",
       "duration_text": "1:03:31",
       "badge_kind": ""
     },
@@ -109,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/E918qG1OgJg/maxresdefault.jpg",
       "duration_seconds": 69,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "20時間前",
       "duration_text": "1:09",
       "badge_kind": ""
     },
@@ -123,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7UIofs6mYdc/maxresdefault.jpg",
       "duration_seconds": 1639,
       "live_status": "",
-      "rel_time": "17時間前",
+      "rel_time": "21時間前",
       "duration_text": "27:19",
       "badge_kind": ""
     },
@@ -137,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LGA7qMwCJSc/maxresdefault.jpg",
       "duration_seconds": 2078,
       "live_status": "",
-      "rel_time": "17時間前",
+      "rel_time": "21時間前",
       "duration_text": "34:38",
       "badge_kind": ""
     },
@@ -151,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/yRlkT9zsbE8/maxresdefault.jpg",
       "duration_seconds": 1473,
       "live_status": "",
-      "rel_time": "17時間前",
+      "rel_time": "21時間前",
       "duration_text": "24:33",
       "badge_kind": ""
     },
@@ -165,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/q8Kemn0O7M8/maxresdefault.jpg",
       "duration_seconds": 2342,
       "live_status": "",
-      "rel_time": "18時間前",
+      "rel_time": "22時間前",
       "duration_text": "39:02",
       "badge_kind": ""
     },
@@ -179,7 +221,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bDMv2WlgDS0/maxresdefault.jpg",
       "duration_seconds": 1836,
       "live_status": "",
-      "rel_time": "18時間前",
+      "rel_time": "22時間前",
       "duration_text": "30:36",
       "badge_kind": ""
     },
@@ -193,7 +235,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Hhbq5vmzrKA/maxresdefault.jpg",
       "duration_seconds": 843,
       "live_status": "",
-      "rel_time": "18時間前",
+      "rel_time": "22時間前",
       "duration_text": "14:03",
       "badge_kind": ""
     },
@@ -207,7 +249,7 @@
       "thumbnail": "https://i.ytimg.com/vi/RcQgdMFgsXM/maxresdefault.jpg",
       "duration_seconds": 66,
       "live_status": "",
-      "rel_time": "19時間前",
+      "rel_time": "23時間前",
       "duration_text": "1:06",
       "badge_kind": ""
     },
@@ -898,20 +940,6 @@
       "badge_kind": ""
     },
     {
-      "video_id": "rzAu4BBj9Xw",
-      "title": "スペースXやアンソロピックが上場しても、惑わされずオルカンで良いと思うよ l 学長の今月の投資温度感【6/5 8:30まで】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-06-04T23:54:42Z",
-      "published_dt": "2026-06-04T23:54:42+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/rzAu4BBj9Xw/maxresdefault.jpg",
-      "duration_seconds": 7678,
-      "live_status": "",
-      "rel_time": "5日前",
-      "duration_text": "2:07:58",
-      "badge_kind": ""
-    },
-    {
       "video_id": "DGFENbP5SIk",
       "title": "第271回【超重要】株式投資に役立つ5月の投資トピック総まとめ【インデックス・高配当】【株式投資編】",
       "channel_title": "両学長 リベラルアーツ大学",
@@ -1556,20 +1584,6 @@
       "badge_kind": ""
     },
     {
-      "video_id": "8qtq-HAOXuQ",
-      "title": "「永守ニデック」を生き抜いた、岸田光哉社長の意外な本音（日本電産／永守重信／特命監査部長）｜NPレポート",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-05-31T12:00:20Z",
-      "published_dt": "2026-05-31T12:00:20+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/8qtq-HAOXuQ/maxresdefault.jpg",
-      "duration_seconds": 554,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "9:14",
-      "badge_kind": ""
-    },
-    {
       "video_id": "BtLPzQZE0gs",
       "title": "「バカすぎる」激怒！今週の気になる時事ネタをホリエモンにぶつけてみた｜EV購入補助・令和の虎・MIXI株贈与・マンジャロ・食品消費税1％",
       "channel_title": "堀江貴文 ホリエモン",
@@ -2085,20 +2099,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "1:29:41",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "N4d4YoyAvxQ",
-      "title": "【激論】抗告禁止ってダメ？えん罪どう防ぐ？司法関係者と考える｜アベプラ",
-      "channel_title": "ABEMA Prime",
-      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-05-27T11:00:30Z",
-      "published_dt": "2026-05-27T11:00:30+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/N4d4YoyAvxQ/maxresdefault.jpg",
-      "duration_seconds": 3398,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "56:38",
       "badge_kind": ""
     }
   ]
