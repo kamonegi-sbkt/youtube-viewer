@@ -2,6 +2,8 @@ import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { createRoot } from 'react-dom/client';
 
 import { fetchFeed } from './api';
+import { getFeedViewState } from './feedView';
+import { formatDateTime } from './format';
 import {
   clearResume,
   getResumePosition,
@@ -70,9 +72,14 @@ function useYouTubePlayer(onResumeChange: (resume: ResumeMap) => void) {
   const playerRef = useRef<YouTubePlayer | null>(null);
   const currentVideoIdRef = useRef<string | null>(null);
   const intervalRef = useRef<number | null>(null);
+  // Queued load for taps that happen before the iframe API fires onReady.
+  // A single ref (not a poll) so rapid taps resolve to the last video only.
+  const pendingLoadRef = useRef<{ videoId: string; startSeconds: number } | null>(null);
+  const isReadyRef = useRef(false);
+  const onResumeChangeRef = useRef(onResumeChange);
+  onResumeChangeRef.current = onResumeChange;
   const [overlayMode, setOverlayMode] = useState<'closed' | 'open' | 'mini'>('closed');
   const [currentMeta, setCurrentMeta] = useState<VideoMeta | null>(null);
-  const [isReady, setReady] = useState(false);
 
   const stopInterval = () => {
     if (intervalRef.current !== null) {
@@ -87,7 +94,7 @@ function useYouTubePlayer(onResumeChange: (resume: ResumeMap) => void) {
     if (!player || !videoId) return;
     try {
       const resume = setResumePosition(videoId, player.getCurrentTime(), player.getDuration());
-      onResumeChange({ ...resume });
+      onResumeChangeRef.current({ ...resume });
     } catch {
       // YouTube iframe can throw while it is tearing down.
     }
@@ -117,7 +124,14 @@ function useYouTubePlayer(onResumeChange: (resume: ResumeMap) => void) {
           playsinline: 1,
         },
         events: {
-          onReady: () => setReady(true),
+          onReady: () => {
+            isReadyRef.current = true;
+            const pending = pendingLoadRef.current;
+            if (pending && playerRef.current) {
+              pendingLoadRef.current = null;
+              playerRef.current.loadVideoById(pending);
+            }
+          },
           onStateChange: (event: { data: number }) => {
             const state = window.YT?.PlayerState;
             if (!state) return;
@@ -132,7 +146,7 @@ function useYouTubePlayer(onResumeChange: (resume: ResumeMap) => void) {
             if (event.data === state.ENDED) {
               stopInterval();
               const videoId = currentVideoIdRef.current;
-              if (videoId) onResumeChange({ ...clearResume(videoId) });
+              if (videoId) onResumeChangeRef.current({ ...clearResume(videoId) });
             }
           },
         },
@@ -158,7 +172,7 @@ function useYouTubePlayer(onResumeChange: (resume: ResumeMap) => void) {
     };
   }, []);
 
-  const openPlayer = (meta: VideoMeta) => {
+  const openPlayer = useCallback((meta: VideoMeta) => {
     const videoId = meta.videoId;
     if (currentVideoIdRef.current && currentVideoIdRef.current !== videoId) {
       savePositionNow();
@@ -167,34 +181,34 @@ function useYouTubePlayer(onResumeChange: (resume: ResumeMap) => void) {
     setCurrentMeta(meta);
     setOverlayMode('open');
     const startSeconds = getResumePosition(videoId);
-    if (isReady && playerRef.current) {
+    if (isReadyRef.current && playerRef.current) {
+      pendingLoadRef.current = null;
       playerRef.current.loadVideoById({ videoId, startSeconds });
     } else {
-      const tick = window.setInterval(() => {
-        if (playerRef.current) {
-          window.clearInterval(tick);
-          playerRef.current.loadVideoById({ videoId, startSeconds });
-        }
-      }, 100);
+      pendingLoadRef.current = { videoId, startSeconds };
     }
-  };
+  }, []);
 
-  const closePlayer = () => {
+  const closePlayer = useCallback(() => {
     savePositionNow();
     stopInterval();
     currentVideoIdRef.current = null;
+    pendingLoadRef.current = null;
     playerRef.current?.stopVideo?.();
     setCurrentMeta(null);
     setOverlayMode('closed');
-  };
+  }, []);
+
+  const minimizePlayer = useCallback(() => setOverlayMode('mini'), []);
+  const expandPlayer = useCallback(() => setOverlayMode('open'), []);
 
   return {
     overlayMode,
     currentMeta,
     openPlayer,
     closePlayer,
-    minimizePlayer: () => setOverlayMode('mini'),
-    expandPlayer: () => setOverlayMode('open'),
+    minimizePlayer,
+    expandPlayer,
   };
 }
 
@@ -207,12 +221,21 @@ function usePullToRefresh(onRefresh: () => Promise<void> | void, enabled: boolea
   const startX = useRef(0);
   const startY = useRef(0);
   const pulling = useRef(false);
+  // Refs keep the listeners registered once; re-adding them on every
+  // touchmove (state update) would thrash the passive/non-passive handlers.
+  const pullRef = useRef(0);
   const enabledRef = useRef(enabled);
   enabledRef.current = enabled;
+  const onRefreshRef = useRef(onRefresh);
+  onRefreshRef.current = onRefresh;
   const THRESHOLD = 64;
   const MAX = 96;
 
   useEffect(() => {
+    const updatePull = (value: number) => {
+      pullRef.current = value;
+      setPull(value);
+    };
     const onStart = (event: TouchEvent) => {
       if (!enabledRef.current || event.touches.length !== 1 || window.scrollY > 0) return;
       startX.current = event.touches[0].clientX;
@@ -225,26 +248,26 @@ function usePullToRefresh(onRefresh: () => Promise<void> | void, enabled: boolea
       const dx = event.touches[0].clientX - startX.current;
       if (dy <= 0 || Math.abs(dx) > Math.abs(dy) || window.scrollY > 0) {
         pulling.current = false;
-        setPull(0);
+        updatePull(0);
         return;
       }
       event.preventDefault(); // suppress iOS rubber-band only while actively pulling at the top
-      setPull(Math.min(MAX, dy * 0.5));
+      updatePull(Math.min(MAX, dy * 0.5));
     };
     const onEnd = async () => {
       if (!pulling.current) return;
       pulling.current = false;
-      if (pull >= THRESHOLD) {
+      if (pullRef.current >= THRESHOLD) {
         setActive(true);
-        setPull(THRESHOLD);
+        updatePull(THRESHOLD);
         try {
-          await onRefresh();
+          await onRefreshRef.current();
         } finally {
           setActive(false);
-          setPull(0);
+          updatePull(0);
         }
       } else {
-        setPull(0);
+        updatePull(0);
       }
     };
     window.addEventListener('touchstart', onStart, { passive: true });
@@ -257,7 +280,7 @@ function usePullToRefresh(onRefresh: () => Promise<void> | void, enabled: boolea
       window.removeEventListener('touchend', onEnd);
       window.removeEventListener('touchcancel', onEnd);
     };
-  }, [onRefresh, pull]);
+  }, []);
 
   return { pull, active, threshold: THRESHOLD };
 }
@@ -563,11 +586,21 @@ function App() {
   const toggleLater = (meta: VideoMeta) => {
     const next = { ...storage.loadLater() };
     if (next[meta.videoId]) {
+      const removed = next[meta.videoId];
       delete next[meta.videoId];
       if (activeTab === 'later') {
         const nextHidden = { ...storage.loadHidden(), [meta.videoId]: Date.now() };
         storage.saveHidden(nextHidden);
         setHidden(nextHidden);
+        showToast(`「${meta.title}」をあとで見るから削除しました`, () => {
+          const restoredLater = { ...storage.loadLater(), [meta.videoId]: removed };
+          storage.saveLater(restoredLater);
+          setLater(restoredLater);
+          const restoredHidden = { ...storage.loadHidden() };
+          delete restoredHidden[meta.videoId];
+          storage.saveHidden(restoredHidden);
+          setHidden(restoredHidden);
+        });
       }
     } else {
       next[meta.videoId] = {
@@ -584,6 +617,9 @@ function App() {
     setSelectedChannel(channel);
   };
 
+  const feedViewState = getFeedViewState(loading, error, feedVideos.length);
+  const generatedAtLabel = formatDateTime(generatedAt);
+
   return (
     <>
       <header className="topbar">
@@ -597,6 +633,7 @@ function App() {
           <button className={`tab${activeTab === 'history' ? ' is-active' : ''}`} type="button" role="tab" aria-selected={activeTab === 'history'} onClick={() => setActiveTab('history')}>履歴</button>
         </nav>
         <div className="topbar-actions">
+          {generatedAtLabel ? <span className="topbar-updated" title="フィード最終更新">{generatedAtLabel}</span> : null}
           <button className={`topbar-btn${refreshing ? ' is-spinning' : ''}`} type="button" aria-label="再読み込み" title="再読み込み" disabled={refreshing} onClick={refreshFeed}>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 0 1 15.5-6.2L21 8" /><path d="M21 3v5h-5" /><path d="M21 12a9 9 0 0 1-15.5 6.2L3 16" /><path d="M3 21v-5h5" /></svg>
           </button>
@@ -630,9 +667,18 @@ function App() {
         </main>
       ) : null}
 
-      {error ? <Empty title="フィードを読み込めませんでした" hint={error} /> : null}
+      {activeTab === 'feed' && feedViewState === 'fatal-error' ? (
+        <Empty title="フィードを読み込めませんでした" hint={error} />
+      ) : null}
 
-      {!loading && !error && activeTab === 'feed' ? (
+      {activeTab === 'feed' && feedViewState === 'list-with-banner' ? (
+        <div className="feed-error-banner" role="alert">
+          <span>更新に失敗しました。前回取得分を表示しています</span>
+          <button type="button" onClick={refreshFeed} disabled={refreshing}>再試行</button>
+        </div>
+      ) : null}
+
+      {activeTab === 'feed' && (feedViewState === 'list' || feedViewState === 'list-with-banner') ? (
         visibleFeed.length ? (
           <main className="grid">
             {visibleFeed.map((meta) => (
@@ -640,11 +686,11 @@ function App() {
             ))}
           </main>
         ) : (
-          <Empty title={selectedChannel ? 'このチャンネルの新着動画はありません' : '新着動画はありません'} hint={selectedChannel ? '別のチャンネルを選ぶと表示されます' : generatedAt ? `最終更新: ${generatedAt}` : undefined} />
+          <Empty title={selectedChannel ? 'このチャンネルの新着動画はありません' : '新着動画はありません'} hint={selectedChannel ? '別のチャンネルを選ぶと表示されます' : generatedAtLabel ? `最終更新: ${generatedAtLabel}` : undefined} />
         )
       ) : null}
 
-      {!loading && !error && activeTab === 'later' ? (
+      {!loading && activeTab === 'later' ? (
         visibleLater.length ? (
           <main className="grid">
             {visibleLater.map((entry) => (
@@ -656,7 +702,7 @@ function App() {
         )
       ) : null}
 
-      {!loading && !error && activeTab === 'history' ? (
+      {!loading && activeTab === 'history' ? (
         visibleHistory.length ? (
           <main className="grid">
             {visibleHistory.map((entry) => (

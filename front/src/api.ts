@@ -13,5 +13,13 @@ export async function fetchFeed(): Promise<FeedResponse> {
   if (!response.ok) {
     throw new Error(`feed request failed: ${response.status}`);
   }
-  return response.json();
+  const data: unknown = await response.json();
+  if (!data || typeof data !== 'object' || !Array.isArray((data as FeedResponse).videos)) {
+    throw new Error('feed response malformed');
+  }
+  const feed = data as FeedResponse;
+  return {
+    generated_at: typeof feed.generated_at === 'string' ? feed.generated_at : null,
+    videos: feed.videos,
+  };
 }
