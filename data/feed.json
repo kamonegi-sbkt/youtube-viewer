@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-06-10T23:09:49+00:00",
+  "generated_at": "2026-06-11T01:39:42+00:00",
   "videos": [
+    {
+      "video_id": "cZapLAN6spQ",
+      "title": "Claude Fable 5は期間限定 / 朝からローカルLLM！ / エージェント再起的呼び出し機能",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-06-11T00:47:54Z",
+      "published_dt": "2026-06-11T00:47:54+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/cZapLAN6spQ/maxresdefault_live.jpg",
+      "duration_seconds": 5304,
+      "live_status": "",
+      "rel_time": "51分前",
+      "duration_text": "1:28:24",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "c3uGffa2kwk",
+      "title": "最強Mythos(ミュトス)級のAI Fable(フェイブル)使ってみました。多分すごい。ってか、すごい。笑　22日までは追加費用なしで使えるよ【6/11 8:30まで】",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-06-11T00:07:27Z",
+      "published_dt": "2026-06-11T00:07:27+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/c3uGffa2kwk/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "upcoming",
+      "rel_time": "1時間前",
+      "duration_text": "配信予定",
+      "badge_kind": "upcoming"
+    },
+    {
+      "video_id": "cP6H5g8zfYU",
+      "title": "最強Mythos(ミュトス)級のAI Fable(フェイブル)使ってみました。多分すごい。ってか、すごい。笑　22日までは追加費用なしで使えるよ【6/11 8:30まで】",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-06-10T23:52:09Z",
+      "published_dt": "2026-06-10T23:52:09+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/cP6H5g8zfYU/maxresdefault.jpg",
+      "duration_seconds": 7669,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "2:07:49",
+      "badge_kind": ""
+    },
     {
       "video_id": "djoTBAbst2E",
       "title": "【慌てず対応】「エアコン2027年問題」ってなに？ 今のうちにやるべき対策3選【リベ大公式切り抜き】",
@@ -11,23 +53,9 @@
       "thumbnail": "https://i.ytimg.com/vi/djoTBAbst2E/maxresdefault.jpg",
       "duration_seconds": 422,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "3時間前",
       "duration_text": "7:02",
       "badge_kind": ""
-    },
-    {
-      "video_id": "cP6H5g8zfYU",
-      "title": "最強Mythos(ミュトス)級のAI Fable(フェイブル)使ってみました。多分すごい。ってか、すごい。笑　22日までは追加費用なしで使えるよ【6/11 8:30まで】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-06-10T21:38:45Z",
-      "published_dt": "2026-06-10T21:38:45+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/cP6H5g8zfYU/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "1時間前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
     },
     {
       "video_id": "cZL8lqWneG4",
@@ -39,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/cZL8lqWneG4/maxresdefault.jpg",
       "duration_seconds": 6436,
       "live_status": "",
-      "rel_time": "7時間前",
+      "rel_time": "9時間前",
       "duration_text": "1:47:16",
       "badge_kind": ""
     },
@@ -53,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/XnnV1ctcats/maxresdefault.jpg",
       "duration_seconds": 6886,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "11時間前",
       "duration_text": "1:54:46",
       "badge_kind": ""
     },
@@ -67,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PGNIZ6-QGJ4/maxresdefault.jpg",
       "duration_seconds": 1222,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "13時間前",
       "duration_text": "20:22",
       "badge_kind": ""
     },
@@ -81,13 +109,13 @@
       "thumbnail": "https://i.ytimg.com/vi/jnATu005Tb8/maxresdefault.jpg",
       "duration_seconds": 60,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "13時間前",
       "duration_text": "1:00",
       "badge_kind": ""
     },
     {
       "video_id": "Xw1eo1h157A",
-      "title": "「円安・インフレ」の鍵を握る男の論理（高市政権／FRB／ケビン・ウォーシュ／トランプ／高市早苗／FOMC／円安／金利／ニューエコノミー）",
+      "title": "高市政権を揺るがす「円安・インフレ」の鍵を握る男の論理（FRB／ケビン・ウォーシュ／トランプ／高市早苗／FOMC／円安／金利／ニューエコノミー）",
       "channel_title": "NewsPicks /ニューズピックス",
       "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
       "published_iso": "2026-06-10T12:00:28Z",
@@ -95,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Xw1eo1h157A/maxresdefault.jpg",
       "duration_seconds": 1386,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "13時間前",
       "duration_text": "23:06",
       "badge_kind": ""
     },
@@ -109,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/GN-ll7v_Nnw/maxresdefault.jpg",
       "duration_seconds": 1762,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "14時間前",
       "duration_text": "29:22",
       "badge_kind": ""
     },
@@ -123,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/z92Ho5EbN9M/maxresdefault.jpg",
       "duration_seconds": 3653,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "14時間前",
       "duration_text": "1:00:53",
       "badge_kind": ""
     },
@@ -137,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0UJYPMsnJ7Y/maxresdefault.jpg",
       "duration_seconds": 1887,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "14時間前",
       "duration_text": "31:27",
       "badge_kind": ""
     },
@@ -151,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3b1jOC0cKBw/maxresdefault.jpg",
       "duration_seconds": 1963,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "15時間前",
       "duration_text": "32:43",
       "badge_kind": ""
     },
@@ -165,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/xZxUaxYCML0/maxresdefault.jpg",
       "duration_seconds": 1318,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "15時間前",
       "duration_text": "21:58",
       "badge_kind": ""
     },
@@ -179,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/UBYXQ0vuyW0/maxresdefault.jpg",
       "duration_seconds": 806,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "15時間前",
       "duration_text": "13:26",
       "badge_kind": ""
     },
@@ -193,7 +221,7 @@
       "thumbnail": "https://i.ytimg.com/vi/KM6nbPaCV1c/maxresdefault.jpg",
       "duration_seconds": 938,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "18時間前",
       "duration_text": "15:38",
       "badge_kind": ""
     },
@@ -207,7 +235,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3afr0x8ef9Q/maxresdefault.jpg",
       "duration_seconds": 1736,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "19時間前",
       "duration_text": "28:56",
       "badge_kind": ""
     },
@@ -221,7 +249,7 @@
       "thumbnail": "https://i.ytimg.com/vi/UKiJWw7_fCM/maxresdefault_live.jpg",
       "duration_seconds": null,
       "live_status": "upcoming",
-      "rel_time": "17時間前",
+      "rel_time": "20時間前",
       "duration_text": "配信予定",
       "badge_kind": "upcoming"
     },
@@ -235,7 +263,7 @@
       "thumbnail": "https://i.ytimg.com/vi/y1zRTET8kh8/maxresdefault.jpg",
       "duration_seconds": 63,
       "live_status": "",
-      "rel_time": "20時間前",
+      "rel_time": "22時間前",
       "duration_text": "1:03",
       "badge_kind": ""
     },
@@ -249,7 +277,7 @@
       "thumbnail": "https://i.ytimg.com/vi/C8gljReEghs/maxresdefault.jpg",
       "duration_seconds": 34,
       "live_status": "",
-      "rel_time": "20時間前",
+      "rel_time": "22時間前",
       "duration_text": "0:34",
       "badge_kind": ""
     },
@@ -263,7 +291,7 @@
       "thumbnail": "https://i.ytimg.com/vi/UE8zyW7kBeo/maxresdefault.jpg",
       "duration_seconds": 7187,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "1:59:47",
       "badge_kind": ""
     },
@@ -459,7 +487,7 @@
       "thumbnail": "https://i.ytimg.com/vi/C6wOJ6mzo4s/maxresdefault.jpg",
       "duration_seconds": 6818,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "1:53:38",
       "badge_kind": ""
     },
@@ -655,7 +683,7 @@
       "thumbnail": "https://i.ytimg.com/vi/yTpkO5cLoQw/maxresdefault.jpg",
       "duration_seconds": 7743,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "2:09:03",
       "badge_kind": ""
     },
@@ -781,7 +809,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Qv-7-gjSqEw/maxresdefault.jpg",
       "duration_seconds": 8828,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "2:27:08",
       "badge_kind": ""
     },
@@ -921,7 +949,7 @@
       "thumbnail": "https://i.ytimg.com/vi/uCMIwYvGRUs/maxresdefault.jpg",
       "duration_seconds": 7869,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "2:11:09",
       "badge_kind": ""
     },
@@ -2071,34 +2099,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "30:32",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "sOzpEpF-CYU",
-      "title": "Manus(マナス)なら初心者でもAIエージェントの威力を体感できる / 1年以上ガチで有料課金を継続中 / 従業員の監視アプリも作れちゃう",
-      "channel_title": "ウェブ職TV / Nesheep",
-      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-05-28T11:00:16Z",
-      "published_dt": "2026-05-28T11:00:16+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/sOzpEpF-CYU/maxresdefault.jpg",
-      "duration_seconds": 1366,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "22:46",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "7qKSaUhuzUQ",
-      "title": "【ナフサ】現場「不足」政府「足りてる」なぜ齟齬？目詰まりどう解消？｜アベプラ",
-      "channel_title": "ABEMA Prime",
-      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-05-28T10:37:21Z",
-      "published_dt": "2026-05-28T10:37:21+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/7qKSaUhuzUQ/maxresdefault.jpg",
-      "duration_seconds": 2319,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "38:39",
       "badge_kind": ""
     }
   ]
