@@ -15,6 +15,7 @@ FEED_PATH = ROOT_DIR / "data" / "feed.json"
 LEGACY_FEED_PATH = ROOT_DIR / "docs" / "data.json"
 REMOTE_FEED_URL = "https://raw.githubusercontent.com/kamonegi-sbkt/youtube-viewer/main/data/feed.json"
 REMOTE_FEED_TTL_SECONDS = 60
+REMOTE_FEED_FAILURE_TTL_SECONDS = 10
 REMOTE_FEED_TIMEOUT_SECONDS = 5
 
 log = logging.getLogger(__name__)
@@ -82,12 +83,15 @@ def _load_remote_feed() -> dict[str, Any] | None:
     if now < _remote_feed_next_refresh_at:
         return _remote_feed_cache
 
-    _remote_feed_next_refresh_at = now + REMOTE_FEED_TTL_SECONDS
     feed = _fetch_remote_feed(now)
     if feed is not None:
         _remote_feed_cache = feed
+        _remote_feed_next_refresh_at = now + REMOTE_FEED_TTL_SECONDS
         return feed
 
+    # Retry sooner after a failure so a transient outage does not pin the
+    # stale (or missing) cache for the full TTL.
+    _remote_feed_next_refresh_at = now + REMOTE_FEED_FAILURE_TTL_SECONDS
     return _remote_feed_cache
 
 

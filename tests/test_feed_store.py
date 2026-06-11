@@ -93,6 +93,43 @@ class FeedStoreTest(unittest.TestCase):
         self.assertEqual(loaded["generated_at"], "fresh")
         self.assertEqual(loaded["videos"][0]["video_id"], "remote")
 
+    def test_remote_failure_retries_after_short_ttl(self) -> None:
+        with tempfile.TemporaryDirectory() as td:
+            local = Path(td) / "feed.json"
+            local.write_text(json.dumps({"videos": [{"video_id": "local"}]}), encoding="utf-8")
+            with (
+                mock.patch.object(feed_store, "FEED_PATH", local),
+                mock.patch.object(
+                    feed_store.requests,
+                    "get",
+                    side_effect=feed_store.requests.RequestException("boom"),
+                ) as get,
+                mock.patch.object(feed_store.log, "warning"),
+                mock.patch.object(feed_store.time, "monotonic", side_effect=[0.0, 5.0, 11.0]),
+            ):
+                feed_store.load_feed()
+                self.assertEqual(get.call_count, 1)
+                feed_store.load_feed()  # 5s later: still inside the failure TTL
+                self.assertEqual(get.call_count, 1)
+                feed_store.load_feed()  # 11s later: failure TTL expired, retry
+                self.assertEqual(get.call_count, 2)
+
+    def test_remote_success_caches_for_full_ttl(self) -> None:
+        response = mock.Mock()
+        response.json.return_value = {"videos": [{"video_id": "remote"}], "generated_at": "fresh"}
+        response.raise_for_status.return_value = None
+
+        with (
+            mock.patch.object(feed_store.requests, "get", return_value=response) as get,
+            mock.patch.object(feed_store.time, "monotonic", side_effect=[0.0, 30.0, 61.0]),
+        ):
+            feed_store.load_feed()
+            self.assertEqual(get.call_count, 1)
+            feed_store.load_feed()  # 30s later: inside the success TTL
+            self.assertEqual(get.call_count, 1)
+            feed_store.load_feed()  # 61s later: success TTL expired, refresh
+            self.assertEqual(get.call_count, 2)
+
     def test_load_feed_falls_back_to_local_when_remote_has_no_cache(self) -> None:
         with tempfile.TemporaryDirectory() as td:
             local = Path(td) / "feed.json"
