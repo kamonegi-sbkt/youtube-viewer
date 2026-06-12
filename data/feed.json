@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-06-12T05:03:23+00:00",
+  "generated_at": "2026-06-12T09:12:26+00:00",
   "videos": [
+    {
+      "video_id": "UKiJWw7_fCM",
+      "title": "「HPVワクチン男性接種の公費化に向けて」生配信鼎談【三原じゅん子×三輪綾子×堀江貴文】",
+      "channel_title": "堀江貴文 ホリエモン",
+      "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
+      "published_iso": "2026-06-12T07:59:16Z",
+      "published_dt": "2026-06-12T07:59:16+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/UKiJWw7_fCM/maxresdefault.jpg",
+      "duration_seconds": 3724,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "1:02:04",
+      "badge_kind": ""
+    },
     {
       "video_id": "QqYv9ivXRNI",
       "title": "カノックスター YouTubeを始めた理由 #ホリエキッチン",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QqYv9ivXRNI/maxresdefault.jpg",
       "duration_seconds": 30,
       "live_status": "",
-      "rel_time": "12分前",
+      "rel_time": "4時間前",
       "duration_text": "0:30",
       "badge_kind": ""
     },
@@ -25,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bUnLiJSgCcM/maxresdefault.jpg",
       "duration_seconds": 69,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "7時間前",
       "duration_text": "1:09",
       "badge_kind": ""
     },
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LP2nn67pWQI/maxresdefault.jpg",
       "duration_seconds": 6744,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "7時間前",
       "duration_text": "1:52:24",
       "badge_kind": ""
     },
@@ -53,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rVubov1OFaM/maxresdefault_live.jpg",
       "duration_seconds": null,
       "live_status": "upcoming",
-      "rel_time": "4時間前",
+      "rel_time": "9時間前",
       "duration_text": "配信予定",
       "badge_kind": "upcoming"
     },
@@ -67,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/c3uGffa2kwk/maxresdefault.jpg",
       "duration_seconds": 8060,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "9時間前",
       "duration_text": "2:14:20",
       "badge_kind": ""
     },
@@ -81,13 +95,13 @@
       "thumbnail": "https://i.ytimg.com/vi/D-1HYc7Viwo/maxresdefault.jpg",
       "duration_seconds": 675,
       "live_status": "",
-      "rel_time": "7時間前",
+      "rel_time": "11時間前",
       "duration_text": "11:15",
       "badge_kind": ""
     },
     {
       "video_id": "5hOW68KDr7Y",
-      "title": "主要AI企業の超大型IPOがくるぞ！！ / 2023年以降の各社の動きを振り返り / Gemini、がんばれ！！",
+      "title": "ChatGPT登場以降、大AI時代を振り返ろう！！ / OpenAI、Anthropic、SpaceXなど、100兆円越え超大型IPOが続々！",
       "channel_title": "ウェブ職TV / Nesheep",
       "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
       "published_iso": "2026-06-11T16:00:37Z",
@@ -95,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/5hOW68KDr7Y/maxresdefault.jpg",
       "duration_seconds": 3786,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "17時間前",
       "duration_text": "1:03:06",
       "badge_kind": ""
     },
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/m995wrdCV58/maxresdefault.jpg",
       "duration_seconds": 4488,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "19時間前",
       "duration_text": "1:14:48",
       "badge_kind": ""
     },
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/cZapLAN6spQ/maxresdefault.jpg",
       "duration_seconds": 5308,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "19時間前",
       "duration_text": "1:28:28",
       "badge_kind": ""
     },
@@ -137,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/2U9ZmLqkJoU/maxresdefault.jpg",
       "duration_seconds": 814,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "20時間前",
       "duration_text": "13:34",
       "badge_kind": ""
     },
@@ -151,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/eJPTBcYwv9s/maxresdefault.jpg",
       "duration_seconds": 66,
       "live_status": "",
-      "rel_time": "17時間前",
+      "rel_time": "21時間前",
       "duration_text": "1:06",
       "badge_kind": ""
     },
@@ -165,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QcTmFjavTNE/maxresdefault.jpg",
       "duration_seconds": 1780,
       "live_status": "",
-      "rel_time": "17時間前",
+      "rel_time": "21時間前",
       "duration_text": "29:40",
       "badge_kind": ""
     },
@@ -179,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/J8uQbvkGU9M/maxresdefault.jpg",
       "duration_seconds": 1732,
       "live_status": "",
-      "rel_time": "18時間前",
+      "rel_time": "22時間前",
       "duration_text": "28:52",
       "badge_kind": ""
     },
@@ -193,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/NcMjOK1aWJ8/maxresdefault.jpg",
       "duration_seconds": 1040,
       "live_status": "",
-      "rel_time": "18時間前",
+      "rel_time": "22時間前",
       "duration_text": "17:20",
       "badge_kind": ""
     },
@@ -207,7 +221,7 @@
       "thumbnail": "https://i.ytimg.com/vi/HT5is3tQzoo/maxresdefault.jpg",
       "duration_seconds": 2362,
       "live_status": "",
-      "rel_time": "18時間前",
+      "rel_time": "22時間前",
       "duration_text": "39:22",
       "badge_kind": ""
     },
@@ -221,7 +235,7 @@
       "thumbnail": "https://i.ytimg.com/vi/TUn23H20uE0/maxresdefault.jpg",
       "duration_seconds": 751,
       "live_status": "",
-      "rel_time": "19時間前",
+      "rel_time": "23時間前",
       "duration_text": "12:31",
       "badge_kind": ""
     },
@@ -235,7 +249,7 @@
       "thumbnail": "https://i.ytimg.com/vi/NZYTIiZjLYM/maxresdefault.jpg",
       "duration_seconds": 1014,
       "live_status": "",
-      "rel_time": "19時間前",
+      "rel_time": "23時間前",
       "duration_text": "16:54",
       "badge_kind": ""
     },
@@ -249,7 +263,7 @@
       "thumbnail": "https://i.ytimg.com/vi/F-y9exMNJw0/maxresdefault.jpg",
       "duration_seconds": 55,
       "live_status": "",
-      "rel_time": "20時間前",
+      "rel_time": "1日前",
       "duration_text": "0:55",
       "badge_kind": ""
     },
@@ -263,7 +277,7 @@
       "thumbnail": "https://i.ytimg.com/vi/84ga_nqJteg/maxresdefault.jpg",
       "duration_seconds": 34,
       "live_status": "",
-      "rel_time": "21時間前",
+      "rel_time": "1日前",
       "duration_text": "0:34",
       "badge_kind": ""
     },
@@ -277,7 +291,7 @@
       "thumbnail": "https://i.ytimg.com/vi/SNY8gcPPws4/maxresdefault.jpg",
       "duration_seconds": 846,
       "live_status": "",
-      "rel_time": "21時間前",
+      "rel_time": "1日前",
       "duration_text": "14:06",
       "badge_kind": ""
     },
@@ -473,7 +487,7 @@
       "thumbnail": "https://i.ytimg.com/vi/KM6nbPaCV1c/maxresdefault.jpg",
       "duration_seconds": 938,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "15:38",
       "badge_kind": ""
     },
@@ -487,23 +501,9 @@
       "thumbnail": "https://i.ytimg.com/vi/3afr0x8ef9Q/maxresdefault.jpg",
       "duration_seconds": 1736,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "28:56",
       "badge_kind": ""
-    },
-    {
-      "video_id": "UKiJWw7_fCM",
-      "title": "「HPVワクチン男性接種の公費化に向けて」生配信鼎談【三原じゅん子×三輪綾子×堀江貴文】",
-      "channel_title": "堀江貴文 ホリエモン",
-      "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
-      "published_iso": "2026-06-10T05:31:10Z",
-      "published_dt": "2026-06-10T05:31:10+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/UKiJWw7_fCM/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "upcoming",
-      "rel_time": "1日前",
-      "duration_text": "配信予定",
-      "badge_kind": "upcoming"
     },
     {
       "video_id": "y1zRTET8kh8",
@@ -697,7 +697,7 @@
       "thumbnail": "https://i.ytimg.com/vi/RcQgdMFgsXM/maxresdefault.jpg",
       "duration_seconds": 66,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "1:06",
       "badge_kind": ""
     },
@@ -1033,7 +1033,7 @@
       "thumbnail": "https://i.ytimg.com/vi/fXb-zJK1cjw/maxresdefault.jpg",
       "duration_seconds": 71,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "1:11",
       "badge_kind": ""
     },
@@ -1145,7 +1145,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3TuosdQhbmY/maxresdefault.jpg",
       "duration_seconds": 77,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "1:17",
       "badge_kind": ""
     },
