@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-06-12T00:06:58+00:00",
+  "generated_at": "2026-06-12T05:03:23+00:00",
   "videos": [
+    {
+      "video_id": "QqYv9ivXRNI",
+      "title": "カノックスター YouTubeを始めた理由 #ホリエキッチン",
+      "channel_title": "堀江貴文 ホリエモン",
+      "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
+      "published_iso": "2026-06-12T04:50:37Z",
+      "published_dt": "2026-06-12T04:50:37+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/QqYv9ivXRNI/maxresdefault.jpg",
+      "duration_seconds": 30,
+      "live_status": "",
+      "rel_time": "12分前",
+      "duration_text": "0:30",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "bUnLiJSgCcM",
+      "title": "【大企業の就職はリスク？】“非エンジニア”の時代が来る #Claude #AI #anthropic #コーディング",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-06-12T02:00:18Z",
+      "published_dt": "2026-06-12T02:00:18+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/bUnLiJSgCcM/maxresdefault.jpg",
+      "duration_seconds": 69,
+      "live_status": "",
+      "rel_time": "3時間前",
+      "duration_text": "1:09",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "LP2nn67pWQI",
+      "title": "Claude Fable 5炎上 / Anthropicが謝罪 / Fable 5のオススメの使い方",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-06-12T01:30:02Z",
+      "published_dt": "2026-06-12T01:30:02+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/LP2nn67pWQI/maxresdefault.jpg",
+      "duration_seconds": 6744,
+      "live_status": "",
+      "rel_time": "3時間前",
+      "duration_text": "1:52:24",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "rVubov1OFaM",
+      "title": "お金持ちになりたいなら食うんじゃねぇ！貧乏谷に直行の毒キノコリスト再確認【6/12 8:30まで】",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-06-12T00:08:55Z",
+      "published_dt": "2026-06-12T00:08:55+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/rVubov1OFaM/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "upcoming",
+      "rel_time": "4時間前",
+      "duration_text": "配信予定",
+      "badge_kind": "upcoming"
+    },
     {
       "video_id": "c3uGffa2kwk",
       "title": "お金持ちになりたいなら食うんじゃねぇ！貧乏谷に直行の毒キノコリスト再確認【6/12 8:30まで】",
@@ -11,23 +67,9 @@
       "thumbnail": "https://i.ytimg.com/vi/c3uGffa2kwk/maxresdefault.jpg",
       "duration_seconds": 8060,
       "live_status": "",
-      "rel_time": "8分前",
+      "rel_time": "5時間前",
       "duration_text": "2:14:20",
       "badge_kind": ""
-    },
-    {
-      "video_id": "LP2nn67pWQI",
-      "title": "Claude Fable 5炎上 / Anthropicが謝罪 / Fable 5のオススメの使い方",
-      "channel_title": "ウェブ職TV / Nesheep",
-      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-06-11T23:13:17Z",
-      "published_dt": "2026-06-11T23:13:17+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/LP2nn67pWQI/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "53分前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
     },
     {
       "video_id": "D-1HYc7Viwo",
@@ -39,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/D-1HYc7Viwo/maxresdefault.jpg",
       "duration_seconds": 675,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "7時間前",
       "duration_text": "11:15",
       "badge_kind": ""
     },
@@ -53,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/5hOW68KDr7Y/maxresdefault.jpg",
       "duration_seconds": 3786,
       "live_status": "",
-      "rel_time": "8時間前",
+      "rel_time": "13時間前",
       "duration_text": "1:03:06",
       "badge_kind": ""
     },
@@ -67,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/m995wrdCV58/maxresdefault.jpg",
       "duration_seconds": 4488,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "15時間前",
       "duration_text": "1:14:48",
       "badge_kind": ""
     },
@@ -81,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/cZapLAN6spQ/maxresdefault.jpg",
       "duration_seconds": 5308,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "15時間前",
       "duration_text": "1:28:28",
       "badge_kind": ""
     },
@@ -95,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/2U9ZmLqkJoU/maxresdefault.jpg",
       "duration_seconds": 814,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "16時間前",
       "duration_text": "13:34",
       "badge_kind": ""
     },
@@ -109,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/eJPTBcYwv9s/maxresdefault.jpg",
       "duration_seconds": 66,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "17時間前",
       "duration_text": "1:06",
       "badge_kind": ""
     },
@@ -123,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QcTmFjavTNE/maxresdefault.jpg",
       "duration_seconds": 1780,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "17時間前",
       "duration_text": "29:40",
       "badge_kind": ""
     },
@@ -137,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/J8uQbvkGU9M/maxresdefault.jpg",
       "duration_seconds": 1732,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "18時間前",
       "duration_text": "28:52",
       "badge_kind": ""
     },
@@ -151,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/NcMjOK1aWJ8/maxresdefault.jpg",
       "duration_seconds": 1040,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "18時間前",
       "duration_text": "17:20",
       "badge_kind": ""
     },
@@ -165,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/HT5is3tQzoo/maxresdefault.jpg",
       "duration_seconds": 2362,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "18時間前",
       "duration_text": "39:22",
       "badge_kind": ""
     },
@@ -179,7 +221,7 @@
       "thumbnail": "https://i.ytimg.com/vi/TUn23H20uE0/maxresdefault.jpg",
       "duration_seconds": 751,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "19時間前",
       "duration_text": "12:31",
       "badge_kind": ""
     },
@@ -193,7 +235,7 @@
       "thumbnail": "https://i.ytimg.com/vi/NZYTIiZjLYM/maxresdefault.jpg",
       "duration_seconds": 1014,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "19時間前",
       "duration_text": "16:54",
       "badge_kind": ""
     },
@@ -207,7 +249,7 @@
       "thumbnail": "https://i.ytimg.com/vi/F-y9exMNJw0/maxresdefault.jpg",
       "duration_seconds": 55,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "20時間前",
       "duration_text": "0:55",
       "badge_kind": ""
     },
@@ -221,7 +263,7 @@
       "thumbnail": "https://i.ytimg.com/vi/84ga_nqJteg/maxresdefault.jpg",
       "duration_seconds": 34,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "21時間前",
       "duration_text": "0:34",
       "badge_kind": ""
     },
@@ -235,7 +277,7 @@
       "thumbnail": "https://i.ytimg.com/vi/SNY8gcPPws4/maxresdefault.jpg",
       "duration_seconds": 846,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "21時間前",
       "duration_text": "14:06",
       "badge_kind": ""
     },
@@ -249,7 +291,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ZWdjfuVBAHU/maxresdefault.jpg",
       "duration_seconds": 76,
       "live_status": "",
-      "rel_time": "22時間前",
+      "rel_time": "1日前",
       "duration_text": "1:16",
       "badge_kind": ""
     },
@@ -473,7 +515,7 @@
       "thumbnail": "https://i.ytimg.com/vi/y1zRTET8kh8/maxresdefault.jpg",
       "duration_seconds": 63,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "1:03",
       "badge_kind": ""
     },
@@ -487,7 +529,7 @@
       "thumbnail": "https://i.ytimg.com/vi/C8gljReEghs/maxresdefault.jpg",
       "duration_seconds": 34,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "0:34",
       "badge_kind": ""
     },
@@ -669,7 +711,7 @@
       "thumbnail": "https://i.ytimg.com/vi/t32Bt6k5PVE/maxresdefault.jpg",
       "duration_seconds": 33,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "0:33",
       "badge_kind": ""
     },
@@ -683,7 +725,7 @@
       "thumbnail": "https://i.ytimg.com/vi/GP5dkG7MUGw/maxresdefault.jpg",
       "duration_seconds": 60,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "1:00",
       "badge_kind": ""
     },
@@ -865,7 +907,7 @@
       "thumbnail": "https://i.ytimg.com/vi/GzQjlQAfaYg/maxresdefault.jpg",
       "duration_seconds": 80,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "1:20",
       "badge_kind": ""
     },
@@ -879,7 +921,7 @@
       "thumbnail": "https://i.ytimg.com/vi/C2QExcJS_is/maxresdefault.jpg",
       "duration_seconds": 40,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "0:40",
       "badge_kind": ""
     },
@@ -1005,22 +1047,8 @@
       "thumbnail": "https://i.ytimg.com/vi/Bzrx3VAZxN8/maxresdefault.jpg",
       "duration_seconds": 95,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "1:35",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "Qv-7-gjSqEw",
-      "title": "話したいことが...あるんだ。太郎の時間単価/工務店お客様の声/立ち退き料知ってる知らないで700万/音楽イベント/今夜は限定ライブ？【6/7 8:30まで】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-06-07T00:11:41Z",
-      "published_dt": "2026-06-07T00:11:41+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/Qv-7-gjSqEw/maxresdefault.jpg",
-      "duration_seconds": 8828,
-      "live_status": "",
-      "rel_time": "4日前",
-      "duration_text": "2:27:08",
       "badge_kind": ""
     },
     {
@@ -1131,7 +1159,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JJAIBi5kjQ0/maxresdefault.jpg",
       "duration_seconds": 100,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "1:40",
       "badge_kind": ""
     },
@@ -1145,7 +1173,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Wi5cXICGCB0/maxresdefault.jpg",
       "duration_seconds": 1127,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "18:47",
       "badge_kind": ""
     },
@@ -1221,7 +1249,7 @@
     },
     {
       "video_id": "bKcfZudHrUc",
-      "title": "【これはバブルではない】日経平均暴落しても強い「１年間で8万円台へ」日本企業利益率11倍の業績相場【イェスパー・コール】Market Jam",
+      "title": "【これはバブルではない】日経平均「１年間で8万円台へ」日本企業利益率11倍の業績相場【イェスパー・コール】Market Jam",
       "channel_title": "NewsPicks /ニューズピックス",
       "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
       "published_iso": "2026-06-05T11:00:13Z",
@@ -1327,7 +1355,7 @@
       "thumbnail": "https://i.ytimg.com/vi/-tgrD8CDXFI/maxresdefault.jpg",
       "duration_seconds": 56,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "0:56",
       "badge_kind": ""
     },
@@ -1679,20 +1707,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "1:44:22",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "sMFBh0O0tYw",
-      "title": "【怖すぎる日本の検察】「冤罪」のウラ側。村木厚子の実体験 #冤罪 #検察 #司法 #村木厚子",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-06-02T12:00:26Z",
-      "published_dt": "2026-06-02T12:00:26+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/sMFBh0O0tYw/maxresdefault.jpg",
-      "duration_seconds": 84,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "1:24",
       "badge_kind": ""
     },
     {
@@ -2085,20 +2099,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "44:11",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "RA6-_4Y0Uqg",
-      "title": "【辺野古沖転覆事故】文科省「違法」認定…正しい平和教育とは？国民民主・伊藤たかえ議員と考える｜アベプラ",
-      "channel_title": "ABEMA Prime",
-      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-05-29T10:30:18Z",
-      "published_dt": "2026-05-29T10:30:18+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/RA6-_4Y0Uqg/maxresdefault.jpg",
-      "duration_seconds": 2509,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "41:49",
       "badge_kind": ""
     }
   ]
