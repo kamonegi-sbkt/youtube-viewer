@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-06-14T21:22:54+00:00",
+  "generated_at": "2026-06-14T22:40:30+00:00",
   "videos": [
+    {
+      "video_id": "LHhvyCVZbgk",
+      "title": "【再放送】 【要注意】当てはまったらヤバイ、リストラ候補の特徴5選【対策アリ】【稼ぐ 実践編】：（アニメ動画）第129回",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-06-14T22:00:37Z",
+      "published_dt": "2026-06-14T22:00:37+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/LHhvyCVZbgk/maxresdefault.jpg",
+      "duration_seconds": 1514,
+      "live_status": "",
+      "rel_time": "39分前",
+      "duration_text": "25:14",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "E5KUp6wCD0o",
+      "title": "「最大限迷惑かけずに覗きます…」透明人間になったら何をする？いじめ加害者は牢屋に入れるべき？世間に暴露するなら資産or性癖？逃げ場なしの究極の2択で人間の本性が暴かれる！【アレン様×トンツカタン森本】",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-06-14T22:00:19Z",
+      "published_dt": "2026-06-14T22:00:19+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/E5KUp6wCD0o/maxresdefault.jpg",
+      "duration_seconds": 1247,
+      "live_status": "",
+      "rel_time": "40分前",
+      "duration_text": "20:47",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "vhkLUPaLicE",
+      "title": "今日の学長ライブ l 【だから言ったやん】仕組み預金、規制強化へ/世界の年金事情/フェイブルたんが恋しい【6/15 8:30まで】",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-06-14T21:42:19Z",
+      "published_dt": "2026-06-14T21:42:19+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/vhkLUPaLicE/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "live",
+      "rel_time": "58分前",
+      "duration_text": "LIVE",
+      "badge_kind": "live"
+    },
     {
       "video_id": "NS0FD7-LC0U",
       "title": "【佐藤優×予備校講師 伊藤賀一】論破しないためには？ #佐藤優 #会話術#伊藤賀一 #NewsPicks #知性密談 #話し方",
@@ -11,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/NS0FD7-LC0U/maxresdefault.jpg",
       "duration_seconds": 42,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "10時間前",
       "duration_text": "0:42",
       "badge_kind": ""
     },
@@ -25,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/5VYqsofs4aA/maxresdefault.jpg",
       "duration_seconds": 1514,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "12時間前",
       "duration_text": "25:14",
       "badge_kind": ""
     },
@@ -39,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/9itQuomOBF8/maxresdefault.jpg",
       "duration_seconds": 1564,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "12時間前",
       "duration_text": "26:04",
       "badge_kind": ""
     },
@@ -53,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qjeFvXnNdo4/maxresdefault.jpg",
       "duration_seconds": 1823,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "13時間前",
       "duration_text": "30:23",
       "badge_kind": ""
     },
@@ -67,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/mpoc-FFCjug/maxresdefault.jpg",
       "duration_seconds": 55,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "13時間前",
       "duration_text": "0:55",
       "badge_kind": ""
     },
@@ -81,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/13BWJPb_kx8/maxresdefault.jpg",
       "duration_seconds": 34,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "17時間前",
       "duration_text": "0:34",
       "badge_kind": ""
     },
@@ -95,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/5lTfnnTCOmQ/maxresdefault.jpg",
       "duration_seconds": 65,
       "live_status": "",
-      "rel_time": "18時間前",
+      "rel_time": "19時間前",
       "duration_text": "1:05",
       "badge_kind": ""
     },
@@ -109,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/KFsJzCsl_-g/maxresdefault.jpg",
       "duration_seconds": 9712,
       "live_status": "",
-      "rel_time": "20時間前",
+      "rel_time": "22時間前",
       "duration_text": "2:41:52",
       "badge_kind": ""
     },
@@ -123,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QrbAqIweMt0/maxresdefault.jpg",
       "duration_seconds": 483,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "8:03",
       "badge_kind": ""
     },
@@ -319,7 +361,7 @@
       "thumbnail": "https://i.ytimg.com/vi/1F2U_UuqZ60/maxresdefault.jpg",
       "duration_seconds": 459,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "7:39",
       "badge_kind": ""
     },
@@ -515,7 +557,7 @@
       "thumbnail": "https://i.ytimg.com/vi/D-1HYc7Viwo/maxresdefault.jpg",
       "duration_seconds": 675,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "11:15",
       "badge_kind": ""
     },
@@ -725,7 +767,7 @@
       "thumbnail": "https://i.ytimg.com/vi/djoTBAbst2E/maxresdefault.jpg",
       "duration_seconds": 422,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "7:02",
       "badge_kind": ""
     },
@@ -949,7 +991,7 @@
       "thumbnail": "https://i.ytimg.com/vi/iQ8DB2WpNvg/maxresdefault.jpg",
       "duration_seconds": 1598,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "26:38",
       "badge_kind": ""
     },
@@ -1131,7 +1173,7 @@
       "thumbnail": "https://i.ytimg.com/vi/34YICg-si20/maxresdefault.jpg",
       "duration_seconds": 1221,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "20:21",
       "badge_kind": ""
     },
@@ -1145,7 +1187,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ThAwZzRROR4/maxresdefault.jpg",
       "duration_seconds": 828,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "13:48",
       "badge_kind": ""
     },
@@ -1159,7 +1201,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4Pye4ps-_TA/maxresdefault.jpg",
       "duration_seconds": 45,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "0:45",
       "badge_kind": ""
     },
@@ -1313,7 +1355,7 @@
       "thumbnail": "https://i.ytimg.com/vi/g_nNEKTKL1I/maxresdefault.jpg",
       "duration_seconds": 2584,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "43:04",
       "badge_kind": ""
     },
@@ -1525,20 +1567,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "1:40",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "Wi5cXICGCB0",
-      "title": "【日本初独占】アンソロピックの「天下無双」を生んだ男（ボリス・チェルニー/Claude Code/Mythos/Peter B. McCrory/解説：後藤直義、森川潤）",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-06-06T03:00:27Z",
-      "published_dt": "2026-06-06T03:00:27+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/Wi5cXICGCB0/maxresdefault.jpg",
-      "duration_seconds": 1127,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "18:47",
       "badge_kind": ""
     },
     {
@@ -1957,7 +1985,7 @@
       "thumbnail": "https://i.ytimg.com/vi/SPskuU5_BDY/maxresdefault.jpg",
       "duration_seconds": 862,
       "live_status": "",
-      "rel_time": "1週間前",
+      "rel_time": "2週間前",
       "duration_text": "14:22",
       "badge_kind": ""
     },
@@ -2071,34 +2099,6 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "1:07",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "aXTO6Btsma0",
-      "title": "【株高で焦る人へ】韓国の若者に信用取引ブーム！海外事例に学ぶ「人生一発逆転投資」の落とし穴とは？【リベ大公式切り抜き】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-05-29T22:00:25Z",
-      "published_dt": "2026-05-29T22:00:25+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/aXTO6Btsma0/maxresdefault.jpg",
-      "duration_seconds": 426,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "7:06",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "hoVS_wKQdaI",
-      "title": "【速報】Claude Opus4.8が発表！ / 同時発表された「Dynamic workflows」もエグいほど便利 / CodexよりもClaude Codeをオススメする理由",
-      "channel_title": "ウェブ職TV / Nesheep",
-      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-05-29T13:53:45Z",
-      "published_dt": "2026-05-29T13:53:45+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/hoVS_wKQdaI/maxresdefault.jpg",
-      "duration_seconds": 3855,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "1:04:15",
       "badge_kind": ""
     }
   ]
