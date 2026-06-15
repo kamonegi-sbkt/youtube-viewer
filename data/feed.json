@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-06-15T19:56:30+00:00",
+  "generated_at": "2026-06-15T22:21:12+00:00",
   "videos": [
+    {
+      "video_id": "2ATa0rgJJZQ",
+      "title": "【ずっと役立つ】学長がお届け！「お金の講義」2026年4月・5月総集編",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-06-15T22:00:33Z",
+      "published_dt": "2026-06-15T22:00:33+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/2ATa0rgJJZQ/maxresdefault.jpg",
+      "duration_seconds": 2347,
+      "live_status": "",
+      "rel_time": "20分前",
+      "duration_text": "39:07",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "7-buteaNuNc",
+      "title": "【教育】重課金が学ぶ楽しさを奪う？ #newspicks",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-06-15T22:00:30Z",
+      "published_dt": "2026-06-15T22:00:30+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/7-buteaNuNc/maxresdefault.jpg",
+      "duration_seconds": 50,
+      "live_status": "",
+      "rel_time": "20分前",
+      "duration_text": "0:50",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "NNcTqG4DX64",
+      "title": "今日の学長ライブ l 日本のYoutuberランキング10位以内に/日経爆上げでもやる事変わらず/住みよさランキング2026発表/夏のボーナスはいくら？/ 【6/16 8:30まで】",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-06-15T21:41:55Z",
+      "published_dt": "2026-06-15T21:41:55+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/NNcTqG4DX64/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "live",
+      "rel_time": "39分前",
+      "duration_text": "LIVE",
+      "badge_kind": "live"
+    },
+    {
+      "video_id": "IBl0FVvfCjs",
+      "title": "家電・ノンアル・生成AI。ガチ会社員によるガチ会社員のための生活激変アイテム ｜WOMANSHIP NewsPicks for WE",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-06-15T21:00:07Z",
+      "published_dt": "2026-06-15T21:00:07+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/IBl0FVvfCjs/maxresdefault.jpg",
+      "duration_seconds": 2829,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "47:09",
+      "badge_kind": ""
+    },
     {
       "video_id": "kjCiSmLTuGI",
       "title": "Claude Fable 5の米国政府による停止命令 / 原因はAmazonからの密告？ / Anthropicと米国政府の深い溝とは",
@@ -11,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kjCiSmLTuGI/maxresdefault.jpg",
       "duration_seconds": 2153,
       "live_status": "",
-      "rel_time": "6時間前",
+      "rel_time": "8時間前",
       "duration_text": "35:53",
       "badge_kind": ""
     },
@@ -25,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/xv0XUaHV1xw/maxresdefault.jpg",
       "duration_seconds": 5031,
       "live_status": "",
-      "rel_time": "6時間前",
+      "rel_time": "8時間前",
       "duration_text": "1:23:51",
       "badge_kind": ""
     },
@@ -39,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/BwbifsKrwZc/maxresdefault.jpg",
       "duration_seconds": 1085,
       "live_status": "",
-      "rel_time": "7時間前",
+      "rel_time": "9時間前",
       "duration_text": "18:05",
       "badge_kind": ""
     },
@@ -53,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zNG1HUsng5k/maxresdefault.jpg",
       "duration_seconds": 60,
       "live_status": "",
-      "rel_time": "7時間前",
+      "rel_time": "10時間前",
       "duration_text": "1:00",
       "badge_kind": ""
     },
@@ -67,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/1r3aTD3f7rA/maxresdefault.jpg",
       "duration_seconds": 1669,
       "live_status": "",
-      "rel_time": "8時間前",
+      "rel_time": "11時間前",
       "duration_text": "27:49",
       "badge_kind": ""
     },
@@ -81,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kDTkfbi0Ynw/maxresdefault.jpg",
       "duration_seconds": 870,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "12時間前",
       "duration_text": "14:30",
       "badge_kind": ""
     },
@@ -95,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ZAQeelcjMys/maxresdefault.jpg",
       "duration_seconds": 72,
       "live_status": "",
-      "rel_time": "17時間前",
+      "rel_time": "20時間前",
       "duration_text": "1:12",
       "badge_kind": ""
     },
@@ -109,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/vhkLUPaLicE/maxresdefault.jpg",
       "duration_seconds": 7852,
       "live_status": "",
-      "rel_time": "19時間前",
+      "rel_time": "22時間前",
       "duration_text": "2:10:52",
       "badge_kind": ""
     },
@@ -123,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LHhvyCVZbgk/maxresdefault.jpg",
       "duration_seconds": 1514,
       "live_status": "",
-      "rel_time": "21時間前",
+      "rel_time": "1日前",
       "duration_text": "25:14",
       "badge_kind": ""
     },
@@ -137,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/E5KUp6wCD0o/maxresdefault.jpg",
       "duration_seconds": 1247,
       "live_status": "",
-      "rel_time": "21時間前",
+      "rel_time": "1日前",
       "duration_text": "20:47",
       "badge_kind": ""
     },
@@ -263,7 +319,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QrbAqIweMt0/maxresdefault.jpg",
       "duration_seconds": 483,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "8:03",
       "badge_kind": ""
     },
@@ -459,7 +515,7 @@
       "thumbnail": "https://i.ytimg.com/vi/1F2U_UuqZ60/maxresdefault.jpg",
       "duration_seconds": 459,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "7:39",
       "badge_kind": ""
     },
@@ -655,7 +711,7 @@
       "thumbnail": "https://i.ytimg.com/vi/D-1HYc7Viwo/maxresdefault.jpg",
       "duration_seconds": 675,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "11:15",
       "badge_kind": ""
     },
@@ -865,7 +921,7 @@
       "thumbnail": "https://i.ytimg.com/vi/djoTBAbst2E/maxresdefault.jpg",
       "duration_seconds": 422,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "7:02",
       "badge_kind": ""
     },
@@ -1075,7 +1131,7 @@
       "thumbnail": "https://i.ytimg.com/vi/iQ8DB2WpNvg/maxresdefault.jpg",
       "duration_seconds": 1598,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "26:38",
       "badge_kind": ""
     },
@@ -1257,7 +1313,7 @@
       "thumbnail": "https://i.ytimg.com/vi/34YICg-si20/maxresdefault.jpg",
       "duration_seconds": 1221,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "20:21",
       "badge_kind": ""
     },
@@ -1271,7 +1327,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ThAwZzRROR4/maxresdefault.jpg",
       "duration_seconds": 828,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "13:48",
       "badge_kind": ""
     },
@@ -1285,7 +1341,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4Pye4ps-_TA/maxresdefault.jpg",
       "duration_seconds": 45,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "0:45",
       "badge_kind": ""
     },
@@ -1299,7 +1355,7 @@
       "thumbnail": "https://i.ytimg.com/vi/xUyY6N1AQ94/maxresdefault.jpg",
       "duration_seconds": 3942,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "1:05:42",
       "badge_kind": ""
     },
@@ -1511,34 +1567,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "30:35",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "fXb-zJK1cjw",
-      "title": "【堂々と声が出るウラ技】心の中でOK「ヤッホー」を3回言う #プレゼン #話し方 #ボディランゲージ #リーダーシップ",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-06-07T09:00:17Z",
-      "published_dt": "2026-06-07T09:00:17+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/fXb-zJK1cjw/maxresdefault.jpg",
-      "duration_seconds": 71,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "1:11",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "Bzrx3VAZxN8",
-      "title": "【\"冤罪\"生む検察の論理】犯人は「自分たちが決める」  #冤罪 #検察 #司法 #村木厚子",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-06-07T03:00:13Z",
-      "published_dt": "2026-06-07T03:00:13+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/Bzrx3VAZxN8/maxresdefault.jpg",
-      "duration_seconds": 95,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "1:35",
       "badge_kind": ""
     },
     {
@@ -1957,7 +1985,7 @@
       "thumbnail": "https://i.ytimg.com/vi/58rE2GRCsvs/maxresdefault.jpg",
       "duration_seconds": 774,
       "live_status": "",
-      "rel_time": "1週間前",
+      "rel_time": "2週間前",
       "duration_text": "12:54",
       "badge_kind": ""
     },
@@ -1971,7 +1999,7 @@
       "thumbnail": "https://i.ytimg.com/vi/N8_GLZC7pOs/maxresdefault.jpg",
       "duration_seconds": 3812,
       "live_status": "",
-      "rel_time": "1週間前",
+      "rel_time": "2週間前",
       "duration_text": "1:03:32",
       "badge_kind": ""
     },
@@ -2071,34 +2099,6 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "1:03",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "Lq4E0FCRL2g",
-      "title": "【必ず見て】金利上昇が本格化！「金利のある世界」であなたがとるべき対策は？【リベ大公式切り抜き】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-05-30T22:00:11Z",
-      "published_dt": "2026-05-30T22:00:11+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/Lq4E0FCRL2g/maxresdefault.jpg",
-      "duration_seconds": 360,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "6:00",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "1zKBouCfJ-I",
-      "title": "独自審査・クレカ不要｜携帯ブラックでも契約できる新モバイルとは？",
-      "channel_title": "堀江貴文 ホリエモン",
-      "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
-      "published_iso": "2026-05-30T10:00:38Z",
-      "published_dt": "2026-05-30T10:00:38+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/1zKBouCfJ-I/maxresdefault.jpg",
-      "duration_seconds": 1266,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "21:06",
       "badge_kind": ""
     }
   ]
