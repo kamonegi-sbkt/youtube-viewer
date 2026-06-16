@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-06-16T00:11:26+00:00",
+  "generated_at": "2026-06-16T05:34:21+00:00",
   "videos": [
+    {
+      "video_id": "tJpSjnATf7E",
+      "title": "堀江貴文Special Program ホリスペ！",
+      "channel_title": "堀江貴文 ホリエモン",
+      "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
+      "published_iso": "2026-06-16T04:12:43Z",
+      "published_dt": "2026-06-16T04:12:43+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/tJpSjnATf7E/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "upcoming",
+      "rel_time": "1時間前",
+      "duration_text": "配信予定",
+      "badge_kind": "upcoming"
+    },
+    {
+      "video_id": "ck2rftdAX2M",
+      "title": "遂にリリースされたMythos級モデル！Claude Fable 5をゆる解説　#安野貴博 #ai #mythos #fable",
+      "channel_title": "安野貴博の自由研究",
+      "channel_id": "UCiMwbmcCSMORJ-85XWhStBw",
+      "published_iso": "2026-06-16T03:35:24Z",
+      "published_dt": "2026-06-16T03:35:24+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/ck2rftdAX2M/maxresdefault.jpg",
+      "duration_seconds": 29,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "0:29",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "YpGW-_INcKI",
+      "title": "【田中渓×草下シンヤ】人生の後半何を諦める？#ミドルエイジクライシス #中年の危機 #人生相談 #田中渓 #草下シンヤ #生き方 #50代 #40代 #キャリア #NewsPicks #マネーメイト",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-06-16T02:00:15Z",
+      "published_dt": "2026-06-16T02:00:15+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/YpGW-_INcKI/maxresdefault.jpg",
+      "duration_seconds": 50,
+      "live_status": "",
+      "rel_time": "3時間前",
+      "duration_text": "0:50",
+      "badge_kind": ""
+    },
     {
       "video_id": "NNcTqG4DX64",
       "title": "今日の学長ライブ l 日本のYoutuberランキング10位以内に/日経爆上げでもやる事変わらず/住みよさランキング2026発表/夏のボーナスはいくら？ 【6/16 8:30まで】",
@@ -11,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/NNcTqG4DX64/maxresdefault.jpg",
       "duration_seconds": 7360,
       "live_status": "",
-      "rel_time": "21分前",
+      "rel_time": "5時間前",
       "duration_text": "2:02:40",
       "badge_kind": ""
     },
@@ -25,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/fWDWh7mJm7c/maxresdefault_live.jpg",
       "duration_seconds": null,
       "live_status": "upcoming",
-      "rel_time": "25分前",
+      "rel_time": "5時間前",
       "duration_text": "配信予定",
       "badge_kind": "upcoming"
     },
@@ -39,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/2ATa0rgJJZQ/maxresdefault.jpg",
       "duration_seconds": 2347,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "7時間前",
       "duration_text": "39:07",
       "badge_kind": ""
     },
@@ -53,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7-buteaNuNc/maxresdefault.jpg",
       "duration_seconds": 50,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "7時間前",
       "duration_text": "0:50",
       "badge_kind": ""
     },
@@ -67,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/IBl0FVvfCjs/maxresdefault.jpg",
       "duration_seconds": 2829,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "8時間前",
       "duration_text": "47:09",
       "badge_kind": ""
     },
@@ -81,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kjCiSmLTuGI/maxresdefault.jpg",
       "duration_seconds": 2153,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "15時間前",
       "duration_text": "35:53",
       "badge_kind": ""
     },
@@ -95,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/xv0XUaHV1xw/maxresdefault.jpg",
       "duration_seconds": 5031,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "16時間前",
       "duration_text": "1:23:51",
       "badge_kind": ""
     },
@@ -109,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/BwbifsKrwZc/maxresdefault.jpg",
       "duration_seconds": 1085,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "17時間前",
       "duration_text": "18:05",
       "badge_kind": ""
     },
@@ -123,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zNG1HUsng5k/maxresdefault.jpg",
       "duration_seconds": 60,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "17時間前",
       "duration_text": "1:00",
       "badge_kind": ""
     },
@@ -137,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/1r3aTD3f7rA/maxresdefault.jpg",
       "duration_seconds": 1669,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "18時間前",
       "duration_text": "27:49",
       "badge_kind": ""
     },
@@ -151,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kDTkfbi0Ynw/maxresdefault.jpg",
       "duration_seconds": 870,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "19時間前",
       "duration_text": "14:30",
       "badge_kind": ""
     },
@@ -165,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ZAQeelcjMys/maxresdefault.jpg",
       "duration_seconds": 72,
       "live_status": "",
-      "rel_time": "22時間前",
+      "rel_time": "1日前",
       "duration_text": "1:12",
       "badge_kind": ""
     },
@@ -305,7 +347,7 @@
       "thumbnail": "https://i.ytimg.com/vi/5lTfnnTCOmQ/maxresdefault.jpg",
       "duration_seconds": 65,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "1:05",
       "badge_kind": ""
     },
@@ -319,7 +361,7 @@
       "thumbnail": "https://i.ytimg.com/vi/KFsJzCsl_-g/maxresdefault.jpg",
       "duration_seconds": 9712,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "2:41:52",
       "badge_kind": ""
     },
@@ -473,7 +515,7 @@
       "thumbnail": "https://i.ytimg.com/vi/CNcL6JAS8NA/maxresdefault.jpg",
       "duration_seconds": 27,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "0:27",
       "badge_kind": ""
     },
@@ -487,7 +529,7 @@
       "thumbnail": "https://i.ytimg.com/vi/i8aNAKWu-SA/maxresdefault.jpg",
       "duration_seconds": 65,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "1:05",
       "badge_kind": ""
     },
@@ -501,7 +543,7 @@
       "thumbnail": "https://i.ytimg.com/vi/W0GfCUrfFAI/maxresdefault.jpg",
       "duration_seconds": 1250,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "20:50",
       "badge_kind": ""
     },
@@ -669,7 +711,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QqYv9ivXRNI/maxresdefault.jpg",
       "duration_seconds": 30,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "0:30",
       "badge_kind": ""
     },
@@ -683,7 +725,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bUnLiJSgCcM/maxresdefault.jpg",
       "duration_seconds": 69,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "1:09",
       "badge_kind": ""
     },
@@ -697,7 +739,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LP2nn67pWQI/maxresdefault.jpg",
       "duration_seconds": 6744,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "1:52:24",
       "badge_kind": ""
     },
@@ -907,22 +949,8 @@
       "thumbnail": "https://i.ytimg.com/vi/ZWdjfuVBAHU/maxresdefault.jpg",
       "duration_seconds": 76,
       "live_status": "",
-      "rel_time": "4日前",
-      "duration_text": "1:16",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "cP6H5g8zfYU",
-      "title": "最強Mythos(ミュトス)級のAI Fable(フェイブル)使ってみました。多分すごい。ってか、すごい。笑　22日までは追加費用なしで使えるよ【6/11 8:30まで】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-06-10T23:52:09Z",
-      "published_dt": "2026-06-10T23:52:09+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/cP6H5g8zfYU/maxresdefault.jpg",
-      "duration_seconds": 7669,
-      "live_status": "",
       "rel_time": "5日前",
-      "duration_text": "2:07:49",
+      "duration_text": "1:16",
       "badge_kind": ""
     },
     {
@@ -1117,7 +1145,7 @@
       "thumbnail": "https://i.ytimg.com/vi/y1zRTET8kh8/maxresdefault.jpg",
       "duration_seconds": 63,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "1:03",
       "badge_kind": ""
     },
@@ -1131,7 +1159,7 @@
       "thumbnail": "https://i.ytimg.com/vi/C8gljReEghs/maxresdefault.jpg",
       "duration_seconds": 34,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "0:34",
       "badge_kind": ""
     },
@@ -1299,7 +1327,7 @@
       "thumbnail": "https://i.ytimg.com/vi/t32Bt6k5PVE/maxresdefault.jpg",
       "duration_seconds": 33,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "0:33",
       "badge_kind": ""
     },
@@ -1313,7 +1341,7 @@
       "thumbnail": "https://i.ytimg.com/vi/GP5dkG7MUGw/maxresdefault.jpg",
       "duration_seconds": 60,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "1:00",
       "badge_kind": ""
     },
@@ -1539,20 +1567,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "34:48",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "sdBBoQM3DR8",
-      "title": "検察、メディア、行政…暴走する日本の「組織の闇」",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-06-07T10:00:12Z",
-      "published_dt": "2026-06-07T10:00:12+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/sdBBoQM3DR8/maxresdefault.jpg",
-      "duration_seconds": 979,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "16:19",
       "badge_kind": ""
     },
     {
@@ -2085,20 +2099,6 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "0:53",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "AJnwzvV1LCM",
-      "title": "日本ダービーをリアルタイムで予想！競馬生配信【亀谷競馬サロンコラボ】",
-      "channel_title": "堀江貴文 ホリエモン",
-      "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
-      "published_iso": "2026-05-31T07:40:39Z",
-      "published_dt": "2026-05-31T07:40:39+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/AJnwzvV1LCM/maxresdefault.jpg",
-      "duration_seconds": 5740,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "1:35:40",
       "badge_kind": ""
     }
   ]
