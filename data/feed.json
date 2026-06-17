@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-06-17T12:57:56+00:00",
+  "generated_at": "2026-06-17T16:40:40+00:00",
   "videos": [
+    {
+      "video_id": "rzHeGuowSDM",
+      "title": "【大興奮】日本×オランダ、中村敬斗選手のゴール",
+      "channel_title": "堀江貴文 ホリエモン",
+      "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
+      "published_iso": "2026-06-17T14:14:50Z",
+      "published_dt": "2026-06-17T14:14:50+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/rzHeGuowSDM/maxresdefault.jpg",
+      "duration_seconds": 47,
+      "live_status": "",
+      "rel_time": "2時間前",
+      "duration_text": "0:47",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "JYHVKm9fQX0",
+      "title": "【アベマ同時配信中】「衆院比例 45議席削減？その大義は？与党vs野党」アベプラ｜6/17(水) 21:00〜",
+      "channel_title": "ABEMA Prime",
+      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
+      "published_iso": "2026-06-17T13:37:54Z",
+      "published_dt": "2026-06-17T13:37:54+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/JYHVKm9fQX0/maxresdefault.jpg",
+      "duration_seconds": 4411,
+      "live_status": "",
+      "rel_time": "3時間前",
+      "duration_text": "1:13:31",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "etOdkKWQwI4",
+      "title": "Claude Codeセキュリティ対策講座をやります！ / Claude Code合宿も企画中",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-06-17T13:06:47Z",
+      "published_dt": "2026-06-17T13:06:47+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/etOdkKWQwI4/maxresdefault.jpg",
+      "duration_seconds": 5837,
+      "live_status": "",
+      "rel_time": "3時間前",
+      "duration_text": "1:37:17",
+      "badge_kind": ""
+    },
     {
       "video_id": "o9We3K4WZAQ",
       "title": "【国を乗っ取るテクノ資本主義】イーロン・マスクが握るブルジョア独裁／GAFAは暮らしを便利にしたか／なぜ今プロレタリア独裁か／佐藤優×斎藤幸平　#知性密談",
@@ -11,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/o9We3K4WZAQ/maxresdefault.jpg",
       "duration_seconds": 1177,
       "live_status": "",
-      "rel_time": "27分前",
+      "rel_time": "4時間前",
       "duration_text": "19:37",
       "badge_kind": ""
     },
@@ -25,23 +67,9 @@
       "thumbnail": "https://i.ytimg.com/vi/YK2cm_dDBlo/maxresdefault.jpg",
       "duration_seconds": 59,
       "live_status": "",
-      "rel_time": "57分前",
+      "rel_time": "4時間前",
       "duration_text": "0:59",
       "badge_kind": ""
-    },
-    {
-      "video_id": "JYHVKm9fQX0",
-      "title": "【アベマ同時配信中】「衆院比例 45議席削減？その大義は？与党vs野党」アベプラ｜6/17(水) 21:00〜",
-      "channel_title": "ABEMA Prime",
-      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-06-17T11:30:31Z",
-      "published_dt": "2026-06-17T11:30:31+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/JYHVKm9fQX0/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "1時間前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
     },
     {
       "video_id": "IH_hXGiN03Y",
@@ -53,13 +81,13 @@
       "thumbnail": "https://i.ytimg.com/vi/IH_hXGiN03Y/maxresdefault.jpg",
       "duration_seconds": 174,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "5時間前",
       "duration_text": "2:54",
       "badge_kind": ""
     },
     {
       "video_id": "_vBR3RPxKYw",
-      "title": "AIガチ勢の活用法 / Claude Code × Obsidianの神連携がすごい / AIで第二の脳を作る",
+      "title": "Claude Code × Obsidianを使ってない人いる？ / AIで第二の脳を作る方法 / ここまでやればAIガチ勢の仲間入り",
       "channel_title": "ウェブ職TV / Nesheep",
       "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
       "published_iso": "2026-06-17T11:00:02Z",
@@ -67,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_vBR3RPxKYw/maxresdefault.jpg",
       "duration_seconds": 1749,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "5時間前",
       "duration_text": "29:09",
       "badge_kind": ""
     },
@@ -81,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/p3MIdOl2TJc/maxresdefault.jpg",
       "duration_seconds": 2183,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "5時間前",
       "duration_text": "36:23",
       "badge_kind": ""
     },
@@ -95,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/2b1YzQqW2i8/maxresdefault.jpg",
       "duration_seconds": 675,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "5時間前",
       "duration_text": "11:15",
       "badge_kind": ""
     },
@@ -109,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/VhT4Sf8rE-8/maxresdefault.jpg",
       "duration_seconds": 1680,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "6時間前",
       "duration_text": "28:00",
       "badge_kind": ""
     },
@@ -123,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/tJpSjnATf7E/maxresdefault.jpg",
       "duration_seconds": 21820,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "6時間前",
       "duration_text": "6:03:40",
       "badge_kind": ""
     },
@@ -137,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/NciqJHJwn4M/maxresdefault.jpg",
       "duration_seconds": 2167,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "6時間前",
       "duration_text": "36:07",
       "badge_kind": ""
     },
@@ -151,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Ex5UP94rHOQ/maxresdefault.jpg",
       "duration_seconds": 3992,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "6時間前",
       "duration_text": "1:06:32",
       "badge_kind": ""
     },
@@ -165,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/cz5lH_-XM4c/maxresdefault.jpg",
       "duration_seconds": 105,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "7時間前",
       "duration_text": "1:45",
       "badge_kind": ""
     },
@@ -179,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Q1-nYkwRd5w/maxresdefault.jpg",
       "duration_seconds": 956,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "9時間前",
       "duration_text": "15:56",
       "badge_kind": ""
     },
@@ -193,22 +221,8 @@
       "thumbnail": "https://i.ytimg.com/vi/nWWfPVpTq9M/maxresdefault.jpg",
       "duration_seconds": 101,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "14時間前",
       "duration_text": "1:41",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "etOdkKWQwI4",
-      "title": "Claude Codeセキュリティ対策講座をやります！ / Claude Code合宿も企画中",
-      "channel_title": "ウェブ職TV / Nesheep",
-      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-06-17T00:41:13Z",
-      "published_dt": "2026-06-17T00:41:13+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/etOdkKWQwI4/maxresdefault_live.jpg",
-      "duration_seconds": 5837,
-      "live_status": "",
-      "rel_time": "12時間前",
-      "duration_text": "1:37:17",
       "badge_kind": ""
     },
     {
@@ -221,7 +235,7 @@
       "thumbnail": "https://i.ytimg.com/vi/fWDWh7mJm7c/maxresdefault.jpg",
       "duration_seconds": 7880,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "16時間前",
       "duration_text": "2:11:20",
       "badge_kind": ""
     },
@@ -235,7 +249,7 @@
       "thumbnail": "https://i.ytimg.com/vi/n9i4CXvsGhA/maxresdefault.jpg",
       "duration_seconds": 1952,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "18時間前",
       "duration_text": "32:32",
       "badge_kind": ""
     },
@@ -249,7 +263,7 @@
       "thumbnail": "https://i.ytimg.com/vi/mZr3W7ljGKg/maxresdefault.jpg",
       "duration_seconds": 1077,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "18時間前",
       "duration_text": "17:57",
       "badge_kind": ""
     },
@@ -459,7 +473,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kjCiSmLTuGI/maxresdefault.jpg",
       "duration_seconds": 2153,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "35:53",
       "badge_kind": ""
     },
@@ -907,7 +921,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gvsdZUduSK4/maxresdefault.jpg",
       "duration_seconds": 2007,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "33:27",
       "badge_kind": ""
     },
@@ -1089,7 +1103,7 @@
       "thumbnail": "https://i.ytimg.com/vi/5hOW68KDr7Y/maxresdefault.jpg",
       "duration_seconds": 3786,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "1:03:06",
       "badge_kind": ""
     },
@@ -1103,7 +1117,7 @@
       "thumbnail": "https://i.ytimg.com/vi/cZapLAN6spQ/maxresdefault.jpg",
       "duration_seconds": 5308,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "1:28:28",
       "badge_kind": ""
     },
@@ -1117,7 +1131,7 @@
       "thumbnail": "https://i.ytimg.com/vi/2U9ZmLqkJoU/maxresdefault.jpg",
       "duration_seconds": 811,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "13:31",
       "badge_kind": ""
     },
@@ -1285,7 +1299,7 @@
       "thumbnail": "https://i.ytimg.com/vi/cZL8lqWneG4/maxresdefault.jpg",
       "duration_seconds": 6436,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "1:47:16",
       "badge_kind": ""
     },
@@ -2041,7 +2055,7 @@
       "thumbnail": "https://i.ytimg.com/vi/HlkkKMRBdh0/maxresdefault.jpg",
       "duration_seconds": 4290,
       "live_status": "",
-      "rel_time": "1週間前",
+      "rel_time": "2週間前",
       "duration_text": "1:11:30",
       "badge_kind": ""
     },
@@ -2085,20 +2099,6 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "19:58",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "qW-h9bw8ZxQ",
-      "title": "Anthropic、遂に上場へ！ / MacでのローカルLLM評価 / なかじへの質問募集中(概要欄チェック)",
-      "channel_title": "ウェブ職TV / Nesheep",
-      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-06-02T15:31:41Z",
-      "published_dt": "2026-06-02T15:31:41+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/qW-h9bw8ZxQ/maxresdefault.jpg",
-      "duration_seconds": 6262,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "1:44:22",
       "badge_kind": ""
     }
   ]
