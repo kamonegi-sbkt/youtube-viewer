@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-06-24T22:19:04+00:00",
+  "generated_at": "2026-06-24T23:42:28+00:00",
   "videos": [
+    {
+      "video_id": "bqeUAIo2Bag",
+      "title": "Fable5はもう使えないかも？ / 新しいAIサービス開発中 / 東京出張に行く",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-06-24T23:12:19Z",
+      "published_dt": "2026-06-24T23:12:19+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/bqeUAIo2Bag/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "live",
+      "rel_time": "30分前",
+      "duration_text": "LIVE",
+      "badge_kind": "live"
+    },
+    {
+      "video_id": "WgmzdrPFWak",
+      "title": "自分専用のW杯アプリをMulmoClaudeで作ってみた",
+      "channel_title": "中島聡のLife is Beautiful",
+      "channel_id": "UCtjRA-7EuBmyWMyty1HZAPQ",
+      "published_iso": "2026-06-24T22:23:01Z",
+      "published_dt": "2026-06-24T22:23:01+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/WgmzdrPFWak/maxresdefault.jpg",
+      "duration_seconds": 1742,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "29:02",
+      "badge_kind": ""
+    },
     {
       "video_id": "NKDDIG7R33M",
       "title": "【子育て】終わりを知れば楽  #newspicks",
@@ -11,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/NKDDIG7R33M/maxresdefault.jpg",
       "duration_seconds": 62,
       "live_status": "",
-      "rel_time": "18分前",
+      "rel_time": "1時間前",
       "duration_text": "1:02",
       "badge_kind": ""
     },
@@ -25,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/k7nast7RGZY/maxresdefault.jpg",
       "duration_seconds": 736,
       "live_status": "",
-      "rel_time": "19分前",
+      "rel_time": "1時間前",
       "duration_text": "12:16",
       "badge_kind": ""
     },
@@ -39,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/5ao_Y5Xg3Dk/maxresdefault.jpg",
       "duration_seconds": 5863,
       "live_status": "",
-      "rel_time": "8時間前",
+      "rel_time": "9時間前",
       "duration_text": "1:37:43",
       "badge_kind": ""
     },
@@ -53,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/8VTvLL4LLvI/maxresdefault.jpg",
       "duration_seconds": 4289,
       "live_status": "",
-      "rel_time": "8時間前",
+      "rel_time": "10時間前",
       "duration_text": "1:11:29",
       "badge_kind": ""
     },
@@ -67,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/dzldQv4rWmE/maxresdefault.jpg",
       "duration_seconds": 1317,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "11時間前",
       "duration_text": "21:57",
       "badge_kind": ""
     },
@@ -81,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lngCCJxmYSY/maxresdefault.jpg",
       "duration_seconds": 47,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "11時間前",
       "duration_text": "0:47",
       "badge_kind": ""
     },
@@ -95,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/EsUoj_sTh5c/maxresdefault.jpg",
       "duration_seconds": 1119,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "11時間前",
       "duration_text": "18:39",
       "badge_kind": ""
     },
@@ -109,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/eeQ2X3jIztE/maxresdefault.jpg",
       "duration_seconds": 2623,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "12時間前",
       "duration_text": "43:43",
       "badge_kind": ""
     },
@@ -123,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gkvz0HvbjSU/maxresdefault.jpg",
       "duration_seconds": 1300,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "12時間前",
       "duration_text": "21:40",
       "badge_kind": ""
     },
@@ -137,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/VizXC8h9aCw/maxresdefault.jpg",
       "duration_seconds": 1773,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "13時間前",
       "duration_text": "29:33",
       "badge_kind": ""
     },
@@ -151,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/UdmxHel2QQM/maxresdefault.jpg",
       "duration_seconds": 1194,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "13時間前",
       "duration_text": "19:54",
       "badge_kind": ""
     },
@@ -165,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/d9Y9IIbCVBI/maxresdefault.jpg",
       "duration_seconds": 51,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "15時間前",
       "duration_text": "0:51",
       "badge_kind": ""
     },
@@ -179,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zUsY8ReWt10/maxresdefault.jpg",
       "duration_seconds": 946,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "16時間前",
       "duration_text": "15:46",
       "badge_kind": ""
     },
@@ -193,7 +221,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Vc9s5JA1Or4/maxresdefault.jpg",
       "duration_seconds": 311,
       "live_status": "",
-      "rel_time": "17時間前",
+      "rel_time": "18時間前",
       "duration_text": "5:11",
       "badge_kind": ""
     },
@@ -207,7 +235,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7n1s3QAa18U/maxresdefault.jpg",
       "duration_seconds": 78,
       "live_status": "",
-      "rel_time": "20時間前",
+      "rel_time": "21時間前",
       "duration_text": "1:18",
       "badge_kind": ""
     },
@@ -221,7 +249,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kNmSKcWDrlw/maxresdefault.jpg",
       "duration_seconds": 1184,
       "live_status": "",
-      "rel_time": "22時間前",
+      "rel_time": "23時間前",
       "duration_text": "19:44",
       "badge_kind": ""
     },
@@ -235,7 +263,7 @@
       "thumbnail": "https://i.ytimg.com/vi/oPs66s1OqFY/maxresdefault.jpg",
       "duration_seconds": 7634,
       "live_status": "",
-      "rel_time": "22時間前",
+      "rel_time": "23時間前",
       "duration_text": "2:07:14",
       "badge_kind": ""
     },
@@ -249,7 +277,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Vk6lEYYwj_8/maxresdefault_live.jpg",
       "duration_seconds": null,
       "live_status": "upcoming",
-      "rel_time": "22時間前",
+      "rel_time": "23時間前",
       "duration_text": "配信予定",
       "badge_kind": "upcoming"
     },
@@ -263,7 +291,7 @@
       "thumbnail": "https://i.ytimg.com/vi/F48q43JA2V8/maxresdefault.jpg",
       "duration_seconds": 1311,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "21:51",
       "badge_kind": ""
     },
@@ -2071,34 +2099,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "1:28:28",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "TUn23H20uE0",
-      "title": "スガワラくんが語る「選ばれない税理士」の特徴とは？税理士に必要なAI活用",
-      "channel_title": "堀江貴文 ホリエモン",
-      "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
-      "published_iso": "2026-06-11T10:00:11Z",
-      "published_dt": "2026-06-11T10:00:11+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/TUn23H20uE0/maxresdefault.jpg",
-      "duration_seconds": 751,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "12:31",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "SNY8gcPPws4",
-      "title": "【速報解説】AnthropicのMythos級モデル「Claude Fable 5」をゆる解説 / Mythos 5と何が違う？ / 注目の価格設定 / 性能が弱体化されているのはなぜ？",
-      "channel_title": "安野貴博の自由研究",
-      "channel_id": "UCiMwbmcCSMORJ-85XWhStBw",
-      "published_iso": "2026-06-11T07:22:21Z",
-      "published_dt": "2026-06-11T07:22:21+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/SNY8gcPPws4/maxresdefault.jpg",
-      "duration_seconds": 846,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "14:06",
       "badge_kind": ""
     }
   ]
