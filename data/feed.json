@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-06-23T23:41:04+00:00",
+  "generated_at": "2026-06-24T01:31:49+00:00",
   "videos": [
+    {
+      "video_id": "5ao_Y5Xg3Dk",
+      "title": "Fugu Ultraの所感 / Fable5はどうなった？ / Claude CodeよりもCodexを使う理由",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-06-24T01:31:04Z",
+      "published_dt": "2026-06-24T01:31:04+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/5ao_Y5Xg3Dk/maxresdefault_live.jpg",
+      "duration_seconds": 5855,
+      "live_status": "",
+      "rel_time": "たった今",
+      "duration_text": "1:37:35",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "kNmSKcWDrlw",
+      "title": "誰でも作れる！自分専用データベースアプリ。MulmoClaude",
+      "channel_title": "中島聡のLife is Beautiful",
+      "channel_id": "UCtjRA-7EuBmyWMyty1HZAPQ",
+      "published_iso": "2026-06-23T23:57:54Z",
+      "published_dt": "2026-06-23T23:57:54+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/kNmSKcWDrlw/maxresdefault.jpg",
+      "duration_seconds": 1184,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "19:44",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "oPs66s1OqFY",
+      "title": "今日の学長ライブ l 家計管理で土台(黒字家計、生活防衛費、特別費貯金)が出来たら、お金を使うのも大事/明日から学長休暇をとるの巻【6/24 8:30まで】",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-06-23T23:50:29Z",
+      "published_dt": "2026-06-23T23:50:29+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/oPs66s1OqFY/maxresdefault.jpg",
+      "duration_seconds": 7634,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "2:07:14",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "Vk6lEYYwj_8",
+      "title": "今日の学長ライブ l 家計管理で土台(黒字家計、生活防衛費、特別費貯金)が出来たら、お金を使うのも大事/明日から学長休暇をとるの巻【6/24 8:30まで】",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-06-23T23:45:12Z",
+      "published_dt": "2026-06-23T23:45:12+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/Vk6lEYYwj_8/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "upcoming",
+      "rel_time": "1時間前",
+      "duration_text": "配信予定",
+      "badge_kind": "upcoming"
+    },
     {
       "video_id": "F48q43JA2V8",
       "title": "【FCオーナー募集】ホリエモンも絶賛した厚切り牛たん！「牛たんの檸檬」京都・四条大橋の目の前にオープン！",
@@ -11,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/F48q43JA2V8/maxresdefault.jpg",
       "duration_seconds": 1311,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "3時間前",
       "duration_text": "21:51",
       "badge_kind": ""
     },
@@ -25,23 +81,9 @@
       "thumbnail": "https://i.ytimg.com/vi/VSflJFN_Sm4/maxresdefault.jpg",
       "duration_seconds": 310,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "3時間前",
       "duration_text": "5:10",
       "badge_kind": ""
-    },
-    {
-      "video_id": "oPs66s1OqFY",
-      "title": "今日の学長ライブ l 家計管理で土台(黒字家計、生活防衛費、特別費貯金)が出来たら、お金を使うのも大事/明日から学長休暇をとるの巻【6/24 8:30まで】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-06-23T21:37:59Z",
-      "published_dt": "2026-06-23T21:37:59+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/oPs66s1OqFY/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "2時間前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
     },
     {
       "video_id": "ZK-kk0L01W8",
@@ -53,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ZK-kk0L01W8/maxresdefault.jpg",
       "duration_seconds": 74,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "13時間前",
       "duration_text": "1:14",
       "badge_kind": ""
     },
@@ -67,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/p36ncsARF6s/maxresdefault.jpg",
       "duration_seconds": 1850,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "13時間前",
       "duration_text": "30:50",
       "badge_kind": ""
     },
@@ -81,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/6Rmcc8Gl8x4/maxresdefault.jpg",
       "duration_seconds": 1127,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "14時間前",
       "duration_text": "18:47",
       "badge_kind": ""
     },
@@ -95,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/5dYUyOzXsgA/maxresdefault.jpg",
       "duration_seconds": 2174,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "15時間前",
       "duration_text": "36:14",
       "badge_kind": ""
     },
@@ -109,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/2VgwH7Bb-4A/maxresdefault.jpg",
       "duration_seconds": 2057,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "15時間前",
       "duration_text": "34:17",
       "badge_kind": ""
     },
@@ -123,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qqfP_kJkvpI/maxresdefault.jpg",
       "duration_seconds": 1844,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "15時間前",
       "duration_text": "30:44",
       "badge_kind": ""
     },
@@ -137,13 +179,13 @@
       "thumbnail": "https://i.ytimg.com/vi/eii--gW0uV4/maxresdefault.jpg",
       "duration_seconds": 889,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "15時間前",
       "duration_text": "14:49",
       "badge_kind": ""
     },
     {
       "video_id": "j6yp9t8c2ZI",
-      "title": "【坂井風太】市場価値は気にしすぎるな  NewsPicks",
+      "title": "【坂井風太】市場価値は気にしすぎるな #newspicks",
       "channel_title": "NewsPicks /ニューズピックス",
       "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
       "published_iso": "2026-06-23T09:00:14Z",
@@ -151,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/j6yp9t8c2ZI/maxresdefault.jpg",
       "duration_seconds": 62,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "16時間前",
       "duration_text": "1:02",
       "badge_kind": ""
     },
@@ -165,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/8XlVx5631Ho/maxresdefault.jpg",
       "duration_seconds": 39,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "17時間前",
       "duration_text": "0:39",
       "badge_kind": ""
     },
@@ -179,7 +221,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Ku2iWLUyx10/maxresdefault.jpg",
       "duration_seconds": 40,
       "live_status": "",
-      "rel_time": "20時間前",
+      "rel_time": "22時間前",
       "duration_text": "0:40",
       "badge_kind": ""
     },
@@ -193,7 +235,7 @@
       "thumbnail": "https://i.ytimg.com/vi/K1aabEghq-A/maxresdefault.jpg",
       "duration_seconds": 67,
       "live_status": "",
-      "rel_time": "20時間前",
+      "rel_time": "22時間前",
       "duration_text": "1:07",
       "badge_kind": ""
     },
@@ -207,7 +249,7 @@
       "thumbnail": "https://i.ytimg.com/vi/hcM5IKkzPRk/maxresdefault.jpg",
       "duration_seconds": 7810,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "2:10:10",
       "badge_kind": ""
     },
@@ -347,7 +389,7 @@
       "thumbnail": "https://i.ytimg.com/vi/tm3LsxSJn18/maxresdefault.jpg",
       "duration_seconds": 7879,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "2:11:19",
       "badge_kind": ""
     },
@@ -515,7 +557,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_Gw2TnogZQA/maxresdefault.jpg",
       "duration_seconds": 8042,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "2:14:02",
       "badge_kind": ""
     },
@@ -711,7 +753,7 @@
       "thumbnail": "https://i.ytimg.com/vi/b9mgSU9qhvw/maxresdefault.jpg",
       "duration_seconds": 7689,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "2:08:09",
       "badge_kind": ""
     },
@@ -949,7 +991,7 @@
       "thumbnail": "https://i.ytimg.com/vi/x2rSE8agcB0/maxresdefault.jpg",
       "duration_seconds": 7808,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "2:10:08",
       "badge_kind": ""
     },
@@ -2057,48 +2099,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "7:02",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "cZL8lqWneG4",
-      "title": "【緊急配信】Claude Fable 5はぶっちゃけどうよ？",
-      "channel_title": "ウェブ職TV / Nesheep",
-      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-06-10T15:46:33Z",
-      "published_dt": "2026-06-10T15:46:33+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/cZL8lqWneG4/maxresdefault.jpg",
-      "duration_seconds": 6436,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "1:47:16",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "xZxUaxYCML0",
-      "title": "実はめちゃくちゃ儲かる⁉︎黒字店舗続出のビジネスモデル！今急成長中のフランチャイズの裏側に迫る",
-      "channel_title": "堀江貴文 ホリエモン",
-      "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
-      "published_iso": "2026-06-10T10:00:15Z",
-      "published_dt": "2026-06-10T10:00:15+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/xZxUaxYCML0/maxresdefault.jpg",
-      "duration_seconds": 1318,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "21:58",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "3afr0x8ef9Q",
-      "title": "【超速報】Claude Mythos(Fable5)、遂に公開！！ / 世界を破滅に導く力を持つAIはほんと？ / 6月22日までの期間限定！",
-      "channel_title": "ウェブ職TV / Nesheep",
-      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-06-10T06:30:07Z",
-      "published_dt": "2026-06-10T06:30:07+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/3afr0x8ef9Q/maxresdefault.jpg",
-      "duration_seconds": 1736,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "28:56",
       "badge_kind": ""
     }
   ]
