@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-06-25T12:07:47+00:00",
+  "generated_at": "2026-06-25T15:13:03+00:00",
   "videos": [
+    {
+      "video_id": "pjAa8ANLpao",
+      "title": "【アベマ同時配信中】「規制で解決可能？『若者のSNS』日本はどうする」アベプラ｜6/25(木) 21:00〜",
+      "channel_title": "ABEMA Prime",
+      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
+      "published_iso": "2026-06-25T13:33:16Z",
+      "published_dt": "2026-06-25T13:33:16+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/pjAa8ANLpao/maxresdefault.jpg",
+      "duration_seconds": 4517,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "1:15:17",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "bqeUAIo2Bag",
+      "title": "Fable5はもう使えないかも？ / 新しいAIサービス開発中 / 東京出張に行く",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-06-25T12:59:39Z",
+      "published_dt": "2026-06-25T12:59:39+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/bqeUAIo2Bag/maxresdefault.jpg",
+      "duration_seconds": 4971,
+      "live_status": "",
+      "rel_time": "2時間前",
+      "duration_text": "1:22:51",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "PoxVAc5nMkM",
+      "title": "「外注はAIで十分」企業の間口が狭まる恐怖。日本でも始まるAI失業と雇用の大変化（頼嘉満・茶圓将裕）/ 電脈イースト",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-06-25T12:30:20Z",
+      "published_dt": "2026-06-25T12:30:20+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/PoxVAc5nMkM/maxresdefault.jpg",
+      "duration_seconds": 1008,
+      "live_status": "",
+      "rel_time": "2時間前",
+      "duration_text": "16:48",
+      "badge_kind": ""
+    },
     {
       "video_id": "V-7BrsT239A",
       "title": "【相当な投資で“育成”】「黄金世代」は偶然じゃない #田嶋幸三 #日本代表 #黄金世代 #サッカー #W杯",
@@ -11,13 +53,13 @@
       "thumbnail": "https://i.ytimg.com/vi/V-7BrsT239A/maxresdefault.jpg",
       "duration_seconds": 87,
       "live_status": "",
-      "rel_time": "7分前",
+      "rel_time": "3時間前",
       "duration_text": "1:27",
       "badge_kind": ""
     },
     {
       "video_id": "01tx9866mNA",
-      "title": "睡眠不足で日本は22兆円失う。ハイパフォーマーの睡眠戦略（睡眠/睡眠投資/NELL/マットレス/生産性/自己投資/ビジネス/健康/NewsPicks/投資家/鷲見玲奈/田中渓/NELLマットレス）",
+      "title": "睡眠は最強の自己投資。一流が「寝る」本当の理由（睡眠/睡眠投資/NELL/マットレス/生産性/自己投資/ビジネス/健康/NewsPicks/投資家/鷲見玲奈/田中渓/NELLマットレス）",
       "channel_title": "NewsPicks /ニューズピックス",
       "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
       "published_iso": "2026-06-25T12:00:09Z",
@@ -25,23 +67,9 @@
       "thumbnail": "https://i.ytimg.com/vi/01tx9866mNA/maxresdefault.jpg",
       "duration_seconds": 2324,
       "live_status": "",
-      "rel_time": "7分前",
+      "rel_time": "3時間前",
       "duration_text": "38:44",
       "badge_kind": ""
-    },
-    {
-      "video_id": "pjAa8ANLpao",
-      "title": "【アベマ同時配信中】「規制で解決可能？『若者のSNS』日本はどうする」アベプラ｜6/25(木) 21:00〜",
-      "channel_title": "ABEMA Prime",
-      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-06-25T11:30:41Z",
-      "published_dt": "2026-06-25T11:30:41+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/pjAa8ANLpao/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "37分前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
     },
     {
       "video_id": "zcmG5JahLO0",
@@ -53,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zcmG5JahLO0/maxresdefault.jpg",
       "duration_seconds": 1976,
       "live_status": "",
-      "rel_time": "37分前",
+      "rel_time": "3時間前",
       "duration_text": "32:56",
       "badge_kind": ""
     },
@@ -67,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/VMctYreZLBM/maxresdefault.jpg",
       "duration_seconds": 1298,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "4時間前",
       "duration_text": "21:38",
       "badge_kind": ""
     },
@@ -81,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/BrL-ZwN_YH0/maxresdefault.jpg",
       "duration_seconds": 1032,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "4時間前",
       "duration_text": "17:12",
       "badge_kind": ""
     },
@@ -95,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/FZFlwxplP1A/maxresdefault.jpg",
       "duration_seconds": 667,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "5時間前",
       "duration_text": "11:07",
       "badge_kind": ""
     },
@@ -109,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JHkDMCjMr3I/maxresdefault.jpg",
       "duration_seconds": 1460,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "5時間前",
       "duration_text": "24:20",
       "badge_kind": ""
     },
@@ -123,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/XCHrkzXWxDo/maxresdefault.jpg",
       "duration_seconds": 2441,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "5時間前",
       "duration_text": "40:41",
       "badge_kind": ""
     },
@@ -137,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/xPUhOw8RIr8/maxresdefault.jpg",
       "duration_seconds": 52,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "6時間前",
       "duration_text": "0:52",
       "badge_kind": ""
     },
@@ -151,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/aIdyQIb5uNg/maxresdefault.jpg",
       "duration_seconds": 28,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "6時間前",
       "duration_text": "0:28",
       "badge_kind": ""
     },
@@ -165,22 +193,8 @@
       "thumbnail": "https://i.ytimg.com/vi/w8e6nvvTlMo/maxresdefault.jpg",
       "duration_seconds": 60,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "13時間前",
       "duration_text": "1:00",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "bqeUAIo2Bag",
-      "title": "Fable5はもう使えないかも？ / 新しいAIサービス開発中 / 東京出張に行く",
-      "channel_title": "ウェブ職TV / Nesheep",
-      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-06-25T00:35:03Z",
-      "published_dt": "2026-06-25T00:35:03+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/bqeUAIo2Bag/maxresdefault_live.jpg",
-      "duration_seconds": 4964,
-      "live_status": "",
-      "rel_time": "11時間前",
-      "duration_text": "1:22:44",
       "badge_kind": ""
     },
     {
@@ -193,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/WgmzdrPFWak/maxresdefault.jpg",
       "duration_seconds": 1742,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "16時間前",
       "duration_text": "29:02",
       "badge_kind": ""
     },
@@ -207,7 +221,7 @@
       "thumbnail": "https://i.ytimg.com/vi/NKDDIG7R33M/maxresdefault.jpg",
       "duration_seconds": 62,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "17時間前",
       "duration_text": "1:02",
       "badge_kind": ""
     },
@@ -221,7 +235,7 @@
       "thumbnail": "https://i.ytimg.com/vi/k7nast7RGZY/maxresdefault.jpg",
       "duration_seconds": 736,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "17時間前",
       "duration_text": "12:16",
       "badge_kind": ""
     },
@@ -235,7 +249,7 @@
       "thumbnail": "https://i.ytimg.com/vi/5ao_Y5Xg3Dk/maxresdefault.jpg",
       "duration_seconds": 5863,
       "live_status": "",
-      "rel_time": "22時間前",
+      "rel_time": "1日前",
       "duration_text": "1:37:43",
       "badge_kind": ""
     },
@@ -249,7 +263,7 @@
       "thumbnail": "https://i.ytimg.com/vi/dzldQv4rWmE/maxresdefault.jpg",
       "duration_seconds": 1317,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "21:57",
       "badge_kind": ""
     },
@@ -683,7 +697,7 @@
       "thumbnail": "https://i.ytimg.com/vi/NDebPON_h3U/maxresdefault.jpg",
       "duration_seconds": 1194,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "19:54",
       "badge_kind": ""
     },
@@ -963,7 +977,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qk_aXlO2Pws/maxresdefault.jpg",
       "duration_seconds": 2120,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "35:20",
       "badge_kind": ""
     },
@@ -1383,7 +1397,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0gk3529b7tI/maxresdefault.jpg",
       "duration_seconds": 24,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "0:24",
       "badge_kind": ""
     },
@@ -1721,20 +1735,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "1:45",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "Q1-nYkwRd5w",
-      "title": "「大失敗からのV字回復」なぜアメックスは“失敗社員”を育てられるのか？評価と文化の真相(佐藤隆太、池端由基、須藤靖洋）【THE HIGHLIGHT】",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-06-17T07:00:17Z",
-      "published_dt": "2026-06-17T07:00:17+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/Q1-nYkwRd5w/maxresdefault.jpg",
-      "duration_seconds": 956,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "15:56",
       "badge_kind": ""
     },
     {
