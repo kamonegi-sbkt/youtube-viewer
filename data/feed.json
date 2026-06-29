@@ -1,19 +1,75 @@
 {
-  "generated_at": "2026-06-29T11:58:35+00:00",
+  "generated_at": "2026-06-29T16:03:43+00:00",
   "videos": [
+    {
+      "video_id": "Ow--rLNn3zQ",
+      "title": "OpenAIの最新モデル「GPT-5.6」がキタァアアーー！ / GPT-5.5との違いは？ / Claude Fable 5の最新動向",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-06-29T14:30:06Z",
+      "published_dt": "2026-06-29T14:30:06+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/Ow--rLNn3zQ/maxresdefault.jpg",
+      "duration_seconds": 1779,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "29:39",
+      "badge_kind": ""
+    },
     {
       "video_id": "nDL9QPENe_c",
       "title": "【アベマ同時配信中】「コメ価格に暴落注意報？なぜ／米でホスト入国拒否」アベプラ｜6/29(月) 21:00〜",
       "channel_title": "ABEMA Prime",
       "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-06-29T11:30:22Z",
-      "published_dt": "2026-06-29T11:30:22+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/nDL9QPENe_c/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "28分前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
+      "published_iso": "2026-06-29T13:29:33Z",
+      "published_dt": "2026-06-29T13:29:33+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/nDL9QPENe_c/maxresdefault.jpg",
+      "duration_seconds": 4332,
+      "live_status": "",
+      "rel_time": "2時間前",
+      "duration_text": "1:12:12",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "vJ5xi5iw1pc",
+      "title": "「とりあえずAI導入」が危険。なぜ試験導入は黒字で「本番は赤字」になるのか？AIコストが跳ね上がる構造と予算を守る運用設計（頼嘉満・茶圓将裕）/ 電脈イースト",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-06-29T12:30:13Z",
+      "published_dt": "2026-06-29T12:30:13+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/vJ5xi5iw1pc/maxresdefault.jpg",
+      "duration_seconds": 931,
+      "live_status": "",
+      "rel_time": "3時間前",
+      "duration_text": "15:31",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "cbg0HJhyvro",
+      "title": "【佐藤優×斎藤幸平】現代のプロレタリア文学とは？#佐藤優 #斎藤幸平 #知性密談 #資本主義 #マルクス #イーロンマスク #GAFA #政治経済 #NewsPicks #教養 #テクノ資本主義",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-06-29T12:00:35Z",
+      "published_dt": "2026-06-29T12:00:35+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/cbg0HJhyvro/maxresdefault.jpg",
+      "duration_seconds": 80,
+      "live_status": "",
+      "rel_time": "4時間前",
+      "duration_text": "1:20",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "ZEFKszoOM4s",
+      "title": "【2035年】日本から380万人分の労働力が消える（ロボット/AI/人手不足/2035年問題/DX/自動化/生産性向上/未来の仕事/澤円/NewsPicks）",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-06-29T12:00:11Z",
+      "published_dt": "2026-06-29T12:00:11+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/ZEFKszoOM4s/maxresdefault.jpg",
+      "duration_seconds": 2256,
+      "live_status": "",
+      "rel_time": "4時間前",
+      "duration_text": "37:36",
+      "badge_kind": ""
     },
     {
       "video_id": "irbVPRY2_4E",
@@ -25,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/irbVPRY2_4E/maxresdefault.jpg",
       "duration_seconds": 2160,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "6時間前",
       "duration_text": "36:00",
       "badge_kind": ""
     },
@@ -39,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lOK4c5GnYQQ/maxresdefault.jpg",
       "duration_seconds": 55,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "7時間前",
       "duration_text": "0:55",
       "badge_kind": ""
     },
@@ -53,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ciGbOAIoZes/maxresdefault.jpg",
       "duration_seconds": 41,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "7時間前",
       "duration_text": "0:41",
       "badge_kind": ""
     },
@@ -67,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/SZM96Ur83FA/maxresdefault_live.jpg",
       "duration_seconds": 3289,
       "live_status": "",
-      "rel_time": "6時間前",
+      "rel_time": "10時間前",
       "duration_text": "54:49",
       "badge_kind": ""
     },
@@ -81,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qza-TOWxATs/maxresdefault.jpg",
       "duration_seconds": 41,
       "live_status": "",
-      "rel_time": "7時間前",
+      "rel_time": "11時間前",
       "duration_text": "0:41",
       "badge_kind": ""
     },
@@ -95,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/DlGm0928Cm0/maxresdefault.jpg",
       "duration_seconds": 62,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "14時間前",
       "duration_text": "1:02",
       "badge_kind": ""
     },
@@ -109,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ygiFN5t-BEU/maxresdefault.jpg",
       "duration_seconds": 6822,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "16時間前",
       "duration_text": "1:53:42",
       "badge_kind": ""
     },
@@ -123,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/HW6zbAB8y30/maxresdefault.jpg",
       "duration_seconds": 1172,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "18時間前",
       "duration_text": "19:32",
       "badge_kind": ""
     },
@@ -137,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0d1tFL1n7mo/maxresdefault.jpg",
       "duration_seconds": 913,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "15:13",
       "badge_kind": ""
     },
@@ -151,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Ojj4HsOmdVM/maxresdefault.jpg",
       "duration_seconds": 63,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "1:03",
       "badge_kind": ""
     },
@@ -291,7 +347,7 @@
       "thumbnail": "https://i.ytimg.com/vi/NDy9IsZPFgE/maxresdefault.jpg",
       "duration_seconds": 65,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "1:05",
       "badge_kind": ""
     },
@@ -305,7 +361,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QuvZnXtk0F8/maxresdefault.jpg",
       "duration_seconds": 521,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "8:41",
       "badge_kind": ""
     },
@@ -459,7 +515,7 @@
       "thumbnail": "https://i.ytimg.com/vi/5ZnsySlDeoI/maxresdefault.jpg",
       "duration_seconds": 28,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "0:28",
       "badge_kind": ""
     },
@@ -473,7 +529,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PYbgbigdXpo/maxresdefault.jpg",
       "duration_seconds": 2664,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "44:24",
       "badge_kind": ""
     },
@@ -487,7 +543,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PA-g1xYFWTU/maxresdefault.jpg",
       "duration_seconds": 62,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "1:02",
       "badge_kind": ""
     },
@@ -683,7 +739,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bqeUAIo2Bag/maxresdefault.jpg",
       "duration_seconds": 4971,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "1:22:51",
       "badge_kind": ""
     },
@@ -697,7 +753,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PoxVAc5nMkM/maxresdefault.jpg",
       "duration_seconds": 1008,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "16:48",
       "badge_kind": ""
     },
@@ -711,7 +767,7 @@
       "thumbnail": "https://i.ytimg.com/vi/V-7BrsT239A/maxresdefault.jpg",
       "duration_seconds": 87,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "1:27",
       "badge_kind": ""
     },
@@ -725,7 +781,7 @@
       "thumbnail": "https://i.ytimg.com/vi/01tx9866mNA/maxresdefault.jpg",
       "duration_seconds": 2324,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "38:44",
       "badge_kind": ""
     },
@@ -907,7 +963,7 @@
       "thumbnail": "https://i.ytimg.com/vi/5ao_Y5Xg3Dk/maxresdefault.jpg",
       "duration_seconds": 5863,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "1:37:43",
       "badge_kind": ""
     },
@@ -921,7 +977,7 @@
       "thumbnail": "https://i.ytimg.com/vi/dzldQv4rWmE/maxresdefault.jpg",
       "duration_seconds": 1317,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "21:57",
       "badge_kind": ""
     },
@@ -935,7 +991,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lngCCJxmYSY/maxresdefault.jpg",
       "duration_seconds": 47,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "0:47",
       "badge_kind": ""
     },
@@ -949,7 +1005,7 @@
       "thumbnail": "https://i.ytimg.com/vi/EsUoj_sTh5c/maxresdefault.jpg",
       "duration_seconds": 1119,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "18:39",
       "badge_kind": ""
     },
@@ -1117,7 +1173,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ZK-kk0L01W8/maxresdefault.jpg",
       "duration_seconds": 74,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "1:14",
       "badge_kind": ""
     },
@@ -1131,7 +1187,7 @@
       "thumbnail": "https://i.ytimg.com/vi/p36ncsARF6s/maxresdefault.jpg",
       "duration_seconds": 1850,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "30:50",
       "badge_kind": ""
     },
@@ -1313,7 +1369,7 @@
       "thumbnail": "https://i.ytimg.com/vi/NDebPON_h3U/maxresdefault.jpg",
       "duration_seconds": 1194,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "19:54",
       "badge_kind": ""
     },
@@ -1327,7 +1383,7 @@
       "thumbnail": "https://i.ytimg.com/vi/w6NVkguOzYM/maxresdefault.jpg",
       "duration_seconds": 63,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "1:03",
       "badge_kind": ""
     },
@@ -1341,36 +1397,8 @@
       "thumbnail": "https://i.ytimg.com/vi/0I-ERtGHBZ8/maxresdefault.jpg",
       "duration_seconds": 1056,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "17:36",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "EntKFqZipP8",
-      "title": "「我慢すると腹がたつ」日本人の『我慢病』とは？【黒岩里奈×中野信子】",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-06-22T11:00:31Z",
-      "published_dt": "2026-06-22T11:00:31+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/EntKFqZipP8/maxresdefault.jpg",
-      "duration_seconds": 886,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "14:46",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "jAY7rhnfSMs",
-      "title": "AIと人類の未来はどうなるか。ナオキマンと語り尽くす【岸谷蘭丸/ゆとり/newZnew】",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-06-22T10:00:33Z",
-      "published_dt": "2026-06-22T10:00:33+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/jAY7rhnfSMs/maxresdefault.jpg",
-      "duration_seconds": 1376,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "22:56",
       "badge_kind": ""
     },
     {
@@ -1399,20 +1427,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "22:06",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "16hgVMAOuNo",
-      "title": "「ファンコミ限定の問題作を特別公開！」トイレの異臭騒動から、デート中のスマホいじり＆食事の”お怒り行動”まで…本編では言えない裏側トークが大炸裂！【アレン様×トンツカタン森本×岸谷蘭丸】",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-06-21T22:00:11Z",
-      "published_dt": "2026-06-21T22:00:11+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/16hgVMAOuNo/maxresdefault.jpg",
-      "duration_seconds": 661,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "11:01",
       "badge_kind": ""
     },
     {
@@ -2085,20 +2099,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "39:07",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "kjCiSmLTuGI",
-      "title": "Claude Fable 5の米国政府による停止命令 / 原因はAmazonからの密告？ / Anthropicと米国政府の深い溝とは",
-      "channel_title": "ウェブ職TV / Nesheep",
-      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-06-15T13:47:33Z",
-      "published_dt": "2026-06-15T13:47:33+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/kjCiSmLTuGI/maxresdefault.jpg",
-      "duration_seconds": 2153,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "35:53",
       "badge_kind": ""
     }
   ]
