@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-07-02T12:21:32+00:00",
+  "generated_at": "2026-07-02T14:38:54+00:00",
   "videos": [
+    {
+      "video_id": "2JEXb2OZMOg",
+      "title": "【アベマ同時配信中】「世界はＷ杯で賭け事！スポーツベッティングの是非」アベプラ｜7/2(木) 21:00〜",
+      "channel_title": "ABEMA Prime",
+      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
+      "published_iso": "2026-07-02T13:26:39Z",
+      "published_dt": "2026-07-02T13:26:39+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/2JEXb2OZMOg/maxresdefault.jpg",
+      "duration_seconds": 4300,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "1:11:40",
+      "badge_kind": ""
+    },
     {
       "video_id": "MABOTHXeL58",
       "title": "【すべてがギャンブルの米国】戦争にまで\"賭け\"。広がる「予測市場」 #イラン #戦争 #予測市場 #アメリカ #ギャンブル",
@@ -11,23 +25,9 @@
       "thumbnail": "https://i.ytimg.com/vi/MABOTHXeL58/maxresdefault.jpg",
       "duration_seconds": 65,
       "live_status": "",
-      "rel_time": "21分前",
+      "rel_time": "2時間前",
       "duration_text": "1:05",
       "badge_kind": ""
-    },
-    {
-      "video_id": "2JEXb2OZMOg",
-      "title": "【アベマ同時配信中】「世界はＷ杯で賭け事！スポーツベッティングの是非」アベプラ｜7/2(木) 21:00〜",
-      "channel_title": "ABEMA Prime",
-      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-07-02T11:30:17Z",
-      "published_dt": "2026-07-02T11:30:17+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/2JEXb2OZMOg/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "51分前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
     },
     {
       "video_id": "9qFv9Yeft8E",
@@ -39,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/9qFv9Yeft8E/maxresdefault.jpg",
       "duration_seconds": 1095,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "3時間前",
       "duration_text": "18:15",
       "badge_kind": ""
     },
@@ -53,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7wDEfvMQXJE/maxresdefault.jpg",
       "duration_seconds": 1750,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "4時間前",
       "duration_text": "29:10",
       "badge_kind": ""
     },
@@ -67,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/mUGqIbd_X00/maxresdefault.jpg",
       "duration_seconds": 987,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "4時間前",
       "duration_text": "16:27",
       "badge_kind": ""
     },
@@ -81,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/-whtSTB7qgA/maxresdefault.jpg",
       "duration_seconds": 1868,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "4時間前",
       "duration_text": "31:08",
       "badge_kind": ""
     },
@@ -95,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ZKzQeANioaA/maxresdefault.jpg",
       "duration_seconds": 52,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "5時間前",
       "duration_text": "0:52",
       "badge_kind": ""
     },
@@ -109,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/KWxDn2nwqt8/maxresdefault.jpg",
       "duration_seconds": 41,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "11時間前",
       "duration_text": "0:41",
       "badge_kind": ""
     },
@@ -123,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/marFNgSRFoU/maxresdefault.jpg",
       "duration_seconds": 86,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "12時間前",
       "duration_text": "1:26",
       "badge_kind": ""
     },
@@ -137,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/1EFpjTd2OL4/maxresdefault.jpg",
       "duration_seconds": 7787,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "14時間前",
       "duration_text": "2:09:47",
       "badge_kind": ""
     },
@@ -151,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/1KZ8YXZJfn4/maxresdefault.jpg",
       "duration_seconds": 63,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "16時間前",
       "duration_text": "1:03",
       "badge_kind": ""
     },
@@ -165,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/NG_8bDvyHfQ/maxresdefault.jpg",
       "duration_seconds": 385,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "16時間前",
       "duration_text": "6:25",
       "badge_kind": ""
     },
@@ -179,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JEt9bLEet2E/maxresdefault.jpg",
       "duration_seconds": 1296,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "21:36",
       "badge_kind": ""
     },
@@ -361,7 +361,7 @@
       "thumbnail": "https://i.ytimg.com/vi/L0wOdGLDI0k/maxresdefault.jpg",
       "duration_seconds": 3554,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "59:14",
       "badge_kind": ""
     },
@@ -641,7 +641,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Ow--rLNn3zQ/maxresdefault.jpg",
       "duration_seconds": 1779,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "29:39",
       "badge_kind": ""
     },
@@ -655,7 +655,7 @@
       "thumbnail": "https://i.ytimg.com/vi/vJ5xi5iw1pc/maxresdefault.jpg",
       "duration_seconds": 931,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "15:31",
       "badge_kind": ""
     },
@@ -829,7 +829,7 @@
     },
     {
       "video_id": "N39mBMx4I1s",
-      "title": "【電気代15％削減】電力は競り下げる時代に【NewsPicks／松永エリック・匡史／エナーバンク／電力調達／電気代 / コスト削減／経営戦略／エネオク／1on1 DEEP】",
+      "title": "【電気代3割削減】電力は競り下げる時代に【NewsPicks／松永エリック・匡史／エナーバンク／電力調達／電気代 / コスト削減／経営戦略／エネオク／1on1 DEEP】",
       "channel_title": "NewsPicks /ニューズピックス",
       "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
       "published_iso": "2026-06-28T10:00:20Z",
@@ -1341,7 +1341,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bqeUAIo2Bag/maxresdefault.jpg",
       "duration_seconds": 4971,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "1:22:51",
       "badge_kind": ""
     },
@@ -1355,7 +1355,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PoxVAc5nMkM/maxresdefault.jpg",
       "duration_seconds": 1008,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "16:48",
       "badge_kind": ""
     },
