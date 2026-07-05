@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-07-05T04:33:05+00:00",
+  "generated_at": "2026-07-05T07:49:10+00:00",
   "videos": [
+    {
+      "video_id": "ys8jyZuh8pw",
+      "title": "タイに移住したTKO木下さんに遭遇！？",
+      "channel_title": "堀江貴文 ホリエモン",
+      "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
+      "published_iso": "2026-07-05T06:00:18Z",
+      "published_dt": "2026-07-05T06:00:18+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/ys8jyZuh8pw/maxresdefault.jpg",
+      "duration_seconds": 178,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "2:58",
+      "badge_kind": ""
+    },
     {
       "video_id": "DWDNA2m_woI",
       "title": "次はウイスキー蔵を作ります",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/DWDNA2m_woI/maxresdefault.jpg",
       "duration_seconds": 52,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "4時間前",
       "duration_text": "0:52",
       "badge_kind": ""
     },
@@ -25,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/27NPMhxlhPQ/maxresdefault.jpg",
       "duration_seconds": 63,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "5時間前",
       "duration_text": "1:03",
       "badge_kind": ""
     },
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/85HMNo6Xp7Q/maxresdefault.jpg",
       "duration_seconds": 7823,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "7時間前",
       "duration_text": "2:10:23",
       "badge_kind": ""
     },
@@ -53,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/FwwoN_-LAyU/maxresdefault.jpg",
       "duration_seconds": 4677,
       "live_status": "",
-      "rel_time": "6時間前",
+      "rel_time": "9時間前",
       "duration_text": "1:17:57",
       "badge_kind": ""
     },
@@ -67,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/keeVgDFNYkk/maxresdefault.jpg",
       "duration_seconds": 330,
       "live_status": "",
-      "rel_time": "6時間前",
+      "rel_time": "9時間前",
       "duration_text": "5:30",
       "badge_kind": ""
     },
@@ -81,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3WHc8SSKYus/maxresdefault.jpg",
       "duration_seconds": 63,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "19時間前",
       "duration_text": "1:03",
       "badge_kind": ""
     },
@@ -95,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/hS1yKPa5XNk/maxresdefault.jpg",
       "duration_seconds": 826,
       "live_status": "",
-      "rel_time": "18時間前",
+      "rel_time": "21時間前",
       "duration_text": "13:46",
       "badge_kind": ""
     },
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4K5SWePuJ94/maxresdefault.jpg",
       "duration_seconds": 2099,
       "live_status": "",
-      "rel_time": "18時間前",
+      "rel_time": "21時間前",
       "duration_text": "34:59",
       "badge_kind": ""
     },
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/c1L_P5lZQMc/maxresdefault.jpg",
       "duration_seconds": 1837,
       "live_status": "",
-      "rel_time": "19時間前",
+      "rel_time": "22時間前",
       "duration_text": "30:37",
       "badge_kind": ""
     },
@@ -137,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/1jUVpfqOPf0/maxresdefault.jpg",
       "duration_seconds": 62,
       "live_status": "",
-      "rel_time": "19時間前",
+      "rel_time": "22時間前",
       "duration_text": "1:02",
       "badge_kind": ""
     },
@@ -2085,20 +2099,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "0:30",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "xQzXpQrGYOs",
-      "title": "【宇野康秀】U-NEXTの成長戦略は？品揃えの多さが武器に？スポーツの独占中継は？｜ふたりぼっちのアベプラ",
-      "channel_title": "ABEMA Prime",
-      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-06-21T03:00:33Z",
-      "published_dt": "2026-06-21T03:00:33+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/xQzXpQrGYOs/maxresdefault.jpg",
-      "duration_seconds": 2512,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "41:52",
       "badge_kind": ""
     }
   ]
