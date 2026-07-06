@@ -1,19 +1,47 @@
 {
-  "generated_at": "2026-07-06T01:26:31+00:00",
+  "generated_at": "2026-07-06T05:58:46+00:00",
   "videos": [
+    {
+      "video_id": "RRkaW5IJ6JE",
+      "title": "ホリエモンが語る世界のワイン事情",
+      "channel_title": "堀江貴文 ホリエモン",
+      "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
+      "published_iso": "2026-07-06T03:00:16Z",
+      "published_dt": "2026-07-06T03:00:16+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/RRkaW5IJ6JE/maxresdefault.jpg",
+      "duration_seconds": 61,
+      "live_status": "",
+      "rel_time": "2時間前",
+      "duration_text": "1:01",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "U6xVc8iGLDA",
+      "title": "【AI時代】運を良くする方法とは？#中野信子 #運 #脳科学 #心理学 #運気 #自己啓発 #人生相談 #黒岩里奈 #NewsPicks #TheChanneling",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-07-06T02:00:09Z",
+      "published_dt": "2026-07-06T02:00:09+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/U6xVc8iGLDA/maxresdefault.jpg",
+      "duration_seconds": 46,
+      "live_status": "",
+      "rel_time": "3時間前",
+      "duration_text": "0:46",
+      "badge_kind": ""
+    },
     {
       "video_id": "qVaQKAZjefA",
       "title": "余ったMac Miniを使ってAIサーバーを作った。",
       "channel_title": "ウェブ職TV / Nesheep",
       "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-07-06T01:00:59Z",
-      "published_dt": "2026-07-06T01:00:59+00:00",
+      "published_iso": "2026-07-06T01:54:56Z",
+      "published_dt": "2026-07-06T01:54:56+00:00",
       "thumbnail": "https://i.ytimg.com/vi/qVaQKAZjefA/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "25分前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
+      "duration_seconds": 3237,
+      "live_status": "",
+      "rel_time": "4時間前",
+      "duration_text": "53:57",
+      "badge_kind": ""
     },
     {
       "video_id": "vu0jj_tcD34",
@@ -25,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/vu0jj_tcD34/maxresdefault.jpg",
       "duration_seconds": 7333,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "6時間前",
       "duration_text": "2:02:13",
       "badge_kind": ""
     },
@@ -39,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/NCF_HaG1GGM/maxresdefault.jpg",
       "duration_seconds": 2596,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "7時間前",
       "duration_text": "43:16",
       "badge_kind": ""
     },
@@ -53,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lDWEaEf2Ld0/maxresdefault.jpg",
       "duration_seconds": 50,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "17時間前",
       "duration_text": "0:50",
       "badge_kind": ""
     },
@@ -67,13 +95,13 @@
       "thumbnail": "https://i.ytimg.com/vi/BbhKzDsn5M0/maxresdefault.jpg",
       "duration_seconds": 1041,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "19時間前",
       "duration_text": "17:21",
       "badge_kind": ""
     },
     {
       "video_id": "abdRkel-Eeo",
-      "title": "【ラグビー】帰化選手が怒り？リーグ新規定「義務教育６年」が波紋…日本出身者を育てる？狙いは？｜アベプラ",
+      "title": "【ラグビー】帰化選手が怒り？リーグ新規定「義務教育6年」が波紋…日本出身者を育てる？狙いは？｜アベプラ",
       "channel_title": "ABEMA Prime",
       "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
       "published_iso": "2026-07-05T10:00:03Z",
@@ -81,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/abdRkel-Eeo/maxresdefault.jpg",
       "duration_seconds": 2341,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "19時間前",
       "duration_text": "39:01",
       "badge_kind": ""
     },
@@ -95,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/oqBCxU5HBCQ/maxresdefault.jpg",
       "duration_seconds": 1724,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "20時間前",
       "duration_text": "28:44",
       "badge_kind": ""
     },
@@ -109,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Z50XfNCiCyM/maxresdefault.jpg",
       "duration_seconds": 68,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "20時間前",
       "duration_text": "1:08",
       "badge_kind": ""
     },
@@ -123,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ys8jyZuh8pw/maxresdefault.jpg",
       "duration_seconds": 178,
       "live_status": "",
-      "rel_time": "19時間前",
+      "rel_time": "23時間前",
       "duration_text": "2:58",
       "badge_kind": ""
     },
@@ -137,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/DWDNA2m_woI/maxresdefault.jpg",
       "duration_seconds": 52,
       "live_status": "",
-      "rel_time": "22時間前",
+      "rel_time": "1日前",
       "duration_text": "0:52",
       "badge_kind": ""
     },
@@ -151,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/27NPMhxlhPQ/maxresdefault.jpg",
       "duration_seconds": 63,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "1:03",
       "badge_kind": ""
     },
@@ -277,7 +305,7 @@
       "thumbnail": "https://i.ytimg.com/vi/EPtCjZYVIzY/maxresdefault.jpg",
       "duration_seconds": 1202,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "20:02",
       "badge_kind": ""
     },
@@ -291,7 +319,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_rGdc6zpLNc/maxresdefault.jpg",
       "duration_seconds": 52,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "0:52",
       "badge_kind": ""
     },
@@ -305,7 +333,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zNTuLrqG_rI/maxresdefault.jpg",
       "duration_seconds": 73,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "1:13",
       "badge_kind": ""
     },
@@ -487,7 +515,7 @@
       "thumbnail": "https://i.ytimg.com/vi/XU6quVGIRHU/maxresdefault.jpg",
       "duration_seconds": 46,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "0:46",
       "badge_kind": ""
     },
@@ -613,7 +641,7 @@
       "thumbnail": "https://i.ytimg.com/vi/KWxDn2nwqt8/maxresdefault.jpg",
       "duration_seconds": 41,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "0:41",
       "badge_kind": ""
     },
@@ -627,7 +655,7 @@
       "thumbnail": "https://i.ytimg.com/vi/marFNgSRFoU/maxresdefault.jpg",
       "duration_seconds": 86,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "1:26",
       "badge_kind": ""
     },
@@ -823,22 +851,8 @@
       "thumbnail": "https://i.ytimg.com/vi/6V6TOKqIDZo/maxresdefault.jpg",
       "duration_seconds": 57,
       "live_status": "",
-      "rel_time": "4日前",
-      "duration_text": "0:57",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "kyifUFODbbg",
-      "title": "今日の学長ライブ l 祝☆チャンネル登録者数1000万突破！みんなありがとうー！これからも、みんなの資産増やしていくで【7/1 8:30まで】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-06-30T23:33:34Z",
-      "published_dt": "2026-06-30T23:33:34+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/kyifUFODbbg/maxresdefault.jpg",
-      "duration_seconds": 6520,
-      "live_status": "",
       "rel_time": "5日前",
-      "duration_text": "1:48:40",
+      "duration_text": "0:57",
       "badge_kind": ""
     },
     {
@@ -1047,7 +1061,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ah9fPJCLlw8/maxresdefault.jpg",
       "duration_seconds": 193,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "3:13",
       "badge_kind": ""
     },
@@ -1061,7 +1075,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JEyJhwLRqCE/maxresdefault.jpg",
       "duration_seconds": 82,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "1:22",
       "badge_kind": ""
     },
@@ -1229,7 +1243,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qza-TOWxATs/maxresdefault.jpg",
       "duration_seconds": 41,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "0:41",
       "badge_kind": ""
     },
@@ -1243,7 +1257,7 @@
       "thumbnail": "https://i.ytimg.com/vi/DlGm0928Cm0/maxresdefault.jpg",
       "duration_seconds": 62,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "1:02",
       "badge_kind": ""
     },
@@ -1721,20 +1735,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "32:13",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "V-NxdWIbvsc",
-      "title": "なぜGoogleの採用は進化し続けるのか／変化し続けられる人事こそが、最強の人事／効果的な採用の第一歩は「欲しい人材の定義」から（小川高子）NewSchool Lite",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-06-26T10:00:21Z",
-      "published_dt": "2026-06-26T10:00:21+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/V-NxdWIbvsc/maxresdefault.jpg",
-      "duration_seconds": 879,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "14:39",
       "badge_kind": ""
     },
     {
