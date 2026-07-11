@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-07-11T01:08:37+00:00",
+  "generated_at": "2026-07-11T04:28:02+00:00",
   "videos": [
+    {
+      "video_id": "kDwqS39H5sM",
+      "title": "野毛の夜は終わらない！？",
+      "channel_title": "堀江貴文 ホリエモン",
+      "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
+      "published_iso": "2026-07-11T03:00:24Z",
+      "published_dt": "2026-07-11T03:00:24+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/kDwqS39H5sM/maxresdefault.jpg",
+      "duration_seconds": 51,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "0:51",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "6LUEbul4q1g",
+      "title": "【悲報】AI時代、日本は全員が「下級国民」になります（アンソロピック/OpenAI/SpaceX/シリコンバレー/Claude/Fable5/GPT5.6/IPO/解説:森川潤）",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-07-11T03:00:02Z",
+      "published_dt": "2026-07-11T03:00:02+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/6LUEbul4q1g/maxresdefault.jpg",
+      "duration_seconds": 1360,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "22:40",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "x2ug9Zr5Djc",
+      "title": "【 熱血AI集団「燈」】若者が“仕事に熱狂”。カリスマ社長の思い #Z世代 #宗教 #働き方 #転職活動 #燈",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-07-11T02:00:01Z",
+      "published_dt": "2026-07-11T02:00:01+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/x2ug9Zr5Djc/maxresdefault.jpg",
+      "duration_seconds": 85,
+      "live_status": "",
+      "rel_time": "2時間前",
+      "duration_text": "1:25",
+      "badge_kind": ""
+    },
     {
       "video_id": "bgzes4EVGgc",
       "title": "今日の学長ライブ l 【超重要】ライフプランって何？誰もが知るべき基本について解説/AI自体で稼ぐよりも、日々の作業を楽にする運用が簡単【7/11 8:30まで】",
@@ -11,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bgzes4EVGgc/maxresdefault.jpg",
       "duration_seconds": 8240,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "4時間前",
       "duration_text": "2:17:20",
       "badge_kind": ""
     },
@@ -25,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/tchw3AmR1r8/maxresdefault.jpg",
       "duration_seconds": 524,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "6時間前",
       "duration_text": "8:44",
       "badge_kind": ""
     },
@@ -39,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Vy9BaT9C09I/maxresdefault.jpg",
       "duration_seconds": 2911,
       "live_status": "",
-      "rel_time": "8時間前",
+      "rel_time": "11時間前",
       "duration_text": "48:31",
       "badge_kind": ""
     },
@@ -53,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ibhq7lvyF3U/maxresdefault.jpg",
       "duration_seconds": 4552,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "14時間前",
       "duration_text": "1:15:52",
       "badge_kind": ""
     },
@@ -67,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pEiW865JEM0/maxresdefault.jpg",
       "duration_seconds": 2025,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "15時間前",
       "duration_text": "33:45",
       "badge_kind": ""
     },
@@ -81,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/SiFWmmp7-qc/maxresdefault.jpg",
       "duration_seconds": 51,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "16時間前",
       "duration_text": "0:51",
       "badge_kind": ""
     },
@@ -95,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/xshdWaeELGc/maxresdefault.jpg",
       "duration_seconds": 2304,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "16時間前",
       "duration_text": "38:24",
       "badge_kind": ""
     },
@@ -109,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/VptRZJMmr_E/maxresdefault.jpg",
       "duration_seconds": 702,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "17時間前",
       "duration_text": "11:42",
       "badge_kind": ""
     },
@@ -123,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ypdsuEZ-Jw8/maxresdefault.jpg",
       "duration_seconds": 1962,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "17時間前",
       "duration_text": "32:42",
       "badge_kind": ""
     },
@@ -137,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/R4K0AqssU9s/maxresdefault.jpg",
       "duration_seconds": 1989,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "17時間前",
       "duration_text": "33:09",
       "badge_kind": ""
     },
@@ -151,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/sbd5aK5dnQc/maxresdefault.jpg",
       "duration_seconds": 2246,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "18時間前",
       "duration_text": "37:26",
       "badge_kind": ""
     },
@@ -165,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zPaBm8yVFlM/maxresdefault.jpg",
       "duration_seconds": 983,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "18時間前",
       "duration_text": "16:23",
       "badge_kind": ""
     },
@@ -179,7 +221,7 @@
       "thumbnail": "https://i.ytimg.com/vi/KI9wMhXzgvI/maxresdefault.jpg",
       "duration_seconds": 1467,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "19時間前",
       "duration_text": "24:27",
       "badge_kind": ""
     },
@@ -193,7 +235,7 @@
       "thumbnail": "https://i.ytimg.com/vi/EC8QcOYaHmQ/maxresdefault.jpg",
       "duration_seconds": 61,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "19時間前",
       "duration_text": "1:01",
       "badge_kind": ""
     },
@@ -207,7 +249,7 @@
       "thumbnail": "https://i.ytimg.com/vi/29WUQwu_dcA/maxresdefault.jpg",
       "duration_seconds": 1051,
       "live_status": "",
-      "rel_time": "17時間前",
+      "rel_time": "21時間前",
       "duration_text": "17:31",
       "badge_kind": ""
     },
@@ -221,7 +263,7 @@
       "thumbnail": "https://i.ytimg.com/vi/dNzcGxzBdJQ/maxresdefault.jpg",
       "duration_seconds": 54,
       "live_status": "",
-      "rel_time": "22時間前",
+      "rel_time": "1日前",
       "duration_text": "0:54",
       "badge_kind": ""
     },
@@ -235,7 +277,7 @@
       "thumbnail": "https://i.ytimg.com/vi/vVpK8wJTkUY/maxresdefault.jpg",
       "duration_seconds": 78,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "1:18",
       "badge_kind": ""
     },
@@ -367,7 +409,7 @@
     },
     {
       "video_id": "H5QJ_CdEDSs",
-      "title": "【若手議員大集合SP】いま日本に必要な政策は？｜若手だからこそできること｜永田町のここが変！？『 #それどう - ホリエモンのそれってどうなの！？』2026年7月9日放送",
+      "title": "【若手議員大集合SP】いま日本に必要な政策は？｜若手だからこそできること｜議員に定年制度は必要？『 #それどう - ホリエモンのそれってどうなの！？』2026年7月9日放送",
       "channel_title": "堀江貴文 ホリエモン",
       "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
       "published_iso": "2026-07-09T08:54:44Z",
@@ -389,7 +431,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zUp1ia8ezB0/maxresdefault.jpg",
       "duration_seconds": 53,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "0:53",
       "badge_kind": ""
     },
@@ -403,7 +445,7 @@
       "thumbnail": "https://i.ytimg.com/vi/HGZOLujyzLo/maxresdefault.jpg",
       "duration_seconds": 55,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "0:55",
       "badge_kind": ""
     },
@@ -585,7 +627,7 @@
       "thumbnail": "https://i.ytimg.com/vi/UUQiJPjaEB8/maxresdefault.jpg",
       "duration_seconds": 351,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "5:51",
       "badge_kind": ""
     },
@@ -599,7 +641,7 @@
       "thumbnail": "https://i.ytimg.com/vi/hNn0Y1LdypE/maxresdefault.jpg",
       "duration_seconds": 3408,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "56:48",
       "badge_kind": ""
     },
@@ -613,7 +655,7 @@
       "thumbnail": "https://i.ytimg.com/vi/MK5z0QDPL0s/maxresdefault.jpg",
       "duration_seconds": 68,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "1:08",
       "badge_kind": ""
     },
@@ -781,7 +823,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Bmgt2LTVAak/maxresdefault.jpg",
       "duration_seconds": 56,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "0:56",
       "badge_kind": ""
     },
@@ -795,7 +837,7 @@
       "thumbnail": "https://i.ytimg.com/vi/BXOkOGpXaBA/maxresdefault.jpg",
       "duration_seconds": 72,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "1:12",
       "badge_kind": ""
     },
@@ -977,7 +1019,7 @@
       "thumbnail": "https://i.ytimg.com/vi/RRkaW5IJ6JE/maxresdefault.jpg",
       "duration_seconds": 61,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "1:01",
       "badge_kind": ""
     },
@@ -991,22 +1033,8 @@
       "thumbnail": "https://i.ytimg.com/vi/U6xVc8iGLDA/maxresdefault.jpg",
       "duration_seconds": 46,
       "live_status": "",
-      "rel_time": "4日前",
-      "duration_text": "0:46",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "vu0jj_tcD34",
-      "title": "今日の学長ライブ l リベ総会行ってきたよ/【破綻どころか】ワシらの年金、41兆円の爆益/【7/6 8:30まで】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-07-05T23:53:25Z",
-      "published_dt": "2026-07-05T23:53:25+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/vu0jj_tcD34/maxresdefault.jpg",
-      "duration_seconds": 7333,
-      "live_status": "",
       "rel_time": "5日前",
-      "duration_text": "2:02:13",
+      "duration_text": "0:46",
       "badge_kind": ""
     },
     {
@@ -1117,7 +1145,7 @@
       "thumbnail": "https://i.ytimg.com/vi/DWDNA2m_woI/maxresdefault.jpg",
       "duration_seconds": 52,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "0:52",
       "badge_kind": ""
     },
@@ -1131,7 +1159,7 @@
       "thumbnail": "https://i.ytimg.com/vi/27NPMhxlhPQ/maxresdefault.jpg",
       "duration_seconds": 63,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "1:03",
       "badge_kind": ""
     },
@@ -1243,7 +1271,7 @@
       "thumbnail": "https://i.ytimg.com/vi/EPtCjZYVIzY/maxresdefault.jpg",
       "duration_seconds": 1202,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "20:02",
       "badge_kind": ""
     },
@@ -1257,7 +1285,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_rGdc6zpLNc/maxresdefault.jpg",
       "duration_seconds": 52,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "0:52",
       "badge_kind": ""
     },
@@ -1271,7 +1299,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zNTuLrqG_rI/maxresdefault.jpg",
       "duration_seconds": 73,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "1:13",
       "badge_kind": ""
     },
@@ -1738,20 +1766,6 @@
       "badge_kind": ""
     },
     {
-      "video_id": "6V6TOKqIDZo",
-      "title": "【これからのキャリアの軸】「誰が言ったか」が大事な時代 #コンサル #若手 #新卒 #キャリア #AI",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-07-01T02:00:20Z",
-      "published_dt": "2026-07-01T02:00:20+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/6V6TOKqIDZo/maxresdefault.jpg",
-      "duration_seconds": 57,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "0:57",
-      "badge_kind": ""
-    },
-    {
       "video_id": "X32MuvSPnSg",
       "title": "【再放送】平均的な年収・家計支出でも、平均的な投資でお金持ちになれるのか？【お金の勉強 初級編】：（アニメ動画）第365回",
       "channel_title": "両学長 リベラルアーツ大学",
@@ -1763,20 +1777,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "15:30",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "L0wOdGLDI0k",
-      "title": "「プロンプト力より大事な力」AIにうまく頼めない人は仕事でも遅れる…AI時代に必要な“指示力”とコミュ力とは？【おざけん、大室正志、國本知里、西脇資哲】The UPDATE",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-06-30T13:00:17Z",
-      "published_dt": "2026-06-30T13:00:17+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/L0wOdGLDI0k/maxresdefault.jpg",
-      "duration_seconds": 3554,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "59:14",
       "badge_kind": ""
     },
     {
