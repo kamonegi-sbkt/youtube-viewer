@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-07-12T13:46:03+00:00",
+  "generated_at": "2026-07-12T14:55:40+00:00",
   "videos": [
     {
       "video_id": "JBFyywoiNH4",
       "title": "GPT-5.6 Solの所感 / まさかのGrok4.5が本命か / メリルでAI改革中",
       "channel_title": "ウェブ職TV / Nesheep",
       "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-07-12T12:50:28Z",
-      "published_dt": "2026-07-12T12:50:28+00:00",
+      "published_iso": "2026-07-12T14:42:38Z",
+      "published_dt": "2026-07-12T14:42:38+00:00",
       "thumbnail": "https://i.ytimg.com/vi/JBFyywoiNH4/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "55分前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
+      "duration_seconds": 6730,
+      "live_status": "",
+      "rel_time": "13分前",
+      "duration_text": "1:52:10",
+      "badge_kind": ""
     },
     {
       "video_id": "KlWZJgJf4Bo",
@@ -25,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/KlWZJgJf4Bo/maxresdefault.jpg",
       "duration_seconds": 64,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "2時間前",
       "duration_text": "1:04",
       "badge_kind": ""
     },
@@ -39,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/B1iXF0SdPaQ/maxresdefault.jpg",
       "duration_seconds": 2641,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "4時間前",
       "duration_text": "44:01",
       "badge_kind": ""
     },
@@ -53,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/HAOtPkFw1yM/maxresdefault.jpg",
       "duration_seconds": 1880,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "5時間前",
       "duration_text": "31:20",
       "badge_kind": ""
     },
@@ -67,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/s-FMk_zIn-o/maxresdefault.jpg",
       "duration_seconds": 80,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "5時間前",
       "duration_text": "1:20",
       "badge_kind": ""
     },
@@ -81,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/aHD3fFF2mkk/maxresdefault.jpg",
       "duration_seconds": 34,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "6時間前",
       "duration_text": "0:34",
       "badge_kind": ""
     },
@@ -95,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PMFnqHlrQMk/maxresdefault.jpg",
       "duration_seconds": 72,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "12時間前",
       "duration_text": "1:12",
       "badge_kind": ""
     },
@@ -109,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/H1WS9pr3CyY/maxresdefault.jpg",
       "duration_seconds": 8740,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "14時間前",
       "duration_text": "2:25:40",
       "badge_kind": ""
     },
@@ -123,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ZiOT8-T5-kY/maxresdefault.jpg",
       "duration_seconds": 373,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "16時間前",
       "duration_text": "6:13",
       "badge_kind": ""
     },
