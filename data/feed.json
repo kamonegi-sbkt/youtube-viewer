@@ -1,19 +1,47 @@
 {
-  "generated_at": "2026-07-13T11:37:30+00:00",
+  "generated_at": "2026-07-13T13:49:31+00:00",
   "videos": [
     {
       "video_id": "7ENq5OZ7ifI",
       "title": "【アベマ同時配信中】「『れいわ』無くなる？山本太郎が辞任＆名称変更」アベプラ｜7/13(月) 21:00〜",
       "channel_title": "ABEMA Prime",
       "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-07-13T11:31:31Z",
-      "published_dt": "2026-07-13T11:31:31+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/7ENq5OZ7ifI/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "5分前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
+      "published_iso": "2026-07-13T13:28:16Z",
+      "published_dt": "2026-07-13T13:28:16+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/7ENq5OZ7ifI/maxresdefault.jpg",
+      "duration_seconds": 6711,
+      "live_status": "",
+      "rel_time": "21分前",
+      "duration_text": "1:51:51",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "5rNjg7Dh6so",
+      "title": "「データ工場」が爆増中！物流DXの裏で始まる、日本スタートアップが仕掛ける新ビジネス（頼嘉満・田中年一）/ 電脈イースト",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-07-13T12:30:15Z",
+      "published_dt": "2026-07-13T12:30:15+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/5rNjg7Dh6so/maxresdefault.jpg",
+      "duration_seconds": 1091,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "18:11",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "q1TgEARtz44",
+      "title": "【山口周×深井龍之介】AI時代詰め込み教育は必要？  #山口周 #深井龍之介 #人文知 #教養 #哲学 #歴史 #リベラルアーツ #AI時代 #思考力 #ビジネス書 #知的生産 #学び #キャリア",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-07-13T12:00:36Z",
+      "published_dt": "2026-07-13T12:00:36+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/q1TgEARtz44/maxresdefault.jpg",
+      "duration_seconds": 69,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "1:09",
+      "badge_kind": ""
     },
     {
       "video_id": "K8H9fOSf20E",
@@ -25,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/K8H9fOSf20E/maxresdefault.jpg",
       "duration_seconds": 1177,
       "live_status": "",
-      "rel_time": "36分前",
+      "rel_time": "2時間前",
       "duration_text": "19:37",
       "badge_kind": ""
     },
@@ -39,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pnPWlrV_Gpk/maxresdefault.jpg",
       "duration_seconds": 1311,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "3時間前",
       "duration_text": "21:51",
       "badge_kind": ""
     },
@@ -53,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jFaeqaBzb4g/maxresdefault.jpg",
       "duration_seconds": 60,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "4時間前",
       "duration_text": "1:00",
       "badge_kind": ""
     },
@@ -67,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/5JlO0ZoyadY/maxresdefault.jpg",
       "duration_seconds": 51,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "5時間前",
       "duration_text": "0:51",
       "badge_kind": ""
     },
@@ -81,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/k_cTiY1Qnig/maxresdefault_live.jpg",
       "duration_seconds": 2533,
       "live_status": "",
-      "rel_time": "8時間前",
+      "rel_time": "10時間前",
       "duration_text": "42:13",
       "badge_kind": ""
     },
@@ -95,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/xYPsP7DEwL0/maxresdefault.jpg",
       "duration_seconds": 71,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "11時間前",
       "duration_text": "1:11",
       "badge_kind": ""
     },
@@ -109,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0rKu-0fTieY/maxresdefault.jpg",
       "duration_seconds": 7199,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "14時間前",
       "duration_text": "1:59:59",
       "badge_kind": ""
     },
@@ -123,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/V2QQfmqgGvs/maxresdefault_live.jpg",
       "duration_seconds": null,
       "live_status": "upcoming",
-      "rel_time": "11時間前",
+      "rel_time": "14時間前",
       "duration_text": "配信予定",
       "badge_kind": "upcoming"
     },
@@ -137,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kLkQ0c5ZwC8/maxresdefault.jpg",
       "duration_seconds": 588,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "15時間前",
       "duration_text": "9:48",
       "badge_kind": ""
     },
@@ -151,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JBFyywoiNH4/maxresdefault.jpg",
       "duration_seconds": 6734,
       "live_status": "",
-      "rel_time": "20時間前",
+      "rel_time": "22時間前",
       "duration_text": "1:52:14",
       "badge_kind": ""
     },
@@ -165,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/KlWZJgJf4Bo/maxresdefault.jpg",
       "duration_seconds": 64,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "1:04",
       "badge_kind": ""
     },
@@ -277,7 +305,7 @@
       "thumbnail": "https://i.ytimg.com/vi/H5QJ_CdEDSs/maxresdefault.jpg",
       "duration_seconds": 9970,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "2:46:10",
       "badge_kind": ""
     },
@@ -445,7 +473,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pEiW865JEM0/maxresdefault.jpg",
       "duration_seconds": 2025,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "33:45",
       "badge_kind": ""
     },
@@ -459,7 +487,7 @@
       "thumbnail": "https://i.ytimg.com/vi/SiFWmmp7-qc/maxresdefault.jpg",
       "duration_seconds": 51,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "0:51",
       "badge_kind": ""
     },
@@ -473,7 +501,7 @@
       "thumbnail": "https://i.ytimg.com/vi/xshdWaeELGc/maxresdefault.jpg",
       "duration_seconds": 2304,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "38:24",
       "badge_kind": ""
     },
@@ -655,7 +683,7 @@
       "thumbnail": "https://i.ytimg.com/vi/9iPbHO3KKu0/maxresdefault.jpg",
       "duration_seconds": 57,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "0:57",
       "badge_kind": ""
     },
@@ -823,7 +851,7 @@
       "thumbnail": "https://i.ytimg.com/vi/TjznDnqGC2g/maxresdefault.jpg",
       "duration_seconds": 68,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "1:08",
       "badge_kind": ""
     },
@@ -837,7 +865,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ZdyxWMOkQP0/maxresdefault.jpg",
       "duration_seconds": 954,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "15:54",
       "badge_kind": ""
     },
@@ -1005,7 +1033,7 @@
       "thumbnail": "https://i.ytimg.com/vi/klT-l15K3NY/maxresdefault.jpg",
       "duration_seconds": 68,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "1:08",
       "badge_kind": ""
     },
@@ -1201,7 +1229,7 @@
       "thumbnail": "https://i.ytimg.com/vi/W5ZfNgRGcsc/maxresdefault.jpg",
       "duration_seconds": 1815,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "30:15",
       "badge_kind": ""
     },
@@ -1215,7 +1243,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ISC0khVUu20/maxresdefault.jpg",
       "duration_seconds": 62,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "1:02",
       "badge_kind": ""
     },
@@ -1229,7 +1257,7 @@
       "thumbnail": "https://i.ytimg.com/vi/mnuRsHgWE48/maxresdefault.jpg",
       "duration_seconds": 1032,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "17:12",
       "badge_kind": ""
     },
@@ -1668,20 +1696,6 @@
       "badge_kind": ""
     },
     {
-      "video_id": "bjZDpM8qokA",
-      "title": "「キオクシア・ショックの今後は？」無駄な為替介入…超円安時代に注目すべき日本株、エンタメ銘柄大予測【申真衣×イェスパー・コール】Market Jam",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-07-03T12:00:14Z",
-      "published_dt": "2026-07-03T12:00:14+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/bjZDpM8qokA/maxresdefault.jpg",
-      "duration_seconds": 978,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "16:18",
-      "badge_kind": ""
-    },
-    {
       "video_id": "QigFs4VYWUM",
       "title": "【気候変動】温暖化ってホントに人間のせい？懐疑派と議論｜アベプラ",
       "channel_title": "ABEMA Prime",
@@ -1735,20 +1749,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "8:55",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "XoC14nLYQ3E",
-      "title": "【子供の非行】親の「よかれ」が原因になる？#子育て #教育 #子育ての悩み #犯罪心理学 #親子関係 #学歴 #中室牧子 #出口保行 #吉村崇 #NewsPicks #offreco",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-07-03T09:00:12Z",
-      "published_dt": "2026-07-03T09:00:12+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/XoC14nLYQ3E/maxresdefault.jpg",
-      "duration_seconds": 43,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "0:43",
       "badge_kind": ""
     },
     {
