@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-07-12T23:25:50+00:00",
+  "generated_at": "2026-07-13T01:04:14+00:00",
   "videos": [
+    {
+      "video_id": "0rKu-0fTieY",
+      "title": "今日の学長ライブ l 83歳で月20万円稼ぐシニア営業マン/ホンダがAIを活用した社員に最大月15万円の手当/ 1件8万円、オバケ調査員【7/13 8:30まで】",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-07-12T23:47:51Z",
+      "published_dt": "2026-07-12T23:47:51+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/0rKu-0fTieY/maxresdefault.jpg",
+      "duration_seconds": 7199,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "1:59:59",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "V2QQfmqgGvs",
+      "title": "今日の学長ライブ l 83歳で月20万円稼ぐシニア営業マン/ホンダがAIを活用した社員に最大月15万円の手当/ 1件8万円、オバケ調査員【7/13 8:30まで】",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-07-12T23:44:53Z",
+      "published_dt": "2026-07-12T23:44:53+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/V2QQfmqgGvs/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "upcoming",
+      "rel_time": "1時間前",
+      "duration_text": "配信予定",
+      "badge_kind": "upcoming"
+    },
     {
       "video_id": "kLkQ0c5ZwC8",
       "title": "【家計管理の決定版】「私、結局毎月いくら使っていいの？」あなたの生活費、最適解の見つけ方【リベ大公式切り抜き】",
@@ -11,23 +39,9 @@
       "thumbnail": "https://i.ytimg.com/vi/kLkQ0c5ZwC8/maxresdefault.jpg",
       "duration_seconds": 588,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "3時間前",
       "duration_text": "9:48",
       "badge_kind": ""
-    },
-    {
-      "video_id": "0rKu-0fTieY",
-      "title": "今日の学長ライブ l 83歳で月20万円稼ぐシニア営業マン/ホンダがAIを活用した社員に最大月15万円の手当/ 1件8万円、オバケ調査員【7/13 8:30まで】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-07-12T21:41:23Z",
-      "published_dt": "2026-07-12T21:41:23+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/0rKu-0fTieY/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "1時間前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
     },
     {
       "video_id": "JBFyywoiNH4",
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JBFyywoiNH4/maxresdefault.jpg",
       "duration_seconds": 6734,
       "live_status": "",
-      "rel_time": "8時間前",
+      "rel_time": "9時間前",
       "duration_text": "1:52:14",
       "badge_kind": ""
     },
@@ -53,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/KlWZJgJf4Bo/maxresdefault.jpg",
       "duration_seconds": 64,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "13時間前",
       "duration_text": "1:04",
       "badge_kind": ""
     },
@@ -67,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/B1iXF0SdPaQ/maxresdefault.jpg",
       "duration_seconds": 2641,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "15時間前",
       "duration_text": "44:01",
       "badge_kind": ""
     },
@@ -81,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/HAOtPkFw1yM/maxresdefault.jpg",
       "duration_seconds": 1880,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "15時間前",
       "duration_text": "31:20",
       "badge_kind": ""
     },
@@ -95,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/s-FMk_zIn-o/maxresdefault.jpg",
       "duration_seconds": 80,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "16時間前",
       "duration_text": "1:20",
       "badge_kind": ""
     },
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/aHD3fFF2mkk/maxresdefault.jpg",
       "duration_seconds": 34,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "17時間前",
       "duration_text": "0:34",
       "badge_kind": ""
     },
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PMFnqHlrQMk/maxresdefault.jpg",
       "duration_seconds": 72,
       "live_status": "",
-      "rel_time": "21時間前",
+      "rel_time": "23時間前",
       "duration_text": "1:12",
       "badge_kind": ""
     },
@@ -137,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/H1WS9pr3CyY/maxresdefault.jpg",
       "duration_seconds": 8740,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "2:25:40",
       "badge_kind": ""
     },
@@ -291,7 +305,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bgzes4EVGgc/maxresdefault.jpg",
       "duration_seconds": 8240,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "2:17:20",
       "badge_kind": ""
     },
@@ -515,7 +529,7 @@
       "thumbnail": "https://i.ytimg.com/vi/fi_iQ6gPSeU/maxresdefault.jpg",
       "duration_seconds": 7670,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "2:07:50",
       "badge_kind": ""
     },
@@ -669,7 +683,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Z9Z57kX3sas/maxresdefault.jpg",
       "duration_seconds": 7111,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "1:58:31",
       "badge_kind": ""
     },
@@ -879,7 +893,7 @@
       "thumbnail": "https://i.ytimg.com/vi/q7IMlUsrF4Q/maxresdefault.jpg",
       "duration_seconds": 6654,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "1:50:54",
       "badge_kind": ""
     },
@@ -2081,20 +2095,6 @@
       "published_iso": "2026-06-29T08:30:20Z",
       "published_dt": "2026-06-29T08:30:20+00:00",
       "thumbnail": "https://i.ytimg.com/vi/ciGbOAIoZes/maxresdefault.jpg",
-      "duration_seconds": 41,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "0:41",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "qza-TOWxATs",
-      "title": "#WAGYUMAFIA の塩がスゴすぎる！？ECでも販売中",
-      "channel_title": "堀江貴文 ホリエモン",
-      "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
-      "published_iso": "2026-06-29T04:32:17Z",
-      "published_dt": "2026-06-29T04:32:17+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/qza-TOWxATs/maxresdefault.jpg",
       "duration_seconds": 41,
       "live_status": "",
       "rel_time": "1週間前",
