@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-07-13T13:49:31+00:00",
+  "generated_at": "2026-07-13T16:32:27+00:00",
   "videos": [
+    {
+      "video_id": "k_cTiY1Qnig",
+      "title": "会社の中でAIをどう活用するのか / おもしろいAI動画を教えてほしい / 博多ホテル配信",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-07-13T15:13:02Z",
+      "published_dt": "2026-07-13T15:13:02+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/k_cTiY1Qnig/maxresdefault.jpg",
+      "duration_seconds": 2539,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "42:19",
+      "badge_kind": ""
+    },
     {
       "video_id": "7ENq5OZ7ifI",
       "title": "【アベマ同時配信中】「『れいわ』無くなる？山本太郎が辞任＆名称変更」アベプラ｜7/13(月) 21:00〜",
@@ -9,15 +23,15 @@
       "published_iso": "2026-07-13T13:28:16Z",
       "published_dt": "2026-07-13T13:28:16+00:00",
       "thumbnail": "https://i.ytimg.com/vi/7ENq5OZ7ifI/maxresdefault.jpg",
-      "duration_seconds": 6711,
+      "duration_seconds": 4410,
       "live_status": "",
-      "rel_time": "21分前",
-      "duration_text": "1:51:51",
+      "rel_time": "3時間前",
+      "duration_text": "1:13:30",
       "badge_kind": ""
     },
     {
       "video_id": "5rNjg7Dh6so",
-      "title": "「データ工場」が爆増中！物流DXの裏で始まる、日本スタートアップが仕掛ける新ビジネス（頼嘉満・田中年一）/ 電脈イースト",
+      "title": "Amazonも実践する「物流AI」 3ヶ月で1万台出荷の衝撃…物流現場の完全自動化で「最後まで残る仕事」は？（頼嘉満・田中年一）/ 電脈イースト",
       "channel_title": "NewsPicks /ニューズピックス",
       "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
       "published_iso": "2026-07-13T12:30:15Z",
@@ -25,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/5rNjg7Dh6so/maxresdefault.jpg",
       "duration_seconds": 1091,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "4時間前",
       "duration_text": "18:11",
       "badge_kind": ""
     },
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/q1TgEARtz44/maxresdefault.jpg",
       "duration_seconds": 69,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "4時間前",
       "duration_text": "1:09",
       "badge_kind": ""
     },
@@ -53,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/K8H9fOSf20E/maxresdefault.jpg",
       "duration_seconds": 1177,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "5時間前",
       "duration_text": "19:37",
       "badge_kind": ""
     },
@@ -67,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pnPWlrV_Gpk/maxresdefault.jpg",
       "duration_seconds": 1311,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "6時間前",
       "duration_text": "21:51",
       "badge_kind": ""
     },
@@ -81,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jFaeqaBzb4g/maxresdefault.jpg",
       "duration_seconds": 60,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "7時間前",
       "duration_text": "1:00",
       "badge_kind": ""
     },
@@ -95,22 +109,8 @@
       "thumbnail": "https://i.ytimg.com/vi/5JlO0ZoyadY/maxresdefault.jpg",
       "duration_seconds": 51,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "8時間前",
       "duration_text": "0:51",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "k_cTiY1Qnig",
-      "title": "会社の中でAIをどう活用するのか / おもしろいAI動画を教えてほしい / 博多ホテル配信",
-      "channel_title": "ウェブ職TV / Nesheep",
-      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-07-13T02:53:47Z",
-      "published_dt": "2026-07-13T02:53:47+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/k_cTiY1Qnig/maxresdefault_live.jpg",
-      "duration_seconds": 2533,
-      "live_status": "",
-      "rel_time": "10時間前",
-      "duration_text": "42:13",
       "badge_kind": ""
     },
     {
@@ -123,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/xYPsP7DEwL0/maxresdefault.jpg",
       "duration_seconds": 71,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "14時間前",
       "duration_text": "1:11",
       "badge_kind": ""
     },
@@ -137,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0rKu-0fTieY/maxresdefault.jpg",
       "duration_seconds": 7199,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "16時間前",
       "duration_text": "1:59:59",
       "badge_kind": ""
     },
@@ -151,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/V2QQfmqgGvs/maxresdefault_live.jpg",
       "duration_seconds": null,
       "live_status": "upcoming",
-      "rel_time": "14時間前",
+      "rel_time": "16時間前",
       "duration_text": "配信予定",
       "badge_kind": "upcoming"
     },
@@ -165,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kLkQ0c5ZwC8/maxresdefault.jpg",
       "duration_seconds": 588,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "18時間前",
       "duration_text": "9:48",
       "badge_kind": ""
     },
@@ -179,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JBFyywoiNH4/maxresdefault.jpg",
       "duration_seconds": 6734,
       "live_status": "",
-      "rel_time": "22時間前",
+      "rel_time": "1日前",
       "duration_text": "1:52:14",
       "badge_kind": ""
     },
