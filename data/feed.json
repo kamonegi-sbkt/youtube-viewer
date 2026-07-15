@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-07-15T03:38:20+00:00",
+  "generated_at": "2026-07-15T05:59:05+00:00",
   "videos": [
+    {
+      "video_id": "_fUjNuciJGg",
+      "title": "Claude Code夏合宿を開催します！8月21〜23日",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-07-15T04:37:03Z",
+      "published_dt": "2026-07-15T04:37:03+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/_fUjNuciJGg/maxresdefault.jpg",
+      "duration_seconds": 5430,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "1:30:30",
+      "badge_kind": ""
+    },
     {
       "video_id": "Y-ONhEzJf-U",
       "title": "自分で育てるAIアシスタント #mulmoclaude",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Y-ONhEzJf-U/maxresdefault.jpg",
       "duration_seconds": 499,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "3時間前",
       "duration_text": "8:19",
       "badge_kind": ""
     },
@@ -25,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4bC52CXmoao/maxresdefault.jpg",
       "duration_seconds": 60,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "3時間前",
       "duration_text": "1:00",
       "badge_kind": ""
     },
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JbB5seZawa4/maxresdefault.jpg",
       "duration_seconds": 7626,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "6時間前",
       "duration_text": "2:07:06",
       "badge_kind": ""
     },
@@ -53,22 +67,8 @@
       "thumbnail": "https://i.ytimg.com/vi/KhT3ru48Chs/maxresdefault.jpg",
       "duration_seconds": 2107,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "7時間前",
       "duration_text": "35:07",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "_fUjNuciJGg",
-      "title": "Claude Code夏合宿を開催します！8月21〜23日",
-      "channel_title": "ウェブ職TV / Nesheep",
-      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-07-14T16:12:59Z",
-      "published_dt": "2026-07-14T16:12:59+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/_fUjNuciJGg/maxresdefault_live.jpg",
-      "duration_seconds": 5425,
-      "live_status": "",
-      "rel_time": "11時間前",
-      "duration_text": "1:30:25",
       "badge_kind": ""
     },
     {
@@ -81,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PjlIVqEzVl4/maxresdefault.jpg",
       "duration_seconds": 4213,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "16時間前",
       "duration_text": "1:10:13",
       "badge_kind": ""
     },
@@ -95,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qV9lvUTGPxg/maxresdefault.jpg",
       "duration_seconds": 83,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "17時間前",
       "duration_text": "1:23",
       "badge_kind": ""
     },
@@ -109,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Bs9jnFJlfLc/maxresdefault.jpg",
       "duration_seconds": 1007,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "17時間前",
       "duration_text": "16:47",
       "badge_kind": ""
     },
@@ -123,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/SvG9_P-fpJE/maxresdefault.jpg",
       "duration_seconds": 1875,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "18時間前",
       "duration_text": "31:15",
       "badge_kind": ""
     },
@@ -137,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/nIXIPD_CVpg/maxresdefault.jpg",
       "duration_seconds": 1459,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "18時間前",
       "duration_text": "24:19",
       "badge_kind": ""
     },
@@ -151,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_vH9y9772Ec/maxresdefault.jpg",
       "duration_seconds": 1679,
       "live_status": "",
-      "rel_time": "17時間前",
+      "rel_time": "19時間前",
       "duration_text": "27:59",
       "badge_kind": ""
     },
@@ -165,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Owc3YIlY72Q/maxresdefault.jpg",
       "duration_seconds": 1624,
       "live_status": "",
-      "rel_time": "17時間前",
+      "rel_time": "19時間前",
       "duration_text": "27:04",
       "badge_kind": ""
     },
@@ -179,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pNfH2p0ViKE/maxresdefault.jpg",
       "duration_seconds": 965,
       "live_status": "",
-      "rel_time": "17時間前",
+      "rel_time": "19時間前",
       "duration_text": "16:05",
       "badge_kind": ""
     },
@@ -193,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rpp9dbqdwRc/maxresdefault.jpg",
       "duration_seconds": 2604,
       "live_status": "",
-      "rel_time": "17時間前",
+      "rel_time": "19時間前",
       "duration_text": "43:24",
       "badge_kind": ""
     },
@@ -207,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ETfgEwqEFwc/maxresdefault.jpg",
       "duration_seconds": 58,
       "live_status": "",
-      "rel_time": "18時間前",
+      "rel_time": "20時間前",
       "duration_text": "0:58",
       "badge_kind": ""
     },
@@ -221,7 +221,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lv9ZOoNdWMg/maxresdefault.jpg",
       "duration_seconds": 26,
       "live_status": "",
-      "rel_time": "19時間前",
+      "rel_time": "21時間前",
       "duration_text": "0:26",
       "badge_kind": ""
     },
@@ -912,20 +912,6 @@
       "badge_kind": ""
     },
     {
-      "video_id": "fi_iQ6gPSeU",
-      "title": "今日の学長ライブ l ChatGPT5.6到来/悲報？d NEOBANKがドコモの銀行に/サーバー投資で250億円未払い【7/10 8:30まで】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-07-09T23:51:25Z",
-      "published_dt": "2026-07-09T23:51:25+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/fi_iQ6gPSeU/maxresdefault.jpg",
-      "duration_seconds": 7670,
-      "live_status": "",
-      "rel_time": "5日前",
-      "duration_text": "2:07:50",
-      "badge_kind": ""
-    },
-    {
       "video_id": "kQrlPYXdRwg",
       "title": "【再放送】【車の見直し】車の選び方とリセールバリュー【お金の勉強 初級編】：（アニメ動画）第456回",
       "channel_title": "両学長 リベラルアーツ大学",
@@ -1229,7 +1215,7 @@
       "thumbnail": "https://i.ytimg.com/vi/UUQiJPjaEB8/maxresdefault.jpg",
       "duration_seconds": 351,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "5:51",
       "badge_kind": ""
     },
@@ -2099,6 +2085,20 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "15:30",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "F0ZWpeuV94Y",
+      "title": "【ホスト入国拒否】売春目的を疑われ…あらゆる場面での「夜職だからダメ」は職業差別？｜アベプラ",
+      "channel_title": "ABEMA Prime",
+      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
+      "published_iso": "2026-06-30T11:30:18Z",
+      "published_dt": "2026-06-30T11:30:18+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/F0ZWpeuV94Y/maxresdefault.jpg",
+      "duration_seconds": 1889,
+      "live_status": "",
+      "rel_time": "2週間前",
+      "duration_text": "31:29",
       "badge_kind": ""
     }
   ]
