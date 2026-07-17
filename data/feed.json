@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-07-17T14:02:48+00:00",
+  "generated_at": "2026-07-17T15:39:42+00:00",
   "videos": [
+    {
+      "video_id": "nrVOuLHciJk",
+      "title": "Claude Code夏合宿まだまだ募集中！ / ITリテラシーを高めよう。",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-07-17T14:27:16Z",
+      "published_dt": "2026-07-17T14:27:16+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/nrVOuLHciJk/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "live",
+      "rel_time": "1時間前",
+      "duration_text": "LIVE",
+      "badge_kind": "live"
+    },
     {
       "video_id": "tDM27nrJqGE",
       "title": "【アベマ同時配信中】「国会が延長戦へ！高市政権は調整ベタ説？」アベプラ｜7/17(金) 21:00〜",
@@ -9,15 +23,15 @@
       "published_iso": "2026-07-17T13:31:16Z",
       "published_dt": "2026-07-17T13:31:16+00:00",
       "thumbnail": "https://i.ytimg.com/vi/tDM27nrJqGE/maxresdefault.jpg",
-      "duration_seconds": 6946,
+      "duration_seconds": 4629,
       "live_status": "",
-      "rel_time": "31分前",
-      "duration_text": "1:55:46",
+      "rel_time": "2時間前",
+      "duration_text": "1:17:09",
       "badge_kind": ""
     },
     {
       "video_id": "YVcxuxxUvqQ",
-      "title": "ひろゆき「電通が絶対やらない」／60日で年収2,000万円／沖縄の軍用地投資 最低300万？／初期投資ゼロ専門スキルゼロ（西村博之・斎藤幸平・ベテランち・高橋勅徳・たまごあゆみ） #路地裏インデックス",
+      "title": "ひろゆき「電通が絶対やらない」／60日で年収2,000万円／沖縄の軍用地投資 最低300万〜／初期投資ゼロ専門スキルゼロ（西村博之・斎藤幸平・ベテランち・高橋勅徳・たまごあゆみ） #路地裏インデックス",
       "channel_title": "NewsPicks /ニューズピックス",
       "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
       "published_iso": "2026-07-17T13:00:27Z",
@@ -25,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/YVcxuxxUvqQ/maxresdefault.jpg",
       "duration_seconds": 1575,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "2時間前",
       "duration_text": "26:15",
       "badge_kind": ""
     },
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/nfyadEQw2g4/maxresdefault.jpg",
       "duration_seconds": 1222,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "4時間前",
       "duration_text": "20:22",
       "badge_kind": ""
     },
@@ -53,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/5dD1P7a_mUY/maxresdefault.jpg",
       "duration_seconds": 1647,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "4時間前",
       "duration_text": "27:27",
       "badge_kind": ""
     },
@@ -67,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jq5_eYDWSVg/maxresdefault.jpg",
       "duration_seconds": 1220,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "4時間前",
       "duration_text": "20:20",
       "badge_kind": ""
     },
@@ -81,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_99Vt05rMdQ/maxresdefault.jpg",
       "duration_seconds": 1790,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "4時間前",
       "duration_text": "29:50",
       "badge_kind": ""
     },
@@ -95,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/MfywB4Qgh_w/maxresdefault.jpg",
       "duration_seconds": 31,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "4時間前",
       "duration_text": "0:31",
       "badge_kind": ""
     },
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pgEM526cfwI/maxresdefault.jpg",
       "duration_seconds": 1262,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "4時間前",
       "duration_text": "21:02",
       "badge_kind": ""
     },
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/cmsEtibb3rQ/maxresdefault.jpg",
       "duration_seconds": 2101,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "5時間前",
       "duration_text": "35:01",
       "badge_kind": ""
     },
@@ -137,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/eUduHeVuOoI/maxresdefault.jpg",
       "duration_seconds": 2100,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "5時間前",
       "duration_text": "35:00",
       "badge_kind": ""
     },
@@ -151,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/s_JvOzwhlIw/maxresdefault.jpg",
       "duration_seconds": 62,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "6時間前",
       "duration_text": "1:02",
       "badge_kind": ""
     },
@@ -165,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/CBk3uLJVuXY/maxresdefault.jpg",
       "duration_seconds": 52,
       "live_status": "",
-      "rel_time": "6時間前",
+      "rel_time": "7時間前",
       "duration_text": "0:52",
       "badge_kind": ""
     },
@@ -179,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/22Ph66v1vwg/maxresdefault.jpg",
       "duration_seconds": 73,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "13時間前",
       "duration_text": "1:13",
       "badge_kind": ""
     },
@@ -193,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/VCc_L89jaug/maxresdefault.jpg",
       "duration_seconds": 7011,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "15時間前",
       "duration_text": "1:56:51",
       "badge_kind": ""
     },
@@ -207,7 +221,7 @@
       "thumbnail": "https://i.ytimg.com/vi/oBK_UwYDyZc/maxresdefault.jpg",
       "duration_seconds": 1528,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "17時間前",
       "duration_text": "25:28",
       "badge_kind": ""
     },
@@ -221,7 +235,7 @@
       "thumbnail": "https://i.ytimg.com/vi/wyeOW5FaVMo/maxresdefault.jpg",
       "duration_seconds": 1475,
       "live_status": "",
-      "rel_time": "22時間前",
+      "rel_time": "1日前",
       "duration_text": "24:35",
       "badge_kind": ""
     },
@@ -837,7 +851,7 @@
       "thumbnail": "https://i.ytimg.com/vi/k_cTiY1Qnig/maxresdefault.jpg",
       "duration_seconds": 2539,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "42:19",
       "badge_kind": ""
     },
@@ -977,7 +991,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JBFyywoiNH4/maxresdefault.jpg",
       "duration_seconds": 6734,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "1:52:14",
       "badge_kind": ""
     },
@@ -2085,20 +2099,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "6:29",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "mtEpPHSBPuo",
-      "title": "2026年以降はループエンジニアリング時代！ / プロンプトエンジニアリングは過去のもの / Claude Code&Codexを自由自在に動かせる人が勝ち！",
-      "channel_title": "ウェブ職TV / Nesheep",
-      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-07-03T14:53:12Z",
-      "published_dt": "2026-07-03T14:53:12+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/mtEpPHSBPuo/maxresdefault.jpg",
-      "duration_seconds": 1822,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "30:22",
       "badge_kind": ""
     }
   ]
