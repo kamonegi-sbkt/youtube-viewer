@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-07-18T15:56:23+00:00",
+  "generated_at": "2026-07-18T16:59:36+00:00",
   "videos": [
     {
       "video_id": "ENove3izyJM",
       "title": "Kimi K3フィーバー！ / Fable5がサブスク利用継続可能に！",
       "channel_title": "ウェブ職TV / Nesheep",
       "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-07-18T14:59:32Z",
-      "published_dt": "2026-07-18T14:59:32+00:00",
+      "published_iso": "2026-07-18T16:05:41Z",
+      "published_dt": "2026-07-18T16:05:41+00:00",
       "thumbnail": "https://i.ytimg.com/vi/ENove3izyJM/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "56分前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
+      "duration_seconds": 3969,
+      "live_status": "",
+      "rel_time": "53分前",
+      "duration_text": "1:06:09",
+      "badge_kind": ""
     },
     {
       "video_id": "ibwnfs7Y-xQ",
@@ -25,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ibwnfs7Y-xQ/maxresdefault.jpg",
       "duration_seconds": 927,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "4時間前",
       "duration_text": "15:27",
       "badge_kind": ""
     },
@@ -39,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/h1iRF73wvsg/maxresdefault.jpg",
       "duration_seconds": 983,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "6時間前",
       "duration_text": "16:23",
       "badge_kind": ""
     },
@@ -53,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3ETI3yQg6Pk/maxresdefault.jpg",
       "duration_seconds": 2006,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "6時間前",
       "duration_text": "33:26",
       "badge_kind": ""
     },
@@ -67,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/50ibpxxE4rw/maxresdefault.jpg",
       "duration_seconds": 2088,
       "live_status": "",
-      "rel_time": "6時間前",
+      "rel_time": "7時間前",
       "duration_text": "34:48",
       "badge_kind": ""
     },
@@ -81,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jAiyCqCKE4A/maxresdefault.jpg",
       "duration_seconds": 59,
       "live_status": "",
-      "rel_time": "6時間前",
+      "rel_time": "7時間前",
       "duration_text": "0:59",
       "badge_kind": ""
     },
@@ -95,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/a2lxMy540fE/maxresdefault.jpg",
       "duration_seconds": 24,
       "live_status": "",
-      "rel_time": "7時間前",
+      "rel_time": "8時間前",
       "duration_text": "0:24",
       "badge_kind": ""
     },
@@ -109,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/nrVOuLHciJk/maxresdefault.jpg",
       "duration_seconds": 4755,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "12時間前",
       "duration_text": "1:19:15",
       "badge_kind": ""
     },
@@ -123,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/YBBd9VIiAVA/maxresdefault.jpg",
       "duration_seconds": 52,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "14時間前",
       "duration_text": "0:52",
       "badge_kind": ""
     },
@@ -137,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/DTJJkInNRSE/maxresdefault.jpg",
       "duration_seconds": 8218,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "16時間前",
       "duration_text": "2:16:58",
       "badge_kind": ""
     },
@@ -151,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Bf7vZkeKcwk/maxresdefault.jpg",
       "duration_seconds": 512,
       "live_status": "",
-      "rel_time": "17時間前",
+      "rel_time": "18時間前",
       "duration_text": "8:32",
       "badge_kind": ""
     },
