@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-07-20T12:05:05+00:00",
+  "generated_at": "2026-07-20T14:33:08+00:00",
   "videos": [
+    {
+      "video_id": "obbHdOOhUjw",
+      "title": "【動画生成AI】YouTube外注をやめて月60万削減！Google×Claudeで作る最新コンテンツ戦略（頼嘉満・茶圓将裕）/ 電脈イースト",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-07-20T12:30:24Z",
+      "published_dt": "2026-07-20T12:30:24+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/obbHdOOhUjw/maxresdefault.jpg",
+      "duration_seconds": 1312,
+      "live_status": "",
+      "rel_time": "2時間前",
+      "duration_text": "21:52",
+      "badge_kind": ""
+    },
     {
       "video_id": "drzKneLbcRk",
       "title": "【ひろゆき】マンジャロ販売どうすべき？　#副業 #AI副業 #お金の増やし方 #不労収入 #ひろゆき #斎藤幸平 #NewsPicks #路地裏インデックス #ビジネス #経済",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/drzKneLbcRk/maxresdefault.jpg",
       "duration_seconds": 78,
       "live_status": "",
-      "rel_time": "4分前",
+      "rel_time": "2時間前",
       "duration_text": "1:18",
       "badge_kind": ""
     },
@@ -25,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/HSZsNqdaJUQ/maxresdefault.jpg",
       "duration_seconds": 1069,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "3時間前",
       "duration_text": "17:49",
       "badge_kind": ""
     },
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QFvlBxpveH4/maxresdefault.jpg",
       "duration_seconds": 907,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "4時間前",
       "duration_text": "15:07",
       "badge_kind": ""
     },
@@ -53,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/L5tvx5RMYq4/maxresdefault.jpg",
       "duration_seconds": 2577,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "4時間前",
       "duration_text": "42:57",
       "badge_kind": ""
     },
@@ -67,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/N5uHa2MZex4/maxresdefault.jpg",
       "duration_seconds": 59,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "5時間前",
       "duration_text": "0:59",
       "badge_kind": ""
     },
@@ -81,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/F2_fqa0AHVY/maxresdefault.jpg",
       "duration_seconds": 54,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "6時間前",
       "duration_text": "0:54",
       "badge_kind": ""
     },
@@ -95,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/T3IVF2hPw94/maxresdefault.jpg",
       "duration_seconds": 8157,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "7時間前",
       "duration_text": "2:15:57",
       "badge_kind": ""
     },
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rrcVuYFifBw/maxresdefault.jpg",
       "duration_seconds": 57,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "12時間前",
       "duration_text": "0:57",
       "badge_kind": ""
     },
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/debwDlc3Jq8/maxresdefault.jpg",
       "duration_seconds": 7118,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "14時間前",
       "duration_text": "1:58:38",
       "badge_kind": ""
     },
@@ -137,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ef7Y9vE0XJc/maxresdefault.jpg",
       "duration_seconds": 1001,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "16時間前",
       "duration_text": "16:41",
       "badge_kind": ""
     },
@@ -151,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/TsyctCshIC0/maxresdefault.jpg",
       "duration_seconds": 1189,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "16時間前",
       "duration_text": "19:49",
       "badge_kind": ""
     },
@@ -165,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/I0Xs_Wa2_MQ/maxresdefault.jpg",
       "duration_seconds": 8656,
       "live_status": "",
-      "rel_time": "20時間前",
+      "rel_time": "22時間前",
       "duration_text": "2:24:16",
       "badge_kind": ""
     },
@@ -459,7 +473,7 @@
       "thumbnail": "https://i.ytimg.com/vi/YVcxuxxUvqQ/maxresdefault.jpg",
       "duration_seconds": 1575,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "26:15",
       "badge_kind": ""
     },
@@ -879,7 +893,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rgmhfrb-Q10/maxresdefault.jpg",
       "duration_seconds": 1194,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "19:54",
       "badge_kind": ""
     },
@@ -1257,7 +1271,7 @@
       "thumbnail": "https://i.ytimg.com/vi/5rNjg7Dh6so/maxresdefault.jpg",
       "duration_seconds": 1091,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "18:11",
       "badge_kind": ""
     },
@@ -1637,20 +1651,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "33:45",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "SiFWmmp7-qc",
-      "title": "【ひろゆき】Xの収益額にネット騒然　#副業 #AI副業 #お金の増やし方 #不労収入 #ひろゆき #斎藤幸平 #NewsPicks #路地裏インデックス #ビジネス #経済",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-07-10T12:00:21Z",
-      "published_dt": "2026-07-10T12:00:21+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/SiFWmmp7-qc/maxresdefault.jpg",
-      "duration_seconds": 51,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "0:51",
       "badge_kind": ""
     },
     {
@@ -2069,7 +2069,7 @@
       "thumbnail": "https://i.ytimg.com/vi/W5ZfNgRGcsc/maxresdefault.jpg",
       "duration_seconds": 1815,
       "live_status": "",
-      "rel_time": "1週間前",
+      "rel_time": "2週間前",
       "duration_text": "30:15",
       "badge_kind": ""
     },
