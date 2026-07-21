@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-07-21T20:18:20+00:00",
+  "generated_at": "2026-07-21T21:38:57+00:00",
   "videos": [
+    {
+      "video_id": "Y25odi5QmU4",
+      "title": "今日の学長ライブ l ドル円が163円台に。インデックス投資は続けるべき？/住宅ローンの繰り上げ返済はやってはいけない？【7/22 8:30まで】",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-07-21T21:31:12Z",
+      "published_dt": "2026-07-21T21:31:12+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/Y25odi5QmU4/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "upcoming",
+      "rel_time": "7分前",
+      "duration_text": "配信予定",
+      "badge_kind": "upcoming"
+    },
     {
       "video_id": "EIlHFMoDzx0",
       "title": "AIが見つけた、想像より何倍も身近で衝撃的な反例【AI×数学研究の最前線】",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/EIlHFMoDzx0/maxresdefault.jpg",
       "duration_seconds": 1203,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "6時間前",
       "duration_text": "20:03",
       "badge_kind": ""
     },
@@ -25,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/8yYyzR4dJD0/maxresdefault.jpg",
       "duration_seconds": 69,
       "live_status": "",
-      "rel_time": "8時間前",
+      "rel_time": "9時間前",
       "duration_text": "1:09",
       "badge_kind": ""
     },
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PfL14BdEP1s/maxresdefault.jpg",
       "duration_seconds": 1286,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "10時間前",
       "duration_text": "21:26",
       "badge_kind": ""
     },
@@ -53,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/YUC6TJUp-1c/maxresdefault.jpg",
       "duration_seconds": 971,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "11時間前",
       "duration_text": "16:11",
       "badge_kind": ""
     },
@@ -67,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/WgjbvyrADME/maxresdefault.jpg",
       "duration_seconds": 846,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "11時間前",
       "duration_text": "14:06",
       "badge_kind": ""
     },
@@ -81,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/WfNxU2kbUR0/maxresdefault.jpg",
       "duration_seconds": 26,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "13時間前",
       "duration_text": "0:26",
       "badge_kind": ""
     },
@@ -95,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0E0RCojtChY/maxresdefault.jpg",
       "duration_seconds": 59,
       "live_status": "",
-      "rel_time": "18時間前",
+      "rel_time": "19時間前",
       "duration_text": "0:59",
       "badge_kind": ""
     },
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qk84I-0fZss/maxresdefault.jpg",
       "duration_seconds": 6819,
       "live_status": "",
-      "rel_time": "20時間前",
+      "rel_time": "21時間前",
       "duration_text": "1:53:39",
       "badge_kind": ""
     },
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/miFBUSYHjmo/maxresdefault.jpg",
       "duration_seconds": 813,
       "live_status": "",
-      "rel_time": "22時間前",
+      "rel_time": "23時間前",
       "duration_text": "13:33",
       "badge_kind": ""
     },
@@ -137,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/g24__uNadj4/maxresdefault.jpg",
       "duration_seconds": 2914,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "48:34",
       "badge_kind": ""
     },
@@ -2085,20 +2099,6 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "1:12",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "Bmgt2LTVAak",
-      "title": "もうこれしか食いたくない！？上手すぎる新感覚ピザ",
-      "channel_title": "堀江貴文 ホリエモン",
-      "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
-      "published_iso": "2026-07-07T03:00:27Z",
-      "published_dt": "2026-07-07T03:00:27+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/Bmgt2LTVAak/maxresdefault.jpg",
-      "duration_seconds": 56,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "0:56",
       "badge_kind": ""
     }
   ]
