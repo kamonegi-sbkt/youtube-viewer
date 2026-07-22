@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-07-22T13:51:14+00:00",
+  "generated_at": "2026-07-22T15:41:36+00:00",
   "videos": [
+    {
+      "video_id": "dO8aYuNv6IQ",
+      "title": "【アベマ同時配信中】「」アベプラ｜7/23(木) 21:00〜",
+      "channel_title": "ABEMA Prime",
+      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
+      "published_iso": "2026-07-22T14:43:28Z",
+      "published_dt": "2026-07-22T14:43:28+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/dO8aYuNv6IQ/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "upcoming",
+      "rel_time": "58分前",
+      "duration_text": "配信予定",
+      "badge_kind": "upcoming"
+    },
     {
       "video_id": "DnKG8OaYcqk",
       "title": "【アベマ同時配信中】「高市総理『3時間睡眠』働き方が物議／米でマッチョ再燃？」アベプラ｜7/22(水) 21:00〜",
@@ -9,10 +23,10 @@
       "published_iso": "2026-07-22T13:17:14Z",
       "published_dt": "2026-07-22T13:17:14+00:00",
       "thumbnail": "https://i.ytimg.com/vi/DnKG8OaYcqk/maxresdefault.jpg",
-      "duration_seconds": 6105,
+      "duration_seconds": 3817,
       "live_status": "",
-      "rel_time": "34分前",
-      "duration_text": "1:41:45",
+      "rel_time": "2時間前",
+      "duration_text": "1:03:37",
       "badge_kind": ""
     },
     {
@@ -25,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/VCL2oxkLGSk/maxresdefault.jpg",
       "duration_seconds": 1350,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "3時間前",
       "duration_text": "22:30",
       "badge_kind": ""
     },
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QgY573XWXLw/maxresdefault.jpg",
       "duration_seconds": 1393,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "3時間前",
       "duration_text": "23:13",
       "badge_kind": ""
     },
@@ -53,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/wk7-InLcVcY/maxresdefault.jpg",
       "duration_seconds": 47,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "3時間前",
       "duration_text": "0:47",
       "badge_kind": ""
     },
@@ -67,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3hNK0gSThFc/maxresdefault.jpg",
       "duration_seconds": 871,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "4時間前",
       "duration_text": "14:31",
       "badge_kind": ""
     },
@@ -81,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ureqeT3-zyg/maxresdefault_live.jpg",
       "duration_seconds": null,
       "live_status": "upcoming",
-      "rel_time": "2時間前",
+      "rel_time": "4時間前",
       "duration_text": "配信予定",
       "badge_kind": "upcoming"
     },
@@ -95,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/5r4VKun46c0/maxresdefault.jpg",
       "duration_seconds": 31,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "5時間前",
       "duration_text": "0:31",
       "badge_kind": ""
     },
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ty8D30m4b_k/maxresdefault.jpg",
       "duration_seconds": 891,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "5時間前",
       "duration_text": "14:51",
       "badge_kind": ""
     },
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ya3QuIqeogo/maxresdefault.jpg",
       "duration_seconds": 51,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "6時間前",
       "duration_text": "0:51",
       "badge_kind": ""
     },
@@ -137,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Rh5Sr1z5We4/maxresdefault.jpg",
       "duration_seconds": 41,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "7時間前",
       "duration_text": "0:41",
       "badge_kind": ""
     },
@@ -151,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/oID1qmVqY0k/maxresdefault.jpg",
       "duration_seconds": 953,
       "live_status": "",
-      "rel_time": "6時間前",
+      "rel_time": "8時間前",
       "duration_text": "15:53",
       "badge_kind": ""
     },
@@ -165,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/NOP7rzLZfB8/maxresdefault.jpg",
       "duration_seconds": 73,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "13時間前",
       "duration_text": "1:13",
       "badge_kind": ""
     },
@@ -179,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Y25odi5QmU4/maxresdefault.jpg",
       "duration_seconds": 6768,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "16時間前",
       "duration_text": "1:52:48",
       "badge_kind": ""
     },
@@ -193,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/6wdwYbqolPA/maxresdefault.jpg",
       "duration_seconds": 1548,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "17時間前",
       "duration_text": "25:48",
       "badge_kind": ""
     },
@@ -207,7 +221,7 @@
       "thumbnail": "https://i.ytimg.com/vi/EIlHFMoDzx0/maxresdefault.jpg",
       "duration_seconds": 1203,
       "live_status": "",
-      "rel_time": "22時間前",
+      "rel_time": "1日前",
       "duration_text": "20:03",
       "badge_kind": ""
     },
@@ -991,7 +1005,7 @@
       "thumbnail": "https://i.ytimg.com/vi/wyeOW5FaVMo/maxresdefault.jpg",
       "duration_seconds": 1475,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "24:35",
       "badge_kind": ""
     },
@@ -2085,20 +2099,6 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "32:26",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "Je3DXAppsiw",
-      "title": "【高市総理】「結局今までと同じ」“女性初”と勝手に期待しすぎ？失望した人に聞く｜アベプラ",
-      "channel_title": "ABEMA Prime",
-      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-07-07T10:30:25Z",
-      "published_dt": "2026-07-07T10:30:25+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/Je3DXAppsiw/maxresdefault.jpg",
-      "duration_seconds": 2262,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "37:42",
       "badge_kind": ""
     }
   ]
