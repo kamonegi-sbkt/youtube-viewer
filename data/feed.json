@@ -1,23 +1,65 @@
 {
-  "generated_at": "2026-07-22T11:55:17+00:00",
+  "generated_at": "2026-07-22T13:51:14+00:00",
   "videos": [
     {
       "video_id": "DnKG8OaYcqk",
       "title": "【アベマ同時配信中】「高市総理『3時間睡眠』働き方が物議／米でマッチョ再燃？」アベプラ｜7/22(水) 21:00〜",
       "channel_title": "ABEMA Prime",
       "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-07-22T11:30:27Z",
-      "published_dt": "2026-07-22T11:30:27+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/DnKG8OaYcqk/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "24分前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
+      "published_iso": "2026-07-22T13:17:14Z",
+      "published_dt": "2026-07-22T13:17:14+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/DnKG8OaYcqk/maxresdefault.jpg",
+      "duration_seconds": 6105,
+      "live_status": "",
+      "rel_time": "34分前",
+      "duration_text": "1:41:45",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "VCL2oxkLGSk",
+      "title": "【緊急対談・緊迫イラン情勢を読み解く】最初から守る気ゼロのアメリカ・イラン停戦合意／\"嘘\"を許す教義タキーヤ／トランプ“斬首作戦”の誤算（佐藤優×池上彰）#知性密談",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-07-22T12:30:06Z",
+      "published_dt": "2026-07-22T12:30:06+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/VCL2oxkLGSk/maxresdefault.jpg",
+      "duration_seconds": 1350,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "22:30",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "QgY573XWXLw",
+      "title": "あの日産が、最年少CEOで復活するかもしれない（イヴァン・エスピノーサ／カルロス・ゴーン／自動車／トヨタ／ホンダ／Anduril／Wayve／Uber／自動運転／AI／中国）",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-07-22T12:00:38Z",
+      "published_dt": "2026-07-22T12:00:38+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/QgY573XWXLw/maxresdefault.jpg",
+      "duration_seconds": 1393,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "23:13",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "wk7-InLcVcY",
+      "title": "【ひろゆき×斎藤幸平】許せる不労所得とは？　#副業 #AI副業 #お金の増やし方 #不労収入 #ひろゆき #斎藤幸平 #NewsPicks #路地裏インデックス #ビジネス #経済",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-07-22T12:00:17Z",
+      "published_dt": "2026-07-22T12:00:17+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/wk7-InLcVcY/maxresdefault.jpg",
+      "duration_seconds": 47,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "0:47",
+      "badge_kind": ""
     },
     {
       "video_id": "3hNK0gSThFc",
-      "title": "「日本株だけでいいの？」5年・10年先で見る投資戦略…次の本命はAI相場で出遅れた新興国株？【篠田尚子、くらま、黒瀬浩一】The UPDATE",
+      "title": "「円安＝悪はもう古い」日本円は弱いのに日本株を買うべき理由を徹底解説！【篠田尚子、くらま、黒瀬浩一】The UPDATE",
       "channel_title": "NewsPicks /ニューズピックス",
       "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
       "published_iso": "2026-07-22T11:00:28Z",
@@ -25,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3hNK0gSThFc/maxresdefault.jpg",
       "duration_seconds": 871,
       "live_status": "",
-      "rel_time": "54分前",
+      "rel_time": "2時間前",
       "duration_text": "14:31",
       "badge_kind": ""
     },
@@ -39,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ureqeT3-zyg/maxresdefault_live.jpg",
       "duration_seconds": null,
       "live_status": "upcoming",
-      "rel_time": "55分前",
+      "rel_time": "2時間前",
       "duration_text": "配信予定",
       "badge_kind": "upcoming"
     },
@@ -53,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/5r4VKun46c0/maxresdefault.jpg",
       "duration_seconds": 31,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "3時間前",
       "duration_text": "0:31",
       "badge_kind": ""
     },
@@ -67,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ty8D30m4b_k/maxresdefault.jpg",
       "duration_seconds": 891,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "3時間前",
       "duration_text": "14:51",
       "badge_kind": ""
     },
@@ -81,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ya3QuIqeogo/maxresdefault.jpg",
       "duration_seconds": 51,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "4時間前",
       "duration_text": "0:51",
       "badge_kind": ""
     },
@@ -95,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Rh5Sr1z5We4/maxresdefault.jpg",
       "duration_seconds": 41,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "5時間前",
       "duration_text": "0:41",
       "badge_kind": ""
     },
@@ -109,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/oID1qmVqY0k/maxresdefault.jpg",
       "duration_seconds": 953,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "6時間前",
       "duration_text": "15:53",
       "badge_kind": ""
     },
@@ -123,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/NOP7rzLZfB8/maxresdefault.jpg",
       "duration_seconds": 73,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "11時間前",
       "duration_text": "1:13",
       "badge_kind": ""
     },
@@ -137,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Y25odi5QmU4/maxresdefault.jpg",
       "duration_seconds": 6768,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "14時間前",
       "duration_text": "1:52:48",
       "badge_kind": ""
     },
@@ -151,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/6wdwYbqolPA/maxresdefault.jpg",
       "duration_seconds": 1548,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "15時間前",
       "duration_text": "25:48",
       "badge_kind": ""
     },
@@ -165,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/EIlHFMoDzx0/maxresdefault.jpg",
       "duration_seconds": 1203,
       "live_status": "",
-      "rel_time": "20時間前",
+      "rel_time": "22時間前",
       "duration_text": "20:03",
       "badge_kind": ""
     },
@@ -179,7 +221,7 @@
       "thumbnail": "https://i.ytimg.com/vi/8yYyzR4dJD0/maxresdefault.jpg",
       "duration_seconds": 69,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "1:09",
       "badge_kind": ""
     },
@@ -305,7 +347,7 @@
       "thumbnail": "https://i.ytimg.com/vi/obbHdOOhUjw/maxresdefault.jpg",
       "duration_seconds": 1312,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "21:52",
       "badge_kind": ""
     },
@@ -319,7 +361,7 @@
       "thumbnail": "https://i.ytimg.com/vi/drzKneLbcRk/maxresdefault.jpg",
       "duration_seconds": 78,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "1:18",
       "badge_kind": ""
     },
@@ -487,7 +529,7 @@
       "thumbnail": "https://i.ytimg.com/vi/MANuQCCXJT4/maxresdefault.jpg",
       "duration_seconds": 55,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "0:55",
       "badge_kind": ""
     },
@@ -627,7 +669,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ibwnfs7Y-xQ/maxresdefault.jpg",
       "duration_seconds": 927,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "15:27",
       "badge_kind": ""
     },
@@ -767,7 +809,7 @@
       "thumbnail": "https://i.ytimg.com/vi/YVcxuxxUvqQ/maxresdefault.jpg",
       "duration_seconds": 1575,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "26:15",
       "badge_kind": ""
     },
@@ -963,7 +1005,7 @@
       "thumbnail": "https://i.ytimg.com/vi/n0jlWWwL9E8/maxresdefault.jpg",
       "duration_seconds": 78,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "1:18",
       "badge_kind": ""
     },
@@ -977,7 +1019,7 @@
       "thumbnail": "https://i.ytimg.com/vi/TK4EQlskYXI/maxresdefault.jpg",
       "duration_seconds": 899,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "14:59",
       "badge_kind": ""
     },
@@ -1159,7 +1201,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rgmhfrb-Q10/maxresdefault.jpg",
       "duration_seconds": 1194,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "19:54",
       "badge_kind": ""
     },
@@ -1173,7 +1215,7 @@
       "thumbnail": "https://i.ytimg.com/vi/TXHeOeCyo9I/maxresdefault.jpg",
       "duration_seconds": 91,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "1:31",
       "badge_kind": ""
     },
@@ -1525,48 +1567,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "42:19",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "5rNjg7Dh6so",
-      "title": "Amazonも実践する「物流AI」 3ヶ月で1万台出荷の衝撃…物流現場の完全自動化で「最後まで残る仕事」は？（頼嘉満・田中年一）/ 電脈イースト",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-07-13T12:30:15Z",
-      "published_dt": "2026-07-13T12:30:15+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/5rNjg7Dh6so/maxresdefault.jpg",
-      "duration_seconds": 1091,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "18:11",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "q1TgEARtz44",
-      "title": "【山口周×深井龍之介】AI時代詰め込み教育は必要？  #山口周 #深井龍之介 #人文知 #教養 #哲学 #歴史 #リベラルアーツ #AI時代 #思考力 #ビジネス書 #知的生産 #学び #キャリア",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-07-13T12:00:36Z",
-      "published_dt": "2026-07-13T12:00:36+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/q1TgEARtz44/maxresdefault.jpg",
-      "duration_seconds": 69,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "1:09",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "K8H9fOSf20E",
-      "title": "「プロデューサーに怒鳴られた」「もう時効だよね？」有働由美子が裏話を暴露！文春に言われた「親しき仲にもスキャンダル」NHKの同期女性アナは「全員綺麗」容姿も学歴も通用しない？有働流の生存術【落合陽一】",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-07-13T11:00:40Z",
-      "published_dt": "2026-07-13T11:00:40+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/K8H9fOSf20E/maxresdefault.jpg",
-      "duration_seconds": 1177,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "19:37",
       "badge_kind": ""
     },
     {
