@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-07-24T13:06:28+00:00",
+  "generated_at": "2026-07-24T15:05:26+00:00",
   "videos": [
+    {
+      "video_id": "6EEajwks1lE",
+      "title": "【アベマ同時配信中】「トランプ激怒？中国AIスゴすぎる説／夏休みの体験格差」アベプラ｜7/24(金) 21:00〜",
+      "channel_title": "ABEMA Prime",
+      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
+      "published_iso": "2026-07-24T13:41:47Z",
+      "published_dt": "2026-07-24T13:41:47+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/6EEajwks1lE/maxresdefault.jpg",
+      "duration_seconds": 4832,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "1:20:32",
+      "badge_kind": ""
+    },
     {
       "video_id": "aS2aVSuWt8M",
       "title": "稼げる人のマネタイズ戦略 /「不労所得」最前線 /ビジネスノウハウ大公開(ひろゆき・西村博之 ベテランち 斎藤幸平）#路地裏インデックス",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/aS2aVSuWt8M/maxresdefault.jpg",
       "duration_seconds": 1537,
       "live_status": "",
-      "rel_time": "6分前",
+      "rel_time": "2時間前",
       "duration_text": "25:37",
       "badge_kind": ""
     },
@@ -25,23 +39,9 @@
       "thumbnail": "https://i.ytimg.com/vi/TzVux41U5wU/maxresdefault.jpg",
       "duration_seconds": 2078,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "3時間前",
       "duration_text": "34:38",
       "badge_kind": ""
-    },
-    {
-      "video_id": "6EEajwks1lE",
-      "title": "【アベマ同時配信中】「トランプ激怒？中国AIスゴすぎる説／夏休みの体験格差」アベプラ｜7/24(金) 21:00〜",
-      "channel_title": "ABEMA Prime",
-      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-07-24T11:31:32Z",
-      "published_dt": "2026-07-24T11:31:32+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/6EEajwks1lE/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "1時間前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
     },
     {
       "video_id": "eeS2p1USQPs",
@@ -53,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/eeS2p1USQPs/maxresdefault.jpg",
       "duration_seconds": 1685,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "3時間前",
       "duration_text": "28:05",
       "badge_kind": ""
     },
@@ -67,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/mhcmDbSFCIs/maxresdefault.jpg",
       "duration_seconds": 34,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "4時間前",
       "duration_text": "0:34",
       "badge_kind": ""
     },
@@ -81,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/62sht3OWUig/maxresdefault.jpg",
       "duration_seconds": 2298,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "4時間前",
       "duration_text": "38:18",
       "badge_kind": ""
     },
@@ -95,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/sr5iCNzRf1s/maxresdefault.jpg",
       "duration_seconds": 2191,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "4時間前",
       "duration_text": "36:31",
       "badge_kind": ""
     },
@@ -109,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ydZT63fVSZo/maxresdefault.jpg",
       "duration_seconds": 2697,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "5時間前",
       "duration_text": "44:57",
       "badge_kind": ""
     },
@@ -123,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4nBbHTA_JaA/maxresdefault.jpg",
       "duration_seconds": 623,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "5時間前",
       "duration_text": "10:23",
       "badge_kind": ""
     },
@@ -137,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/OaoPpORleAQ/maxresdefault.jpg",
       "duration_seconds": 91,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "6時間前",
       "duration_text": "1:31",
       "badge_kind": ""
     },
@@ -151,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/nyJgOQek_sc/maxresdefault.jpg",
       "duration_seconds": 76,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "13時間前",
       "duration_text": "1:16",
       "badge_kind": ""
     },
@@ -165,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/XSxNq-7YCEo/maxresdefault.jpg",
       "duration_seconds": 7100,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "15時間前",
       "duration_text": "1:58:20",
       "badge_kind": ""
     },
@@ -179,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/dCi-FJtW6Rk/maxresdefault.jpg",
       "duration_seconds": 1469,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "17時間前",
       "duration_text": "24:29",
       "badge_kind": ""
     },
@@ -193,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/CZ4dP1wJZ0o/maxresdefault.jpg",
       "duration_seconds": 1073,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "17時間前",
       "duration_text": "17:53",
       "badge_kind": ""
     },
@@ -207,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ureqeT3-zyg/maxresdefault.jpg",
       "duration_seconds": 3915,
       "live_status": "",
-      "rel_time": "18時間前",
+      "rel_time": "20時間前",
       "duration_text": "1:05:15",
       "badge_kind": ""
     },
@@ -255,7 +255,7 @@
     },
     {
       "video_id": "LTg43VXtjJY",
-      "title": "万博「ヌルヌル」を経て落合陽一の個展「天孫帰るってよ？」の全貌公開「日本人でも韓国人でもない」400年以上続く十五代沈壽官の苦悩と葛藤「残業ほぼない」“超絶技巧”に司馬遼太郎からの金言、真の愛国心とは",
+      "title": "万博「ヌルヌル」を経て落合陽一の個展「天孫帰るってよ？」の全貌公開「AIに怯えていた」「日本人でも韓国人でもない」400年以上続く十五代沈壽官の葛藤…“超絶技巧”に司馬遼太郎からの金言、真の愛国心とは",
       "channel_title": "NewsPicks /ニューズピックス",
       "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
       "published_iso": "2026-07-23T11:02:53Z",
