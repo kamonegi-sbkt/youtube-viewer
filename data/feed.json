@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-07-25T15:46:15+00:00",
+  "generated_at": "2026-07-25T16:56:12+00:00",
   "videos": [
     {
       "video_id": "NBx32xXL7uE",
       "title": "Claude Opus5が遂に登場！/  ベンチマークでFable5超え連発の神AI",
       "channel_title": "ウェブ職TV / Nesheep",
       "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-07-25T14:53:58Z",
-      "published_dt": "2026-07-25T14:53:58+00:00",
+      "published_iso": "2026-07-25T16:34:10Z",
+      "published_dt": "2026-07-25T16:34:10+00:00",
       "thumbnail": "https://i.ytimg.com/vi/NBx32xXL7uE/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "52分前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
+      "duration_seconds": 6012,
+      "live_status": "",
+      "rel_time": "22分前",
+      "duration_text": "1:40:12",
+      "badge_kind": ""
     },
     {
       "video_id": "8W22szwnnHg",
@@ -25,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/8W22szwnnHg/maxresdefault.jpg",
       "duration_seconds": 1177,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "5時間前",
       "duration_text": "19:37",
       "badge_kind": ""
     },
@@ -39,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/u87TE-G_lo0/maxresdefault.jpg",
       "duration_seconds": 2230,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "6時間前",
       "duration_text": "37:10",
       "badge_kind": ""
     },
@@ -53,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Z-GOW7Dmmsw/maxresdefault.jpg",
       "duration_seconds": 1818,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "6時間前",
       "duration_text": "30:18",
       "badge_kind": ""
     },
@@ -67,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/EnMcIzDkUi4/maxresdefault.jpg",
       "duration_seconds": 2214,
       "live_status": "",
-      "rel_time": "6時間前",
+      "rel_time": "7時間前",
       "duration_text": "36:54",
       "badge_kind": ""
     },
@@ -81,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/t45Mx8qeT5k/maxresdefault.jpg",
       "duration_seconds": 89,
       "live_status": "",
-      "rel_time": "6時間前",
+      "rel_time": "7時間前",
       "duration_text": "1:29",
       "badge_kind": ""
     },
@@ -95,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Yo0VU3_Dcf8/maxresdefault.jpg",
       "duration_seconds": 1344,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "13時間前",
       "duration_text": "22:24",
       "badge_kind": ""
     },
@@ -109,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/N467nCet_pA/maxresdefault.jpg",
       "duration_seconds": 58,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "14時間前",
       "duration_text": "0:58",
       "badge_kind": ""
     },
@@ -123,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4_htKQvFd9M/maxresdefault.jpg",
       "duration_seconds": 7505,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "17時間前",
       "duration_text": "2:05:05",
       "badge_kind": ""
     },
@@ -137,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Tp8bzpR4tfo/maxresdefault.jpg",
       "duration_seconds": 581,
       "live_status": "",
-      "rel_time": "17時間前",
+      "rel_time": "18時間前",
       "duration_text": "9:41",
       "badge_kind": ""
     },
@@ -1019,7 +1019,7 @@
       "thumbnail": "https://i.ytimg.com/vi/I0Xs_Wa2_MQ/maxresdefault.jpg",
       "duration_seconds": 8656,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "2:24:16",
       "badge_kind": ""
     },
