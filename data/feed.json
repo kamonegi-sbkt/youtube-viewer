@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-07-27T11:19:51+00:00",
+  "generated_at": "2026-07-27T13:53:14+00:00",
   "videos": [
+    {
+      "video_id": "iHnTQmsFkwo",
+      "title": "【アベマ同時配信中】「自衛隊にAI参謀？／戦争は話し合いで終わるのか」アベプラ｜7/27(月) 21:00〜",
+      "channel_title": "ABEMA Prime",
+      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
+      "published_iso": "2026-07-27T13:18:37Z",
+      "published_dt": "2026-07-27T13:18:37+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/iHnTQmsFkwo/maxresdefault.jpg",
+      "duration_seconds": 3950,
+      "live_status": "",
+      "rel_time": "34分前",
+      "duration_text": "1:05:50",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "F1MCPGRHbZw",
+      "title": "成人向けコンテンツのマネタイズ構造（ひろゆき・西村博之 ベテランち 鈴木涼美 宇佐美典也 安田理央）#路地裏インデックス",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-07-27T12:45:22Z",
+      "published_dt": "2026-07-27T12:45:22+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/F1MCPGRHbZw/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "live",
+      "rel_time": "1時間前",
+      "duration_text": "LIVE",
+      "badge_kind": "live"
+    },
+    {
+      "video_id": "OH2pxuPInOg",
+      "title": "【悲報】2000万人に使われて「完全赤字」…AI恋人ビジネスを壊す「GPU代」の呪い（頼嘉満・茶圓将裕）/ 電脈イースト",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-07-27T12:00:40Z",
+      "published_dt": "2026-07-27T12:00:40+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/OH2pxuPInOg/maxresdefault.jpg",
+      "duration_seconds": 1052,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "17:32",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "jsHhn9gKRCk",
+      "title": "【佐藤優】年代別人生設計図とは？#佐藤優 #転職 #キャリア論 #人生設計 #トランプ外交 #結婚論 #NewsPicks #知性密談",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-07-27T12:00:34Z",
+      "published_dt": "2026-07-27T12:00:34+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/jsHhn9gKRCk/maxresdefault.jpg",
+      "duration_seconds": 80,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "1:20",
+      "badge_kind": ""
+    },
     {
       "video_id": "xyY0Rp1ntQY",
       "title": "【失敗減らす方法】何事も想定内にする？　#運 #黒岩里奈 #小林弘幸 #腸活 #自律神経 #健康  #都市伝説 #金運 #スピリチュアル #運気アップ",
@@ -11,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/xyY0Rp1ntQY/maxresdefault.jpg",
       "duration_seconds": 60,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "4時間前",
       "duration_text": "1:00",
       "badge_kind": ""
     },
@@ -25,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/tLZnfoldQrc/maxresdefault.jpg",
       "duration_seconds": 78,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "5時間前",
       "duration_text": "1:18",
       "badge_kind": ""
     },
@@ -39,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Woib_HvNKtA/maxresdefault.jpg",
       "duration_seconds": 78,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "11時間前",
       "duration_text": "1:18",
       "badge_kind": ""
     },
@@ -53,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/I9jQacRoMuI/maxresdefault.jpg",
       "duration_seconds": 1293,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "15時間前",
       "duration_text": "21:33",
       "badge_kind": ""
     },
@@ -67,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jjcWPO_HAsQ/maxresdefault.jpg",
       "duration_seconds": 785,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "15時間前",
       "duration_text": "13:05",
       "badge_kind": ""
     },
@@ -81,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rcM2h3fG-go/maxresdefault.jpg",
       "duration_seconds": 457,
       "live_status": "",
-      "rel_time": "22時間前",
+      "rel_time": "1日前",
       "duration_text": "7:37",
       "badge_kind": ""
     },
@@ -95,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/H8I22CnrBqQ/maxresdefault.jpg",
       "duration_seconds": 57,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "0:57",
       "badge_kind": ""
     },
@@ -361,7 +417,7 @@
       "thumbnail": "https://i.ytimg.com/vi/aS2aVSuWt8M/maxresdefault.jpg",
       "duration_seconds": 1537,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "25:37",
       "badge_kind": ""
     },
@@ -375,7 +431,7 @@
       "thumbnail": "https://i.ytimg.com/vi/TzVux41U5wU/maxresdefault.jpg",
       "duration_seconds": 2078,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "34:38",
       "badge_kind": ""
     },
@@ -389,7 +445,7 @@
       "thumbnail": "https://i.ytimg.com/vi/eeS2p1USQPs/maxresdefault.jpg",
       "duration_seconds": 1685,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "28:05",
       "badge_kind": ""
     },
@@ -557,7 +613,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jC3vImg13yM/maxresdefault.jpg",
       "duration_seconds": 586,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "9:46",
       "badge_kind": ""
     },
@@ -571,7 +627,7 @@
       "thumbnail": "https://i.ytimg.com/vi/waQ0qcoGuqc/maxresdefault.jpg",
       "duration_seconds": 94,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "1:34",
       "badge_kind": ""
     },
@@ -585,7 +641,7 @@
       "thumbnail": "https://i.ytimg.com/vi/-La4Jn-UzCU/maxresdefault.jpg",
       "duration_seconds": 2515,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "41:55",
       "badge_kind": ""
     },
@@ -702,20 +758,6 @@
       "badge_kind": ""
     },
     {
-      "video_id": "F1MCPGRHbZw",
-      "title": "成人向けコンテンツのマネタイズ構造（ひろゆき・西村博之 ベテランち 鈴木涼美 宇佐美典也 安岡理央）#路地裏インデックス",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-07-23T06:43:24Z",
-      "published_dt": "2026-07-23T06:43:24+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/F1MCPGRHbZw/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "upcoming",
-      "rel_time": "4日前",
-      "duration_text": "配信予定",
-      "badge_kind": "upcoming"
-    },
-    {
       "video_id": "zttc7Zvuh8g",
       "title": "【落合陽一×野村泰紀】パラレルワールドは存在する？ #マルチバース #宇宙 #ブラックホール #物理学 #宇宙論 #ホワイトホール #パラレルワールド #NewsPicks #WEEKLYOCHIAI",
       "channel_title": "NewsPicks /ニューズピックス",
@@ -781,7 +823,7 @@
       "thumbnail": "https://i.ytimg.com/vi/VCL2oxkLGSk/maxresdefault.jpg",
       "duration_seconds": 1349,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "22:29",
       "badge_kind": ""
     },
@@ -795,7 +837,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QgY573XWXLw/maxresdefault.jpg",
       "duration_seconds": 1393,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "23:13",
       "badge_kind": ""
     },
@@ -809,7 +851,7 @@
       "thumbnail": "https://i.ytimg.com/vi/wk7-InLcVcY/maxresdefault.jpg",
       "duration_seconds": 47,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "0:47",
       "badge_kind": ""
     },
@@ -949,7 +991,7 @@
       "thumbnail": "https://i.ytimg.com/vi/8yYyzR4dJD0/maxresdefault.jpg",
       "duration_seconds": 69,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "1:09",
       "badge_kind": ""
     },
@@ -1061,7 +1103,7 @@
       "thumbnail": "https://i.ytimg.com/vi/obbHdOOhUjw/maxresdefault.jpg",
       "duration_seconds": 1312,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "21:52",
       "badge_kind": ""
     },
@@ -1075,7 +1117,7 @@
       "thumbnail": "https://i.ytimg.com/vi/drzKneLbcRk/maxresdefault.jpg",
       "duration_seconds": 78,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "1:18",
       "badge_kind": ""
     },
@@ -1402,20 +1444,6 @@
       "badge_kind": ""
     },
     {
-      "video_id": "jAiyCqCKE4A",
-      "title": "【言語哲学者がオススメ】“述語”を学ぶコンテンツ「葬送のフリーレン」 #葬送のフリーレン #言葉 #漫画 #アニメ",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-07-18T09:00:14Z",
-      "published_dt": "2026-07-18T09:00:14+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/jAiyCqCKE4A/maxresdefault.jpg",
-      "duration_seconds": 59,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "0:59",
-      "badge_kind": ""
-    },
-    {
       "video_id": "a2lxMy540fE",
       "title": "ドミニカの鍾乳洞を探検するホリエモン",
       "channel_title": "堀江貴文 ホリエモン",
@@ -1441,20 +1469,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "1:19:15",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "YBBd9VIiAVA",
-      "title": "【「フロー」を使いこなそう 】“背伸びする挑戦”で「熱中」を作る  #Z世代 #宗教 #働き方 #転職活動 #燈",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-07-18T02:00:07Z",
-      "published_dt": "2026-07-18T02:00:07+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/YBBd9VIiAVA/maxresdefault.jpg",
-      "duration_seconds": 52,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "0:52",
       "badge_kind": ""
     },
     {
@@ -2085,20 +2099,6 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "35:47",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "kDwqS39H5sM",
-      "title": "野毛の夜は終わらない！？",
-      "channel_title": "堀江貴文 ホリエモン",
-      "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
-      "published_iso": "2026-07-11T03:00:24Z",
-      "published_dt": "2026-07-11T03:00:24+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/kDwqS39H5sM/maxresdefault.jpg",
-      "duration_seconds": 51,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "0:51",
       "badge_kind": ""
     }
   ]
