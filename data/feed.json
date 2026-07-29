@@ -1,9 +1,23 @@
 {
-  "generated_at": "2026-07-29T13:23:54+00:00",
+  "generated_at": "2026-07-29T15:29:02+00:00",
   "videos": [
     {
+      "video_id": "gN7oqLUNCXw",
+      "title": "【アベマ同時配信中】「地震被害に不安も…被災者は？周囲はどう動く？」アベプラ｜7/29(水) 21:00〜",
+      "channel_title": "ABEMA Prime",
+      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
+      "published_iso": "2026-07-29T13:40:59Z",
+      "published_dt": "2026-07-29T13:40:59+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/gN7oqLUNCXw/maxresdefault.jpg",
+      "duration_seconds": 4723,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "1:18:43",
+      "badge_kind": ""
+    },
+    {
       "video_id": "TNVqmfhNnoc",
-      "title": "なぜ国家安全保障局長は更迭されたのか /「日本はロシアスパイの拠点」報道 / スパイ防止法 冤罪リスクと内部監査の壁 /「口が軽い奴は命が短い」インテリジェンスの世界 （佐藤優×池上彰）#知性密談",
+      "title": "「別班はある」小泉否定と正反対 /「日本はロシアスパイの拠点」報道 / スパイ防止法 冤罪リスクと内部監査の壁 /「口が軽い奴は命が短い」インテリジェンスの世界 （佐藤優×池上彰）#知性密談",
       "channel_title": "NewsPicks /ニューズピックス",
       "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
       "published_iso": "2026-07-29T12:30:06Z",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/TNVqmfhNnoc/maxresdefault.jpg",
       "duration_seconds": 1263,
       "live_status": "",
-      "rel_time": "53分前",
+      "rel_time": "2時間前",
       "duration_text": "21:03",
       "badge_kind": ""
     },
@@ -25,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pgVId24L8Jk/maxresdefault.jpg",
       "duration_seconds": 737,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "3時間前",
       "duration_text": "12:17",
       "badge_kind": ""
     },
@@ -39,23 +53,9 @@
       "thumbnail": "https://i.ytimg.com/vi/QPDpgLEWboU/maxresdefault.jpg",
       "duration_seconds": 63,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "3時間前",
       "duration_text": "1:03",
       "badge_kind": ""
-    },
-    {
-      "video_id": "gN7oqLUNCXw",
-      "title": "【アベマ同時配信中】「地震被害に不安も…被災者は？周囲はどう動く？」アベプラ｜7/29(水) 21:00〜",
-      "channel_title": "ABEMA Prime",
-      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-07-29T11:32:32Z",
-      "published_dt": "2026-07-29T11:32:32+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/gN7oqLUNCXw/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "1時間前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
     },
     {
       "video_id": "yEJMUh45zjk",
@@ -67,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/yEJMUh45zjk/maxresdefault.jpg",
       "duration_seconds": 2399,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "4時間前",
       "duration_text": "39:59",
       "badge_kind": ""
     },
@@ -81,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/SXa2DqTYly8/maxresdefault.jpg",
       "duration_seconds": 380,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "4時間前",
       "duration_text": "6:20",
       "badge_kind": ""
     },
@@ -95,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Gaf42qnhcCE/maxresdefault.jpg",
       "duration_seconds": 31,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "4時間前",
       "duration_text": "0:31",
       "badge_kind": ""
     },
@@ -109,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ahtY8JD_sAw/maxresdefault.jpg",
       "duration_seconds": 1865,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "4時間前",
       "duration_text": "31:05",
       "badge_kind": ""
     },
@@ -123,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0Ucoff9Yiko/maxresdefault.jpg",
       "duration_seconds": 1910,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "5時間前",
       "duration_text": "31:50",
       "badge_kind": ""
     },
@@ -137,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/YZw85EETFUs/maxresdefault.jpg",
       "duration_seconds": 5421,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "5時間前",
       "duration_text": "1:30:21",
       "badge_kind": ""
     },
@@ -151,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pN0XJyhqFpw/maxresdefault.jpg",
       "duration_seconds": 1315,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "6時間前",
       "duration_text": "21:55",
       "badge_kind": ""
     },
@@ -165,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Myjdjqo44Rk/maxresdefault.jpg",
       "duration_seconds": 65,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "13時間前",
       "duration_text": "1:05",
       "badge_kind": ""
     },
@@ -179,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/vhMQBjG1wwY/maxresdefault.jpg",
       "duration_seconds": 44,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "17時間前",
       "duration_text": "0:44",
       "badge_kind": ""
     },
@@ -193,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/OFOwX_acptQ/maxresdefault.jpg",
       "duration_seconds": 1136,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "17時間前",
       "duration_text": "18:56",
       "badge_kind": ""
     },
