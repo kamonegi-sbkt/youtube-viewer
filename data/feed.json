@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-07-31T14:04:18+00:00",
+  "generated_at": "2026-07-31T16:11:31+00:00",
   "videos": [
+    {
+      "video_id": "Ce-aWt6amhc",
+      "title": "深夜のGPUサーバーを構築配信",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-07-31T15:58:58Z",
+      "published_dt": "2026-07-31T15:58:58+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/Ce-aWt6amhc/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "live",
+      "rel_time": "12分前",
+      "duration_text": "LIVE",
+      "badge_kind": "live"
+    },
+    {
+      "video_id": "ciKfJF_NcP4",
+      "title": "Claude Codeをどこまで信用していい？外資ITエンジニアと考えるAIセキュリティ【Kyoheiさん】",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-07-31T15:41:42Z",
+      "published_dt": "2026-07-31T15:41:42+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/ciKfJF_NcP4/maxresdefault.jpg",
+      "duration_seconds": 4659,
+      "live_status": "",
+      "rel_time": "29分前",
+      "duration_text": "1:17:39",
+      "badge_kind": ""
+    },
     {
       "video_id": "bDD2JIjvfM0",
       "title": "【アベマ同時配信中】「外国人が怒り？永住権許可が厳格化へ／案件詐欺」アベプラ｜7/31(金) 21:00〜",
@@ -9,10 +37,10 @@
       "published_iso": "2026-07-31T13:20:18Z",
       "published_dt": "2026-07-31T13:20:18+00:00",
       "thumbnail": "https://i.ytimg.com/vi/bDD2JIjvfM0/maxresdefault.jpg",
-      "duration_seconds": 6166,
+      "duration_seconds": 4114,
       "live_status": "",
-      "rel_time": "44分前",
-      "duration_text": "1:42:46",
+      "rel_time": "2時間前",
+      "duration_text": "1:08:34",
       "badge_kind": ""
     },
     {
@@ -25,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/I4W-9capM4U/maxresdefault.jpg",
       "duration_seconds": 1620,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "3時間前",
       "duration_text": "27:00",
       "badge_kind": ""
     },
@@ -39,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/8EvZBqox6CM/maxresdefault.jpg",
       "duration_seconds": 1433,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "3時間前",
       "duration_text": "23:53",
       "badge_kind": ""
     },
@@ -53,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rMwbL9BL3E4/maxresdefault.jpg",
       "duration_seconds": 73,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "4時間前",
       "duration_text": "1:13",
       "badge_kind": ""
     },
@@ -67,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/FYlswi139gQ/maxresdefault.jpg",
       "duration_seconds": 174,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "4時間前",
       "duration_text": "2:54",
       "badge_kind": ""
     },
@@ -81,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/BMP8v3_G_8c/maxresdefault.jpg",
       "duration_seconds": 566,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "5時間前",
       "duration_text": "9:26",
       "badge_kind": ""
     },
@@ -95,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/o9cdvr0foEw/maxresdefault.jpg",
       "duration_seconds": 56,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "5時間前",
       "duration_text": "0:56",
       "badge_kind": ""
     },
@@ -109,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/K6KX41tLH2s/maxresdefault.jpg",
       "duration_seconds": 1165,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "5時間前",
       "duration_text": "19:25",
       "badge_kind": ""
     },
@@ -123,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ipvwEQkiFQY/maxresdefault.jpg",
       "duration_seconds": 1753,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "5時間前",
       "duration_text": "29:13",
       "badge_kind": ""
     },
@@ -137,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/aJf2PZr2PlU/maxresdefault.jpg",
       "duration_seconds": 1888,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "6時間前",
       "duration_text": "31:28",
       "badge_kind": ""
     },
@@ -151,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zZPOITq1IlM/maxresdefault.jpg",
       "duration_seconds": 686,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "6時間前",
       "duration_text": "11:26",
       "badge_kind": ""
     },
@@ -165,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jHCLXVJMNoA/maxresdefault.jpg",
       "duration_seconds": 2352,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "6時間前",
       "duration_text": "39:12",
       "badge_kind": ""
     },
@@ -179,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/-FJ871bFRDM/maxresdefault.jpg",
       "duration_seconds": 68,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "7時間前",
       "duration_text": "1:08",
       "badge_kind": ""
     },
@@ -193,7 +221,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7Tl-766VWPc/maxresdefault.jpg",
       "duration_seconds": 791,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "11時間前",
       "duration_text": "13:11",
       "badge_kind": ""
     },
@@ -207,7 +235,7 @@
       "thumbnail": "https://i.ytimg.com/vi/UcLJqufj80g/maxresdefault.jpg",
       "duration_seconds": 7168,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "16時間前",
       "duration_text": "1:59:28",
       "badge_kind": ""
     },
@@ -221,7 +249,7 @@
       "thumbnail": "https://i.ytimg.com/vi/p1X9MZqHfKg/maxresdefault.jpg",
       "duration_seconds": 1192,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "18時間前",
       "duration_text": "19:52",
       "badge_kind": ""
     },
@@ -235,7 +263,7 @@
       "thumbnail": "https://i.ytimg.com/vi/6L7M_a2wy2o/maxresdefault.jpg",
       "duration_seconds": 55,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "18時間前",
       "duration_text": "0:55",
       "badge_kind": ""
     },
@@ -249,7 +277,7 @@
       "thumbnail": "https://i.ytimg.com/vi/xWCJz5U9xpA/maxresdefault.jpg",
       "duration_seconds": 305,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "5:05",
       "badge_kind": ""
     },
@@ -325,7 +353,7 @@
     },
     {
       "video_id": "Jxb4VPHhaFE",
-      "title": "「株で儲ける一番の近道は...」資産3億円超え投資家がアドバイス“元手100万円”から始める初心者の株の買い方/【kenmo×土居明莉】/MONEY&MATE（マネーメイト）",
+      "title": "【半導体に集中するな】「株で儲ける一番の近道は...」資産3億円超え投資家がアドバイス“元手100万円”から始める初心者の株の買い方/【kenmo×土居明莉】/MONEY&MATE（マネーメイト）",
       "channel_title": "NewsPicks /ニューズピックス",
       "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
       "published_iso": "2026-07-30T10:00:01Z",
@@ -2071,34 +2099,6 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "1:03",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "To-6dwBFdCY",
-      "title": "第137回 【知ると役立つ】2026年6月 学長が選ぶ「お得」「トレンド」お金のニュース Best4【トレンド】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-07-15T22:00:19Z",
-      "published_dt": "2026-07-15T22:00:19+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/To-6dwBFdCY/maxresdefault.jpg",
-      "duration_seconds": 1348,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "22:28",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "0spNdpmUvkg",
-      "title": "【飲食倒産】背景に値上げニガテ問題？プロに聞く“値付けの流儀”｜アベプラ",
-      "channel_title": "ABEMA Prime",
-      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-07-15T10:30:26Z",
-      "published_dt": "2026-07-15T10:30:26+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/0spNdpmUvkg/maxresdefault.jpg",
-      "duration_seconds": 1969,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "32:49",
       "badge_kind": ""
     }
   ]
