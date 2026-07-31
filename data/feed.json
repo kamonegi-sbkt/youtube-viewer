@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-07-31T17:52:27+00:00",
+  "generated_at": "2026-07-31T19:23:00+00:00",
   "videos": [
     {
       "video_id": "Ce-aWt6amhc",
       "title": "深夜のGPUサーバーを構築配信",
       "channel_title": "ウェブ職TV / Nesheep",
       "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-07-31T15:58:58Z",
-      "published_dt": "2026-07-31T15:58:58+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/Ce-aWt6amhc/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "1時間前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
+      "published_iso": "2026-07-31T18:32:55Z",
+      "published_dt": "2026-07-31T18:32:55+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/Ce-aWt6amhc/maxresdefault.jpg",
+      "duration_seconds": 8964,
+      "live_status": "",
+      "rel_time": "50分前",
+      "duration_text": "2:29:24",
+      "badge_kind": ""
     },
     {
       "video_id": "ciKfJF_NcP4",
@@ -25,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ciKfJF_NcP4/maxresdefault.jpg",
       "duration_seconds": 4659,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "3時間前",
       "duration_text": "1:17:39",
       "badge_kind": ""
     },
@@ -39,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bDD2JIjvfM0/maxresdefault.jpg",
       "duration_seconds": 4114,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "6時間前",
       "duration_text": "1:08:34",
       "badge_kind": ""
     },
@@ -53,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/I4W-9capM4U/maxresdefault.jpg",
       "duration_seconds": 1620,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "6時間前",
       "duration_text": "27:00",
       "badge_kind": ""
     },
@@ -67,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/8EvZBqox6CM/maxresdefault.jpg",
       "duration_seconds": 1433,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "6時間前",
       "duration_text": "23:53",
       "badge_kind": ""
     },
@@ -81,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rMwbL9BL3E4/maxresdefault.jpg",
       "duration_seconds": 73,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "7時間前",
       "duration_text": "1:13",
       "badge_kind": ""
     },
@@ -95,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/FYlswi139gQ/maxresdefault.jpg",
       "duration_seconds": 174,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "7時間前",
       "duration_text": "2:54",
       "badge_kind": ""
     },
@@ -109,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/BMP8v3_G_8c/maxresdefault.jpg",
       "duration_seconds": 566,
       "live_status": "",
-      "rel_time": "6時間前",
+      "rel_time": "8時間前",
       "duration_text": "9:26",
       "badge_kind": ""
     },
@@ -123,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/o9cdvr0foEw/maxresdefault.jpg",
       "duration_seconds": 56,
       "live_status": "",
-      "rel_time": "6時間前",
+      "rel_time": "8時間前",
       "duration_text": "0:56",
       "badge_kind": ""
     },
@@ -137,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/K6KX41tLH2s/maxresdefault.jpg",
       "duration_seconds": 1165,
       "live_status": "",
-      "rel_time": "6時間前",
+      "rel_time": "8時間前",
       "duration_text": "19:25",
       "badge_kind": ""
     },
@@ -151,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ipvwEQkiFQY/maxresdefault.jpg",
       "duration_seconds": 1753,
       "live_status": "",
-      "rel_time": "7時間前",
+      "rel_time": "8時間前",
       "duration_text": "29:13",
       "badge_kind": ""
     },
@@ -165,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/aJf2PZr2PlU/maxresdefault.jpg",
       "duration_seconds": 1888,
       "live_status": "",
-      "rel_time": "7時間前",
+      "rel_time": "9時間前",
       "duration_text": "31:28",
       "badge_kind": ""
     },
@@ -179,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zZPOITq1IlM/maxresdefault.jpg",
       "duration_seconds": 686,
       "live_status": "",
-      "rel_time": "7時間前",
+      "rel_time": "9時間前",
       "duration_text": "11:26",
       "badge_kind": ""
     },
@@ -193,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jHCLXVJMNoA/maxresdefault.jpg",
       "duration_seconds": 2352,
       "live_status": "",
-      "rel_time": "7時間前",
+      "rel_time": "9時間前",
       "duration_text": "39:12",
       "badge_kind": ""
     },
@@ -207,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/-FJ871bFRDM/maxresdefault.jpg",
       "duration_seconds": 68,
       "live_status": "",
-      "rel_time": "8時間前",
+      "rel_time": "10時間前",
       "duration_text": "1:08",
       "badge_kind": ""
     },
@@ -221,7 +221,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7Tl-766VWPc/maxresdefault.jpg",
       "duration_seconds": 791,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "14時間前",
       "duration_text": "13:11",
       "badge_kind": ""
     },
@@ -235,7 +235,7 @@
       "thumbnail": "https://i.ytimg.com/vi/UcLJqufj80g/maxresdefault.jpg",
       "duration_seconds": 7168,
       "live_status": "",
-      "rel_time": "18時間前",
+      "rel_time": "19時間前",
       "duration_text": "1:59:28",
       "badge_kind": ""
     },
@@ -249,7 +249,7 @@
       "thumbnail": "https://i.ytimg.com/vi/p1X9MZqHfKg/maxresdefault.jpg",
       "duration_seconds": 1192,
       "live_status": "",
-      "rel_time": "19時間前",
+      "rel_time": "21時間前",
       "duration_text": "19:52",
       "badge_kind": ""
     },
@@ -263,7 +263,7 @@
       "thumbnail": "https://i.ytimg.com/vi/6L7M_a2wy2o/maxresdefault.jpg",
       "duration_seconds": 55,
       "live_status": "",
-      "rel_time": "19時間前",
+      "rel_time": "21時間前",
       "duration_text": "0:55",
       "badge_kind": ""
     },
@@ -781,7 +781,7 @@
       "thumbnail": "https://i.ytimg.com/vi/F1MCPGRHbZw/maxresdefault.jpg",
       "duration_seconds": 1259,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "20:59",
       "badge_kind": ""
     },
