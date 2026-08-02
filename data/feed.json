@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-02T22:09:41+00:00",
+  "generated_at": "2026-08-02T23:11:14+00:00",
   "videos": [
+    {
+      "video_id": "oxnpry_L6W4",
+      "title": "DeepSeekショック2！ / GPUサーバーを作りました。 / 今メインで使えばいいAIを教えます。",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-08-02T22:35:42Z",
+      "published_dt": "2026-08-02T22:35:42+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/oxnpry_L6W4/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "live",
+      "rel_time": "35分前",
+      "duration_text": "LIVE",
+      "badge_kind": "live"
+    },
     {
       "video_id": "K20SU5PHEI4",
       "title": "【再放送】【貯蓄はもうヤメ！】難易度が低めな「コーストFIRE」について解説【人生論】：（アニメ動画）第488回",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/K20SU5PHEI4/maxresdefault.jpg",
       "duration_seconds": 1423,
       "live_status": "",
-      "rel_time": "9分前",
+      "rel_time": "1時間前",
       "duration_text": "23:43",
       "badge_kind": ""
     },
@@ -25,23 +39,9 @@
       "thumbnail": "https://i.ytimg.com/vi/m8IJ23yVyUQ/maxresdefault.jpg",
       "duration_seconds": 1266,
       "live_status": "",
-      "rel_time": "9分前",
+      "rel_time": "1時間前",
       "duration_text": "21:06",
       "badge_kind": ""
-    },
-    {
-      "video_id": "oxnpry_L6W4",
-      "title": "DeepSeekショック2！ / GPUサーバーを作りました。 / 今メインで使えばいいAIを教えます。",
-      "channel_title": "ウェブ職TV / Nesheep",
-      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-08-02T21:41:58Z",
-      "published_dt": "2026-08-02T21:41:58+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/oxnpry_L6W4/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "upcoming",
-      "rel_time": "27分前",
-      "duration_text": "配信予定",
-      "badge_kind": "upcoming"
     },
     {
       "video_id": "cSTYql7WwWU",
@@ -53,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/cSTYql7WwWU/maxresdefault_live.jpg",
       "duration_seconds": null,
       "live_status": "live",
-      "rel_time": "28分前",
+      "rel_time": "1時間前",
       "duration_text": "LIVE",
       "badge_kind": "live"
     },
@@ -67,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/-VEf-GORe9Q/maxresdefault.jpg",
       "duration_seconds": 84,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "11時間前",
       "duration_text": "1:24",
       "badge_kind": ""
     },
@@ -81,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/99povMmTK84/maxresdefault.jpg",
       "duration_seconds": 1905,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "12時間前",
       "duration_text": "31:45",
       "badge_kind": ""
     },
@@ -95,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Leaagpr2xZY/maxresdefault.jpg",
       "duration_seconds": 2069,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "13時間前",
       "duration_text": "34:29",
       "badge_kind": ""
     },
@@ -109,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/acNy_urfL78/maxresdefault.jpg",
       "duration_seconds": 1869,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "13時間前",
       "duration_text": "31:09",
       "badge_kind": ""
     },
@@ -123,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/cKg2mZKDerc/maxresdefault.jpg",
       "duration_seconds": 59,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "14時間前",
       "duration_text": "0:59",
       "badge_kind": ""
     },
@@ -137,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/179o3cUZxRU/maxresdefault.jpg",
       "duration_seconds": 74,
       "live_status": "",
-      "rel_time": "20時間前",
+      "rel_time": "21時間前",
       "duration_text": "1:14",
       "badge_kind": ""
     },
@@ -151,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ce4EQHpLooM/maxresdefault.jpg",
       "duration_seconds": 7774,
       "live_status": "",
-      "rel_time": "22時間前",
+      "rel_time": "23時間前",
       "duration_text": "2:09:34",
       "badge_kind": ""
     },
