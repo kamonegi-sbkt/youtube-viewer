@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-03T19:57:37+00:00",
+  "generated_at": "2026-08-03T21:09:40+00:00",
   "videos": [
+    {
+      "video_id": "OmLvf6QrkZc",
+      "title": "共働きは「悪」か。『福音派』著者・加藤喜之が語る「伝統的家族観」と女性の社会進出 ｜WOMANSHIP NewsPicks for WE",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-08-03T21:00:09Z",
+      "published_dt": "2026-08-03T21:00:09+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/OmLvf6QrkZc/maxresdefault.jpg",
+      "duration_seconds": 2875,
+      "live_status": "",
+      "rel_time": "9分前",
+      "duration_text": "47:55",
+      "badge_kind": ""
+    },
     {
       "video_id": "pJ8ITHeTKVw",
       "title": "「イーロン・マスクもNVIDIAも熱狂」なぜ世界のVCが「実体のあるAI」に賭けるのか？フィジカルAI最新動向とヒューマノイド（頼嘉満・茶圓将裕・田中年一）/ 電脈イースト",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pJ8ITHeTKVw/maxresdefault.jpg",
       "duration_seconds": 1134,
       "live_status": "",
-      "rel_time": "7時間前",
+      "rel_time": "8時間前",
       "duration_text": "18:54",
       "badge_kind": ""
     },
@@ -25,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/9B4zrJRvL48/maxresdefault.jpg",
       "duration_seconds": 74,
       "live_status": "",
-      "rel_time": "7時間前",
+      "rel_time": "9時間前",
       "duration_text": "1:14",
       "badge_kind": ""
     },
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/oxnpry_L6W4/maxresdefault.jpg",
       "duration_seconds": 4171,
       "live_status": "",
-      "rel_time": "8時間前",
+      "rel_time": "9時間前",
       "duration_text": "1:09:31",
       "badge_kind": ""
     },
@@ -53,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/quHjvvIQv0o/maxresdefault.jpg",
       "duration_seconds": 1014,
       "live_status": "",
-      "rel_time": "8時間前",
+      "rel_time": "10時間前",
       "duration_text": "16:54",
       "badge_kind": ""
     },
@@ -67,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/09HGEpp0lTc/maxresdefault_live.jpg",
       "duration_seconds": null,
       "live_status": "upcoming",
-      "rel_time": "9時間前",
+      "rel_time": "10時間前",
       "duration_text": "配信予定",
       "badge_kind": "upcoming"
     },
@@ -81,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/1ggHtqAuVac/maxresdefault.jpg",
       "duration_seconds": 2737,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "11時間前",
       "duration_text": "45:37",
       "badge_kind": ""
     },
@@ -95,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/M7rWwEYc2FI/maxresdefault.jpg",
       "duration_seconds": 1470,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "11時間前",
       "duration_text": "24:30",
       "badge_kind": ""
     },
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/DKkcRKu336w/maxresdefault.jpg",
       "duration_seconds": 1251,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "12時間前",
       "duration_text": "20:51",
       "badge_kind": ""
     },
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/hlEbStpRSeE/maxresdefault.jpg",
       "duration_seconds": 89,
       "live_status": "",
-      "rel_time": "17時間前",
+      "rel_time": "19時間前",
       "duration_text": "1:29",
       "badge_kind": ""
     },
@@ -137,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/cSTYql7WwWU/maxresdefault.jpg",
       "duration_seconds": 7543,
       "live_status": "",
-      "rel_time": "20時間前",
+      "rel_time": "21時間前",
       "duration_text": "2:05:43",
       "badge_kind": ""
     },
@@ -151,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/K20SU5PHEI4/maxresdefault.jpg",
       "duration_seconds": 1423,
       "live_status": "",
-      "rel_time": "21時間前",
+      "rel_time": "23時間前",
       "duration_text": "23:43",
       "badge_kind": ""
     },
@@ -165,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/m8IJ23yVyUQ/maxresdefault.jpg",
       "duration_seconds": 1266,
       "live_status": "",
-      "rel_time": "21時間前",
+      "rel_time": "23時間前",
       "duration_text": "21:06",
       "badge_kind": ""
     },
@@ -1201,7 +1215,7 @@
       "thumbnail": "https://i.ytimg.com/vi/wx2wAIU3Cbo/maxresdefault.jpg",
       "duration_seconds": 3406,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "56:46",
       "badge_kind": ""
     },
@@ -1525,20 +1539,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "1:29",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "Yo0VU3_Dcf8",
-      "title": "【米国激震】アンソロピックが恐れる「無料AI」が凄すぎる（Kimi/K3/MoonshotAI/Claude/Anthropic/ChatGPT/OpenAI/解説:後藤直義、森川潤）",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-07-25T03:00:15Z",
-      "published_dt": "2026-07-25T03:00:15+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/Yo0VU3_Dcf8/maxresdefault.jpg",
-      "duration_seconds": 1344,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "22:24",
       "badge_kind": ""
     },
     {
