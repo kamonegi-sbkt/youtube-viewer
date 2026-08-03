@@ -1,19 +1,33 @@
 {
-  "generated_at": "2026-08-02T23:11:14+00:00",
+  "generated_at": "2026-08-03T00:12:43+00:00",
   "videos": [
+    {
+      "video_id": "cSTYql7WwWU",
+      "title": "今日の学長ライブ l 食品消費税1%で、実は困る飲食店/結局、投資は何しておけばいいの？→NISAでオルカン。でもそれだけだと人生の落とし穴が...？/AI相談チャットオープン【8/3 8:30まで】",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-08-02T23:50:56Z",
+      "published_dt": "2026-08-02T23:50:56+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/cSTYql7WwWU/maxresdefault.jpg",
+      "duration_seconds": 7543,
+      "live_status": "",
+      "rel_time": "21分前",
+      "duration_text": "2:05:43",
+      "badge_kind": ""
+    },
     {
       "video_id": "oxnpry_L6W4",
       "title": "DeepSeekショック2！ / GPUサーバーを作りました。 / 今メインで使えばいいAIを教えます。",
       "channel_title": "ウェブ職TV / Nesheep",
       "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-08-02T22:35:42Z",
-      "published_dt": "2026-08-02T22:35:42+00:00",
+      "published_iso": "2026-08-02T23:45:09Z",
+      "published_dt": "2026-08-02T23:45:09+00:00",
       "thumbnail": "https://i.ytimg.com/vi/oxnpry_L6W4/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "35分前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
+      "duration_seconds": 4167,
+      "live_status": "",
+      "rel_time": "27分前",
+      "duration_text": "1:09:27",
+      "badge_kind": ""
     },
     {
       "video_id": "K20SU5PHEI4",
@@ -25,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/K20SU5PHEI4/maxresdefault.jpg",
       "duration_seconds": 1423,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "2時間前",
       "duration_text": "23:43",
       "badge_kind": ""
     },
@@ -39,23 +53,9 @@
       "thumbnail": "https://i.ytimg.com/vi/m8IJ23yVyUQ/maxresdefault.jpg",
       "duration_seconds": 1266,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "2時間前",
       "duration_text": "21:06",
       "badge_kind": ""
-    },
-    {
-      "video_id": "cSTYql7WwWU",
-      "title": "今日の学長ライブ l 食品消費税1%で、実は困る飲食店/結局、投資は何しておけばいいの？→NISAでオルカン。でもそれだけだと人生の落とし穴が...？/AI相談チャットオープン【8/3 8:30まで】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-08-02T21:40:50Z",
-      "published_dt": "2026-08-02T21:40:50+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/cSTYql7WwWU/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "1時間前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
     },
     {
       "video_id": "-VEf-GORe9Q",
@@ -67,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/-VEf-GORe9Q/maxresdefault.jpg",
       "duration_seconds": 84,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "12時間前",
       "duration_text": "1:24",
       "badge_kind": ""
     },
@@ -81,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/99povMmTK84/maxresdefault.jpg",
       "duration_seconds": 1905,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "13時間前",
       "duration_text": "31:45",
       "badge_kind": ""
     },
@@ -95,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Leaagpr2xZY/maxresdefault.jpg",
       "duration_seconds": 2069,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "14時間前",
       "duration_text": "34:29",
       "badge_kind": ""
     },
@@ -109,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/acNy_urfL78/maxresdefault.jpg",
       "duration_seconds": 1869,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "14時間前",
       "duration_text": "31:09",
       "badge_kind": ""
     },
@@ -123,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/cKg2mZKDerc/maxresdefault.jpg",
       "duration_seconds": 59,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "15時間前",
       "duration_text": "0:59",
       "badge_kind": ""
     },
@@ -137,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/179o3cUZxRU/maxresdefault.jpg",
       "duration_seconds": 74,
       "live_status": "",
-      "rel_time": "21時間前",
+      "rel_time": "22時間前",
       "duration_text": "1:14",
       "badge_kind": ""
     },
@@ -151,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ce4EQHpLooM/maxresdefault.jpg",
       "duration_seconds": 7774,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "2:09:34",
       "badge_kind": ""
     },
@@ -319,7 +319,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ICKZAWGr7-0/maxresdefault.jpg",
       "duration_seconds": 8272,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "2:17:52",
       "badge_kind": ""
     },
@@ -557,7 +557,7 @@
       "thumbnail": "https://i.ytimg.com/vi/UcLJqufj80g/maxresdefault.jpg",
       "duration_seconds": 7168,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "1:59:28",
       "badge_kind": ""
     },
@@ -1047,7 +1047,7 @@
       "thumbnail": "https://i.ytimg.com/vi/6gKmJqOLDDc/maxresdefault.jpg",
       "duration_seconds": 365,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "6:05",
       "badge_kind": ""
     },
