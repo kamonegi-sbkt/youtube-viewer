@@ -1,9 +1,37 @@
 {
-  "generated_at": "2026-08-04T23:45:25+00:00",
+  "generated_at": "2026-08-05T02:27:26+00:00",
   "videos": [
     {
+      "video_id": "0YNP_72JY_I",
+      "title": "イケハヤ対談を終えた感想 /  GPUサーバー構築案件が来た！！",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-08-05T02:16:34Z",
+      "published_dt": "2026-08-05T02:16:34+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/0YNP_72JY_I/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "live",
+      "rel_time": "10分前",
+      "duration_text": "LIVE",
+      "badge_kind": "live"
+    },
+    {
+      "video_id": "ULa2nQ0oUtA",
+      "title": "【マッキンゼーは必ずやる】ムダのない会議は「役割を分けろ」 #マッキンゼー #会議 #ミーティング #ファシリテーション #トラブル #人間関係",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-08-05T02:00:17Z",
+      "published_dt": "2026-08-05T02:00:17+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/ULa2nQ0oUtA/maxresdefault.jpg",
+      "duration_seconds": 66,
+      "live_status": "",
+      "rel_time": "27分前",
+      "duration_text": "1:06",
+      "badge_kind": ""
+    },
+    {
       "video_id": "v2Q3u9imMY0",
-      "title": "今日の学長ライブ l 家賃8万円が12万円に「とても払えず」/8月から高額療養費制度上限引き上げと対処法【8/5 8:30まで】",
+      "title": "今日の学長ライブ② l 8月から高額療養費制度上限引き上げと対処法【8/5 8:30まで】",
       "channel_title": "両学長 リベラルアーツ大学",
       "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
       "published_iso": "2026-08-04T23:32:03Z",
@@ -11,13 +39,13 @@
       "thumbnail": "https://i.ytimg.com/vi/v2Q3u9imMY0/maxresdefault.jpg",
       "duration_seconds": 1074,
       "live_status": "",
-      "rel_time": "13分前",
+      "rel_time": "2時間前",
       "duration_text": "17:54",
       "badge_kind": ""
     },
     {
       "video_id": "152sNQ4PJZo",
-      "title": "今日の学長ライブ l 家賃8万円が12万円に「とても払えず」/8月から高額療養費制度上限引き上げと対処法/老後に向けてインデックス投資から高配当株投資に、どう乗り換えばいい？【8/5 8:30まで】",
+      "title": "今日の学長ライブ① l 家賃8万円が12万円に「とても払えず」【8/5 8:30まで】",
       "channel_title": "両学長 リベラルアーツ大学",
       "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
       "published_iso": "2026-08-04T23:14:55Z",
@@ -25,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/152sNQ4PJZo/maxresdefault.jpg",
       "duration_seconds": 5339,
       "live_status": "",
-      "rel_time": "30分前",
+      "rel_time": "3時間前",
       "duration_text": "1:28:59",
       "badge_kind": ""
     },
@@ -39,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/EGzeU8QEw2E/maxresdefault.jpg",
       "duration_seconds": 1412,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "4時間前",
       "duration_text": "23:32",
       "badge_kind": ""
     },
@@ -53,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3Cs6Gs_BoJ0/maxresdefault.jpg",
       "duration_seconds": 1701,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "5時間前",
       "duration_text": "28:21",
       "badge_kind": ""
     },
@@ -67,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PmlWrfg5m_E/maxresdefault.jpg",
       "duration_seconds": 4620,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "12時間前",
       "duration_text": "1:17:00",
       "badge_kind": ""
     },
@@ -81,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/wIc5eGzK3t4/maxresdefault.jpg",
       "duration_seconds": 72,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "14時間前",
       "duration_text": "1:12",
       "badge_kind": ""
     },
@@ -95,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/iKt2hskxbX4/maxresdefault.jpg",
       "duration_seconds": 1278,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "15時間前",
       "duration_text": "21:18",
       "badge_kind": ""
     },
@@ -109,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/09HGEpp0lTc/maxresdefault.jpg",
       "duration_seconds": 3655,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "15時間前",
       "duration_text": "1:00:55",
       "badge_kind": ""
     },
@@ -123,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/w8u6moGRE9M/maxresdefault.jpg",
       "duration_seconds": 2104,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "16時間前",
       "duration_text": "35:04",
       "badge_kind": ""
     },
@@ -137,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_pvFcbxS7U8/maxresdefault.jpg",
       "duration_seconds": 994,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "16時間前",
       "duration_text": "16:34",
       "badge_kind": ""
     },
@@ -151,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JUIgN-N-jEw/maxresdefault.jpg",
       "duration_seconds": 66,
       "live_status": "",
-      "rel_time": "21時間前",
+      "rel_time": "1日前",
       "duration_text": "1:06",
       "badge_kind": ""
     },
@@ -165,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/BRDAFqSF6XM/maxresdefault.jpg",
       "duration_seconds": 7490,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "2:04:50",
       "badge_kind": ""
     },
@@ -291,7 +319,7 @@
       "thumbnail": "https://i.ytimg.com/vi/hlEbStpRSeE/maxresdefault.jpg",
       "duration_seconds": 89,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "1:29",
       "badge_kind": ""
     },
@@ -305,7 +333,7 @@
       "thumbnail": "https://i.ytimg.com/vi/cSTYql7WwWU/maxresdefault.jpg",
       "duration_seconds": 7543,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "2:05:43",
       "badge_kind": ""
     },
@@ -417,7 +445,7 @@
       "thumbnail": "https://i.ytimg.com/vi/179o3cUZxRU/maxresdefault.jpg",
       "duration_seconds": 74,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "1:14",
       "badge_kind": ""
     },
@@ -431,7 +459,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ce4EQHpLooM/maxresdefault.jpg",
       "duration_seconds": 7774,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "2:09:34",
       "badge_kind": ""
     },
@@ -585,7 +613,7 @@
       "thumbnail": "https://i.ytimg.com/vi/l9daBBrZ7-4/maxresdefault.jpg",
       "duration_seconds": 61,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "1:01",
       "badge_kind": ""
     },
@@ -599,7 +627,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ICKZAWGr7-0/maxresdefault.jpg",
       "duration_seconds": 8272,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "2:17:52",
       "badge_kind": ""
     },
@@ -955,7 +983,7 @@
     },
     {
       "video_id": "Jxb4VPHhaFE",
-      "title": "【プロも警戒中】働きながら“元手100万円”から始める初心者の株の買い方/【kenmo×土居明莉】/MONEY&MATE（マネーメイト）",
+      "title": "【キオクシアは危険】働きながら“元手100万円”から始める初心者の株の買い方/【kenmo×土居明莉】/MONEY&MATE（マネーメイト）",
       "channel_title": "NewsPicks /ニューズピックス",
       "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
       "published_iso": "2026-07-30T10:00:01Z",
@@ -991,7 +1019,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4d-S7NWVSqY/maxresdefault.jpg",
       "duration_seconds": 59,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "0:59",
       "badge_kind": ""
     },
@@ -1173,7 +1201,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Myjdjqo44Rk/maxresdefault.jpg",
       "duration_seconds": 65,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "1:05",
       "badge_kind": ""
     },
@@ -1553,20 +1581,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "25:17",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "hxHklF4iLzs",
-      "title": "【「日産」が回復し始めた】“中国市場”を使って会社を変える #日産 #自動車 #自動運転 #業界再編 #中国",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-07-26T09:00:21Z",
-      "published_dt": "2026-07-26T09:00:21+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/hxHklF4iLzs/maxresdefault.jpg",
-      "duration_seconds": 80,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "1:20",
       "badge_kind": ""
     },
     {
@@ -2085,20 +2099,6 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "1:06:15",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "cP4h5ZUCHr4",
-      "title": "今がチャンス！主婦も会社員もAIで稼げる時代【リベ大公式切り抜き】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-07-18T22:00:36Z",
-      "published_dt": "2026-07-18T22:00:36+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/cP4h5ZUCHr4/maxresdefault.jpg",
-      "duration_seconds": 649,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "10:49",
       "badge_kind": ""
     }
   ]
