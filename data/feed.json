@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-08-05T12:51:02+00:00",
+  "generated_at": "2026-08-05T15:12:25+00:00",
   "videos": [
+    {
+      "video_id": "RuSAGbkcf9w",
+      "title": "【アベマ同時配信中】「消費減税が閣議決定 国民負担は？／新党作る意味」アベプラ｜8/5(水) 21:00〜",
+      "channel_title": "ABEMA Prime",
+      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
+      "published_iso": "2026-08-05T13:26:42Z",
+      "published_dt": "2026-08-05T13:26:42+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/RuSAGbkcf9w/maxresdefault.jpg",
+      "duration_seconds": 4627,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "1:17:07",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "KGouBk7m6BI",
+      "title": "【不眠を解消】呼吸で眠りが変わる？#自律神経 #呼吸法 #小林弘幸 #ため息 #ストレス解消 #メンタルヘルス #NewsPicks #TheChanneling",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-08-05T13:00:00Z",
+      "published_dt": "2026-08-05T13:00:00+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/KGouBk7m6BI/maxresdefault.jpg",
+      "duration_seconds": 60,
+      "live_status": "",
+      "rel_time": "2時間前",
+      "duration_text": "1:00",
+      "badge_kind": ""
+    },
     {
       "video_id": "_VG7YiIIw3I",
       "title": "【フェミニズムは左翼のサブスクじゃない】フラワーデモが動かした逆転有罪／不同意性交等罪施行3年の現在地／裁判官の当たり外れ問題（佐藤優×北原みのり）#知性密談",
@@ -11,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_VG7YiIIw3I/maxresdefault.jpg",
       "duration_seconds": 1263,
       "live_status": "",
-      "rel_time": "20分前",
+      "rel_time": "2時間前",
       "duration_text": "21:03",
       "badge_kind": ""
     },
@@ -25,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/BzzZiqICY_I/maxresdefault.jpg",
       "duration_seconds": 444,
       "live_status": "",
-      "rel_time": "20分前",
+      "rel_time": "2時間前",
       "duration_text": "7:24",
       "badge_kind": ""
     },
@@ -39,23 +67,9 @@
       "thumbnail": "https://i.ytimg.com/vi/3LZmeMY4CfA/maxresdefault.jpg",
       "duration_seconds": 1041,
       "live_status": "",
-      "rel_time": "50分前",
+      "rel_time": "3時間前",
       "duration_text": "17:21",
       "badge_kind": ""
-    },
-    {
-      "video_id": "RuSAGbkcf9w",
-      "title": "【アベマ同時配信中】「消費減税が閣議決定 国民負担は？／新党作る意味」アベプラ｜8/5(水) 21:00〜",
-      "channel_title": "ABEMA Prime",
-      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-08-05T11:33:57Z",
-      "published_dt": "2026-08-05T11:33:57+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/RuSAGbkcf9w/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "1時間前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
     },
     {
       "video_id": "GXoqS8tGpSs",
@@ -67,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/GXoqS8tGpSs/maxresdefault.jpg",
       "duration_seconds": 1363,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "4時間前",
       "duration_text": "22:43",
       "badge_kind": ""
     },
@@ -81,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/UZ7kOjjQQjk/maxresdefault.jpg",
       "duration_seconds": 1800,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "4時間前",
       "duration_text": "30:00",
       "badge_kind": ""
     },
@@ -95,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/r7mi8l6mxY0/maxresdefault.jpg",
       "duration_seconds": 2370,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "4時間前",
       "duration_text": "39:30",
       "badge_kind": ""
     },
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_PbhYlJsdJo/maxresdefault.jpg",
       "duration_seconds": 1820,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "5時間前",
       "duration_text": "30:20",
       "badge_kind": ""
     },
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/p_snQExahrk/maxresdefault.jpg",
       "duration_seconds": 70,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "5時間前",
       "duration_text": "1:10",
       "badge_kind": ""
     },
@@ -137,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7_syg9iqVLo/maxresdefault.jpg",
       "duration_seconds": 412,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "5時間前",
       "duration_text": "6:52",
       "badge_kind": ""
     },
@@ -151,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0YNP_72JY_I/maxresdefault_live.jpg",
       "duration_seconds": 3919,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "11時間前",
       "duration_text": "1:05:19",
       "badge_kind": ""
     },
@@ -165,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ULa2nQ0oUtA/maxresdefault.jpg",
       "duration_seconds": 66,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "13時間前",
       "duration_text": "1:06",
       "badge_kind": ""
     },
@@ -179,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/v2Q3u9imMY0/maxresdefault.jpg",
       "duration_seconds": 1074,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "15時間前",
       "duration_text": "17:54",
       "badge_kind": ""
     },
@@ -193,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/152sNQ4PJZo/maxresdefault.jpg",
       "duration_seconds": 5339,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "15時間前",
       "duration_text": "1:28:59",
       "badge_kind": ""
     },
@@ -207,7 +221,7 @@
       "thumbnail": "https://i.ytimg.com/vi/EGzeU8QEw2E/maxresdefault.jpg",
       "duration_seconds": 1412,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "17時間前",
       "duration_text": "23:32",
       "badge_kind": ""
     },
@@ -221,7 +235,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3Cs6Gs_BoJ0/maxresdefault.jpg",
       "duration_seconds": 1701,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "18時間前",
       "duration_text": "28:21",
       "badge_kind": ""
     },
@@ -613,7 +627,7 @@
       "thumbnail": "https://i.ytimg.com/vi/p9EnNrXOFdc/maxresdefault.jpg",
       "duration_seconds": 57,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "0:57",
       "badge_kind": ""
     },
@@ -809,7 +823,7 @@
       "thumbnail": "https://i.ytimg.com/vi/I4W-9capM4U/maxresdefault.jpg",
       "duration_seconds": 1620,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "27:00",
       "badge_kind": ""
     },
@@ -1019,7 +1033,7 @@
       "thumbnail": "https://i.ytimg.com/vi/xWCJz5U9xpA/maxresdefault.jpg",
       "duration_seconds": 305,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "5:05",
       "badge_kind": ""
     },
@@ -1553,20 +1567,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "1:20",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "xyY0Rp1ntQY",
-      "title": "【失敗減らす方法】何事も想定内にする？　#運 #黒岩里奈 #小林弘幸 #腸活 #自律神経 #健康  #都市伝説 #金運 #スピリチュアル #運気アップ",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-07-27T09:00:39Z",
-      "published_dt": "2026-07-27T09:00:39+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/xyY0Rp1ntQY/maxresdefault.jpg",
-      "duration_seconds": 60,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "1:00",
       "badge_kind": ""
     },
     {
