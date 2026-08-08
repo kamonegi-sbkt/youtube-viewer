@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-08T16:12:42+00:00",
+  "generated_at": "2026-08-08T16:53:44+00:00",
   "videos": [
     {
       "video_id": "Gx8K5uzXsfw",
       "title": "Starlink Mini、開封の儀！",
       "channel_title": "ウェブ職TV / Nesheep",
       "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-08-08T14:37:27Z",
-      "published_dt": "2026-08-08T14:37:27+00:00",
+      "published_iso": "2026-08-08T16:18:03Z",
+      "published_dt": "2026-08-08T16:18:03+00:00",
       "thumbnail": "https://i.ytimg.com/vi/Gx8K5uzXsfw/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "1時間前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
+      "duration_seconds": 6035,
+      "live_status": "",
+      "rel_time": "35分前",
+      "duration_text": "1:40:35",
+      "badge_kind": ""
     },
     {
       "video_id": "UblIZG9-lnI",
@@ -39,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/cLuNryyPZ6k/maxresdefault.jpg",
       "duration_seconds": 1600,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "4時間前",
       "duration_text": "26:40",
       "badge_kind": ""
     },
@@ -67,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jCNTT50jKeE/maxresdefault.jpg",
       "duration_seconds": 1617,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "6時間前",
       "duration_text": "26:57",
       "badge_kind": ""
     },
@@ -109,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/8V5KpoLF60k/maxresdefault.jpg",
       "duration_seconds": 2076,
       "live_status": "",
-      "rel_time": "6時間前",
+      "rel_time": "7時間前",
       "duration_text": "34:36",
       "badge_kind": ""
     },
