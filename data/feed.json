@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-10T11:11:58+00:00",
+  "generated_at": "2026-08-10T11:59:22+00:00",
   "videos": [
+    {
+      "video_id": "PBBJpGrv2V4",
+      "title": "【アベマ同時配信中】「5年で『貯金ゼロ』市長の危機感とは／国語に文学」アベプラ｜8/10(月) 21:00〜",
+      "channel_title": "ABEMA Prime",
+      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
+      "published_iso": "2026-08-10T11:30:17Z",
+      "published_dt": "2026-08-10T11:30:17+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/PBBJpGrv2V4/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "live",
+      "rel_time": "29分前",
+      "duration_text": "LIVE",
+      "badge_kind": "live"
+    },
     {
       "video_id": "F4WOxzv_wOk",
       "title": "「20代ほど拒絶する」「ベテランは歓迎」漫画界のAI事情を浅野いにおが告白！「描いてて精神病まないの？」ソラニンは「青臭すぎる」批判から生まれた名作『おやすみプンプン』印税額、MUJINA【落合陽一】",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/F4WOxzv_wOk/maxresdefault.jpg",
       "duration_seconds": 1171,
       "live_status": "",
-      "rel_time": "11分前",
+      "rel_time": "59分前",
       "duration_text": "19:31",
       "badge_kind": ""
     },
@@ -1061,7 +1075,7 @@
       "thumbnail": "https://i.ytimg.com/vi/oxnpry_L6W4/maxresdefault.jpg",
       "duration_seconds": 4171,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "1:09:31",
       "badge_kind": ""
     },
@@ -1707,20 +1721,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "0:31",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "ahtY8JD_sAw",
-      "title": "【戦争終結】話し合いで解決できる？外交・情報・防衛・経済の観点から考える｜アベプラ",
-      "channel_title": "ABEMA Prime",
-      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-07-29T10:30:37Z",
-      "published_dt": "2026-07-29T10:30:37+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/ahtY8JD_sAw/maxresdefault.jpg",
-      "duration_seconds": 1865,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "31:05",
       "badge_kind": ""
     },
     {
