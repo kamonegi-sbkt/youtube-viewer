@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-08-11T10:58:39+00:00",
+  "generated_at": "2026-08-11T11:50:14+00:00",
   "videos": [
+    {
+      "video_id": "P4C0f9uGZf0",
+      "title": "【アベマ同時配信中】「熊本地震 復旧スピード早い説も？ポジ・ネガ目線で検証」アベプラ｜8/11(火) 21:00〜",
+      "channel_title": "ABEMA Prime",
+      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
+      "published_iso": "2026-08-11T11:38:27Z",
+      "published_dt": "2026-08-11T11:38:27+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/P4C0f9uGZf0/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "live",
+      "rel_time": "11分前",
+      "duration_text": "LIVE",
+      "badge_kind": "live"
+    },
+    {
+      "video_id": "9zl6T_In_Go",
+      "title": "【子持ち様批判】子育てポジティブキャンペーン！SNSにはネガティブ意見ばかり？「楽しい」「幸せ」と心から思える社会になるには｜アベプラ",
+      "channel_title": "ABEMA Prime",
+      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
+      "published_iso": "2026-08-11T11:00:23Z",
+      "published_dt": "2026-08-11T11:00:23+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/9zl6T_In_Go/maxresdefault.jpg",
+      "duration_seconds": 2254,
+      "live_status": "",
+      "rel_time": "49分前",
+      "duration_text": "37:34",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "ElS7NYV3DFw",
+      "title": "「ジャングリア失敗は嘘」開業1年で見えた経済効果500億円の裏側。元ジャニーズ社長が言及\"恐竜を捨てる\"逆転戦略【福田淳×佐藤大介/加藤浩次】2Sides",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-08-11T11:00:03Z",
+      "published_dt": "2026-08-11T11:00:03+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/ElS7NYV3DFw/maxresdefault.jpg",
+      "duration_seconds": 1128,
+      "live_status": "",
+      "rel_time": "50分前",
+      "duration_text": "18:48",
+      "badge_kind": ""
+    },
     {
       "video_id": "hNC3zdvCJxg",
       "title": "【国語教育】高校の授業で「小説」は必要？文科省が新科目へ…AI時代に感性は育つ？｜アベプラ",
@@ -11,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/hNC3zdvCJxg/maxresdefault.jpg",
       "duration_seconds": 1708,
       "live_status": "",
-      "rel_time": "28分前",
+      "rel_time": "1時間前",
       "duration_text": "28:28",
       "badge_kind": ""
     },
@@ -25,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Th0SpRTfXvQ/maxresdefault.jpg",
       "duration_seconds": 2265,
       "live_status": "",
-      "rel_time": "58分前",
+      "rel_time": "1時間前",
       "duration_text": "37:45",
       "badge_kind": ""
     },
@@ -39,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/HXbEz4W11rw/maxresdefault.jpg",
       "duration_seconds": 1272,
       "live_status": "",
-      "rel_time": "58分前",
+      "rel_time": "1時間前",
       "duration_text": "21:12",
       "badge_kind": ""
     },
@@ -53,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/-X6P4DBBpGQ/maxresdefault.jpg",
       "duration_seconds": 67,
       "live_status": "",
-      "rel_time": "8時間前",
+      "rel_time": "9時間前",
       "duration_text": "1:07",
       "badge_kind": ""
     },
@@ -67,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/sI6iupU1hkw/maxresdefault.jpg",
       "duration_seconds": 575,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "13時間前",
       "duration_text": "9:35",
       "badge_kind": ""
     },
@@ -81,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/1buBYROGIhU/maxresdefault.jpg",
       "duration_seconds": 2843,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "14時間前",
       "duration_text": "47:23",
       "badge_kind": ""
     },
@@ -95,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kqA3yJK3ok8/maxresdefault.jpg",
       "duration_seconds": 8071,
       "live_status": "",
-      "rel_time": "18時間前",
+      "rel_time": "19時間前",
       "duration_text": "2:14:31",
       "badge_kind": ""
     },
@@ -109,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/VkEMi8xPIjw/maxresdefault.jpg",
       "duration_seconds": 1275,
       "live_status": "",
-      "rel_time": "21時間前",
+      "rel_time": "22時間前",
       "duration_text": "21:15",
       "badge_kind": ""
     },
@@ -123,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/hGBTyyJChaI/maxresdefault.jpg",
       "duration_seconds": 1352,
       "live_status": "",
-      "rel_time": "22時間前",
+      "rel_time": "23時間前",
       "duration_text": "22:32",
       "badge_kind": ""
     },
@@ -137,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/AciajaLWbZs/maxresdefault.jpg",
       "duration_seconds": 56,
       "live_status": "",
-      "rel_time": "22時間前",
+      "rel_time": "23時間前",
       "duration_text": "0:56",
       "badge_kind": ""
     },
@@ -151,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/F4WOxzv_wOk/maxresdefault.jpg",
       "duration_seconds": 1171,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "19:31",
       "badge_kind": ""
     },
@@ -585,7 +627,7 @@
       "thumbnail": "https://i.ytimg.com/vi/fAeoXznWX4E/maxresdefault.jpg",
       "duration_seconds": 51,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "0:51",
       "badge_kind": ""
     },
@@ -599,7 +641,7 @@
       "thumbnail": "https://i.ytimg.com/vi/eH9nWthcpt0/maxresdefault.jpg",
       "duration_seconds": 1183,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "19:43",
       "badge_kind": ""
     },
@@ -613,7 +655,7 @@
       "thumbnail": "https://i.ytimg.com/vi/cn3UxGOp8Zg/maxresdefault.jpg",
       "duration_seconds": 1222,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "20:22",
       "badge_kind": ""
     },
@@ -767,7 +809,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LJcEDvmr4ak/maxresdefault.jpg",
       "duration_seconds": 1234,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "20:34",
       "badge_kind": ""
     },
@@ -781,7 +823,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_y027Uqh4Xs/maxresdefault.jpg",
       "duration_seconds": 1999,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "33:19",
       "badge_kind": ""
     },
@@ -935,7 +977,7 @@
       "thumbnail": "https://i.ytimg.com/vi/GXoqS8tGpSs/maxresdefault.jpg",
       "duration_seconds": 1363,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "22:43",
       "badge_kind": ""
     },
@@ -949,7 +991,7 @@
       "thumbnail": "https://i.ytimg.com/vi/UZ7kOjjQQjk/maxresdefault.jpg",
       "duration_seconds": 1800,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "30:00",
       "badge_kind": ""
     },
@@ -1075,7 +1117,7 @@
       "thumbnail": "https://i.ytimg.com/vi/iKt2hskxbX4/maxresdefault.jpg",
       "duration_seconds": 1278,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "21:18",
       "badge_kind": ""
     },
@@ -1357,20 +1399,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "0:59",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "179o3cUZxRU",
-      "title": "【実は知られていない】どれくらい儲かる？「占い師」の実態  #AI #占い師 #細木数子 #スピリチュアル",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-08-02T02:00:35Z",
-      "published_dt": "2026-08-02T02:00:35+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/179o3cUZxRU/maxresdefault.jpg",
-      "duration_seconds": 74,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "1:14",
       "badge_kind": ""
     },
     {
@@ -1682,34 +1710,6 @@
       "badge_kind": ""
     },
     {
-      "video_id": "K-RqUkaCdyQ",
-      "title": "【共働き無理ゲー】2人目シンドイ？解決策はお金か、文化か…ひろゆきと考える｜アベプラ",
-      "channel_title": "ABEMA Prime",
-      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-07-30T10:30:31Z",
-      "published_dt": "2026-07-30T10:30:31+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/K-RqUkaCdyQ/maxresdefault.jpg",
-      "duration_seconds": 1758,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "29:18",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "NFZEahTM4xs",
-      "title": "【熊本震度7】ひろゆき×馳浩・前石川県知事！能登の教訓から考える“地震に強い”まちづくり｜アベプラ",
-      "channel_title": "ABEMA Prime",
-      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-07-30T10:00:03Z",
-      "published_dt": "2026-07-30T10:00:03+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/NFZEahTM4xs/maxresdefault.jpg",
-      "duration_seconds": 2599,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "43:19",
-      "badge_kind": ""
-    },
-    {
       "video_id": "4Sh9T-b46tc",
       "title": "「あなたの行動の本当の理由は？」本音と建前が一致するほど人生は生きやすくなる【人生論】【リベ大公式切り抜き】",
       "channel_title": "両学長 リベラルアーツ大学",
@@ -1803,7 +1803,7 @@
       "thumbnail": "https://i.ytimg.com/vi/S_DLqmzVi5I/maxresdefault.jpg",
       "duration_seconds": 3243,
       "live_status": "",
-      "rel_time": "1週間前",
+      "rel_time": "2週間前",
       "duration_text": "54:03",
       "badge_kind": ""
     },
@@ -1817,7 +1817,7 @@
       "thumbnail": "https://i.ytimg.com/vi/dplfq5hYDno/maxresdefault.jpg",
       "duration_seconds": 1904,
       "live_status": "",
-      "rel_time": "1週間前",
+      "rel_time": "2週間前",
       "duration_text": "31:44",
       "badge_kind": ""
     },
