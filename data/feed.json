@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-12T14:35:49+00:00",
+  "generated_at": "2026-08-12T15:38:26+00:00",
   "videos": [
+    {
+      "video_id": "pFTHjq0T3_w",
+      "title": "やっぱり難しすぎる理系ツッコミスター",
+      "channel_title": "予備校のノリで学ぶ「大学の数学・物理」",
+      "channel_id": "UCqmWJJolqAgjIdLqK3zD1QQ",
+      "published_iso": "2026-08-12T14:39:46Z",
+      "published_dt": "2026-08-12T14:39:46+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/pFTHjq0T3_w/maxresdefault.jpg",
+      "duration_seconds": 110,
+      "live_status": "",
+      "rel_time": "58分前",
+      "duration_text": "1:50",
+      "badge_kind": ""
+    },
     {
       "video_id": "eMiu_Ya0pX4",
       "title": "【アベマ同時配信中】「ひろゆき×熊本県知事 被災地復興＆産業再生は？」アベプラ｜8/12(水) 21:00〜",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/eMiu_Ya0pX4/maxresdefault.jpg",
       "duration_seconds": 5012,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "2時間前",
       "duration_text": "1:23:32",
       "badge_kind": ""
     },
@@ -25,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/y7qBIhmXyYI/maxresdefault.jpg",
       "duration_seconds": 1530,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "3時間前",
       "duration_text": "25:30",
       "badge_kind": ""
     },
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/XHrV3qjyOkY/maxresdefault.jpg",
       "duration_seconds": 68,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "3時間前",
       "duration_text": "1:08",
       "badge_kind": ""
     },
@@ -53,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/c3rk_OU2aHc/maxresdefault.jpg",
       "duration_seconds": 944,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "3時間前",
       "duration_text": "15:44",
       "badge_kind": ""
     },
@@ -67,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/B8QVa4jgcuU/maxresdefault.jpg",
       "duration_seconds": 864,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "4時間前",
       "duration_text": "14:24",
       "badge_kind": ""
     },
@@ -81,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/DoAsOKdrjGM/maxresdefault.jpg",
       "duration_seconds": 1774,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "5時間前",
       "duration_text": "29:34",
       "badge_kind": ""
     },
@@ -95,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/NhLKAFexfzM/maxresdefault.jpg",
       "duration_seconds": 1865,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "5時間前",
       "duration_text": "31:05",
       "badge_kind": ""
     },
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/r1rYeDWUhAg/maxresdefault.jpg",
       "duration_seconds": 2605,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "5時間前",
       "duration_text": "43:25",
       "badge_kind": ""
     },
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/NZDDleTi8Lo/maxresdefault.jpg",
       "duration_seconds": 68,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "6時間前",
       "duration_text": "1:08",
       "badge_kind": ""
     },
@@ -137,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kuI_-TPJ6lQ/maxresdefault.jpg",
       "duration_seconds": 95,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "13時間前",
       "duration_text": "1:35",
       "badge_kind": ""
     },
@@ -151,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zqkUWDuQezk/maxresdefault.jpg",
       "duration_seconds": 8348,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "15時間前",
       "duration_text": "2:19:08",
       "badge_kind": ""
     },
@@ -165,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/A_6gX2HSEvc/maxresdefault.jpg",
       "duration_seconds": 1431,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "17時間前",
       "duration_text": "23:51",
       "badge_kind": ""
     },
@@ -2085,20 +2099,6 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "1:31",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "dCi-FJtW6Rk",
-      "title": "【再放送】「仕事なんて頑張っても報われない」そう思うとき試してほしい５つのこと【人生論】：（アニメ動画）第139回",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-07-23T22:00:17Z",
-      "published_dt": "2026-07-23T22:00:17+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/dCi-FJtW6Rk/maxresdefault.jpg",
-      "duration_seconds": 1469,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "24:29",
       "badge_kind": ""
     }
   ]
