@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-13T11:11:15+00:00",
+  "generated_at": "2026-08-13T12:00:07+00:00",
   "videos": [
+    {
+      "video_id": "yFmKoVWZAbk",
+      "title": "【アベマ同時配信中】「プーチン氏が初訪問 ロシアにとって北方領土とは」アベプラ｜8/13(木) 21:00〜",
+      "channel_title": "ABEMA Prime",
+      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
+      "published_iso": "2026-08-13T11:44:36Z",
+      "published_dt": "2026-08-13T11:44:36+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/yFmKoVWZAbk/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "live",
+      "rel_time": "15分前",
+      "duration_text": "LIVE",
+      "badge_kind": "live"
+    },
     {
       "video_id": "kpwnXFr8eR0",
       "title": "【災害時】ネット時代になぜラジオ？ネット使えない高齢者にも情報を…災害時の“最後の砦”に？地域をつなぐ役割とは│アベプラ",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kpwnXFr8eR0/maxresdefault.jpg",
       "duration_seconds": 1888,
       "live_status": "",
-      "rel_time": "10分前",
+      "rel_time": "59分前",
       "duration_text": "31:28",
       "badge_kind": ""
     },
@@ -25,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/nOyg7MJmoUA/maxresdefault.jpg",
       "duration_seconds": 1245,
       "live_status": "",
-      "rel_time": "10分前",
+      "rel_time": "59分前",
       "duration_text": "20:45",
       "badge_kind": ""
     },
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/V2bLrbPXNSo/maxresdefault.jpg",
       "duration_seconds": 2574,
       "live_status": "",
-      "rel_time": "40分前",
+      "rel_time": "1時間前",
       "duration_text": "42:54",
       "badge_kind": ""
     },
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/FAkMraqLuko/maxresdefault.jpg",
       "duration_seconds": 712,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "14時間前",
       "duration_text": "11:52",
       "badge_kind": ""
     },
@@ -137,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pFTHjq0T3_w/maxresdefault.jpg",
       "duration_seconds": 110,
       "live_status": "",
-      "rel_time": "20時間前",
+      "rel_time": "21時間前",
       "duration_text": "1:50",
       "badge_kind": ""
     },
@@ -151,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/y7qBIhmXyYI/maxresdefault.jpg",
       "duration_seconds": 1530,
       "live_status": "",
-      "rel_time": "22時間前",
+      "rel_time": "23時間前",
       "duration_text": "25:30",
       "badge_kind": ""
     },
@@ -319,7 +333,7 @@
       "thumbnail": "https://i.ytimg.com/vi/J6YPcP9CdDI/maxresdefault.jpg",
       "duration_seconds": 80,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "1:20",
       "badge_kind": ""
     },
@@ -921,7 +935,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QdQT5rQFnqU/maxresdefault.jpg",
       "duration_seconds": 89,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "1:29",
       "badge_kind": ""
     },
@@ -1089,7 +1103,7 @@
       "thumbnail": "https://i.ytimg.com/vi/M7iaqNfDZao/maxresdefault.jpg",
       "duration_seconds": 55,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "0:55",
       "badge_kind": ""
     },
@@ -2085,20 +2099,6 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "44:57",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "4nBbHTA_JaA",
-      "title": "AliExpressで買ったデータセンター用GPU…普通のグラボと何が違う？ NVIDIA V100",
-      "channel_title": "イチケン / ICHIKEN",
-      "channel_id": "UCGhudK3AIG152KrfURCSb2Q",
-      "published_iso": "2026-07-24T10:00:23Z",
-      "published_dt": "2026-07-24T10:00:23+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/4nBbHTA_JaA/maxresdefault.jpg",
-      "duration_seconds": 623,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "10:23",
       "badge_kind": ""
     }
   ]
