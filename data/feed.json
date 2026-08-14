@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-14T21:09:31+00:00",
+  "generated_at": "2026-08-14T21:40:35+00:00",
   "videos": [
+    {
+      "video_id": "vwkpm1q9Ah0",
+      "title": "今日の学長ライブ l ダイヤモンドの盾届きました/金融資産1,000万円超の「44.4%」が「お金を使わなすぎた」と後悔/被害回復型の詐欺に気をつけろ/【8/15 8:30まで】",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-08-14T21:39:52Z",
+      "published_dt": "2026-08-14T21:39:52+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/vwkpm1q9Ah0/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "live",
+      "rel_time": "たった今",
+      "duration_text": "LIVE",
+      "badge_kind": "live"
+    },
     {
       "video_id": "3iFCI-ZXPk8",
       "title": "【アベマ同時配信中】「千葉豪雨 クルマ避難に“落とし穴”？／AI暴走の責任」アベプラ｜8/14(金) 21:00〜",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3iFCI-ZXPk8/maxresdefault.jpg",
       "duration_seconds": 4914,
       "live_status": "",
-      "rel_time": "7時間前",
+      "rel_time": "8時間前",
       "duration_text": "1:21:54",
       "badge_kind": ""
     },
@@ -95,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/H2TvyX1TaPs/maxresdefault.jpg",
       "duration_seconds": 2075,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "11時間前",
       "duration_text": "34:35",
       "badge_kind": ""
     },
@@ -2085,20 +2099,6 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "1:18",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "jjcWPO_HAsQ",
-      "title": "【実家どうする？】不動産の二極化が進行中！「負動産」になる前に考えたい住宅戦略【リベ大公式切り抜き】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-07-26T22:00:13Z",
-      "published_dt": "2026-07-26T22:00:13+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/jjcWPO_HAsQ/maxresdefault.jpg",
-      "duration_seconds": 785,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "13:05",
       "badge_kind": ""
     }
   ]
