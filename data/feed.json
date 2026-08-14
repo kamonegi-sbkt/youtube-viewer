@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-14T11:04:04+00:00",
+  "generated_at": "2026-08-14T11:57:04+00:00",
   "videos": [
+    {
+      "video_id": "3iFCI-ZXPk8",
+      "title": "【アベマ同時配信中】「千葉豪雨 クルマ避難に“落とし穴”？／AI暴走の責任」アベプラ｜8/14(金) 21:00〜",
+      "channel_title": "ABEMA Prime",
+      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
+      "published_iso": "2026-08-14T11:30:51Z",
+      "published_dt": "2026-08-14T11:30:51+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/3iFCI-ZXPk8/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "live",
+      "rel_time": "26分前",
+      "duration_text": "LIVE",
+      "badge_kind": "live"
+    },
     {
       "video_id": "eTH2Hb3j05Q",
       "title": "【対談】安野貴博xAI小説家・葦沢かもめ　AIで書いた小説に作家性は宿る？ / 星新一賞は入賞4作中3作がAI利用作品 / Claude Code で小説執筆 / AI時代の創作とは？",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/eTH2Hb3j05Q/maxresdefault.jpg",
       "duration_seconds": 3040,
       "live_status": "",
-      "rel_time": "3分前",
+      "rel_time": "56分前",
       "duration_text": "50:40",
       "badge_kind": ""
     },
@@ -25,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/wYPRg38QQqs/maxresdefault.jpg",
       "duration_seconds": 37,
       "live_status": "",
-      "rel_time": "3分前",
+      "rel_time": "56分前",
       "duration_text": "0:37",
       "badge_kind": ""
     },
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/RnjizK96vuU/maxresdefault.jpg",
       "duration_seconds": 2040,
       "live_status": "",
-      "rel_time": "3分前",
+      "rel_time": "56分前",
       "duration_text": "34:00",
       "badge_kind": ""
     },
@@ -53,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/H2TvyX1TaPs/maxresdefault.jpg",
       "duration_seconds": 2075,
       "live_status": "",
-      "rel_time": "33分前",
+      "rel_time": "1時間前",
       "duration_text": "34:35",
       "badge_kind": ""
     },
@@ -151,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/vSnQt-ZZ_Lo/maxresdefault.jpg",
       "duration_seconds": 7435,
       "live_status": "",
-      "rel_time": "17時間前",
+      "rel_time": "18時間前",
       "duration_text": "2:03:55",
       "badge_kind": ""
     },
@@ -165,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/vVyScRUufTM/maxresdefault.jpg",
       "duration_seconds": 2955,
       "live_status": "",
-      "rel_time": "19時間前",
+      "rel_time": "20時間前",
       "duration_text": "49:15",
       "badge_kind": ""
     },
@@ -2085,20 +2099,6 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "13:05",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "rcM2h3fG-go",
-      "title": "今日発売の「カレーみそきん」を食べてみた結果...",
-      "channel_title": "堀江貴文 ホリエモン",
-      "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
-      "published_iso": "2026-07-26T12:21:51Z",
-      "published_dt": "2026-07-26T12:21:51+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/rcM2h3fG-go/maxresdefault.jpg",
-      "duration_seconds": 457,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "7:37",
       "badge_kind": ""
     }
   ]
