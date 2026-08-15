@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-15T11:44:36+00:00",
+  "generated_at": "2026-08-15T11:58:53+00:00",
   "videos": [
+    {
+      "video_id": "LTj5vu33LRw",
+      "title": "【AIエージェント暴走】他人の予約を勝手に削除…“補助的”か“自律的か”で責任どう変わる？｜アベプラ",
+      "channel_title": "ABEMA Prime",
+      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
+      "published_iso": "2026-08-15T11:44:38Z",
+      "published_dt": "2026-08-15T11:44:38+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/LTj5vu33LRw/maxresdefault.jpg",
+      "duration_seconds": 1830,
+      "live_status": "",
+      "rel_time": "14分前",
+      "duration_text": "30:30",
+      "badge_kind": ""
+    },
     {
       "video_id": "3PtAt13rb90",
       "title": "「習い事はするな」保育のプロ・てぃ先生が警鐘。習い事は“親の不安”と言い切る理由【山﨑晴太郎/宮村優子/てぃ先生/加藤紀子】EduPassion",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3PtAt13rb90/maxresdefault.jpg",
       "duration_seconds": 1134,
       "live_status": "",
-      "rel_time": "44分前",
+      "rel_time": "58分前",
       "duration_text": "18:54",
       "badge_kind": ""
     },
@@ -2085,20 +2099,6 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "11:42",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "tLZnfoldQrc",
-      "title": "【ホリエモンも愛用】今話題のデイリータダラフィルとは #PR",
-      "channel_title": "堀江貴文 ホリエモン",
-      "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
-      "published_iso": "2026-07-27T08:00:04Z",
-      "published_dt": "2026-07-27T08:00:04+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/tLZnfoldQrc/maxresdefault.jpg",
-      "duration_seconds": 78,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "1:18",
       "badge_kind": ""
     }
   ]
