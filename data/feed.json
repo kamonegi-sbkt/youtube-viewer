@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-15T23:44:04+00:00",
+  "generated_at": "2026-08-15T23:58:42+00:00",
   "videos": [
+    {
+      "video_id": "HC-jQG7jK-0",
+      "title": "今日の学長ライブ l 学長AIを使えば、お金の悩みが減るよ。質問しまくろう！/みんな、つべこべ言わずに、ライフプランを作るんだ！どんな人でも必要じゃよ【8/16 8:30まで】",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-08-15T23:56:45Z",
+      "published_dt": "2026-08-15T23:56:45+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/HC-jQG7jK-0/maxresdefault_live.jpg",
+      "duration_seconds": 8180,
+      "live_status": "",
+      "rel_time": "1分前",
+      "duration_text": "2:16:20",
+      "badge_kind": ""
+    },
     {
       "video_id": "rxygIkp_hgY",
       "title": "【今がボーナスタイム】AIだけで1ヶ月で35万円稼いだ成功例【リベ大公式切り抜き】",
@@ -14,20 +28,6 @@
       "rel_time": "1時間前",
       "duration_text": "8:38",
       "badge_kind": ""
-    },
-    {
-      "video_id": "HC-jQG7jK-0",
-      "title": "今日の学長ライブ l 学長AIを使えば、お金の悩みが減るよ。質問しまくろう！/みんな、つべこべ言わずに、ライフプランを作るんだ！どんな人でも必要じゃよ【8/16 8:30まで】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-08-15T21:40:34Z",
-      "published_dt": "2026-08-15T21:40:34+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/HC-jQG7jK-0/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "2時間前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
     },
     {
       "video_id": "WT4UXBdfH4w",
@@ -81,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LTj5vu33LRw/maxresdefault.jpg",
       "duration_seconds": 1830,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "12時間前",
       "duration_text": "30:30",
       "badge_kind": ""
     },
@@ -333,7 +333,7 @@
       "thumbnail": "https://i.ytimg.com/vi/IZnwu3B5d0k/maxresdefault.jpg",
       "duration_seconds": 7902,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "2:11:42",
       "badge_kind": ""
     },
