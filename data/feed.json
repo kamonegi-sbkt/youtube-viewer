@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-16T14:21:07+00:00",
+  "generated_at": "2026-08-16T14:48:22+00:00",
   "videos": [
+    {
+      "video_id": "PRgbNStEFtg",
+      "title": "メリルに頼んだらいくらする？",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-08-16T14:46:47Z",
+      "published_dt": "2026-08-16T14:46:47+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/PRgbNStEFtg/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "live",
+      "rel_time": "1分前",
+      "duration_text": "LIVE",
+      "badge_kind": "live"
+    },
     {
       "video_id": "eKBp8tEgIJA",
       "title": "【佐藤優×池上彰】国家機密を巡る検察官の任務 #池上彰 #佐藤優  #スパイ防止法 #インテリジェンス #安全保障 #国際政治 #スパイ  #時事問題 #NewsPicks #知性密談",
@@ -67,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gSOhusPXjTc/maxresdefault.jpg",
       "duration_seconds": 1829,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "5時間前",
       "duration_text": "30:29",
       "badge_kind": ""
     },
@@ -655,7 +669,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pFTHjq0T3_w/maxresdefault.jpg",
       "duration_seconds": 110,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "1:50",
       "badge_kind": ""
     },
@@ -823,7 +837,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Ed7c-mClvk0/maxresdefault.jpg",
       "duration_seconds": 665,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "11:05",
       "badge_kind": ""
     },
@@ -2085,20 +2099,6 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "21:55",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "OFOwX_acptQ",
-      "title": "【再放送】【ズバリ言うわよ】学資保険は「不要」です！【お金の勉強 初級編】：（アニメ動画）第304回",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-07-28T22:00:07Z",
-      "published_dt": "2026-07-28T22:00:07+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/OFOwX_acptQ/maxresdefault.jpg",
-      "duration_seconds": 1136,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "18:56",
       "badge_kind": ""
     }
   ]
