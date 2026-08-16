@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-16T23:18:19+00:00",
+  "generated_at": "2026-08-16T23:44:13+00:00",
   "videos": [
+    {
+      "video_id": "eJx3KFXrLmI",
+      "title": "今日の学長ライブ l 【要注意】デイトレをやると「人生の敗者感」を味わうリスク高まります/サマージャンボ宝くじ/ギャンブルが楽しいのはわかるけども、ほどほどに。笑/【8/17 8:30まで】",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-08-16T23:39:35Z",
+      "published_dt": "2026-08-16T23:39:35+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/eJx3KFXrLmI/maxresdefault_live.jpg",
+      "duration_seconds": 7091,
+      "live_status": "",
+      "rel_time": "4分前",
+      "duration_text": "1:58:11",
+      "badge_kind": ""
+    },
     {
       "video_id": "rNFXHthLkC4",
       "title": "【学びどころ満載】学長がお届け！「お金の講義」2026年7月総集編",
@@ -28,20 +42,6 @@
       "rel_time": "1時間前",
       "duration_text": "15:12",
       "badge_kind": ""
-    },
-    {
-      "video_id": "eJx3KFXrLmI",
-      "title": "今日の学長ライブ l 【要注意】デイトレをやると「人生の敗者感」を味わうリスク高まります/サマージャンボ宝くじ/ギャンブルが楽しいのはわかるけども、ほどほどに。笑/【8/17 8:30まで】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-08-16T21:41:32Z",
-      "published_dt": "2026-08-16T21:41:32+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/eJx3KFXrLmI/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "1時間前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
     },
     {
       "video_id": "PRgbNStEFtg",
@@ -123,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gSOhusPXjTc/maxresdefault.jpg",
       "duration_seconds": 1829,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "14時間前",
       "duration_text": "30:29",
       "badge_kind": ""
     },
