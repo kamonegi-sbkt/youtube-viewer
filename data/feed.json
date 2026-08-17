@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-17T11:24:20+00:00",
+  "generated_at": "2026-08-17T11:50:16+00:00",
   "videos": [
+    {
+      "video_id": "gTS6o28alJg",
+      "title": "【アベマ同時配信中】「韓国女優が謝罪“曾祖父が親日派”／ワクチン嫌悪」アベプラ｜8/17(月) 21:00〜",
+      "channel_title": "ABEMA Prime",
+      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
+      "published_iso": "2026-08-17T11:31:07Z",
+      "published_dt": "2026-08-17T11:31:07+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/gTS6o28alJg/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "live",
+      "rel_time": "19分前",
+      "duration_text": "LIVE",
+      "badge_kind": "live"
+    },
     {
       "video_id": "I68KdYjDbdw",
       "title": "「その親切、徳になってません」いい人ぶる人への警鐘【黒岩里奈×勝間和代×MIYAMU】",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/I68KdYjDbdw/maxresdefault.jpg",
       "duration_seconds": 724,
       "live_status": "",
-      "rel_time": "23分前",
+      "rel_time": "49分前",
       "duration_text": "12:04",
       "badge_kind": ""
     },
@@ -95,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/eJx3KFXrLmI/maxresdefault.jpg",
       "duration_seconds": 7091,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "12時間前",
       "duration_text": "1:58:11",
       "badge_kind": ""
     },
@@ -333,7 +347,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LTj5vu33LRw/maxresdefault.jpg",
       "duration_seconds": 1830,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "30:30",
       "badge_kind": ""
     },
@@ -2085,20 +2099,6 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "0:31",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "YZw85EETFUs",
-      "title": "「堀江黙れ」若手虎の大暴れに溝口もブチギレで番組崩壊…！史上最大の喧嘩祭りの結末がヤバすぎた【令和の虎戦争】",
-      "channel_title": "堀江貴文 ホリエモン",
-      "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
-      "published_iso": "2026-07-29T10:00:34Z",
-      "published_dt": "2026-07-29T10:00:34+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/YZw85EETFUs/maxresdefault.jpg",
-      "duration_seconds": 5421,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "1:30:21",
       "badge_kind": ""
     }
   ]
