@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-18T23:20:31+00:00",
+  "generated_at": "2026-08-18T23:46:46+00:00",
   "videos": [
+    {
+      "video_id": "QPevjyPPLak",
+      "title": "今日の学長ライブ l 【高金利に釣られるな！】「個人向け国債」と「新窓販国債」は別モノです&【4%→5.5%へ？】「4%ルール」の生みの親が『もっと使え』と言い出した件【8/19 8:30まで】",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-08-18T23:42:36Z",
+      "published_dt": "2026-08-18T23:42:36+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/QPevjyPPLak/maxresdefault_live.jpg",
+      "duration_seconds": 7167,
+      "live_status": "",
+      "rel_time": "4分前",
+      "duration_text": "1:59:27",
+      "badge_kind": ""
+    },
     {
       "video_id": "5c4vaYhPNkk",
       "title": "【再放送】【借金返済】奨学金は繰り上げ返済するべき？「賢く返す人」になるためのポイント解説【お金の勉強 初級編】：（アニメ動画）第487回",
@@ -14,20 +28,6 @@
       "rel_time": "1時間前",
       "duration_text": "16:30",
       "badge_kind": ""
-    },
-    {
-      "video_id": "QPevjyPPLak",
-      "title": "今日の学長ライブ l 【高金利に釣られるな！】「個人向け国債」と「新窓販国債」は別モノです&【4%→5.5%へ？】「4%ルール」の生みの親が『もっと使え』と言い出した件【8/19 8:30まで】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-08-18T21:43:10Z",
-      "published_dt": "2026-08-18T21:43:10+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/QPevjyPPLak/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "1時間前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
     },
     {
       "video_id": "gE-EL78H0Ak",
@@ -67,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Vnf80RHHKRc/maxresdefault.jpg",
       "duration_seconds": 4236,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "10時間前",
       "duration_text": "1:10:36",
       "badge_kind": ""
     },
@@ -137,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/P4NOoMTqP-E/maxresdefault.jpg",
       "duration_seconds": 1855,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "13時間前",
       "duration_text": "30:55",
       "badge_kind": ""
     },
@@ -375,7 +375,7 @@
       "thumbnail": "https://i.ytimg.com/vi/eJx3KFXrLmI/maxresdefault.jpg",
       "duration_seconds": 7091,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "1:58:11",
       "badge_kind": ""
     },
