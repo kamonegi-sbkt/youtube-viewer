@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T04:08:49+00:00",
+  "generated_at": "2026-08-18T04:51:36+00:00",
   "videos": [
     {
       "video_id": "rTGmW-cZe0E",
@@ -25,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/N4xIsDpu354/maxresdefault.jpg",
       "duration_seconds": 7360,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "5時間前",
       "duration_text": "2:02:40",
       "badge_kind": ""
     },
@@ -81,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gTS6o28alJg/maxresdefault.jpg",
       "duration_seconds": 4227,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "15時間前",
       "duration_text": "1:10:27",
       "badge_kind": ""
     },
@@ -179,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PRgbNStEFtg/maxresdefault.jpg",
       "duration_seconds": 4171,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "1:09:31",
       "badge_kind": ""
     },
@@ -333,7 +333,7 @@
       "thumbnail": "https://i.ytimg.com/vi/WT4UXBdfH4w/maxresdefault.jpg",
       "duration_seconds": 6183,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "1:43:03",
       "badge_kind": ""
     },
