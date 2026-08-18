@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-18T21:47:42+00:00",
+  "generated_at": "2026-08-18T22:21:58+00:00",
   "videos": [
+    {
+      "video_id": "5c4vaYhPNkk",
+      "title": "【再放送】【借金返済】奨学金は繰り上げ返済するべき？「賢く返す人」になるためのポイント解説【お金の勉強 初級編】：（アニメ動画）第487回",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-08-18T22:00:15Z",
+      "published_dt": "2026-08-18T22:00:15+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/5c4vaYhPNkk/maxresdefault.jpg",
+      "duration_seconds": 990,
+      "live_status": "",
+      "rel_time": "21分前",
+      "duration_text": "16:30",
+      "badge_kind": ""
+    },
     {
       "video_id": "QPevjyPPLak",
       "title": "今日の学長ライブ l 【高金利に釣られるな！】「個人向け国債」と「新窓販国債」は別モノです&【4%→5.5%へ？】「4%ルール」の生みの親が『もっと使え』と言い出した件【8/19 8:30まで】",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QPevjyPPLak/maxresdefault_live.jpg",
       "duration_seconds": null,
       "live_status": "live",
-      "rel_time": "4分前",
+      "rel_time": "38分前",
       "duration_text": "LIVE",
       "badge_kind": "live"
     },
@@ -25,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gE-EL78H0Ak/maxresdefault.jpg",
       "duration_seconds": 2255,
       "live_status": "",
-      "rel_time": "47分前",
+      "rel_time": "1時間前",
       "duration_text": "37:35",
       "badge_kind": ""
     },
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/SfuGuI-J5qo/maxresdefault_live.jpg",
       "duration_seconds": null,
       "live_status": "upcoming",
-      "rel_time": "4時間前",
+      "rel_time": "5時間前",
       "duration_text": "配信予定",
       "badge_kind": "upcoming"
     },
@@ -67,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/HEQp3k-4RmE/maxresdefault.jpg",
       "duration_seconds": 82,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "10時間前",
       "duration_text": "1:22",
       "badge_kind": ""
     },
@@ -81,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LrqVSvcbYy8/maxresdefault.jpg",
       "duration_seconds": 483,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "10時間前",
       "duration_text": "8:03",
       "badge_kind": ""
     },
@@ -95,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/O9tx3qA2tfE/maxresdefault.jpg",
       "duration_seconds": 1100,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "11時間前",
       "duration_text": "18:20",
       "badge_kind": ""
     },
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/-v7p-WJ_bys/maxresdefault.jpg",
       "duration_seconds": 1774,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "11時間前",
       "duration_text": "29:34",
       "badge_kind": ""
     },
@@ -137,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0O9P42Iu6oA/maxresdefault.jpg",
       "duration_seconds": 1970,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "12時間前",
       "duration_text": "32:50",
       "badge_kind": ""
     },
@@ -151,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kpXuQU8RnJY/maxresdefault.jpg",
       "duration_seconds": 522,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "12時間前",
       "duration_text": "8:42",
       "badge_kind": ""
     },
@@ -165,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4D-Tsp0aC_M/maxresdefault.jpg",
       "duration_seconds": 938,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "12時間前",
       "duration_text": "15:38",
       "badge_kind": ""
     },
@@ -179,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rTGmW-cZe0E/maxresdefault.jpg",
       "duration_seconds": 49,
       "live_status": "",
-      "rel_time": "19時間前",
+      "rel_time": "20時間前",
       "duration_text": "0:49",
       "badge_kind": ""
     },
@@ -193,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/N4xIsDpu354/maxresdefault.jpg",
       "duration_seconds": 7360,
       "live_status": "",
-      "rel_time": "21時間前",
+      "rel_time": "22時間前",
       "duration_text": "2:02:40",
       "badge_kind": ""
     },
@@ -207,7 +221,7 @@
       "thumbnail": "https://i.ytimg.com/vi/tRx1doO_6Wc/maxresdefault.jpg",
       "duration_seconds": 1128,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "18:48",
       "badge_kind": ""
     },
@@ -375,7 +389,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rNFXHthLkC4/maxresdefault.jpg",
       "duration_seconds": 3210,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "53:30",
       "badge_kind": ""
     },
@@ -389,7 +403,7 @@
       "thumbnail": "https://i.ytimg.com/vi/zFV0-51oAOs/maxresdefault.jpg",
       "duration_seconds": 912,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "15:12",
       "badge_kind": ""
     },
@@ -557,7 +571,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rxygIkp_hgY/maxresdefault.jpg",
       "duration_seconds": 518,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "8:38",
       "badge_kind": ""
     },
@@ -697,7 +711,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ydgqs9Vlc9U/maxresdefault.jpg",
       "duration_seconds": 484,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "8:04",
       "badge_kind": ""
     },
@@ -865,7 +879,7 @@
       "thumbnail": "https://i.ytimg.com/vi/nWkY7l5GKKA/maxresdefault.jpg",
       "duration_seconds": 1044,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "17:24",
       "badge_kind": ""
     },
@@ -1019,7 +1033,7 @@
       "thumbnail": "https://i.ytimg.com/vi/FAkMraqLuko/maxresdefault.jpg",
       "duration_seconds": 712,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "11:52",
       "badge_kind": ""
     },
@@ -1173,7 +1187,7 @@
       "thumbnail": "https://i.ytimg.com/vi/A_6gX2HSEvc/maxresdefault.jpg",
       "duration_seconds": 1431,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "23:51",
       "badge_kind": ""
     },
@@ -1873,7 +1887,7 @@
       "thumbnail": "https://i.ytimg.com/vi/EGzeU8QEw2E/maxresdefault.jpg",
       "duration_seconds": 1412,
       "live_status": "",
-      "rel_time": "1週間前",
+      "rel_time": "2週間前",
       "duration_text": "23:32",
       "badge_kind": ""
     },
@@ -2085,20 +2099,6 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "0:56",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "K6KX41tLH2s",
-      "title": "【ゆる解説】ループエンジニアリングって何？ / なぜ第一線のエンジニアが「プロンプトを書くな」と言っているのか / \"Human in the Loop\"から\"Human on the Loop\"へ",
-      "channel_title": "安野貴博の自由研究",
-      "channel_id": "UCiMwbmcCSMORJ-85XWhStBw",
-      "published_iso": "2026-07-31T11:00:09Z",
-      "published_dt": "2026-07-31T11:00:09+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/K6KX41tLH2s/maxresdefault.jpg",
-      "duration_seconds": 1165,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "19:25",
       "badge_kind": ""
     }
   ]
