@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-18T20:49:33+00:00",
+  "generated_at": "2026-08-18T21:22:43+00:00",
   "videos": [
+    {
+      "video_id": "gE-EL78H0Ak",
+      "title": "【暴挙】株式会社メリルのB2Bサービス料金を公開します。",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-08-18T21:00:07Z",
+      "published_dt": "2026-08-18T21:00:07+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/gE-EL78H0Ak/maxresdefault.jpg",
+      "duration_seconds": 2255,
+      "live_status": "",
+      "rel_time": "22分前",
+      "duration_text": "37:35",
+      "badge_kind": ""
+    },
     {
       "video_id": "SfuGuI-J5qo",
       "title": "【購入はTikTokで】ホリエモンが磨く！WAGYUMAFIA肉ライブオークション開催",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/SfuGuI-J5qo/maxresdefault_live.jpg",
       "duration_seconds": null,
       "live_status": "upcoming",
-      "rel_time": "3時間前",
+      "rel_time": "4時間前",
       "duration_text": "配信予定",
       "badge_kind": "upcoming"
     },
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/HEQp3k-4RmE/maxresdefault.jpg",
       "duration_seconds": 82,
       "live_status": "",
-      "rel_time": "8時間前",
+      "rel_time": "9時間前",
       "duration_text": "1:22",
       "badge_kind": ""
     },
@@ -53,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LrqVSvcbYy8/maxresdefault.jpg",
       "duration_seconds": 483,
       "live_status": "",
-      "rel_time": "8時間前",
+      "rel_time": "9時間前",
       "duration_text": "8:03",
       "badge_kind": ""
     },
@@ -67,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/O9tx3qA2tfE/maxresdefault.jpg",
       "duration_seconds": 1100,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "10時間前",
       "duration_text": "18:20",
       "badge_kind": ""
     },
@@ -81,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/-v7p-WJ_bys/maxresdefault.jpg",
       "duration_seconds": 1774,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "10時間前",
       "duration_text": "29:34",
       "badge_kind": ""
     },
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0O9P42Iu6oA/maxresdefault.jpg",
       "duration_seconds": 1970,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "11時間前",
       "duration_text": "32:50",
       "badge_kind": ""
     },
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kpXuQU8RnJY/maxresdefault.jpg",
       "duration_seconds": 522,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "11時間前",
       "duration_text": "8:42",
       "badge_kind": ""
     },
@@ -137,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4D-Tsp0aC_M/maxresdefault.jpg",
       "duration_seconds": 938,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "11時間前",
       "duration_text": "15:38",
       "badge_kind": ""
     },
@@ -151,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rTGmW-cZe0E/maxresdefault.jpg",
       "duration_seconds": 49,
       "live_status": "",
-      "rel_time": "18時間前",
+      "rel_time": "19時間前",
       "duration_text": "0:49",
       "badge_kind": ""
     },
@@ -165,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/N4xIsDpu354/maxresdefault.jpg",
       "duration_seconds": 7360,
       "live_status": "",
-      "rel_time": "20時間前",
+      "rel_time": "21時間前",
       "duration_text": "2:02:40",
       "badge_kind": ""
     },
@@ -179,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/tRx1doO_6Wc/maxresdefault.jpg",
       "duration_seconds": 1128,
       "live_status": "",
-      "rel_time": "22時間前",
+      "rel_time": "23時間前",
       "duration_text": "18:48",
       "badge_kind": ""
     },
@@ -193,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/fJ3gQaOMfNc/maxresdefault.jpg",
       "duration_seconds": 2964,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "49:24",
       "badge_kind": ""
     },
@@ -207,7 +221,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Cdh-BAAG-Ag/maxresdefault.jpg",
       "duration_seconds": 1541,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "25:41",
       "badge_kind": ""
     },
@@ -1859,7 +1873,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3Cs6Gs_BoJ0/maxresdefault.jpg",
       "duration_seconds": 1701,
       "live_status": "",
-      "rel_time": "1週間前",
+      "rel_time": "2週間前",
       "duration_text": "28:21",
       "badge_kind": ""
     },
@@ -2085,20 +2099,6 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "11:26",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "jHCLXVJMNoA",
-      "title": "世界初・次世代の「ダイヤモンド半導体」は何が凄いのか？開発15年の挑戦と、実用化への期待を佐賀大学・嘉数教授に聞いてみた",
-      "channel_title": "堀江貴文 ホリエモン",
-      "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
-      "published_iso": "2026-07-31T10:00:02Z",
-      "published_dt": "2026-07-31T10:00:02+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/jHCLXVJMNoA/maxresdefault.jpg",
-      "duration_seconds": 2352,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "39:12",
       "badge_kind": ""
     }
   ]
