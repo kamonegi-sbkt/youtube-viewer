@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-18T21:22:43+00:00",
+  "generated_at": "2026-08-18T21:47:42+00:00",
   "videos": [
+    {
+      "video_id": "QPevjyPPLak",
+      "title": "今日の学長ライブ l 【高金利に釣られるな！】「個人向け国債」と「新窓販国債」は別モノです&【4%→5.5%へ？】「4%ルール」の生みの親が『もっと使え』と言い出した件【8/19 8:30まで】",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-08-18T21:43:10Z",
+      "published_dt": "2026-08-18T21:43:10+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/QPevjyPPLak/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "live",
+      "rel_time": "4分前",
+      "duration_text": "LIVE",
+      "badge_kind": "live"
+    },
     {
       "video_id": "gE-EL78H0Ak",
       "title": "【暴挙】株式会社メリルのB2Bサービス料金を公開します。",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gE-EL78H0Ak/maxresdefault.jpg",
       "duration_seconds": 2255,
       "live_status": "",
-      "rel_time": "22分前",
+      "rel_time": "47分前",
       "duration_text": "37:35",
       "badge_kind": ""
     },
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Vnf80RHHKRc/maxresdefault.jpg",
       "duration_seconds": 4236,
       "live_status": "",
-      "rel_time": "7時間前",
+      "rel_time": "8時間前",
       "duration_text": "1:10:36",
       "badge_kind": ""
     },
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/P4NOoMTqP-E/maxresdefault.jpg",
       "duration_seconds": 1855,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "11時間前",
       "duration_text": "30:55",
       "badge_kind": ""
     },
@@ -2085,20 +2099,6 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "19:25",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "zZPOITq1IlM",
-      "title": "AIで設計した回路基板が一発で動いた件",
-      "channel_title": "イチケン / ICHIKEN",
-      "channel_id": "UCGhudK3AIG152KrfURCSb2Q",
-      "published_iso": "2026-07-31T10:00:27Z",
-      "published_dt": "2026-07-31T10:00:27+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/zZPOITq1IlM/maxresdefault.jpg",
-      "duration_seconds": 686,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "11:26",
       "badge_kind": ""
     }
   ]
