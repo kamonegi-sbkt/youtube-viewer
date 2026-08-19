@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-19T05:28:43+00:00",
+  "generated_at": "2026-08-19T05:58:00+00:00",
   "videos": [
     {
       "video_id": "SfuGuI-J5qo",
       "title": "【購入はTikTokで】ホリエモンが磨く！WAGYUMAFIA肉ライブオークション開催",
       "channel_title": "堀江貴文 ホリエモン",
       "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
-      "published_iso": "2026-08-19T04:36:32Z",
-      "published_dt": "2026-08-19T04:36:32+00:00",
+      "published_iso": "2026-08-19T05:37:21Z",
+      "published_dt": "2026-08-19T05:37:21+00:00",
       "thumbnail": "https://i.ytimg.com/vi/SfuGuI-J5qo/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "52分前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
+      "duration_seconds": 3649,
+      "live_status": "",
+      "rel_time": "20分前",
+      "duration_text": "1:00:49",
+      "badge_kind": ""
     },
     {
       "video_id": "KV6MLQQD1os",
@@ -39,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/dSji7A-F240/maxresdefault.jpg",
       "duration_seconds": 116,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "6時間前",
       "duration_text": "1:56",
       "badge_kind": ""
     },
@@ -53,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QPevjyPPLak/maxresdefault.jpg",
       "duration_seconds": 7167,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "6時間前",
       "duration_text": "1:59:27",
       "badge_kind": ""
     },
@@ -165,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/P4NOoMTqP-E/maxresdefault.jpg",
       "duration_seconds": 1855,
       "live_status": "",
-      "rel_time": "18時間前",
+      "rel_time": "19時間前",
       "duration_text": "30:55",
       "badge_kind": ""
     },
