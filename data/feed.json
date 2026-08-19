@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-19T11:25:21+00:00",
+  "generated_at": "2026-08-19T11:50:40+00:00",
   "videos": [
+    {
+      "video_id": "wukd4HNjB60",
+      "title": "【アベマ同時配信中】「性別表記は必要？トランスジェンダーと報道表現／公約どこまで守る？」アベプラ｜8/19(水) 21:00〜",
+      "channel_title": "ABEMA Prime",
+      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
+      "published_iso": "2026-08-19T11:30:47Z",
+      "published_dt": "2026-08-19T11:30:47+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/wukd4HNjB60/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "live",
+      "rel_time": "19分前",
+      "duration_text": "LIVE",
+      "badge_kind": "live"
+    },
     {
       "video_id": "8Tefl4vFY-w",
       "title": "【シンママと結婚】「余計幸せ！」3歳の娘を育てる女性と結婚…子連れ再婚選んだ男性＆子どもに反対され断念した女性の思い｜アベプラ",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/8Tefl4vFY-w/maxresdefault.jpg",
       "duration_seconds": 2019,
       "live_status": "",
-      "rel_time": "24分前",
+      "rel_time": "50分前",
       "duration_text": "33:39",
       "badge_kind": ""
     },
@@ -25,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ZEGNYHAIVKQ/maxresdefault.jpg",
       "duration_seconds": 1827,
       "live_status": "",
-      "rel_time": "54分前",
+      "rel_time": "1時間前",
       "duration_text": "30:27",
       "badge_kind": ""
     },
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QPevjyPPLak/maxresdefault.jpg",
       "duration_seconds": 7167,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "12時間前",
       "duration_text": "1:59:27",
       "badge_kind": ""
     },
@@ -683,7 +697,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LTj5vu33LRw/maxresdefault.jpg",
       "duration_seconds": 1830,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "30:30",
       "badge_kind": ""
     },
@@ -2085,20 +2099,6 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "2:54",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "o9cdvr0foEw",
-      "title": "【プロンプトを書くな】ループエンジニアリングをゆる解説 #安野貴博 #ai",
-      "channel_title": "安野貴博の自由研究",
-      "channel_id": "UCiMwbmcCSMORJ-85XWhStBw",
-      "published_iso": "2026-07-31T11:00:29Z",
-      "published_dt": "2026-07-31T11:00:29+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/o9cdvr0foEw/maxresdefault.jpg",
-      "duration_seconds": 56,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "0:56",
       "badge_kind": ""
     }
   ]
