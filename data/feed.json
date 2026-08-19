@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-19T23:21:10+00:00",
+  "generated_at": "2026-08-19T23:46:31+00:00",
   "videos": [
+    {
+      "video_id": "ETDytdidnaE",
+      "title": "今日の学長ライブ l NISAと筋トレは独身男性の基本セット。いや、独身女性こそNISAが必要？/『公務員だから何もできない』と思ってる人へ｜民泊で月10万円のリベ民の手紙【8/20 8:30まで】",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-08-19T23:42:46Z",
+      "published_dt": "2026-08-19T23:42:46+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/ETDytdidnaE/maxresdefault_live.jpg",
+      "duration_seconds": 7129,
+      "live_status": "",
+      "rel_time": "3分前",
+      "duration_text": "1:58:49",
+      "badge_kind": ""
+    },
     {
       "video_id": "xvywItKLQoU",
       "title": "【言えば言うほど損する! 】お金が貯まらない人の口癖TOP5【リベ大公式切り抜き】",
@@ -16,20 +30,6 @@
       "badge_kind": ""
     },
     {
-      "video_id": "ETDytdidnaE",
-      "title": "今日の学長ライブ l NISAと筋トレは独身男性の基本セット。いや、独身女性こそNISAが必要？/『公務員だから何もできない』と思ってる人へ｜民泊で月10万円のリベ民の手紙【8/20 8:30まで】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-08-19T21:44:05Z",
-      "published_dt": "2026-08-19T21:44:05+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/ETDytdidnaE/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "1時間前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
-    },
-    {
       "video_id": "wukd4HNjB60",
       "title": "【アベマ同時配信中】「性別表記は必要？トランスジェンダーと報道表現／公約どこまで守る？」アベプラ｜8/19(水) 21:00〜",
       "channel_title": "ABEMA Prime",
@@ -39,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/wukd4HNjB60/maxresdefault.jpg",
       "duration_seconds": 4464,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "10時間前",
       "duration_text": "1:14:24",
       "badge_kind": ""
     },
@@ -53,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QN2r36p1KuY/maxresdefault.jpg",
       "duration_seconds": 1430,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "11時間前",
       "duration_text": "23:50",
       "badge_kind": ""
     },
@@ -109,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ZEGNYHAIVKQ/maxresdefault.jpg",
       "duration_seconds": 1827,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "13時間前",
       "duration_text": "30:27",
       "badge_kind": ""
     },
@@ -529,7 +529,7 @@
       "thumbnail": "https://i.ytimg.com/vi/eJx3KFXrLmI/maxresdefault.jpg",
       "duration_seconds": 7091,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "1:58:11",
       "badge_kind": ""
     },
