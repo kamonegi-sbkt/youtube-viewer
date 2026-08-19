@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-19T21:23:49+00:00",
+  "generated_at": "2026-08-19T21:50:27+00:00",
   "videos": [
+    {
+      "video_id": "ETDytdidnaE",
+      "title": "今日の学長ライブ l NISAと筋トレは独身男性の基本セット。いや、独身女性こそNISAが必要？/『公務員だから何もできない』と思ってる人へ｜民泊で月10万円のリベ民の手紙【8/20 8:30まで】",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-08-19T21:44:05Z",
+      "published_dt": "2026-08-19T21:44:05+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/ETDytdidnaE/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "live",
+      "rel_time": "6分前",
+      "duration_text": "LIVE",
+      "badge_kind": "live"
+    },
     {
       "video_id": "wukd4HNjB60",
       "title": "【アベマ同時配信中】「性別表記は必要？トランスジェンダーと報道表現／公約どこまで守る？」アベプラ｜8/19(水) 21:00〜",
@@ -25,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QN2r36p1KuY/maxresdefault.jpg",
       "duration_seconds": 1430,
       "live_status": "",
-      "rel_time": "8時間前",
+      "rel_time": "9時間前",
       "duration_text": "23:50",
       "badge_kind": ""
     },
@@ -81,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ZEGNYHAIVKQ/maxresdefault.jpg",
       "duration_seconds": 1827,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "11時間前",
       "duration_text": "30:27",
       "badge_kind": ""
     },
@@ -165,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QPevjyPPLak/maxresdefault.jpg",
       "duration_seconds": 7167,
       "live_status": "",
-      "rel_time": "21時間前",
+      "rel_time": "22時間前",
       "duration_text": "1:59:27",
       "badge_kind": ""
     },
@@ -2085,20 +2099,6 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "23:53",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "FYlswi139gQ",
-      "title": "安くて高性能なオープンウェイトAI「MiniMax M3」実演解説",
-      "channel_title": "ウェブ職TV / Nesheep",
-      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-07-31T12:00:01Z",
-      "published_dt": "2026-07-31T12:00:01+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/FYlswi139gQ/maxresdefault.jpg",
-      "duration_seconds": 174,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "2:54",
       "badge_kind": ""
     }
   ]
