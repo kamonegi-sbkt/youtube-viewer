@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-19T04:10:29+00:00",
+  "generated_at": "2026-08-19T04:51:31+00:00",
   "videos": [
+    {
+      "video_id": "SfuGuI-J5qo",
+      "title": "【購入はTikTokで】ホリエモンが磨く！WAGYUMAFIA肉ライブオークション開催",
+      "channel_title": "堀江貴文 ホリエモン",
+      "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
+      "published_iso": "2026-08-19T04:36:32Z",
+      "published_dt": "2026-08-19T04:36:32+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/SfuGuI-J5qo/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "live",
+      "rel_time": "14分前",
+      "duration_text": "LIVE",
+      "badge_kind": "live"
+    },
     {
       "video_id": "KV6MLQQD1os",
       "title": "【基礎学力は世界共通】実は“東大生”の3割が「公文式」出身 #公文 #KUMON #アタマプラス #駿台 #教育",
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QPevjyPPLak/maxresdefault.jpg",
       "duration_seconds": 7167,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "5時間前",
       "duration_text": "1:59:27",
       "badge_kind": ""
     },
@@ -72,20 +86,6 @@
       "badge_kind": ""
     },
     {
-      "video_id": "SfuGuI-J5qo",
-      "title": "【購入はTikTokで】ホリエモンが磨く！WAGYUMAFIA肉ライブオークション開催",
-      "channel_title": "堀江貴文 ホリエモン",
-      "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
-      "published_iso": "2026-08-18T16:51:30Z",
-      "published_dt": "2026-08-18T16:51:30+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/SfuGuI-J5qo/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "upcoming",
-      "rel_time": "11時間前",
-      "duration_text": "配信予定",
-      "badge_kind": "upcoming"
-    },
-    {
       "video_id": "Vnf80RHHKRc",
       "title": "【アベマ同時配信中】「『ラヴ上等2』法務省コラボが物議／同僚をAI水着加工」アベプラ｜8/18(火) 21:00〜",
       "channel_title": "ABEMA Prime",
@@ -95,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Vnf80RHHKRc/maxresdefault.jpg",
       "duration_seconds": 4236,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "15時間前",
       "duration_text": "1:10:36",
       "badge_kind": ""
     },
@@ -165,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/P4NOoMTqP-E/maxresdefault.jpg",
       "duration_seconds": 1855,
       "live_status": "",
-      "rel_time": "17時間前",
+      "rel_time": "18時間前",
       "duration_text": "30:55",
       "badge_kind": ""
     },
@@ -375,7 +375,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PRgbNStEFtg/maxresdefault.jpg",
       "duration_seconds": 4171,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "1:09:31",
       "badge_kind": ""
     },
@@ -529,7 +529,7 @@
       "thumbnail": "https://i.ytimg.com/vi/WT4UXBdfH4w/maxresdefault.jpg",
       "duration_seconds": 6183,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "1:43:03",
       "badge_kind": ""
     },
@@ -881,20 +881,6 @@
       "live_status": "",
       "rel_time": "5日前",
       "duration_text": "1:25",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "IZnwu3B5d0k",
-      "title": "今日の学長ライブ l お金は...ある！(あるところには)一方で、楽に稼ぐ方法は...ない！&100万円でも、100億円でもなくなる時は一瞬/9月から稼げや祭り始まるよーん【8/14 8:30まで】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-08-13T23:57:56Z",
-      "published_dt": "2026-08-13T23:57:56+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/IZnwu3B5d0k/maxresdefault.jpg",
-      "duration_seconds": 7902,
-      "live_status": "",
-      "rel_time": "5日前",
-      "duration_text": "2:11:42",
       "badge_kind": ""
     },
     {
@@ -2099,6 +2085,20 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "2:54",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "o9cdvr0foEw",
+      "title": "【プロンプトを書くな】ループエンジニアリングをゆる解説 #安野貴博 #ai",
+      "channel_title": "安野貴博の自由研究",
+      "channel_id": "UCiMwbmcCSMORJ-85XWhStBw",
+      "published_iso": "2026-07-31T11:00:29Z",
+      "published_dt": "2026-07-31T11:00:29+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/o9cdvr0foEw/maxresdefault.jpg",
+      "duration_seconds": 56,
+      "live_status": "",
+      "rel_time": "2週間前",
+      "duration_text": "0:56",
       "badge_kind": ""
     }
   ]
