@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-20T13:10:18+00:00",
+  "generated_at": "2026-08-20T13:59:17+00:00",
   "videos": [
+    {
+      "video_id": "t6Nn8WLhCgk",
+      "title": "【アベマ同時配信中】「国民民主党の未来は？代表選『アベプラ的』討論会」アベプラ｜8/20(木) 21:00〜",
+      "channel_title": "ABEMA Prime",
+      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
+      "published_iso": "2026-08-20T13:28:49Z",
+      "published_dt": "2026-08-20T13:28:49+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/t6Nn8WLhCgk/maxresdefault.jpg",
+      "duration_seconds": 6716,
+      "live_status": "",
+      "rel_time": "30分前",
+      "duration_text": "1:51:56",
+      "badge_kind": ""
+    },
     {
       "video_id": "hrmCH0pklrk",
       "title": "【大体の家庭は壊れている】吉本ばななが語るnote大反響のワケ #吉本ばなな #note",
@@ -39,23 +53,9 @@
       "thumbnail": "https://i.ytimg.com/vi/FbyEWuC2m8A/maxresdefault.jpg",
       "duration_seconds": 372,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "2時間前",
       "duration_text": "6:12",
       "badge_kind": ""
-    },
-    {
-      "video_id": "t6Nn8WLhCgk",
-      "title": "【アベマ同時配信中】「国民民主党の未来は？代表選『アベプラ的』討論会」アベプラ｜8/20(木) 21:00〜",
-      "channel_title": "ABEMA Prime",
-      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-08-20T11:30:32Z",
-      "published_dt": "2026-08-20T11:30:32+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/t6Nn8WLhCgk/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "1時間前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
     },
     {
       "video_id": "6Is2UXr_mbg",
@@ -95,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kLvwblgAhlc/maxresdefault.jpg",
       "duration_seconds": 2090,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "3時間前",
       "duration_text": "34:50",
       "badge_kind": ""
     },
@@ -151,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ETDytdidnaE/maxresdefault.jpg",
       "duration_seconds": 7129,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "14時間前",
       "duration_text": "1:58:49",
       "badge_kind": ""
     },
