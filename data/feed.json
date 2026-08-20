@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T03:25:42+00:00",
+  "generated_at": "2026-08-20T04:07:38+00:00",
   "videos": [
     {
       "video_id": "fhkgtI-0p4Y",
@@ -11,7 +11,7 @@
       "thumbnail": "https://i.ytimg.com/vi/fhkgtI-0p4Y/maxresdefault.jpg",
       "duration_seconds": 72,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "2時間前",
       "duration_text": "1:12",
       "badge_kind": ""
     },
@@ -25,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ETDytdidnaE/maxresdefault.jpg",
       "duration_seconds": 7129,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "4時間前",
       "duration_text": "1:58:49",
       "badge_kind": ""
     },
@@ -39,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/xvywItKLQoU/maxresdefault.jpg",
       "duration_seconds": 341,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "6時間前",
       "duration_text": "5:41",
       "badge_kind": ""
     },
@@ -67,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QN2r36p1KuY/maxresdefault.jpg",
       "duration_seconds": 1430,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "15時間前",
       "duration_text": "23:50",
       "badge_kind": ""
     },
@@ -81,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/dE162Vh72OA/maxresdefault.jpg",
       "duration_seconds": 908,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "16時間前",
       "duration_text": "15:08",
       "badge_kind": ""
     },
@@ -95,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ZszjNhbVqAY/maxresdefault.jpg",
       "duration_seconds": 47,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "16時間前",
       "duration_text": "0:47",
       "badge_kind": ""
     },
@@ -109,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/8Tefl4vFY-w/maxresdefault.jpg",
       "duration_seconds": 2019,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "17時間前",
       "duration_text": "33:39",
       "badge_kind": ""
     },
@@ -123,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ZEGNYHAIVKQ/maxresdefault.jpg",
       "duration_seconds": 1827,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "17時間前",
       "duration_text": "30:27",
       "badge_kind": ""
     },
@@ -137,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/GEsX1EDOZgs/maxresdefault.jpg",
       "duration_seconds": 1470,
       "live_status": "",
-      "rel_time": "17時間前",
+      "rel_time": "18時間前",
       "duration_text": "24:30",
       "badge_kind": ""
     },
@@ -151,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/-wtI-N49lUM/maxresdefault.jpg",
       "duration_seconds": 2011,
       "live_status": "",
-      "rel_time": "17時間前",
+      "rel_time": "18時間前",
       "duration_text": "33:31",
       "badge_kind": ""
     },
@@ -165,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ir_jL9jzFg0/maxresdefault.jpg",
       "duration_seconds": 70,
       "live_status": "",
-      "rel_time": "18時間前",
+      "rel_time": "19時間前",
       "duration_text": "1:10",
       "badge_kind": ""
     },
@@ -853,20 +853,6 @@
       "live_status": "",
       "rel_time": "5日前",
       "duration_text": "1:29",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "vwkpm1q9Ah0",
-      "title": "今日の学長ライブ l ダイヤモンドの盾届きました/金融資産1,000万円超の「44.4%」が「お金を使わなすぎた」と後悔/被害回復型の詐欺に気をつけろ/【8/15 8:30まで】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-08-15T00:23:09Z",
-      "published_dt": "2026-08-15T00:23:09+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/vwkpm1q9Ah0/maxresdefault.jpg",
-      "duration_seconds": 9469,
-      "live_status": "",
-      "rel_time": "5日前",
-      "duration_text": "2:37:49",
       "badge_kind": ""
     },
     {
@@ -2099,6 +2085,20 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "1:17:39",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "8EvZBqox6CM",
+      "title": "安くて高性能なオープンウェイトAI「MiniMax M3」実演解説",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-07-31T12:35:08Z",
+      "published_dt": "2026-07-31T12:35:08+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/8EvZBqox6CM/maxresdefault.jpg",
+      "duration_seconds": 1433,
+      "live_status": "",
+      "rel_time": "2週間前",
+      "duration_text": "23:53",
       "badge_kind": ""
     }
   ]
