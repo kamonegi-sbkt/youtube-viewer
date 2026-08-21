@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-21T13:10:12+00:00",
+  "generated_at": "2026-08-21T13:58:02+00:00",
   "videos": [
+    {
+      "video_id": "nyoRc2FaTtM",
+      "title": "【アベマ同時配信中】「母殺害疑いの娘『投げ銭』3000万円／独身多数派な未来」アベプラ｜8/21(金) 21:00〜",
+      "channel_title": "ABEMA Prime",
+      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
+      "published_iso": "2026-08-21T13:22:14Z",
+      "published_dt": "2026-08-21T13:22:14+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/nyoRc2FaTtM/maxresdefault.jpg",
+      "duration_seconds": 6361,
+      "live_status": "",
+      "rel_time": "35分前",
+      "duration_text": "1:46:01",
+      "badge_kind": ""
+    },
     {
       "video_id": "uHyLR5fMhr0",
       "title": "【AV人権】有識者と業界の内紛で空中分解「規制が生む闇」/「FANZA以外は全部同人」という境界線（ひろゆき・西村博之 ベテランち 鈴木涼美 宇佐美典也 安田理央 しみけん）#路地裏インデックス",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/uHyLR5fMhr0/maxresdefault.jpg",
       "duration_seconds": 1491,
       "live_status": "",
-      "rel_time": "10分前",
+      "rel_time": "57分前",
       "duration_text": "24:51",
       "badge_kind": ""
     },
@@ -30,20 +44,6 @@
       "badge_kind": ""
     },
     {
-      "video_id": "nyoRc2FaTtM",
-      "title": "【アベマ同時配信中】「母殺害疑いの娘『投げ銭』3000万円／独身多数派な未来」アベプラ｜8/21(金) 21:00〜",
-      "channel_title": "ABEMA Prime",
-      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-08-21T11:30:57Z",
-      "published_dt": "2026-08-21T11:30:57+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/nyoRc2FaTtM/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "1時間前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
-    },
-    {
       "video_id": "JPe8gJkEa6g",
       "title": "今日の学長ライブ l 【だから貧乏谷】世の中には毒キノコが多すぎるからぁぁぁぁ！お金の勉強しとかないと、ほぼどれかに引っかかるよ。笑【8/21 8:30まで】",
       "channel_title": "両学長 リベラルアーツ大学",
@@ -53,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JPe8gJkEa6g/maxresdefault_live.jpg",
       "duration_seconds": null,
       "live_status": "upcoming",
-      "rel_time": "1時間前",
+      "rel_time": "2時間前",
       "duration_text": "配信予定",
       "badge_kind": "upcoming"
     },
@@ -123,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Ndo5ci7Z914/maxresdefault.jpg",
       "duration_seconds": 2817,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "3時間前",
       "duration_text": "46:57",
       "badge_kind": ""
     },
@@ -137,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/iae5rVak1pQ/maxresdefault_live.jpg",
       "duration_seconds": null,
       "live_status": "upcoming",
-      "rel_time": "2時間前",
+      "rel_time": "3時間前",
       "duration_text": "配信予定",
       "badge_kind": "upcoming"
     },
@@ -221,7 +221,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4C0qHdl0HAA/maxresdefault.jpg",
       "duration_seconds": 7608,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "14時間前",
       "duration_text": "2:06:48",
       "badge_kind": ""
     },
