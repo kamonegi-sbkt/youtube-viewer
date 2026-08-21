@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-21T12:02:29+00:00",
+  "generated_at": "2026-08-21T13:10:12+00:00",
   "videos": [
+    {
+      "video_id": "uHyLR5fMhr0",
+      "title": "【AV人権】有識者と業界の内紛で空中分解「規制が生む闇」/「FANZA以外は全部同人」という境界線（ひろゆき・西村博之 ベテランち 鈴木涼美 宇佐美典也 安田理央 しみけん）#路地裏インデックス",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-08-21T13:00:12Z",
+      "published_dt": "2026-08-21T13:00:12+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/uHyLR5fMhr0/maxresdefault.jpg",
+      "duration_seconds": 1491,
+      "live_status": "",
+      "rel_time": "10分前",
+      "duration_text": "24:51",
+      "badge_kind": ""
+    },
     {
       "video_id": "4eJyCWje8B0",
       "title": "【投資初心者】結局はインデックス？#新NISA #株式投資 #投資初心者 #個人投資家 #億り人 #お金の増やし方 #資産運用 #株 #日本株 #投資 #kenmo  #MONEYMATE",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4eJyCWje8B0/maxresdefault.jpg",
       "duration_seconds": 72,
       "live_status": "",
-      "rel_time": "1分前",
+      "rel_time": "1時間前",
       "duration_text": "1:12",
       "badge_kind": ""
     },
@@ -25,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/nyoRc2FaTtM/maxresdefault_live.jpg",
       "duration_seconds": null,
       "live_status": "live",
-      "rel_time": "31分前",
+      "rel_time": "1時間前",
       "duration_text": "LIVE",
       "badge_kind": "live"
     },
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JPe8gJkEa6g/maxresdefault_live.jpg",
       "duration_seconds": null,
       "live_status": "upcoming",
-      "rel_time": "32分前",
+      "rel_time": "1時間前",
       "duration_text": "配信予定",
       "badge_kind": "upcoming"
     },
@@ -53,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/T_W9F_xemUA/maxresdefault.jpg",
       "duration_seconds": 1972,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "2時間前",
       "duration_text": "32:52",
       "badge_kind": ""
     },
@@ -67,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/tNEUfNrwsbA/maxresdefault.jpg",
       "duration_seconds": 1340,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "2時間前",
       "duration_text": "22:20",
       "badge_kind": ""
     },
@@ -81,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/NDJ6Pe7P7wA/maxresdefault.jpg",
       "duration_seconds": 30,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "2時間前",
       "duration_text": "0:30",
       "badge_kind": ""
     },
@@ -95,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/O1HhzQgZxi0/maxresdefault.jpg",
       "duration_seconds": 1138,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "2時間前",
       "duration_text": "18:58",
       "badge_kind": ""
     },
@@ -109,13 +123,13 @@
       "thumbnail": "https://i.ytimg.com/vi/Ndo5ci7Z914/maxresdefault.jpg",
       "duration_seconds": 2817,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "2時間前",
       "duration_text": "46:57",
       "badge_kind": ""
     },
     {
       "video_id": "iae5rVak1pQ",
-      "title": "【LIVE】神様は儲かる？宗教ビジネスとカルト宗教 #路地裏インデックス",
+      "title": "【LIVE】9月10日（木）よる9時50分〜 神様は儲かる？宗教ビジネスとカルト宗教 #路地裏インデックス",
       "channel_title": "NewsPicks /ニューズピックス",
       "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
       "published_iso": "2026-08-21T10:12:45Z",
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/iae5rVak1pQ/maxresdefault_live.jpg",
       "duration_seconds": null,
       "live_status": "upcoming",
-      "rel_time": "1時間前",
+      "rel_time": "2時間前",
       "duration_text": "配信予定",
       "badge_kind": "upcoming"
     },
@@ -137,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/9hTkbzWtE0U/maxresdefault.jpg",
       "duration_seconds": 3059,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "3時間前",
       "duration_text": "50:59",
       "badge_kind": ""
     },
@@ -151,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/t2mxEavqpJI/maxresdefault.jpg",
       "duration_seconds": 1442,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "3時間前",
       "duration_text": "24:02",
       "badge_kind": ""
     },
@@ -165,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/AmUBIeEalT0/maxresdefault.jpg",
       "duration_seconds": 1400,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "3時間前",
       "duration_text": "23:20",
       "badge_kind": ""
     },
@@ -179,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gP9Ao_Bg9A0/maxresdefault.jpg",
       "duration_seconds": 61,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "4時間前",
       "duration_text": "1:01",
       "badge_kind": ""
     },
@@ -193,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/nkqyOF0qgbM/maxresdefault.jpg",
       "duration_seconds": 79,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "11時間前",
       "duration_text": "1:19",
       "badge_kind": ""
     },
@@ -207,7 +221,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4C0qHdl0HAA/maxresdefault.jpg",
       "duration_seconds": 7608,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "13時間前",
       "duration_text": "2:06:48",
       "badge_kind": ""
     },
@@ -221,7 +235,7 @@
       "thumbnail": "https://i.ytimg.com/vi/VObFCnMGsB0/maxresdefault.jpg",
       "duration_seconds": 954,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "15時間前",
       "duration_text": "15:54",
       "badge_kind": ""
     },
@@ -389,7 +403,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QN2r36p1KuY/maxresdefault.jpg",
       "duration_seconds": 1430,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "23:50",
       "badge_kind": ""
     },
@@ -753,7 +767,7 @@
       "thumbnail": "https://i.ytimg.com/vi/1cUOrQlVwWM/maxresdefault.jpg",
       "duration_seconds": 2336,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "38:56",
       "badge_kind": ""
     },
@@ -1187,7 +1201,7 @@
       "thumbnail": "https://i.ytimg.com/vi/22gqIUM3pBE/maxresdefault.jpg",
       "duration_seconds": 1579,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "26:19",
       "badge_kind": ""
     },
@@ -1497,20 +1511,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "1:50",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "y7qBIhmXyYI",
-      "title": "【世界を揺るがす女性の定義】英最高裁が下した衝撃の判断／レズビアンたちの法廷闘争／トランス論争と分断の正体（佐藤優×北原みのり）#知性密談",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-08-12T12:30:02Z",
-      "published_dt": "2026-08-12T12:30:02+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/y7qBIhmXyYI/maxresdefault.jpg",
-      "duration_seconds": 1530,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "25:30",
       "badge_kind": ""
     },
     {
