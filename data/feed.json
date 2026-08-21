@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-21T21:22:56+00:00",
+  "generated_at": "2026-08-21T21:49:05+00:00",
   "videos": [
+    {
+      "video_id": "JPe8gJkEa6g",
+      "title": "今日の学長ライブ l 【公式が無償で提供】クロードのAI講座爆誕。高額なAIスクールますます要らん/工賃ってな〜に？人が動くとお金がかかる【8/22 8:30まで】",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-08-21T21:42:45Z",
+      "published_dt": "2026-08-21T21:42:45+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/JPe8gJkEa6g/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "live",
+      "rel_time": "6分前",
+      "duration_text": "LIVE",
+      "badge_kind": "live"
+    },
     {
       "video_id": "nyoRc2FaTtM",
       "title": "【アベマ同時配信中】「母殺害疑いの娘『投げ銭』3000万円／独身多数派な未来」アベプラ｜8/21(金) 21:00〜",
@@ -42,20 +56,6 @@
       "rel_time": "9時間前",
       "duration_text": "1:12",
       "badge_kind": ""
-    },
-    {
-      "video_id": "JPe8gJkEa6g",
-      "title": "今日の学長ライブ l 【だから貧乏谷】世の中には毒キノコが多すぎるからぁぁぁぁ！お金の勉強しとかないと、ほぼどれかに引っかかるよ。笑【8/21 8:30まで】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-08-21T11:29:51Z",
-      "published_dt": "2026-08-21T11:29:51+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/JPe8gJkEa6g/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "upcoming",
-      "rel_time": "9時間前",
-      "duration_text": "配信予定",
-      "badge_kind": "upcoming"
     },
     {
       "video_id": "T_W9F_xemUA",
@@ -123,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Ndo5ci7Z914/maxresdefault.jpg",
       "duration_seconds": 2817,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "11時間前",
       "duration_text": "46:57",
       "badge_kind": ""
     },
