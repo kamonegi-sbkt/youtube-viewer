@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-08-21T10:38:46+00:00",
+  "generated_at": "2026-08-21T11:03:01+00:00",
   "videos": [
+    {
+      "video_id": "T_W9F_xemUA",
+      "title": "【発達障害の親】「無責任」「エゴ」心無い声も…ADHD・ASDで子どもを育てる人＆子どもを持たないと決めた人に聞く子育てと支援｜アベプラ",
+      "channel_title": "ABEMA Prime",
+      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
+      "published_iso": "2026-08-21T11:00:38Z",
+      "published_dt": "2026-08-21T11:00:38+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/T_W9F_xemUA/maxresdefault.jpg",
+      "duration_seconds": 1972,
+      "live_status": "",
+      "rel_time": "2分前",
+      "duration_text": "32:52",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "tNEUfNrwsbA",
+      "title": "【バイブコーディング超入門講座第7回】アプリにデータ保存機能を追加するには？Claude Codeで実装するデータベース講座 / Supabaseって何？ / AIにデータを壊されないための必須対策",
+      "channel_title": "安野貴博の自由研究",
+      "channel_id": "UCiMwbmcCSMORJ-85XWhStBw",
+      "published_iso": "2026-08-21T11:00:36Z",
+      "published_dt": "2026-08-21T11:00:36+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/tNEUfNrwsbA/maxresdefault.jpg",
+      "duration_seconds": 1340,
+      "live_status": "",
+      "rel_time": "2分前",
+      "duration_text": "22:20",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "NDJ6Pe7P7wA",
+      "title": "【バイブコーディング超入門講座第7回】アプリにデータ保存機能を追加するには？ #安野貴博 #AI",
+      "channel_title": "安野貴博の自由研究",
+      "channel_id": "UCiMwbmcCSMORJ-85XWhStBw",
+      "published_iso": "2026-08-21T11:00:25Z",
+      "published_dt": "2026-08-21T11:00:25+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/NDJ6Pe7P7wA/maxresdefault.jpg",
+      "duration_seconds": 30,
+      "live_status": "",
+      "rel_time": "2分前",
+      "duration_text": "0:30",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "O1HhzQgZxi0",
+      "title": "「人間が殺し合うのに、AIに倫理は無理」ハッカー×認知学者が語る“AIの暴走”を止める方法を徹底解説 【苫米地英人／田中悠斗】NewsPicks Exclusive",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-08-21T11:00:10Z",
+      "published_dt": "2026-08-21T11:00:10+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/O1HhzQgZxi0/maxresdefault.jpg",
+      "duration_seconds": 1138,
+      "live_status": "",
+      "rel_time": "2分前",
+      "duration_text": "18:58",
+      "badge_kind": ""
+    },
     {
       "video_id": "Ndo5ci7Z914",
       "title": "【国民民主代表選】玉木雄一郎(57歳) vs 橋本幹彦(30歳)“玉木氏頼み”党運営から脱却は？政策面の違い＆世代交代を議論｜アベプラ",
@@ -11,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Ndo5ci7Z914/maxresdefault.jpg",
       "duration_seconds": 2817,
       "live_status": "",
-      "rel_time": "8分前",
+      "rel_time": "32分前",
       "duration_text": "46:57",
       "badge_kind": ""
     },
@@ -25,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/9hTkbzWtE0U/maxresdefault.jpg",
       "duration_seconds": 3059,
       "live_status": "",
-      "rel_time": "38分前",
+      "rel_time": "1時間前",
       "duration_text": "50:59",
       "badge_kind": ""
     },
@@ -39,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/t2mxEavqpJI/maxresdefault.jpg",
       "duration_seconds": 1442,
       "live_status": "",
-      "rel_time": "38分前",
+      "rel_time": "1時間前",
       "duration_text": "24:02",
       "badge_kind": ""
     },
@@ -53,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/AmUBIeEalT0/maxresdefault.jpg",
       "duration_seconds": 1400,
       "live_status": "",
-      "rel_time": "38分前",
+      "rel_time": "1時間前",
       "duration_text": "23:20",
       "badge_kind": ""
     },
@@ -67,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gP9Ao_Bg9A0/maxresdefault.jpg",
       "duration_seconds": 61,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "2時間前",
       "duration_text": "1:01",
       "badge_kind": ""
     },
@@ -81,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/nkqyOF0qgbM/maxresdefault.jpg",
       "duration_seconds": 79,
       "live_status": "",
-      "rel_time": "8時間前",
+      "rel_time": "9時間前",
       "duration_text": "1:19",
       "badge_kind": ""
     },
@@ -95,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4C0qHdl0HAA/maxresdefault.jpg",
       "duration_seconds": 7608,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "11時間前",
       "duration_text": "2:06:48",
       "badge_kind": ""
     },
@@ -109,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/VObFCnMGsB0/maxresdefault.jpg",
       "duration_seconds": 954,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "13時間前",
       "duration_text": "15:54",
       "badge_kind": ""
     },
@@ -123,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/hrmCH0pklrk/maxresdefault.jpg",
       "duration_seconds": 90,
       "live_status": "",
-      "rel_time": "22時間前",
+      "rel_time": "23時間前",
       "duration_text": "1:30",
       "badge_kind": ""
     },
@@ -137,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/yyN5T7HJ9O4/maxresdefault.jpg",
       "duration_seconds": 2178,
       "live_status": "",
-      "rel_time": "22時間前",
+      "rel_time": "23時間前",
       "duration_text": "36:18",
       "badge_kind": ""
     },
@@ -151,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/FbyEWuC2m8A/maxresdefault.jpg",
       "duration_seconds": 372,
       "live_status": "",
-      "rel_time": "22時間前",
+      "rel_time": "23時間前",
       "duration_text": "6:12",
       "badge_kind": ""
     },
@@ -165,7 +221,7 @@
       "thumbnail": "https://i.ytimg.com/vi/6Is2UXr_mbg/maxresdefault.jpg",
       "duration_seconds": 2185,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "36:25",
       "badge_kind": ""
     },
@@ -179,7 +235,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Sg8I5R2FwTc/maxresdefault.jpg",
       "duration_seconds": 1212,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "20:12",
       "badge_kind": ""
     },
@@ -319,7 +375,7 @@
       "thumbnail": "https://i.ytimg.com/vi/8Tefl4vFY-w/maxresdefault.jpg",
       "duration_seconds": 2019,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "33:39",
       "badge_kind": ""
     },
@@ -487,7 +543,7 @@
       "thumbnail": "https://i.ytimg.com/vi/O9tx3qA2tfE/maxresdefault.jpg",
       "duration_seconds": 1100,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "18:20",
       "badge_kind": ""
     },
@@ -501,7 +557,7 @@
       "thumbnail": "https://i.ytimg.com/vi/-v7p-WJ_bys/maxresdefault.jpg",
       "duration_seconds": 1774,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "29:34",
       "badge_kind": ""
     },
@@ -669,7 +725,7 @@
       "thumbnail": "https://i.ytimg.com/vi/I68KdYjDbdw/maxresdefault.jpg",
       "duration_seconds": 724,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "12:04",
       "badge_kind": ""
     },
@@ -991,7 +1047,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3PtAt13rb90/maxresdefault.jpg",
       "duration_seconds": 1134,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "18:54",
       "badge_kind": ""
     },
@@ -1103,7 +1159,7 @@
       "thumbnail": "https://i.ytimg.com/vi/eTH2Hb3j05Q/maxresdefault.jpg",
       "duration_seconds": 3040,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "50:40",
       "badge_kind": ""
     },
@@ -1117,7 +1173,7 @@
       "thumbnail": "https://i.ytimg.com/vi/wYPRg38QQqs/maxresdefault.jpg",
       "duration_seconds": 37,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "0:37",
       "badge_kind": ""
     },
@@ -1131,7 +1187,7 @@
       "thumbnail": "https://i.ytimg.com/vi/RnjizK96vuU/maxresdefault.jpg",
       "duration_seconds": 2040,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "34:00",
       "badge_kind": ""
     },
@@ -1430,20 +1486,6 @@
       "badge_kind": ""
     },
     {
-      "video_id": "B8QVa4jgcuU",
-      "title": "「家賃が倍になる」賃貸は損？いま家を購入すべき理由、購入時に必ずチェックすべき３要素とは？【長嶋修、今西千登瀬、アントン・ウオルマン】The UPDATE",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-08-12T11:00:02Z",
-      "published_dt": "2026-08-12T11:00:02+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/B8QVa4jgcuU/maxresdefault.jpg",
-      "duration_seconds": 864,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "14:24",
-      "badge_kind": ""
-    },
-    {
       "video_id": "DoAsOKdrjGM",
       "title": "【住まい】トランクルームで寝泊まりも…正社員でもネカフェ生活に…なぜ狭い場所へ？心身への影響は？「極小物件」のメリ・デメを考える｜アベプラ",
       "channel_title": "ABEMA Prime",
@@ -1710,20 +1752,6 @@
       "badge_kind": ""
     },
     {
-      "video_id": "jCNTT50jKeE",
-      "title": "【実写化】『ブルーロック』『キングダム』『国宝』映画Pが語る人間が演じる意味と覚悟｜アベプラ",
-      "channel_title": "ABEMA Prime",
-      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-08-08T10:30:20Z",
-      "published_dt": "2026-08-08T10:30:20+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/jCNTT50jKeE/maxresdefault.jpg",
-      "duration_seconds": 1617,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "26:57",
-      "badge_kind": ""
-    },
-    {
       "video_id": "M6sK6HDx_FU",
       "title": "炎上続きの“溝口勇児“を呼び出して説教しました。",
       "channel_title": "堀江貴文 ホリエモン",
@@ -1775,7 +1803,7 @@
       "thumbnail": "https://i.ytimg.com/vi/fAeoXznWX4E/maxresdefault.jpg",
       "duration_seconds": 51,
       "live_status": "",
-      "rel_time": "1週間前",
+      "rel_time": "2週間前",
       "duration_text": "0:51",
       "badge_kind": ""
     },
@@ -1789,7 +1817,7 @@
       "thumbnail": "https://i.ytimg.com/vi/cn3UxGOp8Zg/maxresdefault.jpg",
       "duration_seconds": 1222,
       "live_status": "",
-      "rel_time": "1週間前",
+      "rel_time": "2週間前",
       "duration_text": "20:22",
       "badge_kind": ""
     },
@@ -2071,34 +2099,6 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "2:29:24",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "ciKfJF_NcP4",
-      "title": "Claude Codeをどこまで信用していい？外資ITエンジニアと考えるAIセキュリティ【Kyoheiさん】",
-      "channel_title": "ウェブ職TV / Nesheep",
-      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-07-31T15:41:42Z",
-      "published_dt": "2026-07-31T15:41:42+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/ciKfJF_NcP4/maxresdefault.jpg",
-      "duration_seconds": 4659,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "1:17:39",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "8EvZBqox6CM",
-      "title": "安くて高性能なオープンウェイトAI「MiniMax M3」実演解説",
-      "channel_title": "ウェブ職TV / Nesheep",
-      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-07-31T12:35:08Z",
-      "published_dt": "2026-07-31T12:35:08+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/8EvZBqox6CM/maxresdefault.jpg",
-      "duration_seconds": 1433,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "23:53",
       "badge_kind": ""
     }
   ]
