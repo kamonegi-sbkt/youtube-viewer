@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T04:53:45+00:00",
+  "generated_at": "2026-08-21T05:31:14+00:00",
   "videos": [
     {
       "video_id": "nkqyOF0qgbM",
@@ -11,7 +11,7 @@
       "thumbnail": "https://i.ytimg.com/vi/nkqyOF0qgbM/maxresdefault.jpg",
       "duration_seconds": 79,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "3時間前",
       "duration_text": "1:19",
       "badge_kind": ""
     },
@@ -39,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/VObFCnMGsB0/maxresdefault.jpg",
       "duration_seconds": 954,
       "live_status": "",
-      "rel_time": "6時間前",
+      "rel_time": "7時間前",
       "duration_text": "15:54",
       "badge_kind": ""
     },
@@ -53,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/t6Nn8WLhCgk/maxresdefault.jpg",
       "duration_seconds": 4351,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "16時間前",
       "duration_text": "1:12:31",
       "badge_kind": ""
     },
@@ -67,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/hrmCH0pklrk/maxresdefault.jpg",
       "duration_seconds": 90,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "17時間前",
       "duration_text": "1:30",
       "badge_kind": ""
     },
@@ -81,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/yyN5T7HJ9O4/maxresdefault.jpg",
       "duration_seconds": 2178,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "17時間前",
       "duration_text": "36:18",
       "badge_kind": ""
     },
@@ -109,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/6Is2UXr_mbg/maxresdefault.jpg",
       "duration_seconds": 2185,
       "live_status": "",
-      "rel_time": "17時間前",
+      "rel_time": "18時間前",
       "duration_text": "36:25",
       "badge_kind": ""
     },
@@ -123,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Sg8I5R2FwTc/maxresdefault.jpg",
       "duration_seconds": 1212,
       "live_status": "",
-      "rel_time": "17時間前",
+      "rel_time": "18時間前",
       "duration_text": "20:12",
       "badge_kind": ""
     },
@@ -137,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kLvwblgAhlc/maxresdefault.jpg",
       "duration_seconds": 2090,
       "live_status": "",
-      "rel_time": "18時間前",
+      "rel_time": "19時間前",
       "duration_text": "34:50",
       "badge_kind": ""
     },
@@ -151,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_QNB6be_imo/maxresdefault.jpg",
       "duration_seconds": 1861,
       "live_status": "",
-      "rel_time": "18時間前",
+      "rel_time": "19時間前",
       "duration_text": "31:01",
       "badge_kind": ""
     },
@@ -165,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/idhS1uEdi0g/maxresdefault.jpg",
       "duration_seconds": 790,
       "live_status": "",
-      "rel_time": "18時間前",
+      "rel_time": "19時間前",
       "duration_text": "13:10",
       "badge_kind": ""
     },
@@ -867,20 +867,6 @@
       "live_status": "",
       "rel_time": "5日前",
       "duration_text": "1:15",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "HC-jQG7jK-0",
-      "title": "今日の学長ライブ l 学長AIを使えば、お金の悩みが減るよ。質問しまくろう！/みんな、つべこべ言わずに、ライフプランを作るんだ！どんな人でも必要じゃよ【8/16 8:30まで】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-08-16T00:00:51Z",
-      "published_dt": "2026-08-16T00:00:51+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/HC-jQG7jK-0/maxresdefault.jpg",
-      "duration_seconds": 8180,
-      "live_status": "",
-      "rel_time": "5日前",
-      "duration_text": "2:16:20",
       "badge_kind": ""
     },
     {
@@ -2099,6 +2085,20 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "1:17:39",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "8EvZBqox6CM",
+      "title": "安くて高性能なオープンウェイトAI「MiniMax M3」実演解説",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-07-31T12:35:08Z",
+      "published_dt": "2026-07-31T12:35:08+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/8EvZBqox6CM/maxresdefault.jpg",
+      "duration_seconds": 1433,
+      "live_status": "",
+      "rel_time": "2週間前",
+      "duration_text": "23:53",
       "badge_kind": ""
     }
   ]
