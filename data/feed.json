@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T04:05:05+00:00",
+  "generated_at": "2026-08-22T04:48:47+00:00",
   "videos": [
     {
       "video_id": "Xl4anDo2LgM",
@@ -67,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/nyoRc2FaTtM/maxresdefault.jpg",
       "duration_seconds": 4270,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "15時間前",
       "duration_text": "1:11:10",
       "badge_kind": ""
     },
@@ -165,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Ndo5ci7Z914/maxresdefault.jpg",
       "duration_seconds": 2817,
       "live_status": "",
-      "rel_time": "17時間前",
+      "rel_time": "18時間前",
       "duration_text": "46:57",
       "badge_kind": ""
     },
@@ -179,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/iae5rVak1pQ/maxresdefault_live.jpg",
       "duration_seconds": null,
       "live_status": "upcoming",
-      "rel_time": "17時間前",
+      "rel_time": "18時間前",
       "duration_text": "配信予定",
       "badge_kind": "upcoming"
     },
@@ -893,7 +893,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PRgbNStEFtg/maxresdefault.jpg",
       "duration_seconds": 4171,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "1:09:31",
       "badge_kind": ""
     },
@@ -909,20 +909,6 @@
       "live_status": "",
       "rel_time": "5日前",
       "duration_text": "0:56",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "eJx3KFXrLmI",
-      "title": "今日の学長ライブ l 【要注意】デイトレをやると「人生の敗者感」を味わうリスク高まります/サマージャンボ宝くじ/ギャンブルが楽しいのはわかるけども、ほどほどに。笑/【8/17 8:30まで】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-08-16T23:44:17Z",
-      "published_dt": "2026-08-16T23:44:17+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/eJx3KFXrLmI/maxresdefault.jpg",
-      "duration_seconds": 7091,
-      "live_status": "",
-      "rel_time": "5日前",
-      "duration_text": "1:58:11",
       "badge_kind": ""
     },
     {
@@ -1047,7 +1033,7 @@
       "thumbnail": "https://i.ytimg.com/vi/WT4UXBdfH4w/maxresdefault.jpg",
       "duration_seconds": 6183,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "1:43:03",
       "badge_kind": ""
     },
@@ -2099,6 +2085,20 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "44:18",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "RmaT14EDYrY",
+      "title": "AIがキーボードを設計→5分で動いた話",
+      "channel_title": "イチケン / ICHIKEN",
+      "channel_id": "UCGhudK3AIG152KrfURCSb2Q",
+      "published_iso": "2026-08-01T10:00:14Z",
+      "published_dt": "2026-08-01T10:00:14+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/RmaT14EDYrY/maxresdefault.jpg",
+      "duration_seconds": 58,
+      "live_status": "",
+      "rel_time": "2週間前",
+      "duration_text": "0:58",
       "badge_kind": ""
     }
   ]
