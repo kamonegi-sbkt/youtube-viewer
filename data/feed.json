@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T10:22:06+00:00",
+  "generated_at": "2026-08-23T10:49:50+00:00",
   "videos": [
     {
       "video_id": "YJCyJ7ItHk0",
@@ -11,7 +11,7 @@
       "thumbnail": "https://i.ytimg.com/vi/YJCyJ7ItHk0/maxresdefault_live.jpg",
       "duration_seconds": null,
       "live_status": "upcoming",
-      "rel_time": "20分前",
+      "rel_time": "48分前",
       "duration_text": "配信予定",
       "badge_kind": "upcoming"
     },
@@ -25,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/BzHp4Pjzstg/maxresdefault.jpg",
       "duration_seconds": 990,
       "live_status": "",
-      "rel_time": "21分前",
+      "rel_time": "49分前",
       "duration_text": "16:30",
       "badge_kind": ""
     },
@@ -39,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/k6vzv1AFmnA/maxresdefault.jpg",
       "duration_seconds": 1080,
       "live_status": "",
-      "rel_time": "52分前",
+      "rel_time": "1時間前",
       "duration_text": "18:00",
       "badge_kind": ""
     },
@@ -361,7 +361,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Ndo5ci7Z914/maxresdefault.jpg",
       "duration_seconds": 2817,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "46:57",
       "badge_kind": ""
     },
@@ -557,7 +557,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kLvwblgAhlc/maxresdefault.jpg",
       "duration_seconds": 2090,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "34:50",
       "badge_kind": ""
     },
@@ -697,7 +697,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ZEGNYHAIVKQ/maxresdefault.jpg",
       "duration_seconds": 1827,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "30:27",
       "badge_kind": ""
     },
@@ -879,7 +879,7 @@
       "thumbnail": "https://i.ytimg.com/vi/P4NOoMTqP-E/maxresdefault.jpg",
       "duration_seconds": 1855,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "30:55",
       "badge_kind": ""
     },
