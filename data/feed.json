@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-23T23:19:11+00:00",
+  "generated_at": "2026-08-23T23:45:25+00:00",
   "videos": [
+    {
+      "video_id": "YJCyJ7ItHk0",
+      "title": "今日の学長ライブ l 【解約できない】光回線の消費者トラブル再び増加【速くならない】【8/24 8:30まで】",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-08-23T23:44:47Z",
+      "published_dt": "2026-08-23T23:44:47+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/YJCyJ7ItHk0/maxresdefault_live.jpg",
+      "duration_seconds": 7439,
+      "live_status": "",
+      "rel_time": "たった今",
+      "duration_text": "2:03:59",
+      "badge_kind": ""
+    },
     {
       "video_id": "ROI2mtz7XpE",
       "title": "「オトコも演技してる？」大荒れフェスよ再び…蘭丸が夜の営みを告白！妊娠報告で“アレ”を想像？他人に言えないオトナな悩み…大天下獲りフェス後編【アレン様×アンタッチャブル柴田】",
@@ -28,20 +42,6 @@
       "rel_time": "1時間前",
       "duration_text": "11:47",
       "badge_kind": ""
-    },
-    {
-      "video_id": "YJCyJ7ItHk0",
-      "title": "今日の学長ライブ l 【解約できない】光回線の消費者トラブル再び増加【速くならない】【8/24 8:30まで】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-08-23T21:40:47Z",
-      "published_dt": "2026-08-23T21:40:47+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/YJCyJ7ItHk0/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "1時間前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
     },
     {
       "video_id": "HYGehV9LzHs",
@@ -81,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/k6vzv1AFmnA/maxresdefault.jpg",
       "duration_seconds": 1080,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "14時間前",
       "duration_text": "18:00",
       "badge_kind": ""
     },
