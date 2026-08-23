@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-23T09:26:07+00:00",
+  "generated_at": "2026-08-23T09:52:41+00:00",
   "videos": [
+    {
+      "video_id": "k6vzv1AFmnA",
+      "title": "【コミュ障】AI・SNS時代もコミュ力は必要？「昔ほど必要ない」vs「仕事では必要」人付き合いが苦手な若者を考える｜アベプラ",
+      "channel_title": "ABEMA Prime",
+      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
+      "published_iso": "2026-08-23T09:30:02Z",
+      "published_dt": "2026-08-23T09:30:02+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/k6vzv1AFmnA/maxresdefault.jpg",
+      "duration_seconds": 1080,
+      "live_status": "",
+      "rel_time": "22分前",
+      "duration_text": "18:00",
+      "badge_kind": ""
+    },
     {
       "video_id": "nwpPS3VlfKo",
       "title": "【熱中症の本当の怖さ】体温42℃を超えると「臓器が変質」 #熱中症 #冷却グッズ #WBGT #健康 #黒球式熱中症指数計",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/nwpPS3VlfKo/maxresdefault.jpg",
       "duration_seconds": 57,
       "live_status": "",
-      "rel_time": "26分前",
+      "rel_time": "52分前",
       "duration_text": "0:57",
       "badge_kind": ""
     },
@@ -151,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gsDdCmTMCEM/maxresdefault.jpg",
       "duration_seconds": 2161,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "36:01",
       "badge_kind": ""
     },
@@ -1145,7 +1159,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gSOhusPXjTc/maxresdefault.jpg",
       "duration_seconds": 1829,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "30:29",
       "badge_kind": ""
     },
@@ -2085,20 +2099,6 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "23:43",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "YhP9heKiW0c",
-      "title": "【価格破壊】ウィブル証券が米国株の取引手数料を無料に！資産形成の天敵「手数料」との付き合い方【リベ大公式切り抜き】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-08-01T22:00:21Z",
-      "published_dt": "2026-08-01T22:00:21+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/YhP9heKiW0c/maxresdefault.jpg",
-      "duration_seconds": 427,
-      "live_status": "",
-      "rel_time": "3週間前",
-      "duration_text": "7:07",
       "badge_kind": ""
     }
   ]
