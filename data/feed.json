@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T04:00:18+00:00",
+  "generated_at": "2026-08-23T04:46:42+00:00",
   "videos": [
     {
       "video_id": "U2IhtqWDXkI",
@@ -39,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/t6urq9Qp15Y/maxresdefault.jpg",
       "duration_seconds": 8827,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "4時間前",
       "duration_text": "2:27:07",
       "badge_kind": ""
     },
@@ -67,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4I3aU28lT2o/maxresdefault.jpg",
       "duration_seconds": 60,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "16時間前",
       "duration_text": "1:00",
       "badge_kind": ""
     },
@@ -123,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gsDdCmTMCEM/maxresdefault.jpg",
       "duration_seconds": 2161,
       "live_status": "",
-      "rel_time": "18時間前",
+      "rel_time": "19時間前",
       "duration_text": "36:01",
       "badge_kind": ""
     },
@@ -137,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/XZ11NQ0ah28/maxresdefault.jpg",
       "duration_seconds": 80,
       "live_status": "",
-      "rel_time": "18時間前",
+      "rel_time": "19時間前",
       "duration_text": "1:20",
       "badge_kind": ""
     },
@@ -870,20 +870,6 @@
       "badge_kind": ""
     },
     {
-      "video_id": "N4xIsDpu354",
-      "title": "今日の学長ライブ l 【政策金利2.5%へ？】預金・国債・不動産…あなたのお金に起きる3つの変化【8/18 8:30まで】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-08-17T23:50:35Z",
-      "published_dt": "2026-08-17T23:50:35+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/N4xIsDpu354/maxresdefault.jpg",
-      "duration_seconds": 7360,
-      "live_status": "",
-      "rel_time": "5日前",
-      "duration_text": "2:02:40",
-      "badge_kind": ""
-    },
-    {
       "video_id": "tRx1doO_6Wc",
       "title": "【いつか必ず泣きを見る】大事なお金を失う「危険サイン」7選【守る編】：（アニメ動画）第527回",
       "channel_title": "両学長 リベラルアーツ大学",
@@ -1019,7 +1005,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PRgbNStEFtg/maxresdefault.jpg",
       "duration_seconds": 4171,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "1:09:31",
       "badge_kind": ""
     },
@@ -1159,7 +1145,7 @@
       "thumbnail": "https://i.ytimg.com/vi/WT4UXBdfH4w/maxresdefault.jpg",
       "duration_seconds": 6183,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "1:43:03",
       "badge_kind": ""
     },
@@ -1775,7 +1761,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Gx8K5uzXsfw/maxresdefault.jpg",
       "duration_seconds": 6053,
       "live_status": "",
-      "rel_time": "1週間前",
+      "rel_time": "2週間前",
       "duration_text": "1:40:53",
       "badge_kind": ""
     },
@@ -2099,6 +2085,20 @@
       "live_status": "",
       "rel_time": "3週間前",
       "duration_text": "7:07",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "2ItTobEXekU",
+      "title": "立花孝志はまだ出れない？不祥事が相次ぐ検察組織…なぜここまで検察の権力は大きいのか？ホリエモンが解説",
+      "channel_title": "堀江貴文 ホリエモン",
+      "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
+      "published_iso": "2026-08-01T10:00:26Z",
+      "published_dt": "2026-08-01T10:00:26+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/2ItTobEXekU/maxresdefault.jpg",
+      "duration_seconds": 2658,
+      "live_status": "",
+      "rel_time": "3週間前",
+      "duration_text": "44:18",
       "badge_kind": ""
     }
   ]
