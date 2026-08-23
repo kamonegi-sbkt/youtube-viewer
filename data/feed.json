@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-23T21:20:09+00:00",
+  "generated_at": "2026-08-23T21:45:17+00:00",
   "videos": [
+    {
+      "video_id": "YJCyJ7ItHk0",
+      "title": "今日の学長ライブ l 【解約できない】光回線の消費者トラブル再び増加【速くならない】【8/24 8:30まで】",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-08-23T21:40:47Z",
+      "published_dt": "2026-08-23T21:40:47+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/YJCyJ7ItHk0/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "live",
+      "rel_time": "4分前",
+      "duration_text": "LIVE",
+      "badge_kind": "live"
+    },
     {
       "video_id": "HYGehV9LzHs",
       "title": "【元サラリーマン投資家】３年で1億達成できた理由とは？　#株式投資 #資産形成 #投資 #資産運用 #デイトレード #損切り #投資初心者 #お金 #STF #ちょる子 #NewsPicks",
@@ -14,20 +28,6 @@
       "rel_time": "9時間前",
       "duration_text": "0:54",
       "badge_kind": ""
-    },
-    {
-      "video_id": "YJCyJ7ItHk0",
-      "title": "今日の学長ライブ l SBI新生銀行、子ども名義の定期預金、金利年21.3％分上乗せ。でも？/泣きながら米ぬかを捨てた夫婦が、売上◯万円になるまで｜リベ民からの手紙【8/23 8:30まで】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-08-23T10:01:18Z",
-      "published_dt": "2026-08-23T10:01:18+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/YJCyJ7ItHk0/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "upcoming",
-      "rel_time": "11時間前",
-      "duration_text": "配信予定",
-      "badge_kind": "upcoming"
     },
     {
       "video_id": "BzHp4Pjzstg",
@@ -53,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/k6vzv1AFmnA/maxresdefault.jpg",
       "duration_seconds": 1080,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "12時間前",
       "duration_text": "18:00",
       "badge_kind": ""
     },
