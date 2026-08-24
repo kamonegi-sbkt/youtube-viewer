@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-24T11:27:13+00:00",
+  "generated_at": "2026-08-24T11:55:34+00:00",
   "videos": [
+    {
+      "video_id": "PBe3O5SpWK4",
+      "title": "【アベマ同時配信中】「『楽天不買』な人 攻撃型ドローンの納入支援でなぜ」アベプラ｜8/24(月) 21:00〜",
+      "channel_title": "ABEMA Prime",
+      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
+      "published_iso": "2026-08-24T11:31:56Z",
+      "published_dt": "2026-08-24T11:31:56+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/PBe3O5SpWK4/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "live",
+      "rel_time": "23分前",
+      "duration_text": "LIVE",
+      "badge_kind": "live"
+    },
     {
       "video_id": "_U1IpZj8Qs0",
       "title": "15歳が起こしたAI事件【こたけ正義感×スタンダップコメディ】",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_U1IpZj8Qs0/maxresdefault.jpg",
       "duration_seconds": 382,
       "live_status": "",
-      "rel_time": "26分前",
+      "rel_time": "55分前",
       "duration_text": "6:22",
       "badge_kind": ""
     },
@@ -25,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/F4Wl4WbP2vA/maxresdefault.jpg",
       "duration_seconds": 2726,
       "live_status": "",
-      "rel_time": "27分前",
+      "rel_time": "55分前",
       "duration_text": "45:26",
       "badge_kind": ""
     },
@@ -81,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/yANtZrKlJ_I/maxresdefault.jpg",
       "duration_seconds": 299,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "4時間前",
       "duration_text": "4:59",
       "badge_kind": ""
     },
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/SGoaNG-A0C4/maxresdefault.jpg",
       "duration_seconds": 3989,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "10時間前",
       "duration_text": "1:06:29",
       "badge_kind": ""
     },
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/YJCyJ7ItHk0/maxresdefault.jpg",
       "duration_seconds": 7386,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "12時間前",
       "duration_text": "2:03:06",
       "badge_kind": ""
     },
@@ -669,7 +683,7 @@
       "thumbnail": "https://i.ytimg.com/vi/FbyEWuC2m8A/maxresdefault.jpg",
       "duration_seconds": 372,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "6:12",
       "badge_kind": ""
     },
@@ -2085,20 +2099,6 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "6:52",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "EGzeU8QEw2E",
-      "title": "【再放送】【断言】これを知らずにお金持ちになるのは無理。豊かなお金持ちが極めている5つの力【お金の勉強 初級編】：（アニメ動画）第15回",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-08-04T22:00:29Z",
-      "published_dt": "2026-08-04T22:00:29+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/EGzeU8QEw2E/maxresdefault.jpg",
-      "duration_seconds": 1412,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "23:32",
       "badge_kind": ""
     }
   ]
