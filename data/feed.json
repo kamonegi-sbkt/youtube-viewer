@@ -1,18 +1,32 @@
 {
-  "generated_at": "2026-08-23T23:45:25+00:00",
+  "generated_at": "2026-08-24T01:13:41+00:00",
   "videos": [
+    {
+      "video_id": "SGoaNG-A0C4",
+      "title": "2泊3日のClaude Code合宿の感想。",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-08-24T00:41:41Z",
+      "published_dt": "2026-08-24T00:41:41+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/SGoaNG-A0C4/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "live",
+      "rel_time": "32分前",
+      "duration_text": "LIVE",
+      "badge_kind": "live"
+    },
     {
       "video_id": "YJCyJ7ItHk0",
       "title": "今日の学長ライブ l 【解約できない】光回線の消費者トラブル再び増加【速くならない】【8/24 8:30まで】",
       "channel_title": "両学長 リベラルアーツ大学",
       "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-08-23T23:44:47Z",
-      "published_dt": "2026-08-23T23:44:47+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/YJCyJ7ItHk0/maxresdefault_live.jpg",
-      "duration_seconds": 7439,
+      "published_iso": "2026-08-23T23:50:05Z",
+      "published_dt": "2026-08-23T23:50:05+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/YJCyJ7ItHk0/maxresdefault.jpg",
+      "duration_seconds": 7386,
       "live_status": "",
-      "rel_time": "たった今",
-      "duration_text": "2:03:59",
+      "rel_time": "1時間前",
+      "duration_text": "2:03:06",
       "badge_kind": ""
     },
     {
@@ -25,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ROI2mtz7XpE/maxresdefault.jpg",
       "duration_seconds": 901,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "3時間前",
       "duration_text": "15:01",
       "badge_kind": ""
     },
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Css1eWyuqCs/maxresdefault.jpg",
       "duration_seconds": 707,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "3時間前",
       "duration_text": "11:47",
       "badge_kind": ""
     },
@@ -53,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/HYGehV9LzHs/maxresdefault.jpg",
       "duration_seconds": 54,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "13時間前",
       "duration_text": "0:54",
       "badge_kind": ""
     },
@@ -67,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/BzHp4Pjzstg/maxresdefault.jpg",
       "duration_seconds": 990,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "15時間前",
       "duration_text": "16:30",
       "badge_kind": ""
     },
@@ -81,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/k6vzv1AFmnA/maxresdefault.jpg",
       "duration_seconds": 1080,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "15時間前",
       "duration_text": "18:00",
       "badge_kind": ""
     },
@@ -95,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/nwpPS3VlfKo/maxresdefault.jpg",
       "duration_seconds": 57,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "16時間前",
       "duration_text": "0:57",
       "badge_kind": ""
     },
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/8xi8-W6U0rc/maxresdefault.jpg",
       "duration_seconds": 860,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "18時間前",
       "duration_text": "14:20",
       "badge_kind": ""
     },
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/U2IhtqWDXkI/maxresdefault.jpg",
       "duration_seconds": 797,
       "live_status": "",
-      "rel_time": "20時間前",
+      "rel_time": "22時間前",
       "duration_text": "13:17",
       "badge_kind": ""
     },
@@ -137,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0CrBwlHF6Is/maxresdefault.jpg",
       "duration_seconds": 63,
       "live_status": "",
-      "rel_time": "21時間前",
+      "rel_time": "23時間前",
       "duration_text": "1:03",
       "badge_kind": ""
     },
@@ -151,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/t6urq9Qp15Y/maxresdefault.jpg",
       "duration_seconds": 8827,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "2:27:07",
       "badge_kind": ""
     },
@@ -291,7 +305,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JPe8gJkEa6g/maxresdefault.jpg",
       "duration_seconds": 7602,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "2:06:42",
       "badge_kind": ""
     },
@@ -501,7 +515,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4C0qHdl0HAA/maxresdefault.jpg",
       "duration_seconds": 7608,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "2:06:48",
       "badge_kind": ""
     },
@@ -655,7 +669,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ETDytdidnaE/maxresdefault.jpg",
       "duration_seconds": 7129,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "1:58:49",
       "badge_kind": ""
     },
@@ -809,7 +823,7 @@
       "thumbnail": "https://i.ytimg.com/vi/dSji7A-F240/maxresdefault.jpg",
       "duration_seconds": 116,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "1:56",
       "badge_kind": ""
     },
@@ -823,7 +837,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QPevjyPPLak/maxresdefault.jpg",
       "duration_seconds": 7167,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "1:59:27",
       "badge_kind": ""
     },
@@ -2085,20 +2099,6 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "1:00:55",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "peVXIxo74Uo",
-      "title": "【1年で月100万円】ブログで稼ぐ人がやっている「お客さん」の増やし方【リベ大公式切り抜き】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-08-03T22:00:12Z",
-      "published_dt": "2026-08-03T22:00:12+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/peVXIxo74Uo/maxresdefault.jpg",
-      "duration_seconds": 474,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "7:54",
       "badge_kind": ""
     }
   ]
