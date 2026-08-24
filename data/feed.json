@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T20:02:12+00:00",
+  "generated_at": "2026-08-24T20:47:33+00:00",
   "videos": [
     {
       "video_id": "PBe3O5SpWK4",
@@ -11,7 +11,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PBe3O5SpWK4/maxresdefault.jpg",
       "duration_seconds": 4319,
       "live_status": "",
-      "rel_time": "6時間前",
+      "rel_time": "7時間前",
       "duration_text": "1:11:59",
       "badge_kind": ""
     },
@@ -25,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kj3BKuPj_bM/maxresdefault_live.jpg",
       "duration_seconds": null,
       "live_status": "upcoming",
-      "rel_time": "6時間前",
+      "rel_time": "7時間前",
       "duration_text": "配信予定",
       "badge_kind": "upcoming"
     },
@@ -123,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/yANtZrKlJ_I/maxresdefault.jpg",
       "duration_seconds": 299,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "13時間前",
       "duration_text": "4:59",
       "badge_kind": ""
     },
