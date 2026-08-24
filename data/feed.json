@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-24T21:27:08+00:00",
+  "generated_at": "2026-08-24T21:54:24+00:00",
   "videos": [
+    {
+      "video_id": "kj3BKuPj_bM",
+      "title": "今日の学長ライブ l 【探せ！黄金のカモ】メガバンク「超富裕層」争奪のため営業マン大幅増員！&プルデンシャル生命、営業自粛中にも金銭詐取・被害1億円超【8/25 8:30まで】",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-08-24T21:41:33Z",
+      "published_dt": "2026-08-24T21:41:33+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/kj3BKuPj_bM/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "live",
+      "rel_time": "12分前",
+      "duration_text": "LIVE",
+      "badge_kind": "live"
+    },
     {
       "video_id": "lBf7FJZ1YHI",
       "title": "転職希望者1000万人超。世の中の「転職圧」と、キャリアの「相談迷子」問題 ｜WOMANSHIP NewsPicks for WE",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lBf7FJZ1YHI/maxresdefault.jpg",
       "duration_seconds": 1408,
       "live_status": "",
-      "rel_time": "26分前",
+      "rel_time": "54分前",
       "duration_text": "23:28",
       "badge_kind": ""
     },
@@ -25,23 +39,9 @@
       "thumbnail": "https://i.ytimg.com/vi/PBe3O5SpWK4/maxresdefault.jpg",
       "duration_seconds": 4319,
       "live_status": "",
-      "rel_time": "7時間前",
+      "rel_time": "8時間前",
       "duration_text": "1:11:59",
       "badge_kind": ""
-    },
-    {
-      "video_id": "kj3BKuPj_bM",
-      "title": "今日の学長ライブ l 【探せ！黄金のカモ】メガバンク「超富裕層」争奪のため営業マン大幅増員！【8/25 8:30まで】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-08-24T13:24:47Z",
-      "published_dt": "2026-08-24T13:24:47+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/kj3BKuPj_bM/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "upcoming",
-      "rel_time": "8時間前",
-      "duration_text": "配信予定",
-      "badge_kind": "upcoming"
     },
     {
       "video_id": "YNY-De5N8Nc",
@@ -137,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/yANtZrKlJ_I/maxresdefault.jpg",
       "duration_seconds": 299,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "14時間前",
       "duration_text": "4:59",
       "badge_kind": ""
     },
@@ -165,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/SGoaNG-A0C4/maxresdefault.jpg",
       "duration_seconds": 3989,
       "live_status": "",
-      "rel_time": "19時間前",
+      "rel_time": "20時間前",
       "duration_text": "1:06:29",
       "badge_kind": ""
     },
@@ -179,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/YJCyJ7ItHk0/maxresdefault.jpg",
       "duration_seconds": 7386,
       "live_status": "",
-      "rel_time": "21時間前",
+      "rel_time": "22時間前",
       "duration_text": "2:03:06",
       "badge_kind": ""
     },
