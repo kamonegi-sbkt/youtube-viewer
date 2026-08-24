@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-24T07:19:59+00:00",
+  "generated_at": "2026-08-24T08:10:28+00:00",
   "videos": [
+    {
+      "video_id": "yANtZrKlJ_I",
+      "title": "人型ロボットが100m走でウサインボルト選手の記録を超えた件について解説します",
+      "channel_title": "堀江貴文 ホリエモン",
+      "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
+      "published_iso": "2026-08-24T07:45:27Z",
+      "published_dt": "2026-08-24T07:45:27+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/yANtZrKlJ_I/maxresdefault.jpg",
+      "duration_seconds": 299,
+      "live_status": "",
+      "rel_time": "25分前",
+      "duration_text": "4:59",
+      "badge_kind": ""
+    },
     {
       "video_id": "YrS5-MWNt98",
       "title": "オンライン会議の会話をリアルタイム翻訳！ 音声で繋がる未来のグローバル会議とは？ #NewsPicks #NewsPicksBrandDesign #DeepL",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/YrS5-MWNt98/maxresdefault.jpg",
       "duration_seconds": 58,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "6時間前",
       "duration_text": "0:58",
       "badge_kind": ""
     },
@@ -25,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/SGoaNG-A0C4/maxresdefault.jpg",
       "duration_seconds": 3989,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "6時間前",
       "duration_text": "1:06:29",
       "badge_kind": ""
     },
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/YJCyJ7ItHk0/maxresdefault.jpg",
       "duration_seconds": 7386,
       "live_status": "",
-      "rel_time": "7時間前",
+      "rel_time": "8時間前",
       "duration_text": "2:03:06",
       "badge_kind": ""
     },
@@ -53,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ROI2mtz7XpE/maxresdefault.jpg",
       "duration_seconds": 901,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "10時間前",
       "duration_text": "15:01",
       "badge_kind": ""
     },
@@ -67,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Css1eWyuqCs/maxresdefault.jpg",
       "duration_seconds": 707,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "10時間前",
       "duration_text": "11:47",
       "badge_kind": ""
     },
@@ -81,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/HYGehV9LzHs/maxresdefault.jpg",
       "duration_seconds": 54,
       "live_status": "",
-      "rel_time": "19時間前",
+      "rel_time": "20時間前",
       "duration_text": "0:54",
       "badge_kind": ""
     },
@@ -95,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/BzHp4Pjzstg/maxresdefault.jpg",
       "duration_seconds": 990,
       "live_status": "",
-      "rel_time": "21時間前",
+      "rel_time": "22時間前",
       "duration_text": "16:30",
       "badge_kind": ""
     },
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/k6vzv1AFmnA/maxresdefault.jpg",
       "duration_seconds": 1080,
       "live_status": "",
-      "rel_time": "21時間前",
+      "rel_time": "22時間前",
       "duration_text": "18:00",
       "badge_kind": ""
     },
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/nwpPS3VlfKo/maxresdefault.jpg",
       "duration_seconds": 57,
       "live_status": "",
-      "rel_time": "22時間前",
+      "rel_time": "23時間前",
       "duration_text": "0:57",
       "badge_kind": ""
     },
@@ -2085,20 +2099,6 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "1:00:55",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "peVXIxo74Uo",
-      "title": "【1年で月100万円】ブログで稼ぐ人がやっている「お客さん」の増やし方【リベ大公式切り抜き】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-08-03T22:00:12Z",
-      "published_dt": "2026-08-03T22:00:12+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/peVXIxo74Uo/maxresdefault.jpg",
-      "duration_seconds": 474,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "7:54",
       "badge_kind": ""
     }
   ]
