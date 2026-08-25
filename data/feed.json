@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-08-25T23:23:52+00:00",
+  "generated_at": "2026-08-25T23:48:52+00:00",
   "videos": [
+    {
+      "video_id": "PXyNWdqdfrk",
+      "title": "今さら聞けないMCPについて解説！Claude CodeはMCPを使うと100倍便利になります。",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-08-25T23:46:48Z",
+      "published_dt": "2026-08-25T23:46:48+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/PXyNWdqdfrk/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "upcoming",
+      "rel_time": "2分前",
+      "duration_text": "配信予定",
+      "badge_kind": "upcoming"
+    },
+    {
+      "video_id": "UeWW1ze79kc",
+      "title": "今日の学長ライブ l お金の質問は学長AIを活用してな/目の前の小銭を拾うんじゃなく、トータルで得する方を選ぶじゃよ/旅行しながら働く「おてつたび」/学長ライブ次は土曜日から【8/26 8:30まで】",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-08-25T23:44:52Z",
+      "published_dt": "2026-08-25T23:44:52+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/UeWW1ze79kc/maxresdefault_live.jpg",
+      "duration_seconds": 7464,
+      "live_status": "",
+      "rel_time": "4分前",
+      "duration_text": "2:04:24",
+      "badge_kind": ""
+    },
     {
       "video_id": "QKPSXbxETeA",
       "title": "【リベ大】貯蓄型保険はポンコツキメラ！？〜保険・投資・貯蓄は混ぜるな危険〜【ゆるアニメ】",
@@ -14,20 +42,6 @@
       "rel_time": "1時間前",
       "duration_text": "10:13",
       "badge_kind": ""
-    },
-    {
-      "video_id": "UeWW1ze79kc",
-      "title": "今日の学長ライブ l お金の質問は学長AIを活用してな/目の前の小銭を拾うんじゃなく、トータルで得する方を選ぶじゃよ/旅行しながら働く「おてつたび」/学長ライブ次は土曜日から【8/26 8:30まで】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-08-25T21:40:28Z",
-      "published_dt": "2026-08-25T21:40:28+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/UeWW1ze79kc/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "1時間前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
     },
     {
       "video_id": "ldcFEwMEZ04",
@@ -53,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/dlaUg0whZ28/maxresdefault.jpg",
       "duration_seconds": 4674,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "10時間前",
       "duration_text": "1:17:54",
       "badge_kind": ""
     },
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/WwR2lNiaWbg/maxresdefault.jpg",
       "duration_seconds": 2355,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "12時間前",
       "duration_text": "39:15",
       "badge_kind": ""
     },
@@ -193,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kj3BKuPj_bM/maxresdefault.jpg",
       "duration_seconds": 7232,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "2:00:32",
       "badge_kind": ""
     },
@@ -2085,20 +2099,6 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "18:08",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "AOUz5Y_kqf8",
-      "title": "難しすぎる理系ツッコミスター",
-      "channel_title": "予備校のノリで学ぶ「大学の数学・物理」",
-      "channel_id": "UCqmWJJolqAgjIdLqK3zD1QQ",
-      "published_iso": "2026-08-07T03:46:54Z",
-      "published_dt": "2026-08-07T03:46:54+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/AOUz5Y_kqf8/maxresdefault.jpg",
-      "duration_seconds": 111,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "1:51",
       "badge_kind": ""
     }
   ]
