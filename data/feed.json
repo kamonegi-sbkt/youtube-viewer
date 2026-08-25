@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-25T21:26:50+00:00",
+  "generated_at": "2026-08-25T21:54:03+00:00",
   "videos": [
+    {
+      "video_id": "UeWW1ze79kc",
+      "title": "今日の学長ライブ l お金の質問は学長AIを活用してな/目の前の小銭を拾うんじゃなく、トータルで得する方を選ぶじゃよ/旅行しながら働く「おてつたび」/学長ライブ次は土曜日から【8/26 8:30まで】",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-08-25T21:40:28Z",
+      "published_dt": "2026-08-25T21:40:28+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/UeWW1ze79kc/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "live",
+      "rel_time": "13分前",
+      "duration_text": "LIVE",
+      "badge_kind": "live"
+    },
     {
       "video_id": "ldcFEwMEZ04",
       "title": "非エンジニアのFDEは成立するか",
@@ -16,20 +30,6 @@
       "badge_kind": ""
     },
     {
-      "video_id": "UeWW1ze79kc",
-      "title": "今日の学長ライブ l 【探せ！黄金のカモ】メガバンク「超富裕層」争奪のため営業マン大幅増員！&プルデンシャル生命、営業自粛中にも金銭詐取・被害1億円超【8/25 8:30まで】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-08-25T13:39:46Z",
-      "published_dt": "2026-08-25T13:39:46+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/UeWW1ze79kc/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "upcoming",
-      "rel_time": "7時間前",
-      "duration_text": "配信予定",
-      "badge_kind": "upcoming"
-    },
-    {
       "video_id": "dlaUg0whZ28",
       "title": "【アベマ同時配信中】「就活で発達障害を伝えない人／学校の授業はつまらん論」アベプラ｜8/25(火) 21:00〜",
       "channel_title": "ABEMA Prime",
@@ -39,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/dlaUg0whZ28/maxresdefault.jpg",
       "duration_seconds": 4674,
       "live_status": "",
-      "rel_time": "7時間前",
+      "rel_time": "8時間前",
       "duration_text": "1:17:54",
       "badge_kind": ""
     },
@@ -95,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/WwR2lNiaWbg/maxresdefault.jpg",
       "duration_seconds": 2355,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "10時間前",
       "duration_text": "39:15",
       "badge_kind": ""
     },
@@ -179,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/kj3BKuPj_bM/maxresdefault.jpg",
       "duration_seconds": 7232,
       "live_status": "",
-      "rel_time": "21時間前",
+      "rel_time": "22時間前",
       "duration_text": "2:00:32",
       "badge_kind": ""
     },
