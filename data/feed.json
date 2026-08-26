@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-08-26T11:08:56+00:00",
+  "generated_at": "2026-08-26T11:44:35+00:00",
   "videos": [
+    {
+      "video_id": "BO2AuMEGvsg",
+      "title": "【アベマ同時配信中】「比例が変わる？民意どう反映／塚本晋也監督生出演」アベプラ｜8/26(水) 21:00〜",
+      "channel_title": "ABEMA Prime",
+      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
+      "published_iso": "2026-08-26T11:30:57Z",
+      "published_dt": "2026-08-26T11:30:57+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/BO2AuMEGvsg/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "live",
+      "rel_time": "13分前",
+      "duration_text": "LIVE",
+      "badge_kind": "live"
+    },
     {
       "video_id": "SebE-ogq52I",
       "title": "「この物件はやめておけ」不動産会社が教えない現地チェックの鉄則。中古住宅の判断基準とは？【長嶋修、今西千登瀬、アントン・ウオルマン】The UPDATE",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/SebE-ogq52I/maxresdefault.jpg",
       "duration_seconds": 926,
       "live_status": "",
-      "rel_time": "8分前",
+      "rel_time": "44分前",
       "duration_text": "15:26",
       "badge_kind": ""
     },
@@ -25,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/buDkYyOO3Ho/maxresdefault.jpg",
       "duration_seconds": 2261,
       "live_status": "",
-      "rel_time": "38分前",
+      "rel_time": "1時間前",
       "duration_text": "37:41",
       "badge_kind": ""
     },
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/YRlf8CqbCF4/maxresdefault.jpg",
       "duration_seconds": 2817,
       "live_status": "",
-      "rel_time": "57分前",
+      "rel_time": "1時間前",
       "duration_text": "46:57",
       "badge_kind": ""
     },
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PXyNWdqdfrk/maxresdefault_live.jpg",
       "duration_seconds": 2308,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "11時間前",
       "duration_text": "38:28",
       "badge_kind": ""
     },
@@ -221,7 +235,7 @@
       "thumbnail": "https://i.ytimg.com/vi/WwR2lNiaWbg/maxresdefault.jpg",
       "duration_seconds": 2355,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "39:15",
       "badge_kind": ""
     },
@@ -1791,20 +1805,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "42:54",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "qdmZVzHwsws",
-      "title": "【熊本地震】「復旧が早い」は本当？10年前の教訓は生きた？首長の手腕は？熊本選出の自民党議員＆復興のプロと議論｜アベプラ",
-      "channel_title": "ABEMA Prime",
-      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-08-13T10:00:27Z",
-      "published_dt": "2026-08-13T10:00:27+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/qdmZVzHwsws/maxresdefault.jpg",
-      "duration_seconds": 2287,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "38:07",
       "badge_kind": ""
     },
     {
