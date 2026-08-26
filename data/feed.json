@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-08-26T12:17:41+00:00",
+  "generated_at": "2026-08-26T13:33:36+00:00",
   "videos": [
+    {
+      "video_id": "BO2AuMEGvsg",
+      "title": "【アベマ同時配信中】「比例が変わる？民意どう反映／塚本晋也監督生出演」アベプラ｜8/26(水) 21:00〜",
+      "channel_title": "ABEMA Prime",
+      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
+      "published_iso": "2026-08-26T13:22:24Z",
+      "published_dt": "2026-08-26T13:22:24+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/BO2AuMEGvsg/maxresdefault.jpg",
+      "duration_seconds": 6290,
+      "live_status": "",
+      "rel_time": "11分前",
+      "duration_text": "1:44:50",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "PXyNWdqdfrk",
+      "title": "今さら聞けないMCPについて解説！Claude CodeはMCPを使うと100倍便利になります。",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-08-26T12:36:26Z",
+      "published_dt": "2026-08-26T12:36:26+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/PXyNWdqdfrk/maxresdefault.jpg",
+      "duration_seconds": 2314,
+      "live_status": "",
+      "rel_time": "57分前",
+      "duration_text": "38:34",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "VN88npooGF4",
+      "title": "【流儀】リアルを追求する撮影の裏話/ 役者・クリエイターは経営したらダメ/ 失敗の流儀「10回中3回打てば一流」/ 猪木流「50億超えたら無借金」の借金哲学（俳優 小沢仁志×佐藤優）#知性密談",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-08-26T12:30:38Z",
+      "published_dt": "2026-08-26T12:30:38+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/VN88npooGF4/maxresdefault.jpg",
+      "duration_seconds": 1391,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "23:11",
+      "badge_kind": ""
+    },
     {
       "video_id": "XgZ-nU4Es5g",
       "title": "【発見】学習より脳のメンテ？頭の良さを司る「ヤバい細胞」の正体（脳科学／毛内拡／脳疲労／生活習慣／睡眠／脳の持久力／アストロサイト）",
@@ -11,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/XgZ-nU4Es5g/maxresdefault.jpg",
       "duration_seconds": 1188,
       "live_status": "",
-      "rel_time": "17分前",
+      "rel_time": "1時間前",
       "duration_text": "19:48",
       "badge_kind": ""
     },
@@ -25,27 +67,13 @@
       "thumbnail": "https://i.ytimg.com/vi/O2JO4cV_Vho/maxresdefault.jpg",
       "duration_seconds": 50,
       "live_status": "",
-      "rel_time": "17分前",
+      "rel_time": "1時間前",
       "duration_text": "0:50",
       "badge_kind": ""
     },
     {
-      "video_id": "BO2AuMEGvsg",
-      "title": "【アベマ同時配信中】「比例が変わる？民意どう反映／塚本晋也監督生出演」アベプラ｜8/26(水) 21:00〜",
-      "channel_title": "ABEMA Prime",
-      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-08-26T11:30:57Z",
-      "published_dt": "2026-08-26T11:30:57+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/BO2AuMEGvsg/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "46分前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
-    },
-    {
       "video_id": "SebE-ogq52I",
-      "title": "「この物件はやめておけ」不動産会社が教えない現地チェックの鉄則。中古住宅の判断基準とは？【長嶋修、今西千登瀬、アントン・ウオルマン】The UPDATE",
+      "title": "「買ってはいけない物件の特徴は？」不動産会社が教えない現地チェックの鉄則。中古住宅の判断基準とは？【長嶋修、今西千登瀬、アントン・ウオルマン】The UPDATE",
       "channel_title": "NewsPicks /ニューズピックス",
       "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
       "published_iso": "2026-08-26T11:00:23Z",
@@ -53,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/SebE-ogq52I/maxresdefault.jpg",
       "duration_seconds": 926,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "2時間前",
       "duration_text": "15:26",
       "badge_kind": ""
     },
@@ -67,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/buDkYyOO3Ho/maxresdefault.jpg",
       "duration_seconds": 2261,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "3時間前",
       "duration_text": "37:41",
       "badge_kind": ""
     },
@@ -81,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/YRlf8CqbCF4/maxresdefault.jpg",
       "duration_seconds": 2817,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "3時間前",
       "duration_text": "46:57",
       "badge_kind": ""
     },
@@ -95,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/YEHPtEGi0TA/maxresdefault.jpg",
       "duration_seconds": 3966,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "3時間前",
       "duration_text": "1:06:06",
       "badge_kind": ""
     },
@@ -109,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pPaNVkgVn9o/maxresdefault.jpg",
       "duration_seconds": 1995,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "3時間前",
       "duration_text": "33:15",
       "badge_kind": ""
     },
@@ -123,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/mqPwFLDV-E8/maxresdefault.jpg",
       "duration_seconds": 65,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "4時間前",
       "duration_text": "1:05",
       "badge_kind": ""
     },
@@ -137,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/efVzBNy66n8/maxresdefault.jpg",
       "duration_seconds": 29,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "4時間前",
       "duration_text": "0:29",
       "badge_kind": ""
     },
@@ -151,22 +179,8 @@
       "thumbnail": "https://i.ytimg.com/vi/YEjJ6WFOoZs/maxresdefault.jpg",
       "duration_seconds": 47,
       "live_status": "",
-      "rel_time": "10時間前",
-      "duration_text": "0:47",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "PXyNWdqdfrk",
-      "title": "今さら聞けないMCPについて解説！Claude CodeはMCPを使うと100倍便利になります。",
-      "channel_title": "ウェブ職TV / Nesheep",
-      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-08-26T00:34:50Z",
-      "published_dt": "2026-08-26T00:34:50+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/PXyNWdqdfrk/maxresdefault_live.jpg",
-      "duration_seconds": 2308,
-      "live_status": "",
       "rel_time": "11時間前",
-      "duration_text": "38:28",
+      "duration_text": "0:47",
       "badge_kind": ""
     },
     {
@@ -179,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/UeWW1ze79kc/maxresdefault.jpg",
       "duration_seconds": 7472,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "13時間前",
       "duration_text": "2:04:32",
       "badge_kind": ""
     },
@@ -193,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QKPSXbxETeA/maxresdefault.jpg",
       "duration_seconds": 613,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "15時間前",
       "duration_text": "10:13",
       "badge_kind": ""
     },
@@ -207,7 +221,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ldcFEwMEZ04/maxresdefault.jpg",
       "duration_seconds": 4830,
       "live_status": "",
-      "rel_time": "19時間前",
+      "rel_time": "20時間前",
       "duration_text": "1:20:30",
       "badge_kind": ""
     },
@@ -837,7 +851,7 @@
       "thumbnail": "https://i.ytimg.com/vi/uHyLR5fMhr0/maxresdefault.jpg",
       "duration_seconds": 1491,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "24:51",
       "badge_kind": ""
     },
@@ -1173,7 +1187,7 @@
       "thumbnail": "https://i.ytimg.com/vi/QN2r36p1KuY/maxresdefault.jpg",
       "duration_seconds": 1430,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "23:50",
       "badge_kind": ""
     },
@@ -1483,20 +1497,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "49:24",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "Cdh-BAAG-Ag",
-      "title": "うまくいく共働き夫婦は「別空間」を持っている？在宅ワークと出社回帰、これからのビジパカップルの住環境 ｜WOMANSHIP NewsPicks for WE",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-08-17T21:00:21Z",
-      "published_dt": "2026-08-17T21:00:21+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/Cdh-BAAG-Ag/maxresdefault.jpg",
-      "duration_seconds": 1541,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "25:41",
       "badge_kind": ""
     },
     {
