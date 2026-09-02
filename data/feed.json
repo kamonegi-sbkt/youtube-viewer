@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-02T14:43:15+00:00",
+  "generated_at": "2026-09-02T18:06:28+00:00",
   "videos": [
     {
       "video_id": "COWQ6UO8cJw",
       "title": "Fable5.1をリアルタイム検証するから手伝って！",
       "channel_title": "ウェブ職TV / Nesheep",
       "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-09-02T14:17:26Z",
-      "published_dt": "2026-09-02T14:17:26+00:00",
+      "published_iso": "2026-09-02T15:50:01Z",
+      "published_dt": "2026-09-02T15:50:01+00:00",
       "thumbnail": "https://i.ytimg.com/vi/COWQ6UO8cJw/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "25分前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
+      "duration_seconds": 5555,
+      "live_status": "",
+      "rel_time": "2時間前",
+      "duration_text": "1:32:35",
+      "badge_kind": ""
     },
     {
       "video_id": "KzisA4TAgak",
@@ -25,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/KzisA4TAgak/maxresdefault.jpg",
       "duration_seconds": 4658,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "4時間前",
       "duration_text": "1:17:38",
       "badge_kind": ""
     },
@@ -39,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/b4frTW6xV6M/maxresdefault.jpg",
       "duration_seconds": 1303,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "5時間前",
       "duration_text": "21:43",
       "badge_kind": ""
     },
@@ -53,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_PUjuA3vkUY/maxresdefault.jpg",
       "duration_seconds": 58,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "6時間前",
       "duration_text": "0:58",
       "badge_kind": ""
     },
@@ -67,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PFDjULIxnrA/maxresdefault.jpg",
       "duration_seconds": 930,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "6時間前",
       "duration_text": "15:30",
       "badge_kind": ""
     },
@@ -81,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/CkKw3otURhU/maxresdefault.jpg",
       "duration_seconds": 1787,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "7時間前",
       "duration_text": "29:47",
       "badge_kind": ""
     },
@@ -95,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/UFIQj1qh80w/maxresdefault.jpg",
       "duration_seconds": 1675,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "7時間前",
       "duration_text": "27:55",
       "badge_kind": ""
     },
@@ -109,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/vBAAdJ-M4TI/maxresdefault.jpg",
       "duration_seconds": 2572,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "8時間前",
       "duration_text": "42:52",
       "badge_kind": ""
     },
@@ -123,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rksv-BiOUCw/maxresdefault.jpg",
       "duration_seconds": 1972,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "8時間前",
       "duration_text": "32:52",
       "badge_kind": ""
     },
@@ -137,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gVRZJjd6k0A/maxresdefault.jpg",
       "duration_seconds": 91,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "9時間前",
       "duration_text": "1:31",
       "badge_kind": ""
     },
@@ -151,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LKl4UhQDGN4/maxresdefault.jpg",
       "duration_seconds": 432,
       "live_status": "",
-      "rel_time": "6時間前",
+      "rel_time": "9時間前",
       "duration_text": "7:12",
       "badge_kind": ""
     },
@@ -165,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/nOndNP0_87o/maxresdefault.jpg",
       "duration_seconds": 62,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "16時間前",
       "duration_text": "1:02",
       "badge_kind": ""
     },
@@ -179,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/qPRy2lkNWac/maxresdefault.jpg",
       "duration_seconds": 5688,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "18時間前",
       "duration_text": "1:34:48",
       "badge_kind": ""
     },
@@ -193,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/1bjLR2OMFic/maxresdefault_live.jpg",
       "duration_seconds": null,
       "live_status": "upcoming",
-      "rel_time": "15時間前",
+      "rel_time": "18時間前",
       "duration_text": "配信予定",
       "badge_kind": "upcoming"
     },
@@ -207,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gsaN3D7GDYM/maxresdefault.jpg",
       "duration_seconds": 1940,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "20時間前",
       "duration_text": "32:20",
       "badge_kind": ""
     },
@@ -221,7 +221,7 @@
       "thumbnail": "https://i.ytimg.com/vi/I62GJpWswpI/maxresdefault.jpg",
       "duration_seconds": 58,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "20時間前",
       "duration_text": "0:58",
       "badge_kind": ""
     },
