@@ -1,6 +1,34 @@
 {
-  "generated_at": "2026-09-03T01:17:58+00:00",
+  "generated_at": "2026-09-03T06:11:13+00:00",
   "videos": [
+    {
+      "video_id": "COWQ6UO8cJw",
+      "title": "Fable5.1をリアルタイム検証するから手伝って！",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-09-03T03:52:56Z",
+      "published_dt": "2026-09-03T03:52:56+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/COWQ6UO8cJw/maxresdefault.jpg",
+      "duration_seconds": 5560,
+      "live_status": "",
+      "rel_time": "2時間前",
+      "duration_text": "1:32:40",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "68x-xmDgKTY",
+      "title": "【斎藤幸平×橘玲】なぜ日本人の所得は低い？ #2Sides #斎藤幸平 #橘玲 #加藤浩次 #格差社会 #物価高 #インフレ #年収 #手取り #税金 #資産運用 #資本主義 #NewsPicks",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-09-03T02:00:33Z",
+      "published_dt": "2026-09-03T02:00:33+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/68x-xmDgKTY/maxresdefault.jpg",
+      "duration_seconds": 75,
+      "live_status": "",
+      "rel_time": "4時間前",
+      "duration_text": "1:15",
+      "badge_kind": ""
+    },
     {
       "video_id": "1bjLR2OMFic",
       "title": "今日の学長ライブ l 「聖闘士星矢」の作者、元スタッフに\"46億円\"を横領され納税が困難に。騙されるのは必ず「信頼してた人」から【9/3 8:30まで】",
@@ -11,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/1bjLR2OMFic/maxresdefault.jpg",
       "duration_seconds": 7187,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "6時間前",
       "duration_text": "1:59:47",
       "badge_kind": ""
     },
@@ -25,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Vg7eKQpkJyY/maxresdefault.jpg",
       "duration_seconds": 591,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "8時間前",
       "duration_text": "9:51",
       "badge_kind": ""
     },
@@ -39,22 +67,8 @@
       "thumbnail": "https://i.ytimg.com/vi/Eb_tlwxlS3A/maxresdefault.jpg",
       "duration_seconds": 62,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "8時間前",
       "duration_text": "1:02",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "COWQ6UO8cJw",
-      "title": "Fable5.1をリアルタイム検証するから手伝って！",
-      "channel_title": "ウェブ職TV / Nesheep",
-      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-09-02T15:50:01Z",
-      "published_dt": "2026-09-02T15:50:01+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/COWQ6UO8cJw/maxresdefault_live.jpg",
-      "duration_seconds": 5555,
-      "live_status": "",
-      "rel_time": "9時間前",
-      "duration_text": "1:32:35",
       "badge_kind": ""
     },
     {
@@ -67,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/KzisA4TAgak/maxresdefault.jpg",
       "duration_seconds": 4658,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "16時間前",
       "duration_text": "1:17:38",
       "badge_kind": ""
     },
@@ -81,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/b4frTW6xV6M/maxresdefault.jpg",
       "duration_seconds": 1303,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "17時間前",
       "duration_text": "21:43",
       "badge_kind": ""
     },
@@ -95,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_PUjuA3vkUY/maxresdefault.jpg",
       "duration_seconds": 58,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "18時間前",
       "duration_text": "0:58",
       "badge_kind": ""
     },
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PFDjULIxnrA/maxresdefault.jpg",
       "duration_seconds": 930,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "18時間前",
       "duration_text": "15:30",
       "badge_kind": ""
     },
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/CkKw3otURhU/maxresdefault.jpg",
       "duration_seconds": 1787,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "19時間前",
       "duration_text": "29:47",
       "badge_kind": ""
     },
@@ -137,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/UFIQj1qh80w/maxresdefault.jpg",
       "duration_seconds": 1675,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "19時間前",
       "duration_text": "27:55",
       "badge_kind": ""
     },
@@ -151,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/vBAAdJ-M4TI/maxresdefault.jpg",
       "duration_seconds": 2572,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "20時間前",
       "duration_text": "42:52",
       "badge_kind": ""
     },
@@ -165,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rksv-BiOUCw/maxresdefault.jpg",
       "duration_seconds": 1972,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "20時間前",
       "duration_text": "32:52",
       "badge_kind": ""
     },
@@ -179,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gVRZJjd6k0A/maxresdefault.jpg",
       "duration_seconds": 91,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "21時間前",
       "duration_text": "1:31",
       "badge_kind": ""
     },
@@ -193,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LKl4UhQDGN4/maxresdefault.jpg",
       "duration_seconds": 432,
       "live_status": "",
-      "rel_time": "17時間前",
+      "rel_time": "22時間前",
       "duration_text": "7:12",
       "badge_kind": ""
     },
@@ -207,7 +221,7 @@
       "thumbnail": "https://i.ytimg.com/vi/nOndNP0_87o/maxresdefault.jpg",
       "duration_seconds": 62,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "1:02",
       "badge_kind": ""
     },
@@ -375,7 +389,7 @@
       "thumbnail": "https://i.ytimg.com/vi/oDeJrSJDp1A/maxresdefault.jpg",
       "duration_seconds": 327,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "5:27",
       "badge_kind": ""
     },
@@ -389,7 +403,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jZ_YLB88Xjc/maxresdefault.jpg",
       "duration_seconds": 67,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "1:07",
       "badge_kind": ""
     },
@@ -501,7 +515,7 @@
       "thumbnail": "https://i.ytimg.com/vi/OzwP9QK-t48/maxresdefault.jpg",
       "duration_seconds": 58,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "0:58",
       "badge_kind": ""
     },
@@ -627,7 +641,7 @@
       "thumbnail": "https://i.ytimg.com/vi/M6EriHN2VZg/maxresdefault.jpg",
       "duration_seconds": 63,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "1:03",
       "badge_kind": ""
     },
@@ -739,7 +753,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bP1gdTr7KeI/maxresdefault.jpg",
       "duration_seconds": 1180,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "19:40",
       "badge_kind": ""
     },
@@ -753,22 +767,8 @@
       "thumbnail": "https://i.ytimg.com/vi/ujYnCBbFC3A/maxresdefault.jpg",
       "duration_seconds": 59,
       "live_status": "",
-      "rel_time": "4日前",
-      "duration_text": "0:59",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "YQYckl38zpo",
-      "title": "今日の学長ライブ l ただいま学長！宿題やってたかチェック/NISA口座が「もぬけの殻」に/あつまれNISA貧乏バーは良い？/【8/29 8:30まで】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-08-29T00:14:19Z",
-      "published_dt": "2026-08-29T00:14:19+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/YQYckl38zpo/maxresdefault.jpg",
-      "duration_seconds": 8706,
-      "live_status": "",
       "rel_time": "5日前",
-      "duration_text": "2:25:06",
+      "duration_text": "0:59",
       "badge_kind": ""
     },
     {
@@ -991,7 +991,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0e8R0_O6PSM/maxresdefault.jpg",
       "duration_seconds": 29,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "0:29",
       "badge_kind": ""
     },
@@ -1005,7 +1005,7 @@
       "thumbnail": "https://i.ytimg.com/vi/aZkh0AYkqR0/maxresdefault.jpg",
       "duration_seconds": 78,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "1:18",
       "badge_kind": ""
     },
@@ -1187,7 +1187,7 @@
       "thumbnail": "https://i.ytimg.com/vi/G7KeiyUwcbk/maxresdefault.jpg",
       "duration_seconds": 29,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "0:29",
       "badge_kind": ""
     },
@@ -1201,7 +1201,7 @@
       "thumbnail": "https://i.ytimg.com/vi/1U1uY-zTX5A/maxresdefault.jpg",
       "duration_seconds": 30,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "0:30",
       "badge_kind": ""
     },
@@ -1455,20 +1455,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "14:05",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "5jENHwQA_HY",
-      "title": "【坂井風太×片石貴展】マインドとソウルの違いとは？ #キャリア #人材育成 #ビジネス #自己成長 #坂井風太 #片石貴展 #yutori #仕事術 #リーダーシップ #新人教育  #コアログ",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-08-25T12:00:19Z",
-      "published_dt": "2026-08-25T12:00:19+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/5jENHwQA_HY/maxresdefault.jpg",
-      "duration_seconds": 76,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "1:16",
       "badge_kind": ""
     },
     {
@@ -2099,6 +2085,20 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "8:04",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "eTH2Hb3j05Q",
+      "title": "【AI小説最前線】AI小説家が語るプロの執筆方法！SF作家・葦沢かもめさんとゆる対談",
+      "channel_title": "安野貴博の自由研究",
+      "channel_id": "UCiMwbmcCSMORJ-85XWhStBw",
+      "published_iso": "2026-08-14T11:00:34Z",
+      "published_dt": "2026-08-14T11:00:34+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/eTH2Hb3j05Q/maxresdefault.jpg",
+      "duration_seconds": 3040,
+      "live_status": "",
+      "rel_time": "2週間前",
+      "duration_text": "50:40",
       "badge_kind": ""
     }
   ]
