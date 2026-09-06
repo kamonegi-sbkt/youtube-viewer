@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-09-06T21:03:22+00:00",
+  "generated_at": "2026-09-06T22:53:12+00:00",
   "videos": [
+    {
+      "video_id": "05yvFJDxWd0",
+      "title": "第274回【超重要】株式投資に役立つ8月の投資トピック総まとめ【インデックス・高配当】【株式投資編】",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-09-06T22:00:34Z",
+      "published_dt": "2026-09-06T22:00:34+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/05yvFJDxWd0/maxresdefault.jpg",
+      "duration_seconds": 2307,
+      "live_status": "",
+      "rel_time": "52分前",
+      "duration_text": "38:27",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "kWjazK1-zDw",
+      "title": "「赤ちゃんが下ネタ覚えたら地獄よッ！」１歳の子が禁句リピート!?男がおごるべき論争、LUUPの罰金トラブルまで…納得いかない他人の行動をぶった斬る！【アレン様×トンツカタン森本】",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-09-06T22:00:24Z",
+      "published_dt": "2026-09-06T22:00:24+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/kWjazK1-zDw/maxresdefault.jpg",
+      "duration_seconds": 1262,
+      "live_status": "",
+      "rel_time": "52分前",
+      "duration_text": "21:02",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "UP7q8j3dOvY",
+      "title": "今日の学長ライブ l お金はおっかねぇぇぇぇ！笑/正直に売ったら、もっと売れた。シャインマスカット農家からの手紙を読む【9/7 8:30まで】",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-09-06T21:39:26Z",
+      "published_dt": "2026-09-06T21:39:26+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/UP7q8j3dOvY/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "live",
+      "rel_time": "1時間前",
+      "duration_text": "LIVE",
+      "badge_kind": "live"
+    },
     {
       "video_id": "CAhE_yqidoY",
       "title": "【プロデュース戦略】おヨネが売れると思った理由とは？#モナキ #酒井一圭 #純烈 #おヨネ #アイドル #岸谷蘭丸 #z世代 #マーケティング",
@@ -11,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/CAhE_yqidoY/maxresdefault.jpg",
       "duration_seconds": 115,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "10時間前",
       "duration_text": "1:55",
       "badge_kind": ""
     },
@@ -25,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/olgLvVuI1LU/maxresdefault.jpg",
       "duration_seconds": 481,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "10時間前",
       "duration_text": "8:01",
       "badge_kind": ""
     },
@@ -39,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/J_X0JiqejKw/maxresdefault.jpg",
       "duration_seconds": 1076,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "11時間前",
       "duration_text": "17:56",
       "badge_kind": ""
     },
@@ -53,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/i8OF1hRUDck/maxresdefault.jpg",
       "duration_seconds": 3226,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "12時間前",
       "duration_text": "53:46",
       "badge_kind": ""
     },
@@ -67,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/YCf9hz1Rfzk/maxresdefault.jpg",
       "duration_seconds": 2098,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "13時間前",
       "duration_text": "34:58",
       "badge_kind": ""
     },
@@ -81,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/P5khGQCy088/maxresdefault.jpg",
       "duration_seconds": 80,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "13時間前",
       "duration_text": "1:20",
       "badge_kind": ""
     },
@@ -95,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/eh8raC06bXs/maxresdefault.jpg",
       "duration_seconds": 50,
       "live_status": "",
-      "rel_time": "19時間前",
+      "rel_time": "20時間前",
       "duration_text": "0:50",
       "badge_kind": ""
     },
@@ -109,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gf2mBN6bIfc/maxresdefault.jpg",
       "duration_seconds": 9326,
       "live_status": "",
-      "rel_time": "20時間前",
+      "rel_time": "22時間前",
       "duration_text": "2:35:26",
       "badge_kind": ""
     },
@@ -123,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/sVtsBkKyrug/maxresdefault.jpg",
       "duration_seconds": 74,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "1:14",
       "badge_kind": ""
     },
@@ -137,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gCG9mrCn5Dg/maxresdefault.jpg",
       "duration_seconds": 626,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "10:26",
       "badge_kind": ""
     },
@@ -319,7 +361,7 @@
       "thumbnail": "https://i.ytimg.com/vi/58B-1XrorpQ/maxresdefault.jpg",
       "duration_seconds": 76,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "1:16",
       "badge_kind": ""
     },
@@ -333,7 +375,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0iieAHmxCZ4/maxresdefault.jpg",
       "duration_seconds": 593,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "9:53",
       "badge_kind": ""
     },
@@ -501,7 +543,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7K-3nib-YkQ/maxresdefault.jpg",
       "duration_seconds": 65,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "1:05",
       "badge_kind": ""
     },
@@ -515,7 +557,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rycvphw9m7Y/maxresdefault.jpg",
       "duration_seconds": 1424,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "23:44",
       "badge_kind": ""
     },
@@ -711,7 +753,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Vg7eKQpkJyY/maxresdefault.jpg",
       "duration_seconds": 591,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "9:51",
       "badge_kind": ""
     },
@@ -725,7 +767,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Eb_tlwxlS3A/maxresdefault.jpg",
       "duration_seconds": 62,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "1:02",
       "badge_kind": ""
     },
@@ -893,7 +935,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gsaN3D7GDYM/maxresdefault.jpg",
       "duration_seconds": 1940,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "32:20",
       "badge_kind": ""
     },
@@ -907,7 +949,7 @@
       "thumbnail": "https://i.ytimg.com/vi/I62GJpWswpI/maxresdefault.jpg",
       "duration_seconds": 58,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "0:58",
       "badge_kind": ""
     },
@@ -1061,7 +1103,7 @@
       "thumbnail": "https://i.ytimg.com/vi/WIBMP5SQ748/maxresdefault.jpg",
       "duration_seconds": 678,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "11:18",
       "badge_kind": ""
     },
@@ -1159,7 +1201,7 @@
       "thumbnail": "https://i.ytimg.com/vi/aJgWtXLiMUQ/maxresdefault.jpg",
       "duration_seconds": 2112,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "35:12",
       "badge_kind": ""
     },
@@ -1173,7 +1215,7 @@
       "thumbnail": "https://i.ytimg.com/vi/50C-JLtPF8c/maxresdefault.jpg",
       "duration_seconds": 1264,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "21:04",
       "badge_kind": ""
     },
@@ -1399,20 +1441,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "29:10",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "5I0m8ResVho",
-      "title": "【個人】バズを月収に変える設計/ ノーブラ散歩で100万再生/ 2カ月目で売上1,000万円（ひろゆき・西村博之 ベテランち 鈴木涼美 宇佐美典也 安田理央 しみけん まっか）#路地裏インデックス",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-08-28T12:30:04Z",
-      "published_dt": "2026-08-28T12:30:04+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/5I0m8ResVho/maxresdefault.jpg",
-      "duration_seconds": 1615,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "26:55",
       "badge_kind": ""
     },
     {
@@ -1901,7 +1929,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Css1eWyuqCs/maxresdefault.jpg",
       "duration_seconds": 707,
       "live_status": "",
-      "rel_time": "1週間前",
+      "rel_time": "2週間前",
       "duration_text": "11:47",
       "badge_kind": ""
     },
@@ -2071,34 +2099,6 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "5:41",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "GEsX1EDOZgs",
-      "title": "プリント基板のアートワークでEMI 放射ノイズは変わるのか?  【テクノフロンティア2026 イチケンラウンジ】",
-      "channel_title": "イチケン / ICHIKEN",
-      "channel_id": "UCGhudK3AIG152KrfURCSb2Q",
-      "published_iso": "2026-08-19T10:05:26Z",
-      "published_dt": "2026-08-19T10:05:26+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/GEsX1EDOZgs/maxresdefault.jpg",
-      "duration_seconds": 1470,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "24:30",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "dSji7A-F240",
-      "title": "分かる人いる？理系ツッコミスター",
-      "channel_title": "予備校のノリで学ぶ「大学の数学・物理」",
-      "channel_id": "UCqmWJJolqAgjIdLqK3zD1QQ",
-      "published_iso": "2026-08-18T23:56:15Z",
-      "published_dt": "2026-08-18T23:56:15+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/dSji7A-F240/maxresdefault.jpg",
-      "duration_seconds": 116,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "1:56",
       "badge_kind": ""
     }
   ]
