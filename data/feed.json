@@ -1,23 +1,37 @@
 {
-  "generated_at": "2026-09-09T11:43:00+00:00",
+  "generated_at": "2026-09-09T15:18:24+00:00",
   "videos": [
     {
-      "video_id": "a-_WHfPf66k",
-      "title": "【アベマ同時配信中】「現代のナチス？AfDとは／性犯罪者のGPS所持」アベプラ｜9/9(水) 21:00〜",
-      "channel_title": "ABEMA Prime",
-      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-09-09T11:31:41Z",
-      "published_dt": "2026-09-09T11:31:41+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/a-_WHfPf66k/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "11分前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
+      "video_id": "eFNLcrq89oI",
+      "title": "CIO国産充電器 クラファン「明日開始」|【CIO 国産充電器プロジェクト05】",
+      "channel_title": "イチケン / ICHIKEN",
+      "channel_id": "UCGhudK3AIG152KrfURCSb2Q",
+      "published_iso": "2026-09-09T12:20:07Z",
+      "published_dt": "2026-09-09T12:20:07+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/eFNLcrq89oI/maxresdefault.jpg",
+      "duration_seconds": 1504,
+      "live_status": "",
+      "rel_time": "2時間前",
+      "duration_text": "25:04",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "qqpnRdJaQZE",
+      "title": "【落合陽一×大栗博司】ミクロの世界の終わりとは？ #落合陽一 #大栗博司 #超ひも理論 #宇宙 #物理学 #マルチバース #量子力学 #NewsPicks #WEEKLYOCHIAI",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-09-09T12:00:14Z",
+      "published_dt": "2026-09-09T12:00:14+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/qqpnRdJaQZE/maxresdefault.jpg",
+      "duration_seconds": 44,
+      "live_status": "",
+      "rel_time": "3時間前",
+      "duration_text": "0:44",
+      "badge_kind": ""
     },
     {
       "video_id": "iV7cd6SKAgc",
-      "title": "「ラヴ上等２ 炎上は狙い通り」Netflixに問われる謝罪と責任とは？【福田淳、勝倉千尋、てぃ先生】The UPDATE",
+      "title": "「なぜシーズン２だけ炎上？」ラヴ上等が“怖い”に変わった理由とは？【福田淳、勝倉千尋、てぃ先生】The UPDATE",
       "channel_title": "NewsPicks /ニューズピックス",
       "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
       "published_iso": "2026-09-09T11:00:25Z",
@@ -25,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/iV7cd6SKAgc/maxresdefault.jpg",
       "duration_seconds": 974,
       "live_status": "",
-      "rel_time": "42分前",
+      "rel_time": "4時間前",
       "duration_text": "16:14",
       "badge_kind": ""
     },
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/AU3eVGEghrk/maxresdefault.jpg",
       "duration_seconds": 1710,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "4時間前",
       "duration_text": "28:30",
       "badge_kind": ""
     },
@@ -53,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/GFpJ4oqUjZU/maxresdefault.jpg",
       "duration_seconds": 4098,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "5時間前",
       "duration_text": "1:08:18",
       "badge_kind": ""
     },
@@ -67,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3vtgni41fr0/maxresdefault.jpg",
       "duration_seconds": 1880,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "5時間前",
       "duration_text": "31:20",
       "badge_kind": ""
     },
@@ -81,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/SlC9LTZp7EY/maxresdefault.jpg",
       "duration_seconds": 76,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "6時間前",
       "duration_text": "1:16",
       "badge_kind": ""
     },
@@ -95,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Ub1UjevqfOI/maxresdefault.jpg",
       "duration_seconds": 2288,
       "live_status": "",
-      "rel_time": "7時間前",
+      "rel_time": "10時間前",
       "duration_text": "38:08",
       "badge_kind": ""
     },
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/p2OdMX2r_OE/maxresdefault.jpg",
       "duration_seconds": 71,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "13時間前",
       "duration_text": "1:11",
       "badge_kind": ""
     },
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/y1KqVcVJvzw/maxresdefault.jpg",
       "duration_seconds": 7723,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "15時間前",
       "duration_text": "2:08:43",
       "badge_kind": ""
     },
@@ -137,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/RzpQFYyVsXE/maxresdefault.jpg",
       "duration_seconds": 1357,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "17時間前",
       "duration_text": "22:37",
       "badge_kind": ""
     },
@@ -151,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/6lgl3qV7Qvk/maxresdefault.jpg",
       "duration_seconds": 69,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "1:09",
       "badge_kind": ""
     },
@@ -165,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LQznFbhkpjs/maxresdefault.jpg",
       "duration_seconds": 40,
       "live_status": "",
-      "rel_time": "23時間前",
+      "rel_time": "1日前",
       "duration_text": "0:40",
       "badge_kind": ""
     },
@@ -333,7 +347,7 @@
       "thumbnail": "https://i.ytimg.com/vi/rQh0jhs5urY/maxresdefault.jpg",
       "duration_seconds": 76,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "1:16",
       "badge_kind": ""
     },
@@ -445,7 +459,7 @@
       "thumbnail": "https://i.ytimg.com/vi/CAhE_yqidoY/maxresdefault.jpg",
       "duration_seconds": 115,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "1:55",
       "badge_kind": ""
     },
@@ -459,7 +473,7 @@
       "thumbnail": "https://i.ytimg.com/vi/olgLvVuI1LU/maxresdefault.jpg",
       "duration_seconds": 481,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "8:01",
       "badge_kind": ""
     },
@@ -585,7 +599,7 @@
       "thumbnail": "https://i.ytimg.com/vi/onUBxemIrss/maxresdefault.jpg",
       "duration_seconds": 78,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "1:18",
       "badge_kind": ""
     },
@@ -599,7 +613,7 @@
       "thumbnail": "https://i.ytimg.com/vi/vN96FfqVFX8/maxresdefault.jpg",
       "duration_seconds": 1248,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "20:48",
       "badge_kind": ""
     },
@@ -781,7 +795,7 @@
       "thumbnail": "https://i.ytimg.com/vi/UPCWIVrjnF0/maxresdefault.jpg",
       "duration_seconds": 1539,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "25:39",
       "badge_kind": ""
     },
@@ -795,7 +809,7 @@
       "thumbnail": "https://i.ytimg.com/vi/BNH_RHJMaV8/maxresdefault.jpg",
       "duration_seconds": 56,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "0:56",
       "badge_kind": ""
     },
@@ -949,7 +963,7 @@
       "thumbnail": "https://i.ytimg.com/vi/VqrLpwbZzN4/maxresdefault.jpg",
       "duration_seconds": 82,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "1:22",
       "badge_kind": ""
     },
@@ -1145,7 +1159,7 @@
       "thumbnail": "https://i.ytimg.com/vi/b4frTW6xV6M/maxresdefault.jpg",
       "duration_seconds": 1303,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "21:43",
       "badge_kind": ""
     },
@@ -1159,7 +1173,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_PUjuA3vkUY/maxresdefault.jpg",
       "duration_seconds": 58,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "0:58",
       "badge_kind": ""
     },
@@ -1173,7 +1187,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PFDjULIxnrA/maxresdefault.jpg",
       "duration_seconds": 930,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "15:30",
       "badge_kind": ""
     },
@@ -1472,20 +1486,6 @@
       "badge_kind": ""
     },
     {
-      "video_id": "FHITqo_VoBk",
-      "title": "【山田孝之×落合陽一】生まれ変わったら何になりたい？ #山田孝之 #落合陽一 #NewsPicks #Netflix #全裸監督 #俳優 #役作り #WEEKLYOCHIAI",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-08-31T12:00:22Z",
-      "published_dt": "2026-08-31T12:00:22+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/FHITqo_VoBk/maxresdefault.jpg",
-      "duration_seconds": 24,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "0:24",
-      "badge_kind": ""
-    },
-    {
       "video_id": "5yFEfZJ1QsQ",
       "title": "こめおの冷やしラーメンの件について解説します【かにを】",
       "channel_title": "堀江貴文 ホリエモン",
@@ -1752,6 +1752,20 @@
       "badge_kind": ""
     },
     {
+      "video_id": "jlKYSuTcXK0",
+      "title": "【子育て男女差】男の子の方が大変って本当？女の子との違いは？お風呂・着替えで戸惑うパパ＆ママ…異性の子育ての悩みを考える｜アベプラ",
+      "channel_title": "ABEMA Prime",
+      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
+      "published_iso": "2026-08-27T11:00:12Z",
+      "published_dt": "2026-08-27T11:00:12+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/jlKYSuTcXK0/maxresdefault.jpg",
+      "duration_seconds": 1934,
+      "live_status": "",
+      "rel_time": "1週間前",
+      "duration_text": "32:14",
+      "badge_kind": ""
+    },
+    {
       "video_id": "kl65UToYZ0A",
       "title": "「武道館、この集客じゃできません」MINMIが過去に断念した武道館公演に再挑戦する理由｜ホリエモンが演歌デビューした背景とは？【MINMI×堀江貴文】",
       "channel_title": "堀江貴文 ホリエモン",
@@ -1817,7 +1831,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PXyNWdqdfrk/maxresdefault.jpg",
       "duration_seconds": 2314,
       "live_status": "",
-      "rel_time": "1週間前",
+      "rel_time": "2週間前",
       "duration_text": "38:34",
       "badge_kind": ""
     },
@@ -2085,20 +2099,6 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "6:12",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "xvywItKLQoU",
-      "title": "【言えば言うほど損する! 】お金が貯まらない人の口癖TOP5【リベ大公式切り抜き】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-08-19T22:00:26Z",
-      "published_dt": "2026-08-19T22:00:26+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/xvywItKLQoU/maxresdefault.jpg",
-      "duration_seconds": 341,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "5:41",
       "badge_kind": ""
     }
   ]
