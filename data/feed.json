@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T18:28:49+00:00",
+  "generated_at": "2026-09-10T21:07:36+00:00",
   "videos": [
     {
       "video_id": "udRxVK7mKn0",
@@ -11,7 +11,7 @@
       "thumbnail": "https://i.ytimg.com/vi/udRxVK7mKn0/maxresdefault_live.jpg",
       "duration_seconds": null,
       "live_status": "upcoming",
-      "rel_time": "4時間前",
+      "rel_time": "6時間前",
       "duration_text": "配信予定",
       "badge_kind": "upcoming"
     },
@@ -23,10 +23,10 @@
       "published_iso": "2026-09-10T13:29:52Z",
       "published_dt": "2026-09-10T13:29:52+00:00",
       "thumbnail": "https://i.ytimg.com/vi/i3JmOjvYu2w/maxresdefault.jpg",
-      "duration_seconds": 6775,
+      "duration_seconds": 4415,
       "live_status": "",
-      "rel_time": "4時間前",
-      "duration_text": "1:52:55",
+      "rel_time": "7時間前",
+      "duration_text": "1:13:35",
       "badge_kind": ""
     },
     {
@@ -39,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/SftaL55LPbA/maxresdefault.jpg",
       "duration_seconds": 1743,
       "live_status": "",
-      "rel_time": "6時間前",
+      "rel_time": "9時間前",
       "duration_text": "29:03",
       "badge_kind": ""
     },
@@ -53,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/aMP3dZybaT8/maxresdefault.jpg",
       "duration_seconds": 60,
       "live_status": "",
-      "rel_time": "6時間前",
+      "rel_time": "9時間前",
       "duration_text": "1:00",
       "badge_kind": ""
     },
@@ -67,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_Uh_NK6oZVg/maxresdefault.jpg",
       "duration_seconds": 2274,
       "live_status": "",
-      "rel_time": "7時間前",
+      "rel_time": "10時間前",
       "duration_text": "37:54",
       "badge_kind": ""
     },
@@ -81,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/e-jk_EBoo5o/maxresdefault.jpg",
       "duration_seconds": 1227,
       "live_status": "",
-      "rel_time": "7時間前",
+      "rel_time": "10時間前",
       "duration_text": "20:27",
       "badge_kind": ""
     },
@@ -95,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/6s0sGdxsvho/maxresdefault.jpg",
       "duration_seconds": 2059,
       "live_status": "",
-      "rel_time": "7時間前",
+      "rel_time": "10時間前",
       "duration_text": "34:19",
       "badge_kind": ""
     },
@@ -109,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/SrnHezaw7vU/maxresdefault.jpg",
       "duration_seconds": 2065,
       "live_status": "",
-      "rel_time": "8時間前",
+      "rel_time": "11時間前",
       "duration_text": "34:25",
       "badge_kind": ""
     },
@@ -123,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ooOtv2i0rhU/maxresdefault.jpg",
       "duration_seconds": 804,
       "live_status": "",
-      "rel_time": "8時間前",
+      "rel_time": "11時間前",
       "duration_text": "13:24",
       "badge_kind": ""
     },
@@ -137,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LlhaNCu-8FI/maxresdefault.jpg",
       "duration_seconds": 338,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "11時間前",
       "duration_text": "5:38",
       "badge_kind": ""
     },
@@ -151,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/DchXW1c-tqc/maxresdefault.jpg",
       "duration_seconds": 57,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "12時間前",
       "duration_text": "0:57",
       "badge_kind": ""
     },
@@ -165,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/TwBN7-TCPuc/maxresdefault.jpg",
       "duration_seconds": 69,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "19時間前",
       "duration_text": "1:09",
       "badge_kind": ""
     },
@@ -179,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/eHyqK5Lt2H8/maxresdefault.jpg",
       "duration_seconds": 8034,
       "live_status": "",
-      "rel_time": "18時間前",
+      "rel_time": "21時間前",
       "duration_text": "2:13:54",
       "badge_kind": ""
     },
@@ -193,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/o7eIsq-t_LQ/maxresdefault.jpg",
       "duration_seconds": 363,
       "live_status": "",
-      "rel_time": "20時間前",
+      "rel_time": "23時間前",
       "duration_text": "6:03",
       "badge_kind": ""
     },
@@ -207,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/RDX3qVVD_fg/maxresdefault.jpg",
       "duration_seconds": 62,
       "live_status": "",
-      "rel_time": "20時間前",
+      "rel_time": "23時間前",
       "duration_text": "1:02",
       "badge_kind": ""
     },
@@ -543,7 +543,7 @@
       "thumbnail": "https://i.ytimg.com/vi/w4try2AWxeY/maxresdefault.jpg",
       "duration_seconds": 1917,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "31:57",
       "badge_kind": ""
     },
