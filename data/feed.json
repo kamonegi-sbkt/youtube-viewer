@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-09-22T14:11:23+00:00",
+  "generated_at": "2026-09-22T18:05:43+00:00",
   "videos": [
+    {
+      "video_id": "ZmJYqnmxl-c",
+      "title": "今話題の判断専用AI「Jev」とは？",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-09-22T16:00:01Z",
+      "published_dt": "2026-09-22T16:00:01+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/ZmJYqnmxl-c/maxresdefault.jpg",
+      "duration_seconds": 5227,
+      "live_status": "",
+      "rel_time": "2時間前",
+      "duration_text": "1:27:07",
+      "badge_kind": ""
+    },
     {
       "video_id": "yKJH_hmpxLo",
       "title": "【アベマ同時配信中】「防衛費拡大＝抑止力orリスク？安保のジレンマ／がんを隠すワケ」アベプラ｜9/22(火) 21:00〜",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/yKJH_hmpxLo/maxresdefault.jpg",
       "duration_seconds": 6811,
       "live_status": "",
-      "rel_time": "41分前",
+      "rel_time": "4時間前",
       "duration_text": "1:53:31",
       "badge_kind": ""
     },
@@ -25,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/i_xF294h3AU/maxresdefault.jpg",
       "duration_seconds": 3826,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "6時間前",
       "duration_text": "1:03:46",
       "badge_kind": ""
     },
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/6H5z6PHx5ls/maxresdefault.jpg",
       "duration_seconds": 83,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "6時間前",
       "duration_text": "1:23",
       "badge_kind": ""
     },
@@ -53,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/l0dHlTA3zQo/maxresdefault.jpg",
       "duration_seconds": 2015,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "6時間前",
       "duration_text": "33:35",
       "badge_kind": ""
     },
@@ -67,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/7DOWNmjayxU/maxresdefault.jpg",
       "duration_seconds": 1192,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "8時間前",
       "duration_text": "19:52",
       "badge_kind": ""
     },
@@ -81,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/sfSiN7RB3Cc/maxresdefault.jpg",
       "duration_seconds": 56,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "16時間前",
       "duration_text": "0:56",
       "badge_kind": ""
     },
@@ -95,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/627h3mfbfJ8/maxresdefault.jpg",
       "duration_seconds": 9175,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "17時間前",
       "duration_text": "2:32:55",
       "badge_kind": ""
     },
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/1cvVScaP3W8/maxresdefault.jpg",
       "duration_seconds": 1214,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "20時間前",
       "duration_text": "20:14",
       "badge_kind": ""
     },
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4AXtsZqS3i8/maxresdefault.jpg",
       "duration_seconds": 2126,
       "live_status": "",
-      "rel_time": "17時間前",
+      "rel_time": "21時間前",
       "duration_text": "35:26",
       "badge_kind": ""
     },
@@ -2085,20 +2099,6 @@
       "live_status": "",
       "rel_time": "3週間前",
       "duration_text": "6:49",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "1dLhGoBDcsk",
-      "title": "【ゆるVLOG】AIは雑貨屋を経営できるか #安野貴博 #ai",
-      "channel_title": "安野貴博の自由研究",
-      "channel_id": "UCiMwbmcCSMORJ-85XWhStBw",
-      "published_iso": "2026-08-28T11:05:39Z",
-      "published_dt": "2026-08-28T11:05:39+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/1dLhGoBDcsk/maxresdefault.jpg",
-      "duration_seconds": 31,
-      "live_status": "",
-      "rel_time": "3週間前",
-      "duration_text": "0:31",
       "badge_kind": ""
     }
   ]
