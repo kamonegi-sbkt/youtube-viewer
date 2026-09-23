@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-09-23T12:54:29+00:00",
+  "generated_at": "2026-09-23T17:43:04+00:00",
   "videos": [
+    {
+      "video_id": "BGKPO4bCvoY",
+      "title": "【アベマ同時配信中】「高市総理訪米の成果は？／維新の不安は『与党病』？」アベプラ｜9/23(水) 21:00〜",
+      "channel_title": "ABEMA Prime",
+      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
+      "published_iso": "2026-09-23T13:16:55Z",
+      "published_dt": "2026-09-23T13:16:55+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/BGKPO4bCvoY/maxresdefault.jpg",
+      "duration_seconds": 3689,
+      "live_status": "",
+      "rel_time": "4時間前",
+      "duration_text": "1:01:29",
+      "badge_kind": ""
+    },
     {
       "video_id": "2yQbRZuF_N8",
       "title": "【佐藤亮子×孫辰洋】変化する令和の大学 #東大 #総合型選抜 #大学受験 #一般選抜 #佐藤亮子 #加藤浩次 #大学入試 #教育 #NewsPicks #2sides",
@@ -11,13 +25,13 @@
       "thumbnail": "https://i.ytimg.com/vi/2yQbRZuF_N8/maxresdefault.jpg",
       "duration_seconds": 56,
       "live_status": "",
-      "rel_time": "53分前",
+      "rel_time": "5時間前",
       "duration_text": "0:56",
       "badge_kind": ""
     },
     {
       "video_id": "bbZ3i9iRgOs",
-      "title": "【完全攻略ガイド】これで合格！大流行「AI面接」の裏側、ぜんぶ教えます（28卒/harutaka/VARIETAS/SHaiN /就活/採用/ES /選考/エントリーシート）",
+      "title": "【完全攻略】これで合格！大流行「AI面接」の裏側、ぜんぶ教えます（28卒/harutaka/VARIETAS/SHaiN /就活/採用/ES /選考/エントリーシート）",
       "channel_title": "NewsPicks /ニューズピックス",
       "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
       "published_iso": "2026-09-23T12:00:12Z",
@@ -25,23 +39,9 @@
       "thumbnail": "https://i.ytimg.com/vi/bbZ3i9iRgOs/maxresdefault.jpg",
       "duration_seconds": 1136,
       "live_status": "",
-      "rel_time": "54分前",
+      "rel_time": "5時間前",
       "duration_text": "18:56",
       "badge_kind": ""
-    },
-    {
-      "video_id": "BGKPO4bCvoY",
-      "title": "【アベマ同時配信中】「高市総理訪米の成果は？／維新の不安は『与党病』？」アベプラ｜9/23(水) 21:00〜",
-      "channel_title": "ABEMA Prime",
-      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-09-23T11:31:43Z",
-      "published_dt": "2026-09-23T11:31:43+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/BGKPO4bCvoY/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "1時間前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
     },
     {
       "video_id": "y6FYWSbLz3Q",
@@ -53,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/y6FYWSbLz3Q/maxresdefault.jpg",
       "duration_seconds": 976,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "6時間前",
       "duration_text": "16:16",
       "badge_kind": ""
     },
@@ -67,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/wwtTEYrtw6Q/maxresdefault.jpg",
       "duration_seconds": 2118,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "6時間前",
       "duration_text": "35:18",
       "badge_kind": ""
     },
@@ -81,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/vqbNcxQwNq8/maxresdefault.jpg",
       "duration_seconds": 2145,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "7時間前",
       "duration_text": "35:45",
       "badge_kind": ""
     },
@@ -95,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/cmHV3mMN550/maxresdefault.jpg",
       "duration_seconds": 3585,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "7時間前",
       "duration_text": "59:45",
       "badge_kind": ""
     },
@@ -109,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/iLp6L2GOJAo/maxresdefault.jpg",
       "duration_seconds": 2058,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "7時間前",
       "duration_text": "34:18",
       "badge_kind": ""
     },
@@ -123,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0GUCrU9My3Q/maxresdefault.jpg",
       "duration_seconds": 89,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "8時間前",
       "duration_text": "1:29",
       "badge_kind": ""
     },
@@ -137,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/i8Zv7mI8QaU/maxresdefault.jpg",
       "duration_seconds": 65,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "15時間前",
       "duration_text": "1:05",
       "badge_kind": ""
     },
@@ -151,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/80meqaY9VH0/maxresdefault.jpg",
       "duration_seconds": 8362,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "17時間前",
       "duration_text": "2:19:22",
       "badge_kind": ""
     },
@@ -165,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3Vg8L4Rad9A/maxresdefault.jpg",
       "duration_seconds": 1518,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "19時間前",
       "duration_text": "25:18",
       "badge_kind": ""
     },
@@ -179,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ZmJYqnmxl-c/maxresdefault.jpg",
       "duration_seconds": 5227,
       "live_status": "",
-      "rel_time": "20時間前",
+      "rel_time": "1日前",
       "duration_text": "1:27:07",
       "badge_kind": ""
     },
@@ -501,7 +501,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Z8ANIfbnvgk/maxresdefault.jpg",
       "duration_seconds": 2598,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "43:18",
       "badge_kind": ""
     },
@@ -641,7 +641,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LeQiZqXCILI/maxresdefault.jpg",
       "duration_seconds": 2204,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "36:44",
       "badge_kind": ""
     },
@@ -879,7 +879,7 @@
       "thumbnail": "https://i.ytimg.com/vi/tPyGqiT56Ps/maxresdefault.jpg",
       "duration_seconds": 1671,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "27:51",
       "badge_kind": ""
     },
