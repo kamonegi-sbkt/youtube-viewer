@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-09-25T12:16:31+00:00",
+  "generated_at": "2026-09-25T17:25:13+00:00",
   "videos": [
+    {
+      "video_id": "yW9vXVPwN-s",
+      "title": "【アベマ同時配信中】「Z世代こわい？育成キャンセル界隈／トランプvsメディア」アベプラ｜9/25(金) 21:00〜",
+      "channel_title": "ABEMA Prime",
+      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
+      "published_iso": "2026-09-25T13:43:24Z",
+      "published_dt": "2026-09-25T13:43:24+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/yW9vXVPwN-s/maxresdefault.jpg",
+      "duration_seconds": 4873,
+      "live_status": "",
+      "rel_time": "3時間前",
+      "duration_text": "1:21:13",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "cbcag67Ldnc",
+      "title": "「なぜ宗教法人は売買されるのか？」売買の裏にある「節税」と外国資本/ 統一教会と新宗教の手口（ひろゆき ベテランち 鵜飼秀徳 藤倉善郎 田村実貴雄） #路地裏インデックス",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-09-25T13:00:10Z",
+      "published_dt": "2026-09-25T13:00:10+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/cbcag67Ldnc/maxresdefault.jpg",
+      "duration_seconds": 1898,
+      "live_status": "",
+      "rel_time": "4時間前",
+      "duration_text": "31:38",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "mcAQKJWv4ik",
+      "title": "お金と幸福度の境界線/ 高市氏の発言と日本の外交ポジション/ トランプ大統領の主張 / 国旗損壊罪の法制度の「ポンコツ」さ/ 外交のダブルスタンダードと国連・ICCに対する視点（佐藤優 井川意高）",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-09-25T12:30:12Z",
+      "published_dt": "2026-09-25T12:30:12+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/mcAQKJWv4ik/maxresdefault.jpg",
+      "duration_seconds": 1269,
+      "live_status": "",
+      "rel_time": "4時間前",
+      "duration_text": "21:09",
+      "badge_kind": ""
+    },
     {
       "video_id": "wwf-WwTw0qE",
       "title": "【新時代のスキル】資格神話が終わる“AI時代”本当に必要とされる努力の形【深津貴之×けんすう】NewSchool Lite",
@@ -11,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/wwf-WwTw0qE/maxresdefault.jpg",
       "duration_seconds": 968,
       "live_status": "",
-      "rel_time": "16分前",
+      "rel_time": "5時間前",
       "duration_text": "16:08",
       "badge_kind": ""
     },
@@ -25,23 +67,9 @@
       "thumbnail": "https://i.ytimg.com/vi/gjNJ3pnoCN8/maxresdefault.jpg",
       "duration_seconds": 82,
       "live_status": "",
-      "rel_time": "16分前",
+      "rel_time": "5時間前",
       "duration_text": "1:22",
       "badge_kind": ""
-    },
-    {
-      "video_id": "yW9vXVPwN-s",
-      "title": "【アベマ同時配信中】「Z世代こわい？育成キャンセル界隈／トランプvsメディア」アベプラ｜9/25(金) 21:00〜",
-      "channel_title": "ABEMA Prime",
-      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-09-25T11:32:36Z",
-      "published_dt": "2026-09-25T11:32:36+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/yW9vXVPwN-s/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "43分前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
     },
     {
       "video_id": "0fTcRXlGKtM",
@@ -53,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0fTcRXlGKtM/maxresdefault.jpg",
       "duration_seconds": 26,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "6時間前",
       "duration_text": "0:26",
       "badge_kind": ""
     },
@@ -67,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/k2jAHf4gQsE/maxresdefault.jpg",
       "duration_seconds": 878,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "6時間前",
       "duration_text": "14:38",
       "badge_kind": ""
     },
@@ -81,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/84FogeHIpvo/maxresdefault.jpg",
       "duration_seconds": 909,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "6時間前",
       "duration_text": "15:09",
       "badge_kind": ""
     },
@@ -95,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/2o_plIFKIlY/maxresdefault.jpg",
       "duration_seconds": 2048,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "6時間前",
       "duration_text": "34:08",
       "badge_kind": ""
     },
@@ -109,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/CYiq-OrYm9Q/maxresdefault.jpg",
       "duration_seconds": 1017,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "7時間前",
       "duration_text": "16:57",
       "badge_kind": ""
     },
@@ -123,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/TLSqXZSLr_E/maxresdefault.jpg",
       "duration_seconds": 425,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "7時間前",
       "duration_text": "7:05",
       "badge_kind": ""
     },
@@ -137,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jvdzt7lVgG8/maxresdefault.jpg",
       "duration_seconds": 2336,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "7時間前",
       "duration_text": "38:56",
       "badge_kind": ""
     },
@@ -151,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lq7SeKEi0lM/maxresdefault.jpg",
       "duration_seconds": 1122,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "7時間前",
       "duration_text": "18:42",
       "badge_kind": ""
     },
@@ -165,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/JizE_xk4FK8/maxresdefault.jpg",
       "duration_seconds": 1957,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "8時間前",
       "duration_text": "32:37",
       "badge_kind": ""
     },
@@ -179,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/KNyIgdJy7nE/maxresdefault.jpg",
       "duration_seconds": 64,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "8時間前",
       "duration_text": "1:04",
       "badge_kind": ""
     },
@@ -193,7 +221,7 @@
       "thumbnail": "https://i.ytimg.com/vi/AQ2YSA5DPO4/maxresdefault.jpg",
       "duration_seconds": 842,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "9時間前",
       "duration_text": "14:02",
       "badge_kind": ""
     },
@@ -207,7 +235,7 @@
       "thumbnail": "https://i.ytimg.com/vi/x9fUnWpXUD8/maxresdefault.jpg",
       "duration_seconds": 81,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "15時間前",
       "duration_text": "1:21",
       "badge_kind": ""
     },
@@ -221,7 +249,7 @@
       "thumbnail": "https://i.ytimg.com/vi/e7QaoiWF1cU/maxresdefault.jpg",
       "duration_seconds": 7361,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "17時間前",
       "duration_text": "2:02:41",
       "badge_kind": ""
     },
@@ -235,7 +263,7 @@
       "thumbnail": "https://i.ytimg.com/vi/-8mbiE5pErY/maxresdefault.jpg",
       "duration_seconds": 76,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "19時間前",
       "duration_text": "1:16",
       "badge_kind": ""
     },
@@ -249,7 +277,7 @@
       "thumbnail": "https://i.ytimg.com/vi/9J5zhgk6Xi4/maxresdefault.jpg",
       "duration_seconds": 572,
       "live_status": "",
-      "rel_time": "14時間前",
+      "rel_time": "19時間前",
       "duration_text": "9:32",
       "badge_kind": ""
     },
@@ -613,7 +641,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ZmJYqnmxl-c/maxresdefault.jpg",
       "duration_seconds": 5227,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "1:27:07",
       "badge_kind": ""
     },
@@ -935,7 +963,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Z8ANIfbnvgk/maxresdefault.jpg",
       "duration_seconds": 2598,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "43:18",
       "badge_kind": ""
     },
@@ -949,7 +977,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gxHr35Rsrko/maxresdefault.jpg",
       "duration_seconds": 4003,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "1:06:43",
       "badge_kind": ""
     },
@@ -1075,7 +1103,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LeQiZqXCILI/maxresdefault.jpg",
       "duration_seconds": 2204,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "36:44",
       "badge_kind": ""
     },
@@ -1290,20 +1318,6 @@
       "badge_kind": ""
     },
     {
-      "video_id": "wzGNbkvV6oM",
-      "title": "【キリンビバレッジ社長時代】「FIRE」か「生茶」か立て直しの裏側 #湖池屋 #キリンビバレッジ #マーケティング #佐藤章",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-09-17T22:00:19Z",
-      "published_dt": "2026-09-17T22:00:19+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/wzGNbkvV6oM/maxresdefault.jpg",
-      "duration_seconds": 71,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "1:11",
-      "badge_kind": ""
-    },
-    {
       "video_id": "tPyGqiT56Ps",
       "title": "Anthropicの元研究者が警告「AIが全人類を駆逐する」",
       "channel_title": "ウェブ職TV / Nesheep",
@@ -1315,20 +1329,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "27:51",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "bxykEgbB_bY",
-      "title": "【AIが次のAIを作る時代】進化のスピードはどこまで加速する？ #OpenAI #ChatGPT #Astra #AGI",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-09-17T12:00:16Z",
-      "published_dt": "2026-09-17T12:00:16+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/bxykEgbB_bY/maxresdefault.jpg",
-      "duration_seconds": 70,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "1:10",
       "badge_kind": ""
     },
     {
