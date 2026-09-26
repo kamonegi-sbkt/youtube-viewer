@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-09-26T19:23:50+00:00",
+  "generated_at": "2026-09-26T22:04:55+00:00",
   "videos": [
+    {
+      "video_id": "E9lLQteUNlQ",
+      "title": "【プログラミングできなくても起業？】AI時代に来るアイデアマンの出番 #OpenAI #ChatGPT #Astra #AGI",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-09-26T22:00:16Z",
+      "published_dt": "2026-09-26T22:00:16+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/E9lLQteUNlQ/maxresdefault.jpg",
+      "duration_seconds": 59,
+      "live_status": "",
+      "rel_time": "4分前",
+      "duration_text": "0:59",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "3fTCL2l6upY",
+      "title": "【50万円のAIスクールは必要？】「稼げる自己投資」と「残念な自己投資」の違い【リベ大公式切り抜き】",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-09-26T22:00:14Z",
+      "published_dt": "2026-09-26T22:00:14+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/3fTCL2l6upY/maxresdefault.jpg",
+      "duration_seconds": 474,
+      "live_status": "",
+      "rel_time": "4分前",
+      "duration_text": "7:54",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "gpRMnebFktk",
+      "title": "今日の学長ライブ l 学長が最近色々とお金使ってみて感じること/プルデンシャル生命の元社員、詐欺グループの幹部として逮捕/住宅ローン含み益4300万あるけど一括返済すべき？【9/27 8:30まで】",
+      "channel_title": "両学長 リベラルアーツ大学",
+      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
+      "published_iso": "2026-09-26T21:40:57Z",
+      "published_dt": "2026-09-26T21:40:57+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/gpRMnebFktk/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "live",
+      "rel_time": "23分前",
+      "duration_text": "LIVE",
+      "badge_kind": "live"
+    },
     {
       "video_id": "96L8hehchuU",
       "title": "ジャングリアが巨額の赤字で紛糾している件についてお話しします",
@@ -11,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/96L8hehchuU/maxresdefault.jpg",
       "duration_seconds": 507,
       "live_status": "",
-      "rel_time": "6時間前",
+      "rel_time": "9時間前",
       "duration_text": "8:27",
       "badge_kind": ""
     },
@@ -25,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lGShBR4OWJ8/maxresdefault.jpg",
       "duration_seconds": 962,
       "live_status": "",
-      "rel_time": "7時間前",
+      "rel_time": "10時間前",
       "duration_text": "16:02",
       "badge_kind": ""
     },
@@ -39,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bgv5y-D6WO0/maxresdefault.jpg",
       "duration_seconds": 1184,
       "live_status": "",
-      "rel_time": "8時間前",
+      "rel_time": "11時間前",
       "duration_text": "19:44",
       "badge_kind": ""
     },
@@ -53,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/moZxGugafxY/maxresdefault.jpg",
       "duration_seconds": 1899,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "12時間前",
       "duration_text": "31:39",
       "badge_kind": ""
     },
@@ -67,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/dfebAXhO0ig/maxresdefault.jpg",
       "duration_seconds": 631,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "12時間前",
       "duration_text": "10:31",
       "badge_kind": ""
     },
@@ -81,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/btupuBgNJHo/maxresdefault.jpg",
       "duration_seconds": 2245,
       "live_status": "",
-      "rel_time": "9時間前",
+      "rel_time": "12時間前",
       "duration_text": "37:25",
       "badge_kind": ""
     },
@@ -95,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/TVA65zjpoy8/maxresdefault.jpg",
       "duration_seconds": 169,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "12時間前",
       "duration_text": "2:49",
       "badge_kind": ""
     },
@@ -109,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/B7GiTTvqKjw/maxresdefault.jpg",
       "duration_seconds": 73,
       "live_status": "",
-      "rel_time": "10時間前",
+      "rel_time": "13時間前",
       "duration_text": "1:13",
       "badge_kind": ""
     },
@@ -123,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/S4_u48SG8uE/maxresdefault.jpg",
       "duration_seconds": 970,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "19時間前",
       "duration_text": "16:10",
       "badge_kind": ""
     },
@@ -137,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/mBpouwFXGUg/maxresdefault.jpg",
       "duration_seconds": 7923,
       "live_status": "",
-      "rel_time": "19時間前",
+      "rel_time": "22時間前",
       "duration_text": "2:12:03",
       "badge_kind": ""
     },
@@ -151,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/6jZltJ1jCe8/maxresdefault.jpg",
       "duration_seconds": 618,
       "live_status": "",
-      "rel_time": "21時間前",
+      "rel_time": "1日前",
       "duration_text": "10:18",
       "badge_kind": ""
     },
@@ -165,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/o1uStY73Ndk/maxresdefault.jpg",
       "duration_seconds": 54,
       "live_status": "",
-      "rel_time": "21時間前",
+      "rel_time": "1日前",
       "duration_text": "0:54",
       "badge_kind": ""
     },
@@ -417,7 +459,7 @@
       "thumbnail": "https://i.ytimg.com/vi/-8mbiE5pErY/maxresdefault.jpg",
       "duration_seconds": 76,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "1:16",
       "badge_kind": ""
     },
@@ -431,7 +473,7 @@
       "thumbnail": "https://i.ytimg.com/vi/9J5zhgk6Xi4/maxresdefault.jpg",
       "duration_seconds": 572,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "9:32",
       "badge_kind": ""
     },
@@ -613,7 +655,7 @@
       "thumbnail": "https://i.ytimg.com/vi/MQ_eGPwXQHI/maxresdefault.jpg",
       "duration_seconds": 512,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "8:32",
       "badge_kind": ""
     },
@@ -627,7 +669,7 @@
       "thumbnail": "https://i.ytimg.com/vi/PO1w_2KjkVU/maxresdefault.jpg",
       "duration_seconds": 65,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "1:05",
       "badge_kind": ""
     },
@@ -781,7 +823,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3Vg8L4Rad9A/maxresdefault.jpg",
       "duration_seconds": 1518,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "25:18",
       "badge_kind": ""
     },
@@ -893,7 +935,7 @@
       "thumbnail": "https://i.ytimg.com/vi/1cvVScaP3W8/maxresdefault.jpg",
       "duration_seconds": 1214,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "20:14",
       "badge_kind": ""
     },
@@ -907,7 +949,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4AXtsZqS3i8/maxresdefault.jpg",
       "duration_seconds": 2126,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "35:26",
       "badge_kind": ""
     },
@@ -1019,7 +1061,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Yu-0iLGA8XQ/maxresdefault.jpg",
       "duration_seconds": 1268,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "21:08",
       "badge_kind": ""
     },
@@ -1089,7 +1131,7 @@
       "thumbnail": "https://i.ytimg.com/vi/-zIhI-K0Uok/maxresdefault.jpg",
       "duration_seconds": 537,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "8:57",
       "badge_kind": ""
     },
@@ -1103,7 +1145,7 @@
       "thumbnail": "https://i.ytimg.com/vi/iXdH6emYL2Y/maxresdefault.jpg",
       "duration_seconds": 65,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "1:05",
       "badge_kind": ""
     },
@@ -1245,20 +1287,6 @@
       "live_status": "",
       "rel_time": "1週間前",
       "duration_text": "1:04",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "LeQiZqXCILI",
-      "title": "「抜け穴」ビジネス宗教法人 売買の実態/M&A・仲介・ブローカー/東京の宗教法人1億円？/宗教法人を買って非課税（ひろゆき ベテランち 鵜飼秀徳 藤倉善郎 田村実貴雄） #路地裏インデックス",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-09-18T13:00:28Z",
-      "published_dt": "2026-09-18T13:00:28+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/LeQiZqXCILI/maxresdefault.jpg",
-      "duration_seconds": 2204,
-      "live_status": "",
-      "rel_time": "1週間前",
-      "duration_text": "36:44",
       "badge_kind": ""
     },
     {
@@ -1705,7 +1733,7 @@
       "thumbnail": "https://i.ytimg.com/vi/IYAUTjJu6ck/maxresdefault.jpg",
       "duration_seconds": 1217,
       "live_status": "",
-      "rel_time": "1週間前",
+      "rel_time": "2週間前",
       "duration_text": "20:17",
       "badge_kind": ""
     },
@@ -2071,34 +2099,6 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "19:05",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "05yvFJDxWd0",
-      "title": "第274回【超重要】株式投資に役立つ8月の投資トピック総まとめ【インデックス・高配当】【株式投資編】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-09-06T22:00:34Z",
-      "published_dt": "2026-09-06T22:00:34+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/05yvFJDxWd0/maxresdefault.jpg",
-      "duration_seconds": 2307,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "38:27",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "i8OF1hRUDck",
-      "title": "移動中のホリエモンに気になるニュースについて聞いてみた【板野友美ネット炎上｜こめお麻布十番祭り食中毒認定｜警視庁で約3000人の警察官が不足｜大阪地検元検事正、準強制性交の罪】",
-      "channel_title": "堀江貴文 ホリエモン",
-      "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
-      "published_iso": "2026-09-06T10:31:27Z",
-      "published_dt": "2026-09-06T10:31:27+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/i8OF1hRUDck/maxresdefault.jpg",
-      "duration_seconds": 3226,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "53:46",
       "badge_kind": ""
     }
   ]
