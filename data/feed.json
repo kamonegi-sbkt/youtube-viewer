@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-10-02T13:47:13+00:00",
+  "generated_at": "2026-10-02T18:59:20+00:00",
   "videos": [
+    {
+      "video_id": "Ss_s5oD_AEM",
+      "title": "あなたのAIが今から情報漏洩します。",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-10-02T15:03:06Z",
+      "published_dt": "2026-10-02T15:03:06+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/Ss_s5oD_AEM/maxresdefault_live.jpg",
+      "duration_seconds": 5851,
+      "live_status": "",
+      "rel_time": "3時間前",
+      "duration_text": "1:37:31",
+      "badge_kind": ""
+    },
     {
       "video_id": "JJiobuXeeew",
       "title": "カルトと新宗教の違い/日本の宗教、消滅「イスラム1強」の時代へ/フリーセックス教団潜入/日本人は「お金信仰」（ひろゆき ベテランち 鵜飼秀徳 藤倉善郎 田村実貴雄） #路地裏インデックス",
@@ -11,23 +25,9 @@
       "thumbnail": "https://i.ytimg.com/vi/JJiobuXeeew/maxresdefault.jpg",
       "duration_seconds": 1733,
       "live_status": "",
-      "rel_time": "16分前",
+      "rel_time": "5時間前",
       "duration_text": "28:53",
       "badge_kind": ""
-    },
-    {
-      "video_id": "Ss_s5oD_AEM",
-      "title": "あなたのAIが今から情報漏洩します。",
-      "channel_title": "ウェブ職TV / Nesheep",
-      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-10-02T13:25:34Z",
-      "published_dt": "2026-10-02T13:25:34+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/Ss_s5oD_AEM/maxresdefault_live.jpg",
-      "duration_seconds": null,
-      "live_status": "live",
-      "rel_time": "21分前",
-      "duration_text": "LIVE",
-      "badge_kind": "live"
     },
     {
       "video_id": "riqkev8LRpY",
@@ -39,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/riqkev8LRpY/maxresdefault.jpg",
       "duration_seconds": 2044,
       "live_status": "",
-      "rel_time": "46分前",
+      "rel_time": "5時間前",
       "duration_text": "34:04",
       "badge_kind": ""
     },
@@ -53,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/HQlmbQRoS-c/maxresdefault.jpg",
       "duration_seconds": 2092,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "6時間前",
       "duration_text": "34:52",
       "badge_kind": ""
     },
@@ -67,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/aT02YUdSWmc/maxresdefault.jpg",
       "duration_seconds": 71,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "6時間前",
       "duration_text": "1:11",
       "badge_kind": ""
     },
@@ -81,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/6_LbmyX5opc/maxresdefault.jpg",
       "duration_seconds": 1262,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "6時間前",
       "duration_text": "21:02",
       "badge_kind": ""
     },
@@ -95,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/XsH5loONrOA/maxresdefault.jpg",
       "duration_seconds": 38,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "7時間前",
       "duration_text": "0:38",
       "badge_kind": ""
     },
@@ -109,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bEkmndzr8-Y/maxresdefault.jpg",
       "duration_seconds": 1874,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "7時間前",
       "duration_text": "31:14",
       "badge_kind": ""
     },
@@ -123,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LMTtgz2Ipd4/maxresdefault.jpg",
       "duration_seconds": 725,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "7時間前",
       "duration_text": "12:05",
       "badge_kind": ""
     },
@@ -137,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/onJsrbqnp5o/maxresdefault.jpg",
       "duration_seconds": 2326,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "8時間前",
       "duration_text": "38:46",
       "badge_kind": ""
     },
@@ -151,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/1JJFW5x06GY/maxresdefault.jpg",
       "duration_seconds": 2108,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "8時間前",
       "duration_text": "35:08",
       "badge_kind": ""
     },
@@ -165,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/TOOhJJSYf70/maxresdefault.jpg",
       "duration_seconds": 509,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "8時間前",
       "duration_text": "8:29",
       "badge_kind": ""
     },
@@ -179,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pjDAMeEzaOk/maxresdefault.jpg",
       "duration_seconds": 956,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "8時間前",
       "duration_text": "15:56",
       "badge_kind": ""
     },
@@ -193,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/SonYHWXmh9g/maxresdefault.jpg",
       "duration_seconds": 69,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "9時間前",
       "duration_text": "1:09",
       "badge_kind": ""
     },
@@ -207,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/72N5MQHaUBY/maxresdefault.jpg",
       "duration_seconds": 67,
       "live_status": "",
-      "rel_time": "11時間前",
+      "rel_time": "16時間前",
       "duration_text": "1:07",
       "badge_kind": ""
     },
@@ -221,7 +221,7 @@
       "thumbnail": "https://i.ytimg.com/vi/xJba7d_YTbw/maxresdefault.jpg",
       "duration_seconds": 8120,
       "live_status": "",
-      "rel_time": "13時間前",
+      "rel_time": "18時間前",
       "duration_text": "2:15:20",
       "badge_kind": ""
     },
@@ -235,7 +235,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4BAAEGJ0bQA/maxresdefault.jpg",
       "duration_seconds": 50,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "20時間前",
       "duration_text": "0:50",
       "badge_kind": ""
     },
@@ -249,7 +249,7 @@
       "thumbnail": "https://i.ytimg.com/vi/9DqTQomZ_GE/maxresdefault.jpg",
       "duration_seconds": 634,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "20時間前",
       "duration_text": "10:34",
       "badge_kind": ""
     },
@@ -459,7 +459,7 @@
       "thumbnail": "https://i.ytimg.com/vi/SdeluOTUOCE/maxresdefault.jpg",
       "duration_seconds": 3960,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "1:06:00",
       "badge_kind": ""
     },
