@@ -1,6 +1,90 @@
 {
-  "generated_at": "2026-10-05T04:16:29+00:00",
+  "generated_at": "2026-10-05T11:44:22+00:00",
   "videos": [
+    {
+      "video_id": "OFNlYL-IPeA",
+      "title": "【アベマ同時配信中】「泉健太に聞く！2人会派『志士の会』なに目指す？」アベプラ｜10/5(月) 21:00〜",
+      "channel_title": "ABEMA Prime",
+      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
+      "published_iso": "2026-10-05T11:30:38Z",
+      "published_dt": "2026-10-05T11:30:38+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/OFNlYL-IPeA/maxresdefault_live.jpg",
+      "duration_seconds": null,
+      "live_status": "live",
+      "rel_time": "13分前",
+      "duration_text": "LIVE",
+      "badge_kind": "live"
+    },
+    {
+      "video_id": "3-JY-LE45us",
+      "title": "「運がいい」人ほど危険な理由とは【運を逃す人の共通点】",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-10-05T11:00:35Z",
+      "published_dt": "2026-10-05T11:00:35+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/3-JY-LE45us/maxresdefault.jpg",
+      "duration_seconds": 934,
+      "live_status": "",
+      "rel_time": "43分前",
+      "duration_text": "15:34",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "nRKZdpxo7Sc",
+      "title": "ショートしか見ない若者が、なぜ長尺の考察にハマる？「感想の正解が欲しい」Z世代の本音とは【三宅香帆×岸谷蘭丸×片石貴展】",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-10-05T10:00:07Z",
+      "published_dt": "2026-10-05T10:00:07+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/nRKZdpxo7Sc/maxresdefault.jpg",
+      "duration_seconds": 1265,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "21:05",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "hurlKll7bcE",
+      "title": "【坂井風太×アンジャッシュ渡部建】口角をあげるべき理由とは？#渡部建 #坂井風太 #謙虚さ #心理学 #自己啓発 #リーダーシップ #NewsPicks #コアログ",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-10-05T09:00:23Z",
+      "published_dt": "2026-10-05T09:00:23+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/hurlKll7bcE/maxresdefault.jpg",
+      "duration_seconds": 51,
+      "live_status": "",
+      "rel_time": "2時間前",
+      "duration_text": "0:51",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "mef_Rw73Dto",
+      "title": "【LIVE】歌舞伎町の勝者と敗者 規制後のホストクラブ（西村博之 ベテランち 宇佐美典也 佐々木チワワ 夜野仁） #路地裏インデックス",
+      "channel_title": "NewsPicks /ニューズピックス",
+      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+      "published_iso": "2026-10-05T07:32:32Z",
+      "published_dt": "2026-10-05T07:32:32+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/mef_Rw73Dto/maxresdefault.jpg",
+      "duration_seconds": 1492,
+      "live_status": "",
+      "rel_time": "4時間前",
+      "duration_text": "24:52",
+      "badge_kind": ""
+    },
+    {
+      "video_id": "Ko6lDRC4JMg",
+      "title": "イッテラッシャイ不来方賞",
+      "channel_title": "堀江貴文 ホリエモン",
+      "channel_id": "UCXjTiSGclQLVVU83GVrRM4w",
+      "published_iso": "2026-10-05T05:29:58Z",
+      "published_dt": "2026-10-05T05:29:58+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/Ko6lDRC4JMg/maxresdefault.jpg",
+      "duration_seconds": 128,
+      "live_status": "",
+      "rel_time": "6時間前",
+      "duration_text": "2:08",
+      "badge_kind": ""
+    },
     {
       "video_id": "CLh7ZGOmuJA",
       "title": "【令和の学生】どんなキャリア思考？#就活 #転職 #新卒 #キャリア #加藤浩次 #常見陽平 #大澤陽樹 #NewsPicks #2Sides",
@@ -11,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/CLh7ZGOmuJA/maxresdefault.jpg",
       "duration_seconds": 32,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "9時間前",
       "duration_text": "0:32",
       "badge_kind": ""
     },
@@ -25,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Ky546ZsbIu0/maxresdefault.jpg",
       "duration_seconds": 5897,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "12時間前",
       "duration_text": "1:38:17",
       "badge_kind": ""
     },
@@ -39,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/0Zw7qkgKmk0/maxresdefault.jpg",
       "duration_seconds": 1294,
       "live_status": "",
-      "rel_time": "6時間前",
+      "rel_time": "13時間前",
       "duration_text": "21:34",
       "badge_kind": ""
     },
@@ -53,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_oPdxB4hCXQ/maxresdefault.jpg",
       "duration_seconds": 1037,
       "live_status": "",
-      "rel_time": "6時間前",
+      "rel_time": "13時間前",
       "duration_text": "17:17",
       "badge_kind": ""
     },
@@ -67,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/P5OV-21frEI/maxresdefault.jpg",
       "duration_seconds": 67,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "23時間前",
       "duration_text": "1:07",
       "badge_kind": ""
     },
@@ -81,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/3IV1muUscY0/maxresdefault.jpg",
       "duration_seconds": 2084,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "23時間前",
       "duration_text": "34:44",
       "badge_kind": ""
     },
@@ -95,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gMZPIEchxM8/maxresdefault.jpg",
       "duration_seconds": 2133,
       "live_status": "",
-      "rel_time": "17時間前",
+      "rel_time": "1日前",
       "duration_text": "35:33",
       "badge_kind": ""
     },
@@ -109,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/u8po7SfrwO4/maxresdefault.jpg",
       "duration_seconds": 2004,
       "live_status": "",
-      "rel_time": "18時間前",
+      "rel_time": "1日前",
       "duration_text": "33:24",
       "badge_kind": ""
     },
@@ -123,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/MXQq0OV3Mxw/maxresdefault.jpg",
       "duration_seconds": 69,
       "live_status": "",
-      "rel_time": "19時間前",
+      "rel_time": "1日前",
       "duration_text": "1:09",
       "badge_kind": ""
     },
@@ -235,7 +319,7 @@
       "thumbnail": "https://i.ytimg.com/vi/SsU54wO4X2A/maxresdefault.jpg",
       "duration_seconds": 1900,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "31:40",
       "badge_kind": ""
     },
@@ -249,7 +333,7 @@
       "thumbnail": "https://i.ytimg.com/vi/-rQqTtb_pfI/maxresdefault.jpg",
       "duration_seconds": 2351,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "39:11",
       "badge_kind": ""
     },
@@ -263,7 +347,7 @@
       "thumbnail": "https://i.ytimg.com/vi/vyGRoeL99pI/maxresdefault.jpg",
       "duration_seconds": 1933,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "32:13",
       "badge_kind": ""
     },
@@ -277,7 +361,7 @@
       "thumbnail": "https://i.ytimg.com/vi/dt8aSYgk1_w/maxresdefault.jpg",
       "duration_seconds": 65,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "1:05",
       "badge_kind": ""
     },
@@ -291,7 +375,7 @@
       "thumbnail": "https://i.ytimg.com/vi/1hDIBGBqd10/maxresdefault.jpg",
       "duration_seconds": 2032,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "33:52",
       "badge_kind": ""
     },
@@ -445,7 +529,7 @@
       "thumbnail": "https://i.ytimg.com/vi/XsH5loONrOA/maxresdefault.jpg",
       "duration_seconds": 38,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "0:38",
       "badge_kind": ""
     },
@@ -459,7 +543,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bEkmndzr8-Y/maxresdefault.jpg",
       "duration_seconds": 1874,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "31:14",
       "badge_kind": ""
     },
@@ -473,7 +557,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LMTtgz2Ipd4/maxresdefault.jpg",
       "duration_seconds": 725,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "12:05",
       "badge_kind": ""
     },
@@ -487,7 +571,7 @@
       "thumbnail": "https://i.ytimg.com/vi/onJsrbqnp5o/maxresdefault.jpg",
       "duration_seconds": 2326,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "38:46",
       "badge_kind": ""
     },
@@ -501,7 +585,7 @@
       "thumbnail": "https://i.ytimg.com/vi/1JJFW5x06GY/maxresdefault.jpg",
       "duration_seconds": 2108,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "35:08",
       "badge_kind": ""
     },
@@ -515,7 +599,7 @@
       "thumbnail": "https://i.ytimg.com/vi/TOOhJJSYf70/maxresdefault.jpg",
       "duration_seconds": 509,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "8:29",
       "badge_kind": ""
     },
@@ -529,7 +613,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pjDAMeEzaOk/maxresdefault.jpg",
       "duration_seconds": 956,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "15:56",
       "badge_kind": ""
     },
@@ -543,7 +627,7 @@
       "thumbnail": "https://i.ytimg.com/vi/SonYHWXmh9g/maxresdefault.jpg",
       "duration_seconds": 69,
       "live_status": "",
-      "rel_time": "2日前",
+      "rel_time": "3日前",
       "duration_text": "1:09",
       "badge_kind": ""
     },
@@ -669,7 +753,7 @@
       "thumbnail": "https://i.ytimg.com/vi/1jPEbM-79Xs/maxresdefault.jpg",
       "duration_seconds": 1063,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "17:43",
       "badge_kind": ""
     },
@@ -683,7 +767,7 @@
       "thumbnail": "https://i.ytimg.com/vi/HlrXyDKdWWs/maxresdefault.jpg",
       "duration_seconds": 2131,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "35:31",
       "badge_kind": ""
     },
@@ -697,7 +781,7 @@
       "thumbnail": "https://i.ytimg.com/vi/nArGq8b9JiI/maxresdefault.jpg",
       "duration_seconds": 2371,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "39:31",
       "badge_kind": ""
     },
@@ -711,7 +795,7 @@
       "thumbnail": "https://i.ytimg.com/vi/J3Hig7YLL2g/maxresdefault.jpg",
       "duration_seconds": 698,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "11:38",
       "badge_kind": ""
     },
@@ -725,7 +809,7 @@
       "thumbnail": "https://i.ytimg.com/vi/DCvk-LUEgkk/maxresdefault.jpg",
       "duration_seconds": 2198,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "36:38",
       "badge_kind": ""
     },
@@ -739,7 +823,7 @@
       "thumbnail": "https://i.ytimg.com/vi/W6LYzP_a3ck/maxresdefault.jpg",
       "duration_seconds": 57,
       "live_status": "",
-      "rel_time": "3日前",
+      "rel_time": "4日前",
       "duration_text": "0:57",
       "badge_kind": ""
     },
@@ -851,7 +935,7 @@
       "thumbnail": "https://i.ytimg.com/vi/r8v1r-jUSPU/maxresdefault.jpg",
       "duration_seconds": 169,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "2:49",
       "badge_kind": ""
     },
@@ -865,7 +949,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ppzC_bmLpHI/maxresdefault.jpg",
       "duration_seconds": 4735,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "1:18:55",
       "badge_kind": ""
     },
@@ -879,7 +963,7 @@
       "thumbnail": "https://i.ytimg.com/vi/z0TTbNFnn1U/maxresdefault.jpg",
       "duration_seconds": 2350,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "39:10",
       "badge_kind": ""
     },
@@ -893,7 +977,7 @@
       "thumbnail": "https://i.ytimg.com/vi/URdKI7i9oZg/maxresdefault.jpg",
       "duration_seconds": 2390,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "39:50",
       "badge_kind": ""
     },
@@ -907,7 +991,7 @@
       "thumbnail": "https://i.ytimg.com/vi/FRiNwdXSXGw/maxresdefault.jpg",
       "duration_seconds": 30,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "0:30",
       "badge_kind": ""
     },
@@ -921,7 +1005,7 @@
       "thumbnail": "https://i.ytimg.com/vi/9bpl5Xb6o9c/maxresdefault.jpg",
       "duration_seconds": 1580,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "26:20",
       "badge_kind": ""
     },
@@ -935,7 +1019,7 @@
       "thumbnail": "https://i.ytimg.com/vi/6-YdwCEmPro/maxresdefault.jpg",
       "duration_seconds": 198,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "3:18",
       "badge_kind": ""
     },
@@ -949,7 +1033,7 @@
       "thumbnail": "https://i.ytimg.com/vi/8QkM0zHpZys/maxresdefault.jpg",
       "duration_seconds": 73,
       "live_status": "",
-      "rel_time": "4日前",
+      "rel_time": "5日前",
       "duration_text": "1:13",
       "badge_kind": ""
     },
@@ -1061,7 +1145,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Q09xwPSs0GQ/maxresdefault.jpg",
       "duration_seconds": 1189,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "19:49",
       "badge_kind": ""
     },
@@ -1075,7 +1159,7 @@
       "thumbnail": "https://i.ytimg.com/vi/pxn0rQOTa7g/maxresdefault.jpg",
       "duration_seconds": 2493,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "41:33",
       "badge_kind": ""
     },
@@ -1089,7 +1173,7 @@
       "thumbnail": "https://i.ytimg.com/vi/_y5dkvfP2os/maxresdefault.jpg",
       "duration_seconds": 1752,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "29:12",
       "badge_kind": ""
     },
@@ -1103,7 +1187,7 @@
       "thumbnail": "https://i.ytimg.com/vi/F5p4g6KGUOY/maxresdefault.jpg",
       "duration_seconds": 979,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "16:19",
       "badge_kind": ""
     },
@@ -1117,7 +1201,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Xt3MY1mYg2o/maxresdefault.jpg",
       "duration_seconds": 2243,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "37:23",
       "badge_kind": ""
     },
@@ -1131,7 +1215,7 @@
       "thumbnail": "https://i.ytimg.com/vi/cZ2NA27SnwM/maxresdefault.jpg",
       "duration_seconds": 3614,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "1:00:14",
       "badge_kind": ""
     },
@@ -1145,7 +1229,7 @@
       "thumbnail": "https://i.ytimg.com/vi/KgCwxaCtp0g/maxresdefault.jpg",
       "duration_seconds": 77,
       "live_status": "",
-      "rel_time": "5日前",
+      "rel_time": "6日前",
       "duration_text": "1:17",
       "badge_kind": ""
     },
@@ -1234,34 +1318,6 @@
       "badge_kind": ""
     },
     {
-      "video_id": "OP6oUO3x1kU",
-      "title": "【やらない理由がない税制優遇】富裕層がやっていた賢い資産形成術。あなたのポートフォリオは大丈夫？【NewsPicks/佐田志歩/田中渓/大浦学/FUNDINNO/未上場株投資/エンジェル税制】",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-09-28T12:00:07Z",
-      "published_dt": "2026-09-28T12:00:07+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/OP6oUO3x1kU/maxresdefault.jpg",
-      "duration_seconds": 1995,
-      "live_status": "",
-      "rel_time": "6日前",
-      "duration_text": "33:15",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "BWHWqTW-CDY",
-      "title": "東大理Ⅲは幸せか？『習い事は週8』『家族旅行は世界遺産』【長谷川京子/ベテランち/親の顔が見てみたい】",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-09-28T11:00:21Z",
-      "published_dt": "2026-09-28T11:00:21+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/BWHWqTW-CDY/maxresdefault.jpg",
-      "duration_seconds": 739,
-      "live_status": "",
-      "rel_time": "6日前",
-      "duration_text": "12:19",
-      "badge_kind": ""
-    },
-    {
       "video_id": "MlenqzdaHQY",
       "title": "「AI導入に自腹で金を払うのはバカ？」助成金を使ったDXについて解説します",
       "channel_title": "堀江貴文 ホリエモン",
@@ -1271,22 +1327,8 @@
       "thumbnail": "https://i.ytimg.com/vi/MlenqzdaHQY/maxresdefault.jpg",
       "duration_seconds": 965,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "16:05",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "L2AArqwRL9g",
-      "title": "AIとデータでスポーツはどこまで進化するのか（AI／スポーツ／スポーツテック／データ分析／データ活用／スポーツAI／FC町田ゼルビア／為末大／JISS／キオクシア）",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-09-28T10:00:08Z",
-      "published_dt": "2026-09-28T10:00:08+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/L2AArqwRL9g/maxresdefault.jpg",
-      "duration_seconds": 1496,
-      "live_status": "",
-      "rel_time": "6日前",
-      "duration_text": "24:56",
       "badge_kind": ""
     },
     {
@@ -1299,22 +1341,8 @@
       "thumbnail": "https://i.ytimg.com/vi/ynYWN6dOxGE/maxresdefault.jpg",
       "duration_seconds": 83,
       "live_status": "",
-      "rel_time": "6日前",
+      "rel_time": "1週間前",
       "duration_text": "1:23",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "SeH4Tuejb-o",
-      "title": "【ひろゆき】コンビニより多い宗教法人の現在地とは？　#路地裏インデックス #ひろゆき #宗教法人 #統一教会 #節税 #新宗教 #ベテランち #NewsPicks",
-      "channel_title": "NewsPicks /ニューズピックス",
-      "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
-      "published_iso": "2026-09-28T09:00:23Z",
-      "published_dt": "2026-09-28T09:00:23+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/SeH4Tuejb-o/maxresdefault.jpg",
-      "duration_seconds": 62,
-      "live_status": "",
-      "rel_time": "6日前",
-      "duration_text": "1:02",
       "badge_kind": ""
     },
     {
@@ -1761,7 +1789,7 @@
       "thumbnail": "https://i.ytimg.com/vi/mBSHymsFdfk/maxresdefault.jpg",
       "duration_seconds": 1116,
       "live_status": "",
-      "rel_time": "1週間前",
+      "rel_time": "2週間前",
       "duration_text": "18:36",
       "badge_kind": ""
     },
@@ -1889,20 +1917,6 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "17:13",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "r7befwP1A5A",
-      "title": "【氷河期世代】「普通に底辺だと思っています」生活苦に嘆き…国の責任？非正規雇用拡大は正しかったのか？竹中平蔵と考える｜アベプラ",
-      "channel_title": "ABEMA Prime",
-      "channel_id": "UCB1dgsqLiEp57oDAyNV_vww",
-      "published_iso": "2026-09-18T10:30:03Z",
-      "published_dt": "2026-09-18T10:30:03+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/r7befwP1A5A/maxresdefault.jpg",
-      "duration_seconds": 2491,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "41:31",
       "badge_kind": ""
     },
     {
@@ -2085,20 +2099,6 @@
       "live_status": "",
       "rel_time": "3週間前",
       "duration_text": "39:05",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "9WgZeS5tW_E",
-      "title": "【LIVE】Orcaがめちゃくちゃ便利だけど、使ってない人いる？",
-      "channel_title": "ウェブ職TV / Nesheep",
-      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
-      "published_iso": "2026-09-13T18:59:41Z",
-      "published_dt": "2026-09-13T18:59:41+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/9WgZeS5tW_E/maxresdefault.jpg",
-      "duration_seconds": 3972,
-      "live_status": "",
-      "rel_time": "3週間前",
-      "duration_text": "1:06:12",
       "badge_kind": ""
     }
   ]
