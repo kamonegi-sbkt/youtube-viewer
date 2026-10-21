@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-10-21T14:52:04+00:00",
+  "generated_at": "2026-10-21T19:06:53+00:00",
   "videos": [
+    {
+      "video_id": "OCRS5PtlObw",
+      "title": "PHPの脆弱性の対応。",
+      "channel_title": "ウェブ職TV / Nesheep",
+      "channel_id": "UClNZUVnSFRKKUfJYarEUqdA",
+      "published_iso": "2026-10-21T17:17:49Z",
+      "published_dt": "2026-10-21T17:17:49+00:00",
+      "thumbnail": "https://i.ytimg.com/vi/OCRS5PtlObw/maxresdefault_live.jpg",
+      "duration_seconds": 8254,
+      "live_status": "",
+      "rel_time": "1時間前",
+      "duration_text": "2:17:34",
+      "badge_kind": ""
+    },
     {
       "video_id": "jBKuhRgDDQI",
       "title": "【老化の真実】自力で撃退できない「活性酸素」から肌を守る成分とは？【NewsPicks/大野真理子/松本考司/富士フイルム/一重項酸素/アスタキサンチン/美容/アスリート】",
@@ -11,7 +25,7 @@
       "thumbnail": "https://i.ytimg.com/vi/jBKuhRgDDQI/maxresdefault.jpg",
       "duration_seconds": 1454,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "6時間前",
       "duration_text": "24:14",
       "badge_kind": ""
     },
@@ -25,7 +39,7 @@
       "thumbnail": "https://i.ytimg.com/vi/z_uJsYYyLZk/sddefault.jpg",
       "duration_seconds": 228,
       "live_status": "",
-      "rel_time": "1時間前",
+      "rel_time": "6時間前",
       "duration_text": "3:48",
       "badge_kind": ""
     },
@@ -39,7 +53,7 @@
       "thumbnail": "https://i.ytimg.com/vi/yV-LD3G4Mq0/maxresdefault.jpg",
       "duration_seconds": 952,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "7時間前",
       "duration_text": "15:52",
       "badge_kind": ""
     },
@@ -53,7 +67,7 @@
       "thumbnail": "https://i.ytimg.com/vi/xvXvIwD9Qjg/maxresdefault.jpg",
       "duration_seconds": 81,
       "live_status": "",
-      "rel_time": "2時間前",
+      "rel_time": "7時間前",
       "duration_text": "1:21",
       "badge_kind": ""
     },
@@ -67,7 +81,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Rn7_eoYZVeg/maxresdefault.jpg",
       "duration_seconds": 1023,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "7時間前",
       "duration_text": "17:03",
       "badge_kind": ""
     },
@@ -81,7 +95,7 @@
       "thumbnail": "https://i.ytimg.com/vi/gbMs3N1e4hw/maxresdefault.jpg",
       "duration_seconds": 1092,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "8時間前",
       "duration_text": "18:12",
       "badge_kind": ""
     },
@@ -95,7 +109,7 @@
       "thumbnail": "https://i.ytimg.com/vi/q-ixyFFNZFM/maxresdefault.jpg",
       "duration_seconds": 499,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "8時間前",
       "duration_text": "8:19",
       "badge_kind": ""
     },
@@ -109,7 +123,7 @@
       "thumbnail": "https://i.ytimg.com/vi/bvRDpgkBdPU/maxresdefault.jpg",
       "duration_seconds": 3749,
       "live_status": "",
-      "rel_time": "3時間前",
+      "rel_time": "8時間前",
       "duration_text": "1:02:29",
       "badge_kind": ""
     },
@@ -123,7 +137,7 @@
       "thumbnail": "https://i.ytimg.com/vi/nzR_sw2OU9o/maxresdefault.jpg",
       "duration_seconds": 2022,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "8時間前",
       "duration_text": "33:42",
       "badge_kind": ""
     },
@@ -137,7 +151,7 @@
       "thumbnail": "https://i.ytimg.com/vi/S7u8R2lCBGQ/maxresdefault.jpg",
       "duration_seconds": 1966,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "9時間前",
       "duration_text": "32:46",
       "badge_kind": ""
     },
@@ -151,7 +165,7 @@
       "thumbnail": "https://i.ytimg.com/vi/b6lgRTZp0ak/maxresdefault.jpg",
       "duration_seconds": 50,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "9時間前",
       "duration_text": "0:50",
       "badge_kind": ""
     },
@@ -165,7 +179,7 @@
       "thumbnail": "https://i.ytimg.com/vi/DaQCZ-EWiEw/maxresdefault.jpg",
       "duration_seconds": 3851,
       "live_status": "",
-      "rel_time": "4時間前",
+      "rel_time": "9時間前",
       "duration_text": "1:04:11",
       "badge_kind": ""
     },
@@ -179,7 +193,7 @@
       "thumbnail": "https://i.ytimg.com/vi/AeO0OnIFSL0/maxresdefault.jpg",
       "duration_seconds": 62,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "10時間前",
       "duration_text": "1:02",
       "badge_kind": ""
     },
@@ -193,7 +207,7 @@
       "thumbnail": "https://i.ytimg.com/vi/5y7MkwjxTr8/maxresdefault.jpg",
       "duration_seconds": 911,
       "live_status": "",
-      "rel_time": "5時間前",
+      "rel_time": "10時間前",
       "duration_text": "15:11",
       "badge_kind": ""
     },
@@ -207,7 +221,7 @@
       "thumbnail": "https://i.ytimg.com/vi/78Ksa0T03yw/maxresdefault.jpg",
       "duration_seconds": 615,
       "live_status": "",
-      "rel_time": "6時間前",
+      "rel_time": "10時間前",
       "duration_text": "10:15",
       "badge_kind": ""
     },
@@ -221,7 +235,7 @@
       "thumbnail": "https://i.ytimg.com/vi/LdJE9NwDkDU/maxresdefault.jpg",
       "duration_seconds": 42,
       "live_status": "",
-      "rel_time": "7時間前",
+      "rel_time": "11時間前",
       "duration_text": "0:42",
       "badge_kind": ""
     },
@@ -235,7 +249,7 @@
       "thumbnail": "https://i.ytimg.com/vi/CLnPTtVDkps/maxresdefault.jpg",
       "duration_seconds": 63,
       "live_status": "",
-      "rel_time": "12時間前",
+      "rel_time": "17時間前",
       "duration_text": "1:03",
       "badge_kind": ""
     },
@@ -249,7 +263,7 @@
       "thumbnail": "https://i.ytimg.com/vi/Jm7gdTuRvIc/maxresdefault.jpg",
       "duration_seconds": 6624,
       "live_status": "",
-      "rel_time": "15時間前",
+      "rel_time": "19時間前",
       "duration_text": "1:50:24",
       "badge_kind": ""
     },
@@ -263,7 +277,7 @@
       "thumbnail": "https://i.ytimg.com/vi/4UlfXjZ_8A8/maxresdefault.jpg",
       "duration_seconds": 1760,
       "live_status": "",
-      "rel_time": "16時間前",
+      "rel_time": "21時間前",
       "duration_text": "29:20",
       "badge_kind": ""
     },
@@ -487,7 +501,7 @@
       "thumbnail": "https://i.ytimg.com/vi/ZOuwM11WeQE/maxresdefault.jpg",
       "duration_seconds": 1116,
       "live_status": "",
-      "rel_time": "1日前",
+      "rel_time": "2日前",
       "duration_text": "18:36",
       "badge_kind": ""
     },
@@ -1901,7 +1915,7 @@
       "thumbnail": "https://i.ytimg.com/vi/X2VZC0rjIK4/maxresdefault.jpg",
       "duration_seconds": 1167,
       "live_status": "",
-      "rel_time": "1週間前",
+      "rel_time": "2週間前",
       "duration_text": "19:27",
       "badge_kind": ""
     },
@@ -2085,20 +2099,6 @@
       "live_status": "",
       "rel_time": "2週間前",
       "duration_text": "1:37:37",
-      "badge_kind": ""
-    },
-    {
-      "video_id": "KFJ1sLSBxNo",
-      "title": "【まさか貯金増やしてないよね？】家計の資産「保険・預金」から「株式・投資信託」へ【リベ大公式切り抜き】",
-      "channel_title": "両学長 リベラルアーツ大学",
-      "channel_id": "UC67Wr_9pA4I0glIxDt_Cpyw",
-      "published_iso": "2026-10-02T22:00:13Z",
-      "published_dt": "2026-10-02T22:00:13+00:00",
-      "thumbnail": "https://i.ytimg.com/vi/KFJ1sLSBxNo/maxresdefault.jpg",
-      "duration_seconds": 433,
-      "live_status": "",
-      "rel_time": "2週間前",
-      "duration_text": "7:13",
       "badge_kind": ""
     }
   ]
