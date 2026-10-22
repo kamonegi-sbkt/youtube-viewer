@@ -15,8 +15,12 @@ import {
   type LaterMap,
   type ResumeMap,
 } from './storage';
+import { buildExport, encodeForUrl } from './transfer';
 import type { ApiVideo, VideoMeta } from './types';
 import './styles.css';
+
+const MIGRATE_URL = 'https://shoma.dpdns.org/youtube/';
+const CAN_MIGRATE_BY_URL = typeof CompressionStream !== 'undefined';
 
 declare global {
   interface Window {
@@ -433,6 +437,50 @@ function Empty({ title, hint }: { title: string; hint?: string }) {
   );
 }
 
+function MigrateBanner({ onCopied }: { onCopied: () => void }) {
+  const [fallbackJson, setFallbackJson] = useState('');
+  const [moving, setMoving] = useState(false);
+
+  const moveWithData = async () => {
+    if (moving) return;
+    setMoving(true);
+    try {
+      location.href = MIGRATE_URL + '#import=' + (await encodeForUrl(buildExport()));
+    } catch {
+      setMoving(false);
+    }
+  };
+
+  const copyJson = async () => {
+    const json = JSON.stringify(buildExport());
+    try {
+      await navigator.clipboard.writeText(json);
+      setFallbackJson('');
+      onCopied();
+    } catch {
+      setFallbackJson(json);
+    }
+  };
+
+  return (
+    <section className="migrate-banner" role="note" aria-label="引っ越しのお知らせ">
+      <div className="migrate-title">新しい場所に引っ越しました</div>
+      <p className="migrate-text">あとで見る・履歴・再生位置を新サイトへ移せます</p>
+      <div className="migrate-actions">
+        {CAN_MIGRATE_BY_URL ? (
+          <button className="migrate-btn is-primary" type="button" disabled={moving} onClick={moveWithData}>データを持って移動</button>
+        ) : null}
+        <button className="migrate-btn" type="button" onClick={copyJson}>JSON をコピー</button>
+        <a className="migrate-link" href={MIGRATE_URL}>新サイトを開く</a>
+      </div>
+      <p className="migrate-note">iPhone のホーム画面アプリは「JSON をコピー」を使ってください（ブラウザとアプリで保存場所が別のため）</p>
+      {fallbackJson ? (
+        <textarea className="migrate-fallback" readOnly value={fallbackJson} aria-label="引っ越しデータ（JSON）" onFocus={(event) => event.currentTarget.select()} />
+      ) : null}
+    </section>
+  );
+}
+
 function App() {
   const [feedVideos, setFeedVideos] = useState<VideoMeta[]>([]);
   const [generatedAt, setGeneratedAt] = useState<string | null>(null);
@@ -643,6 +691,8 @@ function App() {
       <div className="ptr-indicator" style={{ height: ptr.pull, opacity: ptr.pull ? 1 : 0 }} aria-hidden={!ptr.pull}>
         <div className={`ptr-spinner${ptr.active || ptr.pull >= ptr.threshold ? ' is-active' : ''}`} />
       </div>
+
+      <MigrateBanner onCopied={() => showToast('コピーしました。新サイトの ⚙ 設定 → 貼り付けで取り込めます', () => {})} />
 
       <section className="channel-filter" aria-label="チャンネル絞り込み">
         <div className="channel-filter-scroll" role="listbox" aria-label="チャンネル">
